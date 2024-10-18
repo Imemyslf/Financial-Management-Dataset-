@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd  
 
 
-with open("./data/LarsenToubro/larsernToubro_yearly_financial_statement.html", "r", encoding='utf-8') as f:
+with open("../data/Reliance/Quarterly10Yrs/9_Sep23_Sep24.html", "r", encoding='utf-8') as f:
     html_content = f.read()
 
 soup = BeautifulSoup(html_content, "html.parser")
@@ -22,6 +22,6 @@ for i, row in enumerate(rows):
 
 df = pd.DataFrame(table_data[1:], columns=table_data[0])  
 
-df.to_excel("../data/LarsenToubro/Excel/larsenToubro_yearly.xlsx", index=False)  
+df.to_excel("../data/Reliance/QuarterlyExcel/9_Sep23_Sep24.xlsx", index=False)  
 
-print("Table saved to larsenToubro_yearly.xlsx")
+print("Table saved to/9_Sep23_Sep24.xlsx")
