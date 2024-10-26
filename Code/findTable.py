@@ -20,9 +20,33 @@ def make_main_dir(base_dir):
 
 
 def append_sector(final_sector_name):
+    
+    def insert_sector(count,final_sector_name):
+        with open(path,"a") as f:
+            f.write(str(f"{count + 1} {final_sector_name}\n"))
+        pass
     path = "../Companies/sector.txt"
-    with open(path,"w") as f:
-        f.write(str(final_sector_name))
+    with open(path,"r") as f:
+        data = f.read() 
+    
+    count = 0  
+    if data:
+        print("data:",data)
+        new_data = data.split()
+        print(new_data)
+        last_digit = next(int(item) for item in reversed(data) if item.isdigit())
+        print(last_digit)
+        
+        insert_sector(last_digit,final_sector_name)
+    else:
+        print("data unavialbale:",data)
+        insert_sector(count,final_sector_name)
+        
+    
+    
+    # with open(path,"a") as f:
+    #     f.write(str(f"{integer + 1} {final_sector_name}\n"))
+        
 
 
 def create_company_directory(directory):    
@@ -68,7 +92,12 @@ def create_excel_file(path,base_dir,file_name):
         
         
 if __name__ == "__main__": 
-    path = "../data/AdaniPorts/Quarterly10Yrs/9_Jun23_Jun24.html" 
-    base_dir = "../data/AdaniPorts"
-    file_name = "9_Sep23_Sep24.xlsx"  
-    create_excel_file(path,base_dir,file_name)
+    # path = "../data/AdaniPorts/Quarterly10Yrs/9_Jun23_Jun24.html" 
+    # base_dir = "../data/AdaniPorts"
+    # file_name = "9_Sep23_Sep24.xlsx"  
+    # create_excel_file(path,base_dir,file_name)
+    
+    append_sector("Kishan")
+
+# 1 Transport Infrastructure
+# 2 Oil and Energy

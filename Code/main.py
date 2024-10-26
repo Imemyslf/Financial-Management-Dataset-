@@ -41,3 +41,4 @@ if file_creation != False:
     create_company_directory(os.path.join(base_dir,final_sector_name,company_name))
     fetchandSave(url,base_path,file_name)
     create_excel_file(path,base_dir,file_name)
+    
