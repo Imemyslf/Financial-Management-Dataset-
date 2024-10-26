@@ -14,13 +14,13 @@
 <link rel="manifest" href="https://www.moneycontrol.com/manifest.json?v=2" />
 
 <!-- OG Share Properties -> Start -->
-  <meta property="og:url" content="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/2" />  <meta property="og:title" content="Adani Ports and Special Economic Zone Quarterly Results, Adani Ports and Special Economic Zone Financial Statement &amp; Accounts" />  <meta property="og:description" content="Get Adani Ports and Special Economic Zone latest Quarterly Results, Financial Statements and Adani Ports and Special Economic Zone detailed profit and loss accounts." />  <meta property="og:image" content="https://images.moneycontrol.com/mcnews/images/eng-left-mc-logo-600x60.png" /> <meta property="og:type" content="article" /> <!-- End <- OG Share Properties -->
+  <meta property="og:url" content="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/3" />  <meta property="og:title" content="Adani Ports and Special Economic Zone Quarterly Results, Adani Ports and Special Economic Zone Financial Statement &amp; Accounts" />  <meta property="og:description" content="Get Adani Ports and Special Economic Zone latest Quarterly Results, Financial Statements and Adani Ports and Special Economic Zone detailed profit and loss accounts." />  <meta property="og:image" content="https://images.moneycontrol.com/mcnews/images/eng-left-mc-logo-600x60.png" /> <meta property="og:type" content="article" /> <!-- End <- OG Share Properties -->
 
 <!-- Twitter Share Properties -> Start -->
-  <meta name="twitter:card" content="summary_large_image" />  <meta name="twitter:site" content="@moneycontrolcom" />  <meta name="twitter:creator" content="@moneycontrolteam" />  <meta name="twitter:url" content="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/2" />  <meta name="twitter:title" content="Adani Ports and Special Economic Zone Quarterly Results, Adani Ports and Special Economic Zone Financial Statement &amp; Accounts" />  <meta name="twitter:description" content="Get Adani Ports and Special Economic Zone latest Quarterly Results, Financial Statements and Adani Ports and Special Economic Zone detailed profit and loss accounts." />  <meta name="twitter:image:src" content="https://images.moneycontrol.com/mcnews/images/eng-left-mc-logo-600x60.png" />  <!-- End <- Twitter Share Properties -->
+  <meta name="twitter:card" content="summary_large_image" />  <meta name="twitter:site" content="@moneycontrolcom" />  <meta name="twitter:creator" content="@moneycontrolteam" />  <meta name="twitter:url" content="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/3" />  <meta name="twitter:title" content="Adani Ports and Special Economic Zone Quarterly Results, Adani Ports and Special Economic Zone Financial Statement &amp; Accounts" />  <meta name="twitter:description" content="Get Adani Ports and Special Economic Zone latest Quarterly Results, Financial Statements and Adani Ports and Special Economic Zone detailed profit and loss accounts." />  <meta name="twitter:image:src" content="https://images.moneycontrol.com/mcnews/images/eng-left-mc-logo-600x60.png" />  <!-- End <- Twitter Share Properties -->
 
 <!-- Canonical Notification -> Start -->
-<link rel="canonical" href="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/2" /> <!-- End <- Canonical Notification -->
+<link rel="canonical" href="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/3" /> <!-- End <- Canonical Notification -->
 
 <!-- WebPage Schema -> Start -->
 <script type="application/ld+json">
@@ -35,7 +35,7 @@
         "@type":"SpeakableSpecification"
                 , "cssSelector":["Adani Ports and Special Economic Zone Quarterly Results, Adani Ports and Special Economic Zone Financial Statement &amp; Accounts","Get Adani Ports and Special Economic Zone latest Quarterly Results, Financial Statements and Adani Ports and Special Economic Zone detailed profit and loss accounts."]
             },
-    "url":"https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/2"
+    "url":"https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/3"
 }
 </script>
 
@@ -797,40 +797,6 @@
 				}
 				document.cookie = name+"="+value+expires+"; path=/; domain=.moneycontrol.com;";
 			}
-			function hasAnyUtmParams( url ) {
-
-				console.log( 'inside hasAnyUtmParams function' );
-				console.log( 'url = ', url );
-
-				/* Parse the query string from the URL */
-				const queryString = url.split('?')[1];
-				console.log( 'queryString = ', queryString );
-
-				/* If there's no query string, return false */
-				if( !queryString ) { 
-					console.log( 'No queryString is passed' );
-					return false; 
-				}
-
-				/* Parse the query string into key-value pairs */
-				const params = new URLSearchParams( queryString );
-				console.log( 'params = ', params );
-
-				/* Define the UTM parameters to check */
-				const utmParams = [ 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content' ];
-				console.log( 'utmParams = ', utmParams );
-
-				/* Check if any of the UTM parameters exist in the query string */
-				for( let utm of utmParams ) {
-					console.log( 'checking for ', utm );
-					if( params.has(utm) ) {
-						console.log( 'param is found' );
-						return true; 
-					}
-				}
-				console.log( 'param is found' );
-				return false;
-			}
 			function initializeInterstitial() {
 
 				var is_mc_wap_interstitial = '1';
@@ -844,7 +810,6 @@
 					var current_page = window.location.href;
 					var interstitial_cookie_name = 'MC_WAP_INTERSTITIAL_NEW_LOGIC_' + getCurrentDate();
 					var interstitial_cookie_object = getInterstitialCookie( interstitial_cookie_name );	/* Get Cookie Value */
-					var has_any_utm_params = hasAnyUtmParams( current_page );
 
 					/* Checks for Cookie is exists OR not? */
 					if( interstitial_cookie_object == undefined || interstitial_cookie_object == '' ) {
@@ -867,10 +832,7 @@
 								if( interstitial_page_position.includes( pageCount ) ) {
 									interstitial_cookie_value[ pageCount ] = current_page;
 									createInterstitialCookie( interstitial_cookie_name, JSON.stringify( interstitial_cookie_value ), '1' );	/* Update Cookie */
-																			console.log( 'has_any_utm_params = ', has_any_utm_params );
-										if( !has_any_utm_params ) {
-											window.location.href = "https://www.moneycontrol.com/promo/mc_wap_interstitial_dfp.php?classic=true";
-										}
+																			window.location.href = "https://www.moneycontrol.com/promo/mc_wap_interstitial_dfp.php?classic=true";
 																	} else {
 									interstitial_cookie_value[ pageCount ] = current_page;
 									createInterstitialCookie( interstitial_cookie_name, JSON.stringify( interstitial_cookie_value ), '1' );	/* Update Cookie */
@@ -889,7 +851,7 @@
 .header_desktop,.header_desktop *{margin:0;padding:0;box-sizing:border-box}.header_desktop{background-color:#fff}.header_desktop a,.lang_link,.topnav a{text-decoration:none!important;outline:0}input{outline:0}img{max-width:100%;height:auto}.mc_menu_icon{float:left;padding-top:14px;padding-right:10px;margin-right:10px}.header_desktop .arrow{vertical-align:middle}li,ul{list-style:none}.PR{position:relative}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}* html .clearfix{height:1%}.clearfix{display:block}.topnav{background-color:#f6f8fb;padding-bottom:1px}.login_after>a,.special_wrapbx a{color:#333;font:400 11px Lato,sans-serif}.user_after_login a, .user_before_login a {color: #333333;font: 11px 'Lato',sans-serif;}.dropdown-menu{display:none;background-clip:border-box!important}.header_desktop .dropdown-menu>li{border-bottom:1px solid #e9e9e9}.header_desktop .dropdown-menu>li>a{display:block;padding:10px;margin:0;font:13px Lato,sans-serif;color:#333}.header_desktop .arrow,.lang_link{display:inline-block}.header_desktop .dropdown-menu>li>a:hover{background:#30659f;color:#fff;border:none}.header_desktop .dropdown-menu>li:last-child{border:none}.lan_dropbx{float:left;padding:10px 0}.special_wrapbx{float:left;margin-left:20px}.lang_link{font:400 11px Lato,sans-serif;color:#666!important}.main_header_wrapper{width:1260px; position: relative; margin:0 auto}.main_header_wrapper .imageWrapper{float: left;margin-top: 3px;margin-left: -14px;}.searchBox{width:424px;position:absolute;left:50%;top:2px;margin-left:-212px;border:1px solid #bababa;border-radius:17px;background-color:#fff;z-index:0;height:30px;z-index:999}.searchBox .searchboxInner{background:#fff;border:0;height:27px;margin:1px;border-radius:17px}.searchBox .searchboxInner .txtsrchbox{margin-top:0px;width:100%;border:0;outline:0;height:25px;border-radius:17px;padding:2px 30px 2px 15px;font:400 13px Lato,sans-serif}.common_dropmenu.dropdown-menu{margin:0;border-radius:0}.header_desktop .dropdown-menu{border:1px solid #e2e2e2;box-shadow:0 2px 5px rgba(0,0,0,.175)}.common_dropmenu:after,.common_dropmenu:before{bottom:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;left:20px}.header_desktop .arrow,.logo_wrapper{position:relative}.common_dropmenu:after{border-color:rgba(255,255,255,0);border-bottom-color:#fff;border-width:6px;margin-left:-6px}.common_dropmenu:before{border-color:rgba(209,211,214,0);border-bottom-color:#e2e2e2;border-width:8px;margin-left:-8px}.header_desktop .arrow{border:solid #707070;border-width:0 1px 1px 0;padding:2px;margin-left:3px;top:-2px; width: auto; height: auto; margin-bottom: 0px;}.header_desktop .arrow.down{transform:rotate(45deg);-webkit-transform:rotate(45deg)}.sept{height:12px;float:left;width:1px;background-color:#333;margin-top:13px}.speacial_dropbx{padding:10px 20px 10px 0;float:left}.expert_link{padding:10px 5px;float:left}.appbanner_drop .dropdown-menu,.speacial_dropbx .dropdown-menu{left:-100px !important;width:1000px;padding:15px}.speacial_dropbx .dropdown-menu .bx-viewport {height: 100% !important;}.specialsbutton{border: 1px solid #005492; border-radius: 3px; padding: 3px 15px 3px 7px; background-color: #ffffff; font-family: "Lato", sans-serif !important; color: #666666 !important;}.specialsbutton .arrow {margin-left: 5px; right: -8px;}.speacial_dropbx .specialsbutton+.common_dropmenu:before, .speacial_dropbx .specialsbutton+.common_dropmenu:after{left: 136px;}.lan_dropbx .dropdown-menu{ left:0px !important;}.appbanner_drop .dropdown-menu{left:-170px}.speacial_dropbx .common_dropmenu:after,.speacial_dropbx .common_dropmenu:before{left:125px}.appbanner_drop .common_dropmenu:after,.appbanner_drop .common_dropmenu:before{left:180px}.splist li{float:left;border-right:0 solid #8c8c8c;margin-right:18px;width: auto !important;}.splist li:last-child{border-right:none;margin-right:0;padding-right:0}.top_search{width:424px;position:absolute;left:50%;top:2px;margin-left:-212px;border:1px solid #bababa;border-radius:17px;background-color:#fff;z-index:0;height:30px}.top_search_input{width:100%;border:0;outline:0;height:100%;border-radius:17px;padding:2px 30px 2px 15px;font:400 13px Lato,sans-serif}.top_search_btn{position:absolute;right:2px;top:2px;display:inline-block;border:0;background-color:#0065a1;width:24px;height:24px;border-radius:100%;cursor:pointer;display:flex;justify-content:center;align-items:center;color:#fff!important}.top_search_btn svg{width:10px;height:10px}.top_fl{float:left}.top_fr{float:right}.ad_hed_fl,.log_list{float:left}.log_list>li{float:left;padding:8px 0}.log_list>li:last-child>a{border-right:0}.hed_mid{padding:10px 0;border-bottom:1px solid #e2e2e2;min-height:90px}.ad_hed_fr{float:right}.main_nav>li{float:left;margin-bottom:-1px}.tooltipbox {position:absolute; top: 31px; padding:5px; display:none; z-index:99999999999; margin:-7px 0 0 -5px;}.tooltip_popup {border-radius: 3px; -webkit-border-radius:2px; background:#fff;}.logo_home{position:absolute;width:180px;height:70px;left:50%;margin-left:-90px;top:50%;margin-top:-35px}.navbg{border-bottom:1px solid #e5e5e5;padding-top:1px}svg{fill:currentColor}.main_nav{display:block;position:relative}.main_nav>li>a{display:inline-block}.main_nav>li>a{padding:10px 7px;font:900 12px Lato,sans-serif;color:#202020;border:1px solid transparent;border-bottom:0 solid transparent}.main_nav>li.active>a{color:#0065a1;background-color:#f7f7f7}.main_nav>li.active>a>.arrow.down{border:solid #2f669e;border-width:0 2px 2px 0}.main_nav>li:hover>a{color:#0065a1}.main_nav>li.sub_nav:hover>a{text-decoration:none;border:1px solid #d9d9d9;border-bottom:0 solid transparent;background-color:#fff;position:relative;z-index:9999;transition:.3s all;color:#0065a1}.main_nav>li.sub_nav:hover>a .arrow.down{border:solid #0065a1;border-width:0 1px 1px 0}.mega_menu{position:absolute;left:0;width:100%;background:#fff;display:none;z-index:999;border:1px solid #ccc;box-shadow:0 3px 3px 0 #898989;margin-top:-1px;color:#666;font:400 11px Lato,sans-serif}.main_nav>li.sub_nav:hover .mega_menu{display:block}.main_nav>li.sub_nav:hover .trans_wrapper{display:block}.header_desktop.expand .appbanner_drop .dropdown-menu,.header_desktop.header1024 .main_header_wrapper,.header_desktop.header1024 .speacial_dropbx .dropdown-menu{width:990px}.header_desktop.header1024 .main_nav>li>a{padding:10px 5px;font-size:11px}.header_desktop .bapro>a{color:#ef861a!important}.main_nav>li.budnav>a{color: #fff;background-color: #ef861a;}.main_nav>li.budnav>a:hover{color:#fff;}.navmenu_sub{background-color:#f7f7f7}.navlist_sub>li{float:left;padding:8px 0}.navlist_sub>li>a{display:inline-block;font:400 12px Lato,sans-serif;color:#333;padding:0 7px}.navlist_sub>li:first-child>a{padding-left:0}.navlist_sub>li:last-child>a{border-right:0}.header_desktop.header1024 .navlist_sub>li>a{padding:0 5px}.header_desktop.header1024 .navlist_sub>li:first-child>a{padding-left:0}.logo_fl{float:left;position:relative}.adright_top{float:right}.be_apro{position:absolute;right:2px;bottom:2px;font:400 11px Lato,sans-serif;color:#f08414!important;border-bottom:1px solid #f08414}.be_apro span{font-weight:700}.common_dropmenu{display:none}.droplogbox{display:none; position:absolute; width:100%; border: 1px solid #E2E2E2; box-shadow: 0 2px 5px rgba(0,0,0,0.175); width:304px; z-index:9999; background-color:#fff; left:auto; right:-2px; top:30px;}.hamburger_menu_desktop{display:none}.icpancakeblock{display:none}.new_tagtp {top: -4px; left: 2px; vertical-align:middle;}.new_tagtp svg{width:28px; height:15px;}.newtag-1{fill:#0066af;}.newtag-2{fill:#fff;}.menu_boxpd{ padding:25px 40px 25px 0px;}.market_menu{display:flex;}.market_menu.clearfix{display:flex;}.market_menu > li{float:left; width:30%; border-left:1px solid #E5E5E5; padding-left:40px;}.market_menu > li:first-child{border-left:0px;}.market_listmenu > li > a{color:#666666; font:400 11px 'Lato',sans-serif; display:block; padding:7px 0px;}.market_listmenu > li:last-child > a{ padding-bottom:0px;}.market_listmenu > li.bold{ margin-top:10px;}.market_listmenu > li.bold:first-child{ margin-top:0px;}.market_listmenu > li.bold > a{color:#000000; font:700 12px 'Lato',sans-serif;}.market_listmenu > li.bold > span{color:#000000; font:700 12px 'Lato',sans-serif; display:block; padding:7px 0px;}.market_listmenu > li > a:hover{color:#0065A1; text-decoration:underline !important;}.for_mcpro_users{display:none}.logo_home.logo_home_with_pro, .logo_fl.logo_home_with_pro{top: 80%;}.upgrade{background-color: #F8F0EB; border-radius: 3px; font: 11px/18px "Lato", sans-serif; font-weight: bold; color: #F08414; width: 60px; height: 20px; display: inline-block; text-align: center; margin-top: 6px; margin-right:6px;}.upgrade:hover{text-decoration: none; color: #F08414;}.header_desktop .bapro>a{color:#ef861a!important}.bapro.proMenu{height: 25px; line-height: 21px; color: #F08414; background-color: #F8F0EB; border-radius: 3px; text-align: center; margin: 5px 0 0 4px;}.header_desktop .main_nav .bapro.proMenu a {padding: 0 5px;}.header_desktop.header1024 .main_nav .bapro.proMenu a {padding: 0px 4px;}.menu-logo-top{border-bottom: 1px dotted #EAE8E8;padding-bottom:15px;margin-bottom:10px}.menu-logo-top .logo1{width: 117px;height: auto;margin-bottom: 12px}.menu-logo-top p{font-size: 11px;color: #666}.invest-top-sec{display: flex;justify-content: space-between;padding-left:10px;}.rgt-sd{ flex: 0 0 32%}.rgt-sd p{display: flex;align-items: flex-end;}.logo2{width: 72px;height: auto}.invest-top-sec .heading3{font:bold 12px/20px Lato,sans-serif;color: #000;text-transform: uppercase;}.invest-top-sec p{color:#666; font:normal 10px/12px Lato,sans-serif; align-items: center;}.invest-top-sec p img{margin-left: 5px}.invest-top-sec p svg{margin-left: 5px}.investNW .subc_list>li {border-bottom: 0px !important;}.tit-txt1 {color: #000;font:bold 12px Lato,sans-serif;display: block;margin-bottom: 5px}.tit-txt2{color: #666;font:normal 11px/16px Lato,sans-serif;padding-right: 40px}.invst-menu .subc_fr .subc_list:last-child > li{margin-top: 0}.invst-menu .mcp_btn_blue_tp{top:31%;min-width: 90px;text-align: center;}a.mcApp_btn{display:none;} a.myfeeds {background-color: #D6DBE3; width: 76px; height: 20px; border-radius: 3px; display: inline-block; font: 700 11px/20px "Lato", sans-serif; color: #666666; text-align: center; text-decoration: none; position: relative; top: 7px; margin-right: 7px;} a.myfeeds span {margin-right: 5px; display: inline-block; position: relative; top: -1px;} a.myfeeds:hover span {display: inline-block; position: relative; top: -1px; } a.myfeeds span svg {fill: #666;} a.myfeeds:hover span svg {fill: #fff;} a.myfeeds:hover {background-color: #000000; color: #ffffff; text-decoration: none; border-radius: 3px;} .advertisement_box{background-color: #F2F2F2; justify-content: center;flex-wrap: wrap;} .advertisement_box .advHolder{border: 1px solid #C3C3C3;} .advertisement_box .advHead {display: none; justify-content: space-between; align-items: center;} .advertisement_box .lhs{font-size:10px;} .advertisement_box .advHead .rhs {position: relative; top: 0px;} .advertisement_box .removeadtext {position: static; font: 400 10px/16px 'Lato', sans-serif; color: #222222; margin: auto; background-color: #dbdbdb; padding: 0 7px 0 12px; clip-path: polygon(11% 0%, 100% 0%, 100% 100%, 0% 100%); height: 19px; display: flex; align-items: center; justify-content: flex-end;} .advertisement_box .rhs svg{display: none;} .advertisement_box .rhs a:hover, .advertisement_box .rhs a:hover .removeadtext{text-decoration:none;} .budgetMenu .gryBox{ background-color: #55A847; padding: 1px 6px 2px 6px; display: inline; border-radius: 4px;} .budgetMenu.active .gryBox {background-color: #1A6DA3;}	.main_nav>li.budgetMenu>a { color: #fff; font-weight: 400;} .main_nav>li.budgetMenu>a:hover { color: #fff; } .budgetMenu svg{ position: relative;left: 1px; top: -1px; margin: 0 0.5px 0 -0.5px; vertical-align: middle;} .BlackElectionButton div {background-color: #000000; padding: 1px 6px 2px 6px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.BlackElectionButton {color: #ffffff;} .OrangeElectionButton div {background: rgb(175,75,13); background: linear-gradient(180deg, rgba(175,75,13,1) 0%, rgba(203,109,22,1) 52%, rgba(231,143,31,1) 100%);padding: 1px 6px 2px 6px; display: inline; border-radius: 4px; } .main_nav>li.sub_nav:hover>a.OrangeElectionButton {color: #ffffff;} .BlueIPLButton div {background-color: #061E69; padding: 1px 2px 2px 2px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.BlueIPLButton {color: #ffffff;} .advisoryAlert {width: 96px; height: 20px; border-radius: 4px; border: 1px solid #D17A7A; background-color: #FFD9D9; font: 700 10px/17px "Lato", sans-serif; color: #DE2628; display: inline-block; vertical-align: middle; text-align: center; position: relative; top: 6px; margin-right: 5px;} .advisoryAlert span {margin-right: 2px;} .advisoryAlert:hover {color: #DE2628; text-decoration: none;}
 </style>
 <style>
-@media screen and (max-width:1279px){.header_desktop .main_header_wrapper{width:990px}.header_desktop .speacial_dropbx .dropdown-menu,.header_desktop.expand .appbanner_drop .dropdown-menu{width:990px}.header_desktop .main_nav>li>a{padding:10px 5px;font-size:11px}.navlist_sub>li>a{padding:0 5px}.searchBox .searchboxInner .txtsrchbox{margin-top:0px;width:100%;border:0;outline:0;height:25px;border-radius:17px;padding:2px 30px 2px 15px;font:400 13px Lato,sans-serif}.top_search_btn{position:absolute;right:2px;top:2px;display:inline-block;border:0;background-color:#0065a1;width:24px;height:24px;border-radius:100%;cursor:pointer;display:flex;justify-content:center;align-items:center;color:#fff!important}.top_search_btn svg{width:10px;height:10px}} @media screen and (max-width:980px){ .mob-hide{display:none !important;}.header_desktop{display:none}.icpancakeblock{display:block} .upgrade_your_exp {font: 13px/18px "Lato", sans-serif !important; color: #333333 !important;  background-color: #F9F1EC; border-left: 5px solid #652900; padding: 10px 25px !important; font-weight: 600 !important;}.removeads {width: 100px; height: 30px; border-radius: 30px; font: 9px/11px 'Lato', sans-serif !important; font-weight: 500 !important; color: #FFFFFF !important; padding: 10px 22px !important; position: absolute; top: 0; right: 0; background-color: #652900; bottom: 0; margin: auto 10px !important;} .advertisement_box {background-color: #EFF1FA; margin-bottom: 10px; display: flex; justify-content: center;flex-wrap: wrap;padding: 10px 0 10px 0;} .advertisement_box .advHead {width: 300px;} .budgetMenu .gryBox{ background-color: #55A847; padding: 1px 6px 2px 6px; display: inline; border-radius: 4px;} .wap_menu_strip .budgetMenu a { color: #fff;position: relative; font-weight: 400;} .wap_menu_strip li.budgetMenu.active a { color: #fff; font-weight: 400;} .budgetMenu svg{ position: relative;left: 1px; top: -1px; margin: 0 0.5px 0 -0.5px; vertical-align: middle;} .BlackElectionButton div {background-color: #000000; padding: 1px 6px 2px 6px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.BlackElectionButton {color: #ffffff;} .OrangeElectionButton div {background: rgb(175,75,13); background: linear-gradient(180deg, rgba(175,75,13,1) 0%, rgba(203,109,22,1) 52%, rgba(231,143,31,1) 100%); padding: 1px 6px 2px 6px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.OrangeElectionButton {color: #ffffff;} .BlueIPLButton div {background-color: #0646EA; padding: 1px 2px 2px 2px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.BlueIPLButton {color: #ffffff;} .GreenIPLButton div {background-color: #088F8F; padding: 1px 2px 2px 2px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.GreenIPLButton {color: #ffffff;} .advisoryAlertBox {position: absolute; top: 8px; right: 40px;} .advisoryAlert {width: 96px; height: 20px; border-radius: 4px; border: 1px solid #D17A7A; background-color: #FFD9D9; font: 700 10px/19px "Lato", sans-serif; color: #DE2628; display: inline-block; vertical-align: middle; text-align: center; position: relative; top: 6px; margin-right: 5px;} .advisoryAlert span {margin-right: 2px;} .advisoryAlert:hover {color: #DE2628; text-decoration: none;} }
+@media screen and (max-width:1279px){.header_desktop .main_header_wrapper{width:990px}.header_desktop .speacial_dropbx .dropdown-menu,.header_desktop.expand .appbanner_drop .dropdown-menu{width:990px}.header_desktop .main_nav>li>a{padding:10px 5px;font-size:11px}.navlist_sub>li>a{padding:0 5px}.searchBox .searchboxInner .txtsrchbox{margin-top:0px;width:100%;border:0;outline:0;height:25px;border-radius:17px;padding:2px 30px 2px 15px;font:400 13px Lato,sans-serif}.top_search_btn{position:absolute;right:2px;top:2px;display:inline-block;border:0;background-color:#0065a1;width:24px;height:24px;border-radius:100%;cursor:pointer;display:flex;justify-content:center;align-items:center;color:#fff!important}.top_search_btn svg{width:10px;height:10px}} @media screen and (max-width:980px){ .mob-hide{display:none;}.header_desktop{display:none}.icpancakeblock{display:block} .upgrade_your_exp {font: 13px/18px "Lato", sans-serif !important; color: #333333 !important;  background-color: #F9F1EC; border-left: 5px solid #652900; padding: 10px 25px !important; font-weight: 600 !important;}.removeads {width: 100px; height: 30px; border-radius: 30px; font: 9px/11px 'Lato', sans-serif !important; font-weight: 500 !important; color: #FFFFFF !important; padding: 10px 22px !important; position: absolute; top: 0; right: 0; background-color: #652900; bottom: 0; margin: auto 10px !important;} .advertisement_box {background-color: #EFF1FA; margin-bottom: 10px; display: flex; justify-content: center;flex-wrap: wrap;padding: 10px 0 10px 0;} .advertisement_box .advHead {width: 300px;} .budgetMenu .gryBox{ background-color: #55A847; padding: 1px 6px 2px 6px; display: inline; border-radius: 4px;} .wap_menu_strip .budgetMenu a { color: #fff;position: relative; font-weight: 400;} .wap_menu_strip li.budgetMenu.active a { color: #fff; font-weight: 400;} .budgetMenu svg{ position: relative;left: 1px; top: -1px; margin: 0 0.5px 0 -0.5px; vertical-align: middle;} .BlackElectionButton div {background-color: #000000; padding: 1px 6px 2px 6px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.BlackElectionButton {color: #ffffff;} .OrangeElectionButton div {background: rgb(175,75,13); background: linear-gradient(180deg, rgba(175,75,13,1) 0%, rgba(203,109,22,1) 52%, rgba(231,143,31,1) 100%); padding: 1px 6px 2px 6px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.OrangeElectionButton {color: #ffffff;} .BlueIPLButton div {background-color: #0646EA; padding: 1px 2px 2px 2px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.BlueIPLButton {color: #ffffff;} .GreenIPLButton div {background-color: #088F8F; padding: 1px 2px 2px 2px; display: inline; border-radius: 4px;} .main_nav>li.sub_nav:hover>a.GreenIPLButton {color: #ffffff;} .advisoryAlertBox {position: absolute; top: 8px; right: 40px;} .advisoryAlert {width: 96px; height: 20px; border-radius: 4px; border: 1px solid #D17A7A; background-color: #FFD9D9; font: 700 10px/19px "Lato", sans-serif; color: #DE2628; display: inline-block; vertical-align: middle; text-align: center; position: relative; top: 6px; margin-right: 5px;} .advisoryAlert span {margin-right: 2px;} .advisoryAlert:hover {color: #DE2628; text-decoration: none;} }
 </style>
 <style>
 .slick-slider { position: relative; display: block; box-sizing: border-box; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-touch-callout: none; -khtml-user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; } .slick-list { position: relative; display: block; overflow: hidden; margin: 0; padding: 0; } .slick-list:focus { outline: none; } .slick-list.dragging { cursor: pointer; cursor: hand; } .slick-slider .slick-track, .slick-slider .slick-list { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); } .slick-track { position: relative; top: 0; left: 0; display: block; margin-left: auto; margin-right: auto; } .slick-track:before, .slick-track:after { display: table; content: ''; } .slick-track:after { clear: both; } .slick-loading .slick-track { visibility: hidden; } .slick-slide { display: none; float: left; height: 100%; min-height: 1px; } [dir='rtl'] .slick-slide { float: right; } .slick-slide img { display: block; } .slick-slide.slick-loading img { display: none; } .slick-slide.dragging img { pointer-events: none; } .slick-initialized .slick-slide { display: block; } .slick-loading .slick-slide { visibility: hidden; } .slick-vertical .slick-slide { display: block; height: auto; border: 1px solid transparent; } .slick-arrow.slick-hidden { display: none; }
@@ -988,8 +950,7 @@
 		})();
 	</script>
 	<noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=6683813&cv=2.0&cj=1" alt="comScore" title="comScore" width="1" height="1" /></noscript>
-<!-- End comScore Tag --><script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-<script type="text/javascript">
+<!-- End comScore Tag --><script type="text/javascript">
 	var ad_delay_by = '1000';	/* Ad delay by n milliseconds -> 2000 means 2 seconds */
 </script>
 <script type="text/javascript">
@@ -1130,11 +1091,11 @@
 	</div>
 	<div class="clearfix">
 		<ul class="suglist">
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/auto-ancillaries/hyundaimotorindia/HMI01" title="Hyundai Motor">Hyundai Motor <span>INE0V6F01027, HYUNDAI, 544274</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/miscellaneous/olaelectricmobility/OEM" title="Ola Electric">Ola Electric <span>INE0LXG01040, OLAELEC, 544225</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="" title="Bajaj Housing F">Bajaj Housing F <span>, , BAJAJHFL</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI" title="Reliance">Reliance <span>INE002A01018, RELIANCE, 500325</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/power-generationdistribution/suzlonenergy/SE17" title="Suzlon Energy">Suzlon Energy <span>INE040H01021, SUZLON, 532667</span></a></li><li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/miscellaneous/olaelectricmobility/OEM" title="Ola Electric">Ola Electric<span>INE0LXG01040, OLAELEC, 544225</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03" title="Tata Motors">Tata Motors<span>INE155A01022, TATAMOTORS, 500570</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/power-generationdistribution/suzlonenergy/SE17" title="Suzlon Energy">Suzlon Energy<span>INE040H01021, SUZLON, 532667</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="" title="Bajaj Housing F">Bajaj Housing F<span>, , BAJAJHFL</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI" title="Reliance">Reliance<span>INE002A01018, RELIANCE, 500325</span></a></li><li>
 				<a onclick='setGAEventTracker( "Search Trend", "Click", "Get ₹100 Cash Reward for a FREE Credit Score check! | " + window.location.href ); setCTEventTracker( "Lending", "Touchpoint", "Search | " + window.location.href );' href="https://moneycontrol.com/credit-score" class="trend_cb" title="Get ₹100 Cash Reward for a FREE Credit Score check!">
 					<div class="cb_search_new" style="text-align:center;"><img src="https://images.moneycontrol.com/images/common/header/search_cash_reward_0809_400x33.png?impolicy=mchigh" alt="Get ₹100 Cash Reward for a FREE Credit Score check!" title="Get ₹100 Cash Reward for a FREE Credit Score check!" /></div>
 				</a>
@@ -1149,7 +1110,7 @@
 	function setCTEventTracker( optCategory, optAction, optLabel ) {
 		if( typeof window.clevertap === "object" ) { clevertap.event.push( optCategory, { [optAction]: optLabel } ); }
 	}
-</script><!-- Updated @ 2024-10-22 12:18:04 -->									<!-- End <- Trending search ooptions -->
+</script><!-- Updated @ 2024-10-10 18:37:49 -->									<!-- End <- Trending search ooptions -->
 
 									<!-- auto suggest box-->
 									<div class="sugBox" id="autosugg_mc1" style="display:none;">
@@ -1226,13 +1187,10 @@
 														<a href="javascript:;" title="My Portfolio" class="linkSignIn" data-toggle="modal" data-target="#LoginModal">My Portfolio</a>
 													</li>
 													<li><a href="javascript:;" title="My Watchlist" class="linkSignIn" data-toggle="modal" data-target="#LoginModal">My Watchlist</a></li>
-													<li class="fadein_nav"><a href="https://www.moneycontrolpay.com/" title="Loans up to &#8377;15 LAKHS" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Lending' ); CleverTapEventTracker( 'Lending', 'Touchpoint', 'Profile web | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt" style="color:#E62ABA;">Loans up to </span><span class="cashback cashbackcr" style="color:#E62ABA;">&#8377;15 LAKHS</span></a></li>
-													<li><a href="https://www.moneycontrol.com/fixed-deposit" title="Fixed Deposits" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Fixed Deposits' ); CleverTapEventTracker( 'Fixed Deposit', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false">Fixed Deposits</a></li>
-																											<li class="fadein_nav"><a href="https://www.moneycontrol.com/credit-cards" title="Credit Cards" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Credit Cards' ); CleverTapEventTracker( 'Credit Card', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt" style="color:#1AC02A;">Credit Cards</span><span class="cashback cashbackcr" style="color:#00168C;">Lifetime <b style="color:#1AC02A;">Free </b></span></a></li>
-
-														
-														<li ><a href="https://www.moneycontrol.com/credit-score" title="Credit Score" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'My Credit Score' ); CleverTapEventTracker( 'Credit Bureau', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false">Credit Score</a></li>
-																										<li><a href="https://www.moneycontrol.com/my-alerts" title="My Alerts">My Alerts</a></li>
+													<li class="fadein_nav"><a href="https://www.moneycontrolpay.com/" title="Loans up to &#8377;15 LAKHS" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Lending' ); CleverTapEventTracker( 'Lending', 'Touchpoint', 'Profile web | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt" style="color:#282828;">Loans up to </span><span class="cashback cashbackcr" style="color:#E62ABA;">&#8377;15 LAKHS</span></a></li>
+																											<li class="fadein_nav"><a href="https://www.moneycontrol.com/credit-score" title="Credit Score" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'My Credit Score' ); CleverTapEventTracker( 'Credit Bureau', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt"><b>FREE </b>Credit Score</span><span class="cashback cashbackcr">&#8377;100 Cash Reward</span></a></li>
+																										<li><a href="https://www.moneycontrol.com/fixed-deposit" title="Fixed Deposits" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Fixed Deposits' ); CleverTapEventTracker( 'Fixed Deposit', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false">Fixed Deposits</a></li>
+													<li><a href="https://www.moneycontrol.com/my-alerts" title="My Alerts">My Alerts</a></li>
 													<li><a href="javascript:;" title="My Messages" class="linkSignIn" data-toggle="modal" data-target="#LoginModal">My Messages</a></li>
 													<li>
 														<a href="javascript:;" title="Price Alerts" class="linkSignIn" data-toggle="modal" data-target="#LoginModal">Price Alerts</a>
@@ -1249,13 +1207,10 @@
 														<a href="https://www.moneycontrol.com/india/bestportfoliomanager/investment-tool" title="My Portfolio">My Portfolio</a>
 													</li>
 													<li><a href="https://www.moneycontrol.com/watchlist" title="My Watchlist" class="my_watchlist_link">My Watchlist</a></li>
-													<li class="fadein_nav"><a href="https://www.moneycontrolpay.com/" title="Loans up to &#8377;15 LAKHS" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Lending' ); CleverTapEventTracker( 'Lending', 'Touchpoint', 'Profile web | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt" style="color:#E62ABA;">Loans up to </span><span class="cashback cashbackcr" style="color:#E62ABA;">&#8377;15 LAKHS</span></a></li>
-													<li><a href="https://www.moneycontrol.com/fixed-deposit" title="Fixed Deposits" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Fixed Deposits' ); CleverTapEventTracker( 'Fixed Deposit', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false">Fixed Deposits</a></li>
-																											<li class="fadein_nav"><a href="https://www.moneycontrol.com/credit-cards" title="Credit Cards" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Credit Cards' ); CleverTapEventTracker( 'Credit Card', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt" style="color:#1AC02A;">Credit Cards</span><span class="cashback cashbackcr" style="color:#00168C;">Lifetime <b style="color:#1AC02A;">Free </b></span></a></li>
-
-														
-														<li><a href="https://www.moneycontrol.com/credit-score" title="Credit Score" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'My Credit Score' ); CleverTapEventTracker( 'Credit Bureau', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false">Credit Score</a></li>
-																										<li><a href="https://www.moneycontrol.com/my-alerts" title="My Alerts">My Alerts</a></li>
+													<li class="fadein_nav"><a href="https://www.moneycontrolpay.com/" title="Loans up to &#8377;15 LAKHS" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Lending' ); CleverTapEventTracker( 'Lending', 'Touchpoint', 'Profile web | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt" style="color:#282828;">Loans up to </span><span class="cashback cashbackcr" style="color:#E62ABA;">&#8377;15 LAKHS</span></a></li>
+																											<li class="fadein_nav"><a href="https://www.moneycontrol.com/credit-score" title="Credit Score" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'My Credit Score' ); CleverTapEventTracker( 'Credit Bureau', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt"><b>FREE </b>Credit Score</span><span class="cashback cashbackcr">&#8377;100 Cash Reward</span></a></li>
+																										<li><a href="https://www.moneycontrol.com/fixed-deposit" title="Fixed Deposits" onclick="javascript:GAEventTracker( 'My Profile', 'Click', 'Fixed Deposits' ); CleverTapEventTracker( 'Fixed Deposit', 'Touchpoint', 'Profile | ' + window.location.href );" data-google-interstitial="false">Fixed Deposits</a></li>
+													<li><a href="https://www.moneycontrol.com/my-alerts" title="My Alerts">My Alerts</a></li>
 													<li><a href="https://mmb.moneycontrol.com/" title="My Messages">My Messages</a></li>
 													<li>
 														<a href="https://www.moneycontrol.com/alerts/manage-alerts.php" title="Price Alerts">Price Alerts</a>
@@ -1892,9 +1847,6 @@ function dfpGutter_getCookie(e){
 </script>
 <!-- End <- dfpad_config|Revamp MCI -->
 <!-- NMC -->
-			<style type="text/css">
-				.logo_home.logo_home_with_pro, .logo_fl.logo_home_with_pro { top: 60% !important; }
-			</style>
 		<div class="hed_mid" >
 			<div class="main_header_wrapper">
 				<div class="clearfix logo_wrapper">
@@ -1902,14 +1854,14 @@ function dfpGutter_getCookie(e){
 																<div class="google_force_tags" style="display:none;">mcmarketstockprice->Moneycontrol/MC_Market/MC_Market_StockPrice_728x90|~|Moneycontrol/MC_Market/MC_Market_StockPrice_300x250|~|Moneycontrol/MC_Market/MC_Market_StockPrice_728x90_2|~|Moneycontrol/MC_Market/MC_Market_StockPrice_728x90_1|~|Moneycontrol/MC_Market/MC_Market_StockPrice_300x250_2|~|Moneycontrol/MC_Market/MC_Market_StockPrice_300x250_1|~|Moneycontrol/MC_Market/MC_Market_StockPrice_300x250_BTF|~|Moneycontrol/MC_PriceChart/MC_PriceChart_300x250_ATF|~|Moneycontrol/MC_PriceChart/MC_PriceChart_728x90_ATF|~|Moneycontrol/MC_PriceChart/MC_PriceChart_728x90_BTF|~|Moneycontrol/MC_Market/MC_Market_StockPrice_300x250/MC_Market_StockPrice_Notices_300x250_ATF|~|Moneycontrol/MC_Market/MC_Market_StockPrice_QuartResult_728x90|~|Moneycontrol/MC_Market/MC_Market_StockPrice_CapitalStruc_728x90|~|Moneycontrol/MC_Market/MC_Market_StockPrice_PriceChart_728x90|~|Moneycontrol/MC_Market/MC_Market_StockPrice_History_300x600_ATF|~|Moneycontrol/MC_PriceChart/MC_PriceChart_300x250_ATF_1|~|Moneycontrol/MC_PriceChart/MC_PriceChart_728x90_ATF_1|~|Moneycontrol/MC_PriceChart/MC_PriceChart_300x250_MTF-></div>
 														<div class="logo_fl for_nonpro_users">
 								<a href="https://www.moneycontrol.com/" title="Moneycontrol">
-																				<dotlottie-player src="https://images.moneycontrol.com/images/common/header/mc-1-million-non-pro.json" background="transparent" speed="1" style="width: 180px; height: 70px;" loop autoplay></dotlottie-player>
+																			<img src="https://images.moneycontrol.com/images/common/headfoot/logo.png?impolicy=mchigh" alt="Moneycontrol" title="Moneycontrol" width="180" height="70" />
 																	</a>
 								<a href="https://www.moneycontrol.com/promos/pro.php" class="be_apro mc_logo_be_a_pro" style=" display:none;" title="Go Pro@&#x20b9;99">Go <span>PRO</span> @&#x20b9;99  </a>
 								<a href="javascript:;" title="Pro" class="be_apro mc_logo_only_pro" style=" cursor: default; display:none; font-weight: bold; border-bottom: none !important;">PRO</a>
 							</div>
 							<div class="logo_fl logo_home_with_pro for_mcpro_users" style="margin-top: 20px;">
 								<a href="https://www.moneycontrol.com/pro-top-stories" title="Moneycontrol PRO">
-																				<dotlottie-player src="https://images.moneycontrol.com/images/common/header/mc-1-million-pro.json" background="transparent" speed="1" style="width: 181px; height: 71px;" loop autoplay></dotlottie-player>
+																			<img src="https://images.moneycontrol.com/images/common/header/mc_pro_logo_181x28.png?impolicy=mchigh" alt="Moneycontrol PRO" title="Moneycontrol PRO" width="181" height="28" />
 																	</a>
 							</div>
 							<div class="adright_top">
@@ -2161,14 +2113,6 @@ function dfpGutter_getCookie(e){
 												WEBINAR											</a>
 																	</li>
 															<li class=" bold">
-																				<a href="https://www.moneycontrol.com/mc-learn/season-3/" title="MC Learn">
-												MC LEARN											</a>
-																	</li>
-															<li class=" bold">
-																				<a href="https://www.moneycontrol.com/tradersconclave/" title="Traders Conclave">
-												TRADERS CONCLAVE											</a>
-																	</li>
-															<li class=" bold">
 																				<a href="https://www.moneycontrol.com/pro-interviews" title="Interview Series">
 												INTERVIEW SERIES											</a>
 																	</li>
@@ -2208,7 +2152,24 @@ function dfpGutter_getCookie(e){
 
 																	</li>
 															<li class="">
-																				<a href="https://www.moneycontrol.com/us-presidential-elections/" title="US Election 2024" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|US Election 2024|https://www.moneycontrol.com/us-presidential-elections/' );">
+																				<a href="https://www.moneycontrol.com/elections/assembly-election/" title="Assembly Elections" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|Assembly Elections|https://www.moneycontrol.com/elections/assembly-election/' );">
+												Assembly Elections														<sup class="new_tagtp">
+															<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
+																<g id="Layer_2" data-name="Layer 2">
+																	<g id="Layer_1-2" data-name="Layer 1">
+																		<rect class="newtag-1" width="28" height="15" rx="7.5"/>
+																		<path class="newtag-2" d="M7.42,6.84c0-.4,0-.73,0-1H8l0,.64h0a1.44,1.44,0,0,1,1.28-.72c.54,0,1.37.32,1.37,1.64V9.66H10V7.43c0-.62-.24-1.14-.9-1.14A1,1,0,0,0,8.17,7a1.09,1.09,0,0,0-.05.33V9.66h-.7Z"/>
+																		<path class="newtag-2" d="M12.25,7.86A1.23,1.23,0,0,0,13.58,9.2,2.6,2.6,0,0,0,14.65,9l.12.5a3,3,0,0,1-1.29.24,1.79,1.79,0,0,1-1.9-1.95,1.87,1.87,0,0,1,1.81-2.08A1.64,1.64,0,0,1,15,7.53c0,.14,0,.26,0,.33Zm2.06-.51a1,1,0,0,0-1-1.14,1.16,1.16,0,0,0-1.08,1.14Z"/>
+																		<path class="newtag-2" d="M16.14,5.79l.52,2c.11.43.21.83.28,1.23h0a12.5,12.5,0,0,1,.34-1.22l.63-2h.59l.6,1.94c.15.46.26.87.35,1.26h0a12.41,12.41,0,0,1,.3-1.25l.55-1.95H21L19.8,9.66h-.64l-.59-1.84c-.14-.43-.25-.82-.35-1.27h0a12,12,0,0,1-.36,1.28l-.62,1.83h-.64L15.42,5.79Z"/>
+																	</g>
+																</g>
+															</svg>
+														</sup>
+																							</a>
+
+																	</li>
+															<li class="">
+																				<a href="https://www.moneycontrol.com/news/world/us-elections/" title="US Election 2024" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|US Election 2024|https://www.moneycontrol.com/news/world/us-elections/' );">
 												US Election 2024														<sup class="new_tagtp">
 															<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
 																<g id="Layer_2" data-name="Layer 2">
@@ -2222,28 +2183,6 @@ function dfpGutter_getCookie(e){
 															</svg>
 														</sup>
 																							</a>
-
-																	</li>
-															<li class="">
-																				<a href="https://www.moneycontrol.com/news/diwali-muhurat-trading-samvat/" title="Muhurat Trading" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|Muhurat Trading|https://www.moneycontrol.com/news/diwali-muhurat-trading-samvat/' );">
-												Muhurat Trading														<sup class="new_tagtp">
-															<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
-																<g id="Layer_2" data-name="Layer 2">
-																	<g id="Layer_1-2" data-name="Layer 1">
-																		<rect class="newtag-1" width="28" height="15" rx="7.5"/>
-																		<path class="newtag-2" d="M7.42,6.84c0-.4,0-.73,0-1H8l0,.64h0a1.44,1.44,0,0,1,1.28-.72c.54,0,1.37.32,1.37,1.64V9.66H10V7.43c0-.62-.24-1.14-.9-1.14A1,1,0,0,0,8.17,7a1.09,1.09,0,0,0-.05.33V9.66h-.7Z"/>
-																		<path class="newtag-2" d="M12.25,7.86A1.23,1.23,0,0,0,13.58,9.2,2.6,2.6,0,0,0,14.65,9l.12.5a3,3,0,0,1-1.29.24,1.79,1.79,0,0,1-1.9-1.95,1.87,1.87,0,0,1,1.81-2.08A1.64,1.64,0,0,1,15,7.53c0,.14,0,.26,0,.33Zm2.06-.51a1,1,0,0,0-1-1.14,1.16,1.16,0,0,0-1.08,1.14Z"/>
-																		<path class="newtag-2" d="M16.14,5.79l.52,2c.11.43.21.83.28,1.23h0a12.5,12.5,0,0,1,.34-1.22l.63-2h.59l.6,1.94c.15.46.26.87.35,1.26h0a12.41,12.41,0,0,1,.3-1.25l.55-1.95H21L19.8,9.66h-.64l-.59-1.84c-.14-.43-.25-.82-.35-1.27h0a12,12,0,0,1-.36,1.28l-.62,1.83h-.64L15.42,5.79Z"/>
-																	</g>
-																</g>
-															</svg>
-														</sup>
-																							</a>
-
-																	</li>
-															<li class="">
-																				<a href="https://www.moneycontrol.com/elections/assembly-election/" title="Assembly Elections" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|Assembly Elections|https://www.moneycontrol.com/elections/assembly-election/' );">
-												Assembly Elections											</a>
 
 																	</li>
 															<li class=" bold">
@@ -2430,7 +2369,7 @@ function dfpGutter_getCookie(e){
 																							</a>
 																	</li>
 															<li class="">
-																				<a href="https://www.moneycontrol.com/mc-learn/season-3/" title="MC Learn" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|MC Learn|https://www.moneycontrol.com/mc-learn/season-3/' );">
+																				<a href="https://www.moneycontrol.com/mc-learn/" title="MC Learn" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|MC Learn|https://www.moneycontrol.com/mc-learn/' );">
 												MC Learn														<sup class="new_tagtp">
 															<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
 																<g id="Layer_2" data-name="Layer 2">
@@ -2575,10 +2514,6 @@ function dfpGutter_getCookie(e){
 																				</a>
 									</li>
 																<li>
-										<a href="https://www.moneycontrol.com/religion/" title="Religion" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|Religion|https://www.moneycontrol.com/religion/' );">
-										Religion										</a>
-									</li>
-																<li>
 										<a href="https://www.moneycontrol.com/news/trends/travel/" title="Travel" onclick="javascript:GAEventTracker( 'Mega Menu Navigation', 'L1', 'News|Travel|https://www.moneycontrol.com/news/trends/travel/' );">
 										Travel										</a>
 									</li>
@@ -2589,9 +2524,9 @@ function dfpGutter_getCookie(e){
 	</div>
 <!-- End <- MC Mega Menu - 3 - News -->
 								</li>
-														<li  cid="14" class="menu_l1 ">
-									<a href="https://www.moneycontrol.com/news/diwali-muhurat-trading-samvat/" title="Muhurat Trading"   >
-										Muhurat Trading									</a>
+														<li  cid="13" class="menu_l1 ">
+									<a href="https://www.moneycontrol.com/elections/assembly-election/" title="Assembly Elections"   >
+										Assembly Elections									</a>
 																	</li>
 														<li  cid="20" class="menu_l1 ">
 									<a href="https://www.moneycontrol.com/news/technology-startups" title="Tech/Startups"   >
@@ -2792,7 +2727,12 @@ function dfpGutter_getCookie(e){
 										<a href="https://www.moneycontrol.com/personal-finance/nps-national-pension-scheme" title="National Pension Scheme">
 										NPS										</a>
 									</li>
-														<li class=" bold">
+												</ul>
+				</li>
+								<!-- Personal Finance - Set 2 -->
+				<li>
+											<ul class="market_listmenu ">
+							<li class=" bold">
 																		<span>
 											FIXED DEPOSIT										</span>
 															</li>
@@ -2816,32 +2756,25 @@ function dfpGutter_getCookie(e){
 										<a href="https://www.moneycontrol.com/fixed-deposit/fd-interest-rates/" title="Fixed Deposit Comparison">
 										Fixed Deposit Comparison										</a>
 									</li>
-												</ul>
-				</li>
-								<!-- Personal Finance - Set 2 -->
-				<li>
-											<ul class="market_listmenu ">
-							<li class="">
-																		<a href="https://www.moneycontrol.com/fixed-income/calculator/fixed-deposit-calculator.html" title="Fixed Deposit Interest Calculator">
-											Fixed Deposit Interest Calculator										</a>
-															</li>
-													</ul>
-											<ul class="market_listmenu  MT20 ">
-							<li class="">
-																		<a href="https://www.moneycontrol.com/news/tags/company-fixed-deposits.html" title="Corporate Deposits">
-											Corporate Deposits										</a>
-															</li>
+																<li>
+										<a href="https://www.moneycontrol.com/fixed-income/calculator/fixed-deposit-calculator.html" title="Fixed Deposit Interest Calculator">
+										Fixed Deposit Interest Calculator										</a>
+									</li>
+																<li>
+										<a href="https://www.moneycontrol.com/news/tags/company-fixed-deposits.html" title="Corporate Deposits">
+										Corporate Deposits										</a>
+									</li>
 													</ul>
 											<ul class="market_listmenu  MT20 ">
 							<li class=" bold">
 																		<span>
 											TAX										</span>
 															</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/news/business/personal-finance/income-tax-filing/" title="Income tax Filing Guide">
 										Income tax Filing Guide										</a>
 									</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/personal-finance/tools/income-tax-calculator" title="Income Tax Calculator">
 										Income Tax Calculator											&nbsp;<sup class="new_tagtp1">
 												<svg width="42" height="17" viewBox="0 0 42 17" fill="none" xmlns="https://www.w3.org/2000/svg">
@@ -2851,7 +2784,7 @@ function dfpGutter_getCookie(e){
 											</sup>
 																				</a>
 									</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/personal-finance/tools/capital-gain-tax-calculator.html" title="LTCG Tax on Property">
 										LTCG Tax on Property												<sup class="new_tagtp">
 													<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
@@ -2873,32 +2806,37 @@ function dfpGutter_getCookie(e){
 																		<span>
 											LOANS & CREDIT CARDS										</span>
 															</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/personal-finance/loans" title="Home">
 										Home										</a>
 									</li>
-																<li class=" fadein_nav">
+																<li>
 										<a href="https://www.moneycontrolpay.com/" title="Loans">
-																						<span class="cashback crtxt" style="color:#E62ABA;">Loans up to </span><span class="cashback cashbackcr" style="color:#E62ABA;">&#8377;15 LAKHS</span>
+										Loans												&nbsp;<sup class="new_tagtp1">
+													<svg width="75" height="15" viewBox="0 0 75 15" fill="none" xmlns="https://www.w3.org/2000/svg">
+														<rect width="75" height="15" rx="7.5" fill="#2966AA"/>
+														<path d="M11.843 4.18182H12.5476V8.03409C12.5476 8.43182 12.4538 8.78693 12.2663 9.09943C12.0807 9.41004 11.8184 9.6553 11.4794 9.83523C11.1404 10.0133 10.7427 10.1023 10.2862 10.1023C9.82978 10.1023 9.43205 10.0133 9.09304 9.83523C8.75402 9.6553 8.49077 9.41004 8.30327 9.09943C8.11766 8.78693 8.02486 8.43182 8.02486 8.03409V4.18182H8.7294V7.97727C8.7294 8.26136 8.7919 8.5142 8.9169 8.7358C9.0419 8.95549 9.21993 9.12879 9.45099 9.25568C9.68395 9.38068 9.96236 9.44318 10.2862 9.44318C10.6101 9.44318 10.8885 9.38068 11.1214 9.25568C11.3544 9.12879 11.5324 8.95549 11.6555 8.7358C11.7805 8.5142 11.843 8.26136 11.843 7.97727V4.18182ZM13.8636 11.6364V5.63636H14.5114V6.32955H14.5909C14.6402 6.25379 14.7083 6.1572 14.7955 6.03977C14.8845 5.92045 15.0114 5.81439 15.1761 5.72159C15.3428 5.62689 15.5682 5.57955 15.8523 5.57955C16.2197 5.57955 16.5436 5.6714 16.8239 5.85511C17.1042 6.03883 17.3229 6.29924 17.4801 6.63636C17.6373 6.97348 17.7159 7.37121 17.7159 7.82955C17.7159 8.29167 17.6373 8.69223 17.4801 9.03125C17.3229 9.36837 17.1051 9.62973 16.8267 9.81534C16.5483 9.99905 16.2273 10.0909 15.8636 10.0909C15.5833 10.0909 15.3589 10.0445 15.1903 9.9517C15.0218 9.85701 14.892 9.75 14.8011 9.63068C14.7102 9.50947 14.6402 9.40909 14.5909 9.32955H14.5341V11.6364H13.8636ZM14.5227 7.81818C14.5227 8.14773 14.571 8.43845 14.6676 8.69034C14.7642 8.94034 14.9053 9.13636 15.0909 9.27841C15.2765 9.41856 15.5038 9.48864 15.7727 9.48864C16.053 9.48864 16.2869 9.41477 16.4744 9.26705C16.6638 9.11742 16.8059 8.91667 16.9006 8.66477C16.9972 8.41098 17.0455 8.12879 17.0455 7.81818C17.0455 7.51136 16.9981 7.23485 16.9034 6.98864C16.8106 6.74053 16.6695 6.54451 16.4801 6.40057C16.2926 6.25473 16.0568 6.18182 15.7727 6.18182C15.5 6.18182 15.2708 6.25095 15.0852 6.3892C14.8996 6.52557 14.7595 6.71686 14.6648 6.96307C14.5701 7.20739 14.5227 7.49242 14.5227 7.81818ZM22.8864 5.63636V6.20455H20.625V5.63636H22.8864ZM21.2841 4.59091H21.9545V8.75C21.9545 8.93939 21.982 9.08144 22.0369 9.17614C22.0938 9.26894 22.1657 9.33144 22.2528 9.36364C22.3419 9.39394 22.4356 9.40909 22.5341 9.40909C22.608 9.40909 22.6686 9.4053 22.7159 9.39773C22.7633 9.38826 22.8011 9.38068 22.8295 9.375L22.9659 9.97727C22.9205 9.99432 22.857 10.0114 22.7756 10.0284C22.6941 10.0473 22.5909 10.0568 22.4659 10.0568C22.2765 10.0568 22.0909 10.0161 21.9091 9.93466C21.7292 9.85322 21.5795 9.72917 21.4602 9.5625C21.3428 9.39583 21.2841 9.18561 21.2841 8.93182V4.59091ZM25.6207 10.0909C25.2268 10.0909 24.8812 9.99716 24.5838 9.80966C24.2884 9.62216 24.0573 9.35985 23.8906 9.02273C23.7259 8.68561 23.6435 8.29167 23.6435 7.84091C23.6435 7.38636 23.7259 6.98958 23.8906 6.65057C24.0573 6.31155 24.2884 6.0483 24.5838 5.8608C24.8812 5.6733 25.2268 5.57955 25.6207 5.57955C26.0147 5.57955 26.3594 5.6733 26.6548 5.8608C26.9522 6.0483 27.1832 6.31155 27.348 6.65057C27.5147 6.98958 27.598 7.38636 27.598 7.84091C27.598 8.29167 27.5147 8.68561 27.348 9.02273C27.1832 9.35985 26.9522 9.62216 26.6548 9.80966C26.3594 9.99716 26.0147 10.0909 25.6207 10.0909ZM25.6207 9.48864C25.92 9.48864 26.1662 9.41193 26.3594 9.25852C26.5526 9.10511 26.6955 8.90341 26.7884 8.65341C26.8812 8.40341 26.9276 8.13258 26.9276 7.84091C26.9276 7.54924 26.8812 7.27746 26.7884 7.02557C26.6955 6.77367 26.5526 6.57008 26.3594 6.41477C26.1662 6.25947 25.92 6.18182 25.6207 6.18182C25.3215 6.18182 25.0753 6.25947 24.8821 6.41477C24.6889 6.57008 24.5459 6.77367 24.4531 7.02557C24.3603 7.27746 24.3139 7.54924 24.3139 7.84091C24.3139 8.13258 24.3603 8.40341 24.4531 8.65341C24.5459 8.90341 24.6889 9.10511 24.8821 9.25852C25.0753 9.41193 25.3215 9.48864 25.6207 9.48864ZM34.3601 5.55682L34.1669 6.21591H30.4851L30.6783 5.55682H34.3601ZM32.6328 10L30.5533 7.45455L30.5419 6.97727H31.576C31.8449 6.97727 32.0741 6.93939 32.2635 6.86364C32.4529 6.78598 32.5978 6.67045 32.6982 6.51705C32.7985 6.36174 32.8487 6.16667 32.8487 5.93182C32.8487 5.58523 32.7446 5.31345 32.5362 5.11648C32.3279 4.91761 32.0078 4.81818 31.576 4.81818H30.4851L30.6783 4.18182H31.576C32.0381 4.18182 32.4169 4.25852 32.7124 4.41193C33.0097 4.56345 33.2294 4.77178 33.3714 5.03693C33.5154 5.30019 33.5874 5.59848 33.5874 5.93182C33.5874 6.23295 33.5211 6.51042 33.3885 6.7642C33.2578 7.0161 33.0476 7.21875 32.7578 7.37216C32.4699 7.52557 32.0893 7.60227 31.6158 7.60227H31.5987L33.5192 9.95455V10H32.6328ZM34.3601 4.18182L34.1669 4.84091L31.2692 4.81818L31.4624 4.18182H34.3601ZM37.2259 4.18182V10H36.5213V4.92045H36.4872L35.0668 5.86364V5.14773L36.5213 4.18182H37.2259ZM40.7173 10.0795C40.384 10.0795 40.0838 10.0133 39.8168 9.88068C39.5497 9.74811 39.3357 9.56629 39.1747 9.33523C39.0137 9.10417 38.9257 8.84091 38.9105 8.54545H39.5923C39.6188 8.80871 39.7382 9.02652 39.9503 9.19886C40.1643 9.36932 40.42 9.45455 40.7173 9.45455C40.956 9.45455 41.1681 9.39867 41.3537 9.28693C41.5412 9.17519 41.688 9.02178 41.794 8.8267C41.902 8.62973 41.956 8.4072 41.956 8.15909C41.956 7.9053 41.9001 7.67898 41.7884 7.48011C41.6785 7.27936 41.527 7.12121 41.3338 7.00568C41.1406 6.89015 40.92 6.83144 40.6719 6.82955C40.4938 6.82765 40.3111 6.85511 40.1236 6.91193C39.9361 6.96686 39.7817 7.03788 39.6605 7.125L39.0014 7.04545L39.3537 4.18182H42.3764V4.80682H39.9446L39.7401 6.52273H39.7741C39.8935 6.42803 40.0431 6.34943 40.223 6.28693C40.4029 6.22443 40.5904 6.19318 40.7855 6.19318C41.1416 6.19318 41.4588 6.27841 41.7372 6.44886C42.0175 6.61742 42.2372 6.84848 42.3963 7.14205C42.5573 7.43561 42.6378 7.77083 42.6378 8.14773C42.6378 8.51894 42.5545 8.85038 42.3878 9.14205C42.223 9.43182 41.9957 9.66098 41.706 9.82955C41.4162 9.99621 41.0866 10.0795 40.7173 10.0795ZM46.1186 10V4.18182H46.8232V9.375H49.5277V10H46.1186ZM51.8118 10.1023C51.5353 10.1023 51.2843 10.0502 51.0589 9.94602C50.8336 9.83996 50.6546 9.6875 50.522 9.48864C50.3894 9.28788 50.3232 9.04545 50.3232 8.76136C50.3232 8.51136 50.3724 8.30871 50.4709 8.15341C50.5694 7.99621 50.701 7.87311 50.8658 7.78409C51.0305 7.69508 51.2124 7.62879 51.4112 7.58523C51.612 7.53977 51.8137 7.50379 52.0163 7.47727C52.2815 7.44318 52.4964 7.41761 52.6612 7.40057C52.8279 7.38163 52.9491 7.35038 53.0249 7.30682C53.1025 7.26326 53.1413 7.1875 53.1413 7.07955V7.05682C53.1413 6.77652 53.0646 6.55871 52.9112 6.40341C52.7597 6.24811 52.5296 6.17045 52.2209 6.17045C51.9008 6.17045 51.6499 6.24053 51.468 6.38068C51.2862 6.52083 51.1584 6.67045 51.0845 6.82955L50.4482 6.60227C50.5618 6.33712 50.7133 6.13068 50.9027 5.98295C51.094 5.83333 51.3023 5.72917 51.5277 5.67045C51.755 5.60985 51.9785 5.57955 52.1982 5.57955C52.3383 5.57955 52.4993 5.59659 52.6811 5.63068C52.8648 5.66288 53.0419 5.73011 53.2124 5.83239C53.3847 5.93466 53.5277 6.08902 53.6413 6.29545C53.755 6.50189 53.8118 6.77841 53.8118 7.125V10H53.1413V9.40909H53.1072C53.0618 9.50379 52.986 9.60511 52.88 9.71307C52.7739 9.82102 52.6328 9.91288 52.4567 9.98864C52.2805 10.0644 52.0656 10.1023 51.8118 10.1023ZM51.9141 9.5C52.1792 9.5 52.4027 9.44792 52.5845 9.34375C52.7682 9.23958 52.9065 9.10511 52.9993 8.94034C53.094 8.77557 53.1413 8.60227 53.1413 8.42045V7.80682C53.1129 7.84091 53.0504 7.87216 52.9538 7.90057C52.8591 7.92708 52.7493 7.95076 52.6243 7.97159C52.5012 7.99053 52.3809 8.00758 52.2635 8.02273C52.148 8.03598 52.0542 8.04735 51.9822 8.05682C51.808 8.07955 51.6451 8.11648 51.4936 8.16761C51.344 8.21686 51.2228 8.29167 51.13 8.39205C51.0391 8.49053 50.9936 8.625 50.9936 8.79545C50.9936 9.02841 51.0798 9.20455 51.2521 9.32386C51.4264 9.44129 51.647 9.5 51.9141 9.5ZM55.6605 8.40909L55.6491 7.57955H55.7855L57.6946 5.63636H58.5241L56.4901 7.69318H56.4332L55.6605 8.40909ZM55.0355 10V4.18182H55.706V10H55.0355ZM57.8082 10L56.1037 7.84091L56.581 7.375L58.6605 10H57.8082ZM60.0575 7.375V10H59.3871V4.18182H60.0575V6.31818H60.1143C60.2166 6.0928 60.37 5.91383 60.5746 5.78125C60.781 5.64678 61.0556 5.57955 61.3984 5.57955C61.6958 5.57955 61.9562 5.6392 62.1797 5.75852C62.4032 5.87595 62.5765 6.05682 62.6996 6.30114C62.8246 6.54356 62.8871 6.85227 62.8871 7.22727V10H62.2166V7.27273C62.2166 6.92614 62.1267 6.65814 61.9467 6.46875C61.7687 6.27746 61.5215 6.18182 61.2053 6.18182C60.9856 6.18182 60.7886 6.22822 60.6143 6.32102C60.442 6.41383 60.3056 6.54924 60.2053 6.72727C60.1068 6.9053 60.0575 7.12121 60.0575 7.375ZM67.2045 6.61364L66.6023 6.78409C66.5644 6.68371 66.5085 6.58617 66.4347 6.49148C66.3627 6.39489 66.2642 6.31534 66.1392 6.25284C66.0142 6.19034 65.8542 6.15909 65.6591 6.15909C65.392 6.15909 65.1695 6.22064 64.9915 6.34375C64.8153 6.46496 64.7273 6.61932 64.7273 6.80682C64.7273 6.97348 64.7879 7.10511 64.9091 7.2017C65.0303 7.2983 65.2197 7.37879 65.4773 7.44318L66.125 7.60227C66.5152 7.69697 66.8059 7.84186 66.9972 8.03693C67.1884 8.23011 67.2841 8.47917 67.2841 8.78409C67.2841 9.03409 67.2121 9.25758 67.0682 9.45455C66.9261 9.65152 66.7273 9.80682 66.4716 9.92045C66.2159 10.0341 65.9186 10.0909 65.5795 10.0909C65.1345 10.0909 64.7661 9.99432 64.4744 9.80114C64.1828 9.60795 63.9981 9.32576 63.9205 8.95455L64.5568 8.79545C64.6174 9.0303 64.732 9.20644 64.9006 9.32386C65.071 9.44129 65.2936 9.5 65.5682 9.5C65.8807 9.5 66.1288 9.43371 66.3125 9.30114C66.4981 9.16667 66.5909 9.00568 66.5909 8.81818C66.5909 8.66667 66.5379 8.53977 66.4318 8.4375C66.3258 8.33333 66.1629 8.25568 65.9432 8.20455L65.2159 8.03409C64.8163 7.93939 64.5227 7.79261 64.3352 7.59375C64.1496 7.39299 64.0568 7.14205 64.0568 6.84091C64.0568 6.5947 64.1259 6.37689 64.2642 6.1875C64.4044 5.99811 64.5947 5.84943 64.8352 5.74148C65.0777 5.63352 65.3523 5.57955 65.6591 5.57955C66.0909 5.57955 66.4299 5.67424 66.6761 5.86364C66.9242 6.05303 67.1004 6.30303 67.2045 6.61364Z" fill="white"/>
+													</svg>
+												</sup>
 																				</a>
 									</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/personal-finance/loans/personal-loan/calculator" title="EMI Calculator">
 										EMI Calculator										</a>
 									</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/personal-finance/tools/carloan-emi-calculator.html" title="Car Loan Calculator">
 										Car Loan Calculator										</a>
 									</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/personal-finance/tools/emi-calculator.html" title="Home Loan Calculator">
 										Home Loan Calculator										</a>
 									</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/personal-finance/tools/education-loan-emi-calculator.html" title="Education Loan Calculator">
 										Education Loan Calculator										</a>
 									</li>
-																<li class="">
+																<li>
 										<a href="https://www.moneycontrol.com/personal-finance/tools/credit-card-debt-payoff-calculator.html" title="Credit Card Debit Payoff Calculator">
 										Credit Card Debit Payoff Calculator										</a>
 									</li>
@@ -2932,29 +2870,13 @@ function dfpGutter_getCookie(e){
 										Current Expense Calculator										</a>
 									</li>
 														<li class=" bold fadein_nav">
-																		<a href="https://www.moneycontrol.com/credit-cards" title="Credit Cards" onclick="javascript:GAEventTracker( 'Personal Finance', 'Expand list', 'Credit Card' ); CleverTapEventTracker( 'Credit Card', 'Touchpoint', 'Personal Finance | ' + window.location.href );" >
-																									<span class="cashback crtxt" style="color:#1AC02A;">CREDIT CARDS</span><span class="cashback cashbackcr" style="color:#00168C;">LIFETIME <b style="color:#1AC02A;">FREE </b></span>
-																								<sup class="new_tagtp"  style="position: absolute; margin-left: 86px;"  >
-														<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
-															<g id="Layer_2" data-name="Layer 2">
-																<g id="Layer_1-2" data-name="Layer 1">
-																	<rect class="newtag-1" width="28" height="15" rx="7.5"/>
-																	<path class="newtag-2" d="M7.42,6.84c0-.4,0-.73,0-1H8l0,.64h0a1.44,1.44,0,0,1,1.28-.72c.54,0,1.37.32,1.37,1.64V9.66H10V7.43c0-.62-.24-1.14-.9-1.14A1,1,0,0,0,8.17,7a1.09,1.09,0,0,0-.05.33V9.66h-.7Z"/>
-																	<path class="newtag-2" d="M12.25,7.86A1.23,1.23,0,0,0,13.58,9.2,2.6,2.6,0,0,0,14.65,9l.12.5a3,3,0,0,1-1.29.24,1.79,1.79,0,0,1-1.9-1.95,1.87,1.87,0,0,1,1.81-2.08A1.64,1.64,0,0,1,15,7.53c0,.14,0,.26,0,.33Zm2.06-.51a1,1,0,0,0-1-1.14,1.16,1.16,0,0,0-1.08,1.14Z"/>
-																	<path class="newtag-2" d="M16.14,5.79l.52,2c.11.43.21.83.28,1.23h0a12.5,12.5,0,0,1,.34-1.22l.63-2h.59l.6,1.94c.15.46.26.87.35,1.26h0a12.41,12.41,0,0,1,.3-1.25l.55-1.95H21L19.8,9.66h-.64l-.59-1.84c-.14-.43-.25-.82-.35-1.27h0a12,12,0,0,1-.36,1.28l-.62,1.83h-.64L15.42,5.79Z"/>
-																</g>
-															</g>
-														</svg>
-													</sup>
+																		<a href="https://www.moneycontrol.com/credit-score" title="Credit Score" onclick="javascript:GAEventTracker( 'Personal Finance', 'Expand list', 'Credit Score' ); CleverTapEventTracker( 'Credit Bureau', 'Touchpoint', 'Mega Menu | ' + window.location.href );" >
+																									<span class="cashback crtxt"><b>FREE </b>CREDIT SCORE</span><span class="cashback cashbackcr">&#8377;100 Cash Reward</span>
 																					</a>
 															</li>
 														<li class=" bold">
-																		<a href="https://www.moneycontrol.com/credit-score" title="Credit Score" onclick="javascript:GAEventTracker( 'Personal Finance', 'Expand list', 'Credit Score' ); CleverTapEventTracker( 'Credit Bureau', 'Touchpoint', 'Mega Menu | ' + window.location.href );" >
-											CREDIT SCORE										</a>
-															</li>
-														<li class=" bold">
 																		<a href="https://www.moneycontrol.com/account-aggregator" title="Finance Tracker"  >
-											FINANCE TRACKER													<sup class="new_tagtp"  >
+											FINANCE TRACKER													<sup class="new_tagtp">
 														<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
 															<g id="Layer_2" data-name="Layer 2">
 																<g id="Layer_1-2" data-name="Layer 1">
@@ -2970,7 +2892,7 @@ function dfpGutter_getCookie(e){
 															</li>
 														<li class=" bold">
 																		<a href="https://www.moneycontrol.com/property-rates/mumbai" title="Real Estate : Trends & Analytics"  >
-											REAL ESTATE : TRENDS & ANALYTICS													<sup class="new_tagtp"  >
+											REAL ESTATE : TRENDS & ANALYTICS													<sup class="new_tagtp">
 														<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
 															<g id="Layer_2" data-name="Layer 2">
 																<g id="Layer_1-2" data-name="Layer 1">
@@ -2990,7 +2912,7 @@ function dfpGutter_getCookie(e){
 															</li>
 														<li class=" bold">
 																		<a href="https://www.moneycontrol.com/personal-finance/health-insurance-ratings" title="Moneycontrol - SecureNow Health Insurance ratings"  >
-											MONEYCONTROL - SECURENOW HEALTH INSURANCE RATINGS													<sup class="new_tagtp"  >
+											MONEYCONTROL - SECURENOW HEALTH INSURANCE RATINGS													<sup class="new_tagtp">
 														<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
 															<g id="Layer_2" data-name="Layer 2">
 																<g id="Layer_1-2" data-name="Layer 1">
@@ -3379,7 +3301,7 @@ function dfpGutter_getCookie(e){
 								</div>
 							</li>
 							<li class="">
-								<a href="https://www.moneycontrol.com/open-demat-account-online?classic=true&script_id=INE202E01016&ex=NSE&site=web&asset_class=stock&utm_source=moneycontrol&utm_medium=webstockpage&utm_campaign=tradenow&utm_content=webbutton" title="Open Trading Account formerly know as TradeNow" onclick="javascript:GAEventTracker( 'Mega Menu Navigation - InvestNow', 'Click', 'Open Trading Account formerly know as TradeNow' );"  class="pdg_btm MB15" >
+								<a href="https://www.moneycontrol.com/open-demat-account-online?classic=true&script_id=INE202E01016&ex=NSE&site=web&asset_class=stock&utm_source=moneycontrol&utm_medium=webstockpage&utm_campaign=tradenow&utm_content=webbutton" title="Open Trading Account� formerly know as TradeNow" onclick="javascript:GAEventTracker( 'Mega Menu Navigation - InvestNow', 'Click', 'Open Trading Account� formerly know as TradeNow' );"  class="pdg_btm MB15" >
 									<span class="tit-txt1">"Open Trading Account" formerly know as TradeNow</span>
 									<p class="tit-txt2">This functionality will provide users with ease of access navigation and enable create a new revenue line by generating leads of potential customers for brokers in a more integrated manner.</p>
 									<p class="MT5"><span class="mcp_btn_blue_tp" title="Invest Now">Invest Now</span></p>
@@ -3541,20 +3463,15 @@ function dfpGutter_getCookie(e){
 
 		<div class="iconpancake"></div>
 
-					<style>
-				@media screen and (max-width:980px) {
-					.header_telegram_icon { margin-left: 0px !important; }
-				}
-			</style>
 					<div class="FL mc_moblogo for_nonpro_users" >
 				<a href="https://www.moneycontrol.com/" title="Moneycontrol">
-											<img src="https://images.moneycontrol.com/images/common/header/mc-1-million-non-pro_2210_288x44.png?impolicy=mchigh" width="148" height="42" alt="Moneycontrol" title="Moneycontrol" />
+											<img src="https://images.moneycontrol.com/images/common/header/logo_105x22.png?impolicy=mchigh" width="105" height="22" alt="Moneycontrol" title="Moneycontrol" />
 									</a>
 			</div>
 
 			<div class="FL mc_moblogo for_mcpro_users" >
 				<a href="https://www.moneycontrol.com/pro-top-stories" title="Moneycontrol PRO">
-											<img src="https://images.moneycontrol.com/images/common/header/mc-1-million-pro_2310_288x22.png?impolicy=mchigh" width="165" height="38" alt="Moneycontrol PRO" title="Moneycontrol PRO" />
+											<img src="https://images.moneycontrol.com/images/common/header/logo_with_pro_144x22.png?impolicy=mchigh" width="144" height="22" alt="Moneycontrol PRO" title="Moneycontrol PRO" />
 									</a>
 			</div>
 				<!-- Telegram icon -> Starts --> 
@@ -3602,11 +3519,11 @@ function dfpGutter_getCookie(e){
 	</div>
 	<div class="clearfix">
 		<ul class="suglist">
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/auto-ancillaries/hyundaimotorindia/HMI01" title="Hyundai Motor">Hyundai Motor <span>INE0V6F01027, HYUNDAI, 544274</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/miscellaneous/olaelectricmobility/OEM" title="Ola Electric">Ola Electric <span>INE0LXG01040, OLAELEC, 544225</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="" title="Bajaj Housing F">Bajaj Housing F <span>, , BAJAJHFL</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI" title="Reliance">Reliance <span>INE002A01018, RELIANCE, 500325</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/power-generationdistribution/suzlonenergy/SE17" title="Suzlon Energy">Suzlon Energy <span>INE040H01021, SUZLON, 532667</span></a></li><li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/miscellaneous/olaelectricmobility/OEM" title="Ola Electric">Ola Electric<span>INE0LXG01040, OLAELEC, 544225</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03" title="Tata Motors">Tata Motors<span>INE155A01022, TATAMOTORS, 500570</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/power-generationdistribution/suzlonenergy/SE17" title="Suzlon Energy">Suzlon Energy<span>INE040H01021, SUZLON, 532667</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="" title="Bajaj Housing F">Bajaj Housing F<span>, , BAJAJHFL</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI" title="Reliance">Reliance<span>INE002A01018, RELIANCE, 500325</span></a></li><li>
 				<a onclick='setGAEventTracker( "Search Trend", "Click", "Get ₹100 Cash Reward for a FREE Credit Score check! | " + window.location.href ); setCTEventTracker( "Lending", "Touchpoint", "Search | " + window.location.href );' href="https://moneycontrol.com/credit-score" class="trend_cb" title="Get ₹100 Cash Reward for a FREE Credit Score check!">
 					<div class="cb_search_new" style="text-align:center;"><img src="https://images.moneycontrol.com/images/common/header/search_cash_reward_0809_400x33.png?impolicy=mchigh" alt="Get ₹100 Cash Reward for a FREE Credit Score check!" title="Get ₹100 Cash Reward for a FREE Credit Score check!" /></div>
 				</a>
@@ -3621,7 +3538,7 @@ function dfpGutter_getCookie(e){
 	function setCTEventTracker( optCategory, optAction, optLabel ) {
 		if( typeof window.clevertap === "object" ) { clevertap.event.push( optCategory, { [optAction]: optLabel } ); }
 	}
-</script><!-- Updated @ 2024-10-22 12:18:04 -->						</div>
+</script><!-- Updated @ 2024-10-10 18:37:49 -->						</div>
 						<!-- trending search ooptions end --> 
 
 						<!-- auto suggest box-->
@@ -3820,7 +3737,7 @@ function dfpGutter_getCookie(e){
 																			</ul>
 																	</li>
 													<li class="">
-																			<a href="https://www.moneycontrolpay.com/" title="Loans" class="gd18 " onclick="javascript:CleverTapEventTracker( 'Lending', 'Touchpoint', 'WAP hamburger' );"  >
+																			<a href="https://www.moneycontrolpay.com/personal-loans" title="Loans" class="gd18 " onclick="javascript:CleverTapEventTracker( 'Lending', 'Touchpoint', 'WAP hamburger' );"  >
 										Loans												&nbsp;<sup><svg width="71" height="10" viewBox="0 0 71 10" fill="none" xmlns="https://www.w3.org/2000/svg">
 													<rect width="71" height="10" fill="#F1A039"/>
 													<path d="M4.97981 7.132C5.18781 7.132 5.37315 7.09733 5.53581 7.028C5.70115 6.95867 5.83981 6.86133 5.95181 6.736C6.06381 6.61067 6.14915 6.45867 6.20781 6.28C6.26915 6.10133 6.29981 5.90133 6.29981 5.68V2.216H7.37581V5.68C7.37581 6.024 7.31981 6.34267 7.20781 6.636C7.09848 6.92667 6.93981 7.17867 6.73181 7.392C6.52648 7.60267 6.27581 7.768 5.97981 7.888C5.68381 8.00533 5.35048 8.064 4.97981 8.064C4.60648 8.064 4.27181 8.00533 3.97581 7.888C3.67981 7.768 3.42781 7.60267 3.21981 7.392C3.01448 7.17867 2.85581 6.92667 2.74381 6.636C2.63448 6.34267 2.57981 6.024 2.57981 5.68V2.216H3.65581V5.676C3.65581 5.89733 3.68515 6.09733 3.74381 6.276C3.80515 6.45467 3.89181 6.608 4.00381 6.736C4.11848 6.86133 4.25715 6.95867 4.41981 7.028C4.58515 7.09733 4.77181 7.132 4.97981 7.132ZM10.4693 5.124C10.6666 5.124 10.8386 5.1 10.9853 5.052C11.132 5.00133 11.2533 4.93067 11.3493 4.84C11.448 4.74667 11.5213 4.63467 11.5693 4.504C11.6173 4.37067 11.6413 4.22267 11.6413 4.06C11.6413 3.90533 11.6173 3.76533 11.5693 3.64C11.5213 3.51467 11.4493 3.408 11.3533 3.32C11.2573 3.232 11.136 3.16533 10.9893 3.12C10.8426 3.072 10.6693 3.048 10.4693 3.048H9.66531V5.124H10.4693ZM10.4693 2.216C10.856 2.216 11.1906 2.26133 11.4733 2.352C11.756 2.44267 11.9893 2.56933 12.1733 2.732C12.3573 2.89467 12.4933 3.08933 12.5813 3.316C12.672 3.54267 12.7173 3.79067 12.7173 4.06C12.7173 4.34 12.6706 4.59733 12.5773 4.832C12.484 5.064 12.344 5.264 12.1573 5.432C11.9706 5.6 11.736 5.73067 11.4533 5.824C11.1733 5.91733 10.8453 5.964 10.4693 5.964H9.66531V8H8.58931V2.216H10.4693ZM19.059 3.1H17.315V8H16.239V3.1H14.495V2.216H19.059V3.1ZM25.1366 5.108C25.1366 5.532 25.0659 5.92533 24.9246 6.288C24.7859 6.648 24.5886 6.96 24.3326 7.224C24.0766 7.488 23.7686 7.69467 23.4086 7.844C23.0486 7.99067 22.6486 8.064 22.2086 8.064C21.7712 8.064 21.3726 7.99067 21.0126 7.844C20.6526 7.69467 20.3432 7.488 20.0846 7.224C19.8286 6.96 19.6299 6.648 19.4886 6.288C19.3472 5.92533 19.2766 5.532 19.2766 5.108C19.2766 4.684 19.3472 4.292 19.4886 3.932C19.6299 3.56933 19.8286 3.256 20.0846 2.992C20.3432 2.728 20.6526 2.52267 21.0126 2.376C21.3726 2.22667 21.7712 2.152 22.2086 2.152C22.5019 2.152 22.7779 2.18667 23.0366 2.256C23.2952 2.32267 23.5326 2.41867 23.7486 2.544C23.9646 2.66667 24.1579 2.81733 24.3286 2.996C24.5019 3.172 24.6486 3.36933 24.7686 3.588C24.8886 3.80667 24.9792 4.044 25.0406 4.3C25.1046 4.556 25.1366 4.82533 25.1366 5.108ZM24.0366 5.108C24.0366 4.79067 23.9939 4.50667 23.9086 4.256C23.8232 4.00267 23.7019 3.788 23.5446 3.612C23.3872 3.436 23.1952 3.30133 22.9686 3.208C22.7446 3.11467 22.4912 3.068 22.2086 3.068C21.9259 3.068 21.6712 3.11467 21.4446 3.208C21.2206 3.30133 21.0286 3.436 20.8686 3.612C20.7112 3.788 20.5899 4.00267 20.5046 4.256C20.4192 4.50667 20.3766 4.79067 20.3766 5.108C20.3766 5.42533 20.4192 5.71067 20.5046 5.964C20.5899 6.21467 20.7112 6.428 20.8686 6.604C21.0286 6.77733 21.2206 6.91067 21.4446 7.004C21.6712 7.09733 21.9259 7.144 22.2086 7.144C22.4912 7.144 22.7446 7.09733 22.9686 7.004C23.1952 6.91067 23.3872 6.77733 23.5446 6.604C23.7019 6.428 23.8232 6.21467 23.9086 5.964C23.9939 5.71067 24.0366 5.42533 24.0366 5.108ZM31.6428 2.972H30.2828C30.4161 3.05733 30.5201 3.156 30.5948 3.268C30.6695 3.37733 30.7228 3.49733 30.7548 3.628H31.6428V4.388H30.7508C30.6895 4.636 30.5668 4.856 30.3828 5.048C30.1988 5.24 29.9575 5.38933 29.6588 5.496C29.7415 5.53333 29.8175 5.58267 29.8868 5.644C29.9588 5.70533 30.0228 5.77867 30.0788 5.864L31.5268 8H30.5548C30.3735 8 30.2401 7.928 30.1548 7.784L28.9388 5.932C28.8935 5.86267 28.8428 5.81333 28.7868 5.784C28.7335 5.75467 28.6535 5.74 28.5468 5.74H27.7948V5.012H28.5868C28.8908 5.012 29.1335 4.95467 29.3148 4.84C29.4988 4.72533 29.6281 4.57467 29.7028 4.388H27.7908V3.628H29.7268C29.6628 3.43333 29.5375 3.28133 29.3508 3.172C29.1668 3.06 28.9175 3.004 28.6028 3.004H27.7948V2.216H31.6428V2.972ZM36.1556 7.26V8H32.9556V7.26H34.1276V3.888C34.1276 3.75467 34.1316 3.61733 34.1396 3.476L33.3076 4.172C33.2596 4.20933 33.2116 4.23333 33.1636 4.244C33.1183 4.252 33.0743 4.252 33.0316 4.244C32.9916 4.236 32.9556 4.22267 32.9236 4.204C32.8916 4.18267 32.8676 4.16 32.8516 4.136L32.5396 3.708L34.3036 2.208H35.1156V7.26H36.1556ZM38.2803 4.316C38.4083 4.28933 38.5309 4.27067 38.6483 4.26C38.7656 4.24667 38.8789 4.24 38.9883 4.24C39.2923 4.24 39.5603 4.28533 39.7923 4.376C40.0243 4.46667 40.2189 4.592 40.3763 4.752C40.5336 4.912 40.6523 5.1 40.7323 5.316C40.8123 5.52933 40.8523 5.76 40.8523 6.008C40.8523 6.31467 40.7976 6.59467 40.6883 6.848C40.5816 7.10133 40.4323 7.31867 40.2403 7.5C40.0483 7.67867 39.8203 7.81733 39.5563 7.916C39.2949 8.01467 39.0096 8.064 38.7003 8.064C38.5189 8.064 38.3469 8.04533 38.1843 8.008C38.0216 7.97067 37.8683 7.92133 37.7243 7.86C37.5829 7.796 37.4509 7.724 37.3283 7.644C37.2083 7.56133 37.1003 7.47467 37.0043 7.384L37.3083 6.964C37.3723 6.87333 37.4563 6.828 37.5603 6.828C37.6269 6.828 37.6949 6.84933 37.7643 6.892C37.8336 6.93467 37.9123 6.98133 38.0003 7.032C38.0909 7.08267 38.1963 7.12933 38.3163 7.172C38.4389 7.21467 38.5856 7.236 38.7563 7.236C38.9376 7.236 39.0976 7.20667 39.2363 7.148C39.3749 7.08933 39.4896 7.008 39.5803 6.904C39.6736 6.79733 39.7429 6.672 39.7883 6.528C39.8363 6.38133 39.8603 6.22267 39.8603 6.052C39.8603 5.73733 39.7683 5.492 39.5843 5.316C39.4029 5.13733 39.1336 5.048 38.7763 5.048C38.5016 5.048 38.2203 5.09867 37.9323 5.2L37.3163 5.024L37.7963 2.216H40.6523V2.636C40.6523 2.77733 40.6083 2.892 40.5203 2.98C40.4323 3.068 40.2829 3.112 40.0723 3.112H38.4843L38.2803 4.316ZM47.2742 7.112V8H43.8862V2.216H44.9622V7.112H47.2742ZM51.0984 5.816L50.3944 3.892C50.3598 3.80667 50.3238 3.70533 50.2864 3.588C50.2491 3.47067 50.2118 3.344 50.1744 3.208C50.1398 3.344 50.1038 3.472 50.0664 3.592C50.0291 3.70933 49.9931 3.812 49.9584 3.9L49.2584 5.816H51.0984ZM52.9984 8H52.1664C52.0731 8 51.9971 7.97733 51.9384 7.932C51.8798 7.884 51.8358 7.82533 51.8064 7.756L51.3744 6.576H48.9784L48.5464 7.756C48.5251 7.81733 48.4838 7.87333 48.4224 7.924C48.3611 7.97467 48.2851 8 48.1944 8H47.3544L49.6304 2.216H50.7264L52.9984 8ZM54.6731 4.64H54.9251C55.0265 4.64 55.1105 4.62667 55.1771 4.6C55.2438 4.57067 55.3011 4.52533 55.3491 4.464L56.9451 2.444C57.0118 2.35867 57.0811 2.3 57.1531 2.268C57.2278 2.23333 57.3211 2.216 57.4331 2.216H58.3611L56.4131 4.62C56.2985 4.76667 56.1798 4.87067 56.0571 4.932C56.1451 4.964 56.2238 5.00933 56.2931 5.068C56.3651 5.124 56.4331 5.19867 56.4971 5.292L58.5051 8H57.5571C57.4291 8 57.3331 7.98267 57.2691 7.948C57.2078 7.91067 57.1558 7.85733 57.1131 7.788L55.4771 5.652C55.4265 5.58 55.3678 5.52933 55.3011 5.5C55.2345 5.47067 55.1385 5.456 55.0131 5.456H54.6731V8H53.5971V2.216H54.6731V4.64ZM63.9575 2.216V8H62.8775V5.472H60.1615V8H59.0815V2.216H60.1615V4.704H62.8775V2.216H63.9575ZM68.3256 3.268C68.2936 3.324 68.2589 3.36533 68.2216 3.392C68.1869 3.416 68.1429 3.428 68.0896 3.428C68.0336 3.428 67.9722 3.408 67.9056 3.368C67.8416 3.32533 67.7642 3.27867 67.6736 3.228C67.5829 3.17733 67.4762 3.132 67.3536 3.092C67.2336 3.04933 67.0909 3.028 66.9256 3.028C66.7762 3.028 66.6456 3.04667 66.5336 3.084C66.4216 3.11867 66.3269 3.168 66.2496 3.232C66.1749 3.296 66.1189 3.37333 66.0816 3.464C66.0442 3.552 66.0256 3.64933 66.0256 3.756C66.0256 3.892 66.0629 4.00533 66.1376 4.096C66.2149 4.18667 66.3162 4.264 66.4416 4.328C66.5669 4.392 66.7096 4.44933 66.8696 4.5C67.0296 4.55067 67.1936 4.60533 67.3616 4.664C67.5296 4.72 67.6936 4.78667 67.8536 4.864C68.0136 4.93867 68.1562 5.03467 68.2816 5.152C68.4069 5.26667 68.5069 5.408 68.5816 5.576C68.6589 5.744 68.6976 5.948 68.6976 6.188C68.6976 6.44933 68.6522 6.69467 68.5616 6.924C68.4736 7.15067 68.3429 7.34933 68.1696 7.52C67.9989 7.688 67.7896 7.82133 67.5416 7.92C67.2936 8.016 67.0096 8.064 66.6896 8.064C66.5056 8.064 66.3242 8.04533 66.1456 8.008C65.9669 7.97333 65.7949 7.92267 65.6296 7.856C65.4669 7.78933 65.3136 7.70933 65.1696 7.616C65.0256 7.52267 64.8976 7.41867 64.7856 7.304L65.1016 6.788C65.1282 6.75067 65.1629 6.72 65.2056 6.696C65.2482 6.66933 65.2936 6.656 65.3416 6.656C65.4082 6.656 65.4802 6.684 65.5576 6.74C65.6349 6.79333 65.7269 6.85333 65.8336 6.92C65.9402 6.98667 66.0642 7.048 66.2056 7.104C66.3496 7.15733 66.5216 7.184 66.7216 7.184C67.0282 7.184 67.2656 7.112 67.4336 6.968C67.6016 6.82133 67.6856 6.612 67.6856 6.34C67.6856 6.188 67.6469 6.064 67.5696 5.968C67.4949 5.872 67.3949 5.792 67.2696 5.728C67.1442 5.66133 67.0016 5.60533 66.8416 5.56C66.6816 5.51467 66.5189 5.46533 66.3536 5.412C66.1882 5.35867 66.0256 5.29467 65.8656 5.22C65.7056 5.14533 65.5629 5.048 65.4376 4.928C65.3122 4.808 65.2109 4.65867 65.1336 4.48C65.0589 4.29867 65.0216 4.076 65.0216 3.812C65.0216 3.60133 65.0629 3.396 65.1456 3.196C65.2309 2.996 65.3536 2.81867 65.5136 2.664C65.6736 2.50933 65.8709 2.38533 66.1056 2.292C66.3402 2.19867 66.6096 2.152 66.9136 2.152C67.2549 2.152 67.5696 2.20533 67.8576 2.312C68.1456 2.41867 68.3909 2.568 68.5936 2.76L68.3256 3.268Z" fill="black"/>
@@ -3894,13 +3811,8 @@ function dfpGutter_getCookie(e){
 																				</a>
 																	</li>
 													<li class="">
-																			<a href="https://www.moneycontrol.com/us-presidential-elections/" title="US Election 2024" class="gd18 " onclick="javascript:GAEventTracker( 'Navigation', 'Hb_L1', 'US Election 2024' );"  >
-										US Election 2024												&nbsp;<sup><img src="https://images.moneycontrol.com/images/common/header/new_icon_animated.gif" title="US Election 2024" alt="US Election 2024" width="22" height="10" /></sup>
-																				</a>
-																	</li>
-													<li class="">
-																			<a href="https://www.moneycontrol.com/news/diwali-muhurat-trading-samvat/" title="Muhurat Trading" class="gd18 " onclick="javascript:GAEventTracker( 'Navigation', 'Hb_L1', 'Muhurat Trading' );"  >
-										Muhurat Trading												&nbsp;<sup><img src="https://images.moneycontrol.com/images/common/header/new_icon_animated.gif" title="Muhurat Trading" alt="Muhurat Trading" width="22" height="10" /></sup>
+																			<a href="https://www.moneycontrol.com/elections/assembly-election/" title="Assembly Elections" class="gd18 " onclick="javascript:GAEventTracker( 'Navigation', 'Hb_L1', 'Assembly Elections' );"  >
+										Assembly Elections												&nbsp;<sup><img src="https://images.moneycontrol.com/images/common/header/new_icon_animated.gif" title="Assembly Elections" alt="Assembly Elections" width="22" height="10" /></sup>
 																				</a>
 																	</li>
 													<li class="">
@@ -4265,8 +4177,8 @@ function dfpGutter_getCookie(e){
 												<li  cid="3" class="wap_menu_l1  sub_nav">
 								<a href="https://www.moneycontrol.com/news/" title="News" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'News | ' + window.location.href );"   >News</a>
 							</li>
-												<li  cid="14" class="wap_menu_l1 ">
-								<a href="https://www.moneycontrol.com/news/diwali-muhurat-trading-samvat/" title="Muhurat Trading" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Muhurat Trading | ' + window.location.href );"   >Muhurat Trading</a>
+												<li  cid="13" class="wap_menu_l1 ">
+								<a href="https://www.moneycontrol.com/elections/assembly-election/" title="Assembly Elections" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Assembly Elections | ' + window.location.href );"   >Assembly Elections</a>
 							</li>
 												<li  cid="20" class="wap_menu_l1 ">
 								<a href="https://www.moneycontrol.com/news/technology-startups" title="Tech/Startups" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Tech/Startups | ' + window.location.href );"   >Tech</a>
@@ -4988,8 +4900,8 @@ $(document).ready(function(e) {
 							<a href="https://www.moneycontrol.com/indian-indices/nifty-50-9.html" title="Nifty 50" class="clearfix">
 								<div class="mkt_dtflt"><p>Nifty 50</p></div>
 								<div class="mkt_dtrt">
-									<p class="mrkt_value"><span id="nifty_block_cp">24180.80</span></p>
-									<p id="nifty_block_chg_pc" class="todayud_val" class="red_color"><span id="nifty_block_change">-218.60</span> <span id="nifty_block_chg_pchg">(-0.90%)</span></p>
+									<p class="mrkt_value"><span id="nifty_block_cp">24785.85</span></p>
+									<p id="nifty_block_chg_pc" class="todayud_val" class="grn_color"><span id="nifty_block_change">+36.00</span> <span id="nifty_block_chg_pchg">(+0.15%)</span></p>
 								</div>
 							</a>
 						</li>
@@ -4997,8 +4909,8 @@ $(document).ready(function(e) {
 						<a href="https://www.moneycontrol.com/indian-indices/sensex-4.html" title="Sensex" class="clearfix">
 							<div class="mkt_dtflt sens"><p>Sensex</p></div>
 							<div class="mkt_dtrt">
-								<p class="mrkt_value"><span id="sensex_block_cp">79402.29</span></p>
-								<p id="sensex_block_chg_pc" class="todayud_val" class="red_color"><span id="sensex_block_change">-662.87</span> <span id="sensex_block_chg_pchg">(-0.83%)</span></p>
+								<p class="mrkt_value"><span id="sensex_block_cp">81049.78</span></p>
+								<p id="sensex_block_chg_pc" class="todayud_val" class="grn_color"><span id="sensex_block_change">+43.17</span> <span id="sensex_block_chg_pchg">(+0.05%)</span></p>
 							</div>
 						</a>
 					</li>
@@ -5133,8 +5045,8 @@ $(document).ready(function(e) {
 <input type="hidden" id="nseid" name="nseid" value="ADANIPORTS" />
 <input type="hidden" id="bseid" name="bseid" value="532921" />
 <input type="hidden" id="scid" name="scid" value="MPS" />
-<input type="hidden" id="bprevclose" name="bprevclose" value="1316.30" />
-<input type="hidden" id="nprevclose" name="nprevclose" value="1318.70" />
+<input type="hidden" id="bprevclose" name="bprevclose" value="1394.90" />
+<input type="hidden" id="nprevclose" name="nprevclose" value="1395.60" />
 
   <div class="main_wrapper_res corporate-wrapper">
     <div class="moneyprice_bx">
@@ -5572,11 +5484,11 @@ $(document).ready(function(e) {
 			<span class="txt14B hidden-lg">Adani Ports an</span>
 			<span class="txt14B hidden-xs">Adani Ports and Special Economic Zone Ltd.</span>
 			<span class="divir"> |</span>
-			<span class="txt14B MR10">BSE</span> <span class="txt15B bse_span_price_wrap">1316.30</span> <span class="bse_span_price_arrow red_arwdn_sm"></span> 
-			<span class="bse_span_price_change_prcnt txt14R">-37.80 <strong>(-2.79%)</strong></span> <span class="divir"> |</span>
+			<span class="txt14B MR10">BSE</span> <span class="txt15B bse_span_price_wrap">1394.90</span> <span class="bse_span_price_arrow green_arwup_sm"></span> 
+			<span class="bse_span_price_change_prcnt txt14G">0.35 <strong>(0.03%)</strong></span> <span class="divir"> |</span>
 			 
-			<span class="txt14B MR10 hidden-xs">NSE</span> <span class="txt15B nse_span_price_wrap hidden-xs">1318.70</span> <span class="nse_span_price_arrow red_arwdn_sm hidden-xs"></span> 
-			<span class="nse_span_price_change_prcnt txt14R hidden-xs">-35.70 <strong>(-2.64%)</strong></span>  
+			<span class="txt14B MR10 hidden-xs">NSE</span> <span class="txt15B nse_span_price_wrap hidden-xs">1395.60</span> <span class="nse_span_price_arrow green_arwup_sm hidden-xs"></span> 
+			<span class="nse_span_price_change_prcnt txt14G hidden-xs">0.90 <strong>(0.06%)</strong></span>  
 			
 			<span class="divir hidden-xs">|</span>
 			<!--<a href="https://www.moneycontrol.com/open-demat-account-online?classic=true&amp;script_id=INE742F01042&amp;ex=NSE&amp;site=web&amp;asset_class=stock&amp;utm_source=moneycontrol&amp;utm_medium=webstockpage&amp;utm_campaign=tradenow&amp;utm_content=webbutton" title="Trade Now" class="trade_btnlink hidden-xs" target="_blank">
@@ -5761,11 +5673,11 @@ $(document).ready(function(e) {
               <div class="clearfix">
                 <div class="FL bsepcnm">
                   <p>BSE <span class="bslive">Live</span></p>
-                  <span class="display_lastupd">Oct 25, 16:01</span> </div>
+                  <span class="display_lastupd">Oct 18, 11:06</span> </div>
                                                                                 <div class="pcnsb div_live_price_wrap">
-                	<span class="span_price_wrap stprh red_hilight rdclr">1316.30</span>
-                    <span class="span_price_arrow rd_arwdown"></span>
-                    <span class="span_price_change_prcnt rdpc1">-37.80 <em>(-2.79%)</em></span>
+                	<span class="span_price_wrap stprh grn_hilight grnclr">1394.90</span>
+                    <span class="span_price_arrow green_arwup"></span>
+                    <span class="span_price_change_prcnt grnpc1">0.35 <em>(0.03%)</em></span>
                 </div>
                 <div class="volume_fl div_average_volume_box"> 
                   <span class="txt11_pc FL">Volume</span>
@@ -5793,7 +5705,7 @@ $(document).ready(function(e) {
                                                             </div>
                         </div>
               
-                  <span class="txt13_pc volume_data">115,136</span> </div>
+                  <span class="txt13_pc volume_data">14,586</span> </div>
               </div>
             </div>
             <div class="clearfix mkt_openclosebx">
@@ -5801,11 +5713,11 @@ $(document).ready(function(e) {
                 <ul class="clearfix op_list">
                   <li>
                     <p>Prev. Close</p>
-                    <p class="prev_open priceprevclose">1354.10</p>
+                    <p class="prev_open priceprevclose">1394.55</p>
                   </li>
                   <li>
                     <p>Open Price</p>
-                    <p class="prev_open priceopen">1357.10</p>
+                    <p class="prev_open priceopen">1392.65</p>
                   </li>
                 </ul>
                               </div>
@@ -5813,11 +5725,11 @@ $(document).ready(function(e) {
                 <ul class="clearfix op_list">
                   <li>
                     <p>Bid Price (Qty.)
-                    <p class="prev_open bidp">0.00 <span>(0)</span></p>
+                    <p class="prev_open bidp">1396.10 <span>(30)</span></p>
                   </li>
                   <li>
                     <p>Offer Price (Qty.)
-                    <p class="prev_open offerp">0.00 <span>(0)</span></p>
+                    <p class="prev_open offerp">1396.40 <span>(3)</span></p>
                   </li>
                 </ul>
                               </div>
@@ -5831,11 +5743,11 @@ $(document).ready(function(e) {
               <div class="clearfix">
                 <div class="FL bsepcnm">
                   <p>NSE <span class="bslive">Live</span></p>
-                  <span class="display_lastupd">Oct 25, 16:00</span> </div>
+                  <span class="display_lastupd">Oct 18, 11:06</span> </div>
                                                                                               <div class="pcnsb div_live_price_wrap">
-                	<span class="span_price_wrap stprh red_hilight rdclr">1318.70</span>
-                    <span class="span_price_arrow rd_arwdown"></span>
-                    <span class="span_price_change_prcnt rdpc1">-35.70 <em>(-2.64%)</em></span>
+                	<span class="span_price_wrap stprh grn_hilight grnclr">1395.60</span>
+                    <span class="span_price_arrow green_arwup"></span>
+                    <span class="span_price_change_prcnt grnpc1">0.90 <em>(0.06%)</em></span>
                 </div>
                 
                 <div class="volume_fl div_average_volume_box">
@@ -5864,7 +5776,7 @@ $(document).ready(function(e) {
                                                             </div>
                         </div>
                     
-                  <span class="txt13_pc volume_data">2,078,274</span> </div>
+                  <span class="txt13_pc volume_data">479,918</span> </div>
               </div>
             </div>
             <div class="clearfix mkt_openclosebx">
@@ -5872,11 +5784,11 @@ $(document).ready(function(e) {
                 <ul class="clearfix op_list">
                   <li>
                     <p>Prev. Close</p>
-                    <p class="prev_open priceprevclose">1354.40</p>
+                    <p class="prev_open priceprevclose">1394.70</p>
                   </li>
                   <li>
                     <p>Open Price</p>
-                    <p class="prev_open priceopen">1360.00</p>
+                    <p class="prev_open priceopen">1389.00</p>
                   </li>
                 </ul>
                               </div>
@@ -5884,11 +5796,11 @@ $(document).ready(function(e) {
                 <ul class="clearfix op_list">
                   <li>
                     <p>Bid Price (Qty.)
-                    <p class="prev_open bidp">1318.70 <span>(7996)</span></p>
+                    <p class="prev_open bidp">1396.40 <span>(400)</span></p>
                   </li>
                   <li>
                     <p>Offer Price (Qty.)
-                    <p class="prev_open offerp">0.00 <span>(0)</span></p>
+                    <p class="prev_open offerp">1396.65 <span>(1)</span></p>
                   </li>
                 </ul>
                               </div>
@@ -5959,8 +5871,8 @@ function trackTradeButton(){
             <h2 class="title_18px CTR title_botline MT20 MB0">Financials</h2>
             <div class="financial-section">
                                 <ul class="pagination clearfix">
-                                    <li><a href="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/1#MPS" class="active"><span class="prevpaging"></span></a></li>
-                                                    <li><a href="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/3#MPS" class="active"><span class="nextpaging"></span></a></li>
+                                    <li><a href="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/2#MPS" class="active"><span class="prevpaging"></span></a></li>
+                                                    <li><a href="https://www.moneycontrol.com/financials/adaniportsandspecialeconomiczone/results/quarterly-results/MPS/4#MPS" class="active"><span class="nextpaging"></span></a></li>
                                                 </ul>
                 <div class="PR clearfix financial-tabs-block">
                     <ul class="nav-tabs mctab clearfix"  style="visibility:hidden" >
@@ -6056,20 +5968,20 @@ function trackTradeButton(){
                                 <table class="mctable1" width="100%">
                                                                                                                                                                                                                                                         <tr class="lightbg">
                                                                                 <td>Quarterly Results of Adani Ports and Special Economic Zone <span class="ttn">(in Rs. Cr.)</span></td>
-                                                                                                                            <td>Mar &#039;23</td>
-                                                                                                                                <td>Dec &#039;22</td>
-                                                                                                                                <td>Sep &#039;22</td>
-                                                                                                                                <td>Jun &#039;22</td>
-                                                                                                                                <td>Mar &#039;22</td>
+                                                                                                                            <td>Dec &#039;21</td>
+                                                                                                                                <td>Sep &#039;21</td>
+                                                                                                                                <td>Jun &#039;21</td>
+                                                                                                                                <td>Mar &#039;21</td>
+                                                                                                                                <td>Dec &#039;20</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Net Sales/Income from operations</td>
-                                                                                                                            <td>1,383.82</td>
-                                                                                                                                <td>1,378.24</td>
-                                                                                                                                <td>1,220.58</td>
-                                                                                                                                <td>1,254.51</td>
-                                                                                                                                <td>1,057.78</td>
+                                                                                                                            <td>1,078.51</td>
+                                                                                                                                <td>1,090.02</td>
+                                                                                                                                <td>1,210.82</td>
+                                                                                                                                <td>1,192.29</td>
+                                                                                                                                <td>1,305.18</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
@@ -6083,11 +5995,11 @@ function trackTradeButton(){
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Total Income From Operations</td>
-                                                                                                                            <td>1,383.82</td>
-                                                                                                                                <td>1,378.24</td>
-                                                                                                                                <td>1,220.58</td>
-                                                                                                                                <td>1,254.51</td>
-                                                                                                                                <td>1,057.78</td>
+                                                                                                                            <td>1,078.51</td>
+                                                                                                                                <td>1,090.02</td>
+                                                                                                                                <td>1,210.82</td>
+                                                                                                                                <td>1,192.29</td>
+                                                                                                                                <td>1,305.18</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="darkbg">
@@ -6137,20 +6049,20 @@ function trackTradeButton(){
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Employees Cost</td>
-                                                                                                                            <td>86.93</td>
-                                                                                                                                <td>70.64</td>
-                                                                                                                                <td>59.75</td>
-                                                                                                                                <td>77.38</td>
-                                                                                                                                <td>57.19</td>
+                                                                                                                            <td>58.44</td>
+                                                                                                                                <td>64.88</td>
+                                                                                                                                <td>60.01</td>
+                                                                                                                                <td>55.51</td>
+                                                                                                                                <td>60.92</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>depreciat</td>
-                                                                                                                            <td>152.50</td>
-                                                                                                                                <td>152.10</td>
-                                                                                                                                <td>154.74</td>
-                                                                                                                                <td>153.64</td>
-                                                                                                                                <td>149.30</td>
+                                                                                                                            <td>153.68</td>
+                                                                                                                                <td>155.65</td>
+                                                                                                                                <td>156.16</td>
+                                                                                                                                <td>153.27</td>
+                                                                                                                                <td>155.92</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
@@ -6200,92 +6112,92 @@ function trackTradeButton(){
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Other Expenses</td>
-                                                                                                                            <td>304.13</td>
-                                                                                                                                <td>909.83</td>
-                                                                                                                                <td>1,339.39</td>
-                                                                                                                                <td>1,564.59</td>
-                                                                                                                                <td>880.57</td>
+                                                                                                                            <td>319.40</td>
+                                                                                                                                <td>291.84</td>
+                                                                                                                                <td>686.20</td>
+                                                                                                                                <td>325.50</td>
+                                                                                                                                <td>141.67</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>P/L Before Other Inc. , Int., Excpt. Items &amp; Tax</td>
-                                                                                                                            <td>840.26</td>
-                                                                                                                                <td>245.67</td>
-                                                                                                                                <td>-333.30</td>
-                                                                                                                                <td>-541.10</td>
-                                                                                                                                <td>-29.28</td>
+                                                                                                                            <td>546.99</td>
+                                                                                                                                <td>577.65</td>
+                                                                                                                                <td>308.45</td>
+                                                                                                                                <td>658.01</td>
+                                                                                                                                <td>946.67</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Other Income</td>
-                                                                                                                            <td>1,458.58</td>
-                                                                                                                                <td>428.06</td>
-                                                                                                                                <td>514.67</td>
-                                                                                                                                <td>597.48</td>
-                                                                                                                                <td>566.38</td>
+                                                                                                                            <td>777.47</td>
+                                                                                                                                <td>656.29</td>
+                                                                                                                                <td>519.18</td>
+                                                                                                                                <td>478.33</td>
+                                                                                                                                <td>611.77</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>P/L Before Int., Excpt. Items &amp; Tax</td>
-                                                                                                                            <td>2,298.84</td>
-                                                                                                                                <td>673.73</td>
-                                                                                                                                <td>181.37</td>
-                                                                                                                                <td>56.38</td>
-                                                                                                                                <td>537.10</td>
+                                                                                                                            <td>1,324.46</td>
+                                                                                                                                <td>1,233.94</td>
+                                                                                                                                <td>827.63</td>
+                                                                                                                                <td>1,136.34</td>
+                                                                                                                                <td>1,558.44</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Interest</td>
-                                                                                                                            <td>744.37</td>
-                                                                                                                                <td>650.46</td>
-                                                                                                                                <td>632.22</td>
-                                                                                                                                <td>653.34</td>
-                                                                                                                                <td>670.58</td>
+                                                                                                                            <td>659.80</td>
+                                                                                                                                <td>630.90</td>
+                                                                                                                                <td>533.36</td>
+                                                                                                                                <td>661.03</td>
+                                                                                                                                <td>614.20</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>P/L Before Exceptional Items &amp; Tax</td>
-                                                                                                                            <td>1,554.47</td>
-                                                                                                                                <td>23.27</td>
-                                                                                                                                <td>-450.85</td>
-                                                                                                                                <td>-596.96</td>
-                                                                                                                                <td>-133.48</td>
+                                                                                                                            <td>664.66</td>
+                                                                                                                                <td>603.04</td>
+                                                                                                                                <td>294.27</td>
+                                                                                                                                <td>475.31</td>
+                                                                                                                                <td>944.24</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Exceptional Items</td>
-                                                                                                                            <td>-1,558.16</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>-120.60</td>
                                                                                                                                 <td>--</td>
                                                                                                                                 <td>--</td>
                                                                                                                                 <td>--</td>
-                                                                                                                                <td>-491.23</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>P/L Before Tax</td>
-                                                                                                                            <td>-3.69</td>
-                                                                                                                                <td>23.27</td>
-                                                                                                                                <td>-450.85</td>
-                                                                                                                                <td>-596.96</td>
-                                                                                                                                <td>-624.71</td>
+                                                                                                                            <td>664.66</td>
+                                                                                                                                <td>482.44</td>
+                                                                                                                                <td>294.27</td>
+                                                                                                                                <td>475.31</td>
+                                                                                                                                <td>944.24</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Tax</td>
-                                                                                                                            <td>-195.54</td>
-                                                                                                                                <td>11.87</td>
-                                                                                                                                <td>-152.67</td>
-                                                                                                                                <td>-212.46</td>
-                                                                                                                                <td>-22.22</td>
+                                                                                                                            <td>181.29</td>
+                                                                                                                                <td>153.70</td>
+                                                                                                                                <td>105.87</td>
+                                                                                                                                <td>152.23</td>
+                                                                                                                                <td>321.69</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>P/L After Tax from Ordinary Activities</td>
-                                                                                                                            <td>191.85</td>
-                                                                                                                                <td>11.40</td>
-                                                                                                                                <td>-298.18</td>
-                                                                                                                                <td>-384.50</td>
-                                                                                                                                <td>-602.49</td>
+                                                                                                                            <td>483.37</td>
+                                                                                                                                <td>328.74</td>
+                                                                                                                                <td>188.40</td>
+                                                                                                                                <td>323.08</td>
+                                                                                                                                <td>622.55</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
@@ -6308,20 +6220,20 @@ function trackTradeButton(){
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Net Profit/(Loss) For the Period</td>
-                                                                                                                            <td>191.85</td>
-                                                                                                                                <td>11.40</td>
-                                                                                                                                <td>-298.18</td>
-                                                                                                                                <td>-384.50</td>
-                                                                                                                                <td>-602.49</td>
+                                                                                                                            <td>483.37</td>
+                                                                                                                                <td>328.74</td>
+                                                                                                                                <td>188.40</td>
+                                                                                                                                <td>323.08</td>
+                                                                                                                                <td>622.55</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Equity Share Capital</td>
-                                                                                                                            <td>432.03</td>
-                                                                                                                                <td>432.03</td>
-                                                                                                                                <td>422.47</td>
-                                                                                                                                <td>422.47</td>
-                                                                                                                                <td>422.47</td>
+                                                                                                                            <td>408.35</td>
+                                                                                                                                <td>408.35</td>
+                                                                                                                                <td>408.35</td>
+                                                                                                                                <td>406.35</td>
+                                                                                                                                <td>406.35</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
@@ -6353,20 +6265,20 @@ function trackTradeButton(){
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Basic EPS</td>
-                                                                                                                            <td>0.89</td>
-                                                                                                                                <td>0.05</td>
-                                                                                                                                <td>-1.38</td>
-                                                                                                                                <td>-1.82</td>
-                                                                                                                                <td>-2.85</td>
+                                                                                                                            <td>2.29</td>
+                                                                                                                                <td>1.61</td>
+                                                                                                                                <td>0.92</td>
+                                                                                                                                <td>1.59</td>
+                                                                                                                                <td>3.06</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Diluted EPS</td>
-                                                                                                                            <td>0.89</td>
-                                                                                                                                <td>0.05</td>
-                                                                                                                                <td>-1.38</td>
-                                                                                                                                <td>-1.82</td>
-                                                                                                                                <td>-2.85</td>
+                                                                                                                            <td>2.29</td>
+                                                                                                                                <td>1.61</td>
+                                                                                                                                <td>0.92</td>
+                                                                                                                                <td>1.59</td>
+                                                                                                                                <td>3.06</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="darkbg">
@@ -6380,20 +6292,20 @@ function trackTradeButton(){
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Basic EPS.</td>
-                                                                                                                            <td>0.89</td>
-                                                                                                                                <td>0.05</td>
-                                                                                                                                <td>-1.38</td>
-                                                                                                                                <td>-1.82</td>
-                                                                                                                                <td>-2.85</td>
+                                                                                                                            <td>2.29</td>
+                                                                                                                                <td>1.61</td>
+                                                                                                                                <td>0.92</td>
+                                                                                                                                <td>1.59</td>
+                                                                                                                                <td>3.06</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="">
                                                                                 <td>Diluted EPS.</td>
-                                                                                                                            <td>0.89</td>
-                                                                                                                                <td>0.05</td>
-                                                                                                                                <td>-1.38</td>
-                                                                                                                                <td>-1.82</td>
-                                                                                                                                <td>-2.85</td>
+                                                                                                                            <td>2.29</td>
+                                                                                                                                <td>1.61</td>
+                                                                                                                                <td>0.92</td>
+                                                                                                                                <td>1.59</td>
+                                                                                                                                <td>3.06</td>
                                                                                         <td class="last_td" style="width: 5%;">&nbsp;</td>
                                                                                                                         </tr>
                                                                                                                                                                                                                                                             <tr class="darkbg">
@@ -6901,7 +6813,6 @@ function trackTradeButton(){
 				</div>
 			</div>
 		<!-- End <- Advisory Alert footer strip -->
-			<input type="hidden" name="x-debug" value="">
 <footer class="footer_desktop  respons_foot_desk ">
   <div class="main-wrapper">
 		<div class="clearfix">
@@ -6926,7 +6837,7 @@ function trackTradeButton(){
             <li><a href="https://www.moneycontrol.com/india/bestportfoliomanager/investment-tool" title="Portfolio">Portfolio</a></li>
             <li><a href="https://www.moneycontrol.com/stocksmarketsindia/" title="Markets">Markets</a></li>
 						<li class="fadein_nav">
-							<a href="https://www.moneycontrolpay.com/" title="Loans up to &#8377;15 LAKHS" onclick="CleverTapEventTracker( 'Lending', 'Touchpoint', 'Footer web  | ' + window.location.href );" data-google-interstitial="false"><span class="crtxt" style="color:#E62ABA;">Loans up to </span><span class="cashbackcr" style="color:#E62ABA;">&#8377;15 LAKHS</span></a>
+							<a href="https://www.moneycontrolpay.com/" title="Loans up to &#8377;15 LAKHS" onclick="CleverTapEventTracker( 'Lending', 'Touchpoint', 'Footer web  | ' + window.location.href );" data-google-interstitial="false"><span class="crtxt" style="color:#282828;">Loans up to </span><span class="cashbackcr" style="color:#E62ABA;">&#8377;15 LAKHS</span></a>
 						</li>
             <li><a href="https://www.moneycontrol.com/watchlist" title="Watchlist" class="footer_watchlist_link">Watchlist</a></li>
             <li class="hide_in_international"><a href="https://www.moneycontrol.com/tv/" title="Live TV Show">Live TV Show</a></li>
@@ -6946,8 +6857,7 @@ function trackTradeButton(){
 								</sup>
 							</a>
 						</li>
-													<li class="fadein_nav"><a href="https://www.moneycontrol.com/credit-cards" title="Credit Cards" onclick="CleverTapEventTracker( 'Credit Card', 'Touchpoint', 'Footer | ' + window.location.href );" data-google-interstitial="false"><span class="cashback crtxt" style="color:#1AC02A;">Credit Cards</span><span class="cashback cashbackcr" style="color:#00168C;">Lifetime <b style="color:#1AC02A;">Free </b></span></a></li>
-							<li><a href="https://www.moneycontrol.com/credit-score" title="Credit Score" onclick="CleverTapEventTracker( 'Credit Bureau', 'Touchpoint', 'Footer | ' + window.location.href );" data-google-interstitial="false">Credit Score</a></li>
+													 <li class="fadein_nav"><a href="https://www.moneycontrol.com/credit-score" title="Credit Score" onclick="CleverTapEventTracker( 'Credit Bureau', 'Touchpoint', 'Footer | ' + window.location.href );" data-google-interstitial="false"><span class="crtxt"><b>FREE </b>Credit Score</span><span class="cashbackcr">&#8377;100 Cash Reward</span></a></li>
 												<li>
 							<a href="https://www.moneycontrol.com/account-aggregator" title="Finance Tracker">Finance Tracker <sup class="new_tagtp">
 									<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 28 15">
@@ -7625,7 +7535,7 @@ if($('.adfloat').length) {
     });
 </script>
 <!-- Mobile Verification Popup End --><!-- End < - Moneycontrol Common Footer -->
-<span id="last_generated" style="display:none">2024-10-26 22:55:11</span>
+<span id="last_generated" style="display:none">2024-10-18 11:28:52</span>
 <script type='text/javascript'>
 	var is_dfp_ads_visible = $.trim( $( '.is_dfp_ads_visible' ).val() ); 
 	var mcpro = readCookieRevamp( 'mcpro' );
@@ -7666,5 +7576,5 @@ $(document).ready(function() {
     });
     });
 </script>
-<script type="text/javascript"  src="/vwQMdScN0/ajcx5/9Tt7F/--_j0vgw/9iN3zV3J9Gm4kYiV/VRFBOFZ1QQM/Qk4ragJ7/ckIB"></script></body>
+<script type="text/javascript"  src="/DMSLYj8GkR8bjJ7sVZX50GQe6_c/upYpS8k3atbSiX/HjY1HVUB/BA/k2Fm8VUUEB"></script></body>
 </html>
