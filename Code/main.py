@@ -15,7 +15,7 @@ def fetchandSave(url, path, filename):
         f.write(r.text)
 
 # Define the URL for the company financial data
-url = "https://www.moneycontrol.com/financials/hdfcbank/results/quarterly-results/HDF01#HDF01"
+url = "https://www.moneycontrol.com/financials/oilnaturalgascorporation/results/quarterly-results/ONG#ONG"
 
 # Send a request to the URL and parse the HTML content with BeautifulSoup
 r = requests.get(url)
@@ -32,9 +32,6 @@ sector_name = sector_class.get_text().split()
 final_sector_name = " ".join(sector_name).strip()
 print("Sector Name:", final_sector_name, "\n")
 
-# Set the company name and sector name for directory organization
-company_name = "HDFC Bank Ltd."
-final_sector_name = "Bank - Private"
 
 # Define base directories for storing data
 base_dir = f"{current_path}/Companies"      # Directory to store sector/company data
@@ -50,7 +47,7 @@ data_html = create_company_directory(os.path.join(current_dir, company_name, "Qu
 
 # Set up the path for HTML storage and the filename for saving the quarterly report
 html_path = f"{current_dir}/{company_name}"
-file_name = "9_Sep24_Sep23"
+file_name = "9_Jun24_Jun23"
 
 # Proceed with data saving only if the main directory was created successfully
 if file_creation != False:
@@ -61,10 +58,11 @@ if file_creation != False:
     append_sector(f"{base_dir}/sector.txt", final_sector_name)
     
     # Create directory structure within `Companies` for organizing data by sector and company
-    create_company_directory(os.path.join(base_dir, final_sector_name, company_name))
+    create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Excel"))
+    create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Pruned_Excel"))
     
     # Fetch and save the HTML file from the URL to the specified path
     fetchandSave(url, path, file_name)
     
     # Convert the HTML file to an Excel file and save it in the company’s directory under its sector
-    create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}", file_name)
+    create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel", file_name)

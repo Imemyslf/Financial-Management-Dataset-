@@ -1,1 +1,4 @@
 1 Bank - Private
+2 Bank - Private
+3 Oil Exploration and Production
+4 Oil Exploration and Production
