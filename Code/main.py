@@ -15,7 +15,7 @@ def fetchandSave(url, path, filename):
         f.write(r.text)
 
 # Define the URL for the company financial data
-url = "https://www.moneycontrol.com/financials/oilnaturalgascorporation/results/quarterly-results/ONG#ONG"
+url = "https://www.moneycontrol.com/financials/mahindramahindra/results/quarterly-results/MM#MM"
 
 # Send a request to the URL and parse the HTML content with BeautifulSoup
 r = requests.get(url)
