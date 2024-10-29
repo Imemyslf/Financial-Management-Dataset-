@@ -18,6 +18,7 @@ def getUrl(url,file_name):
     
     # print("Insidde Function\n")
     # print(url)
+    
     # Send a request to the URL and parse the HTML content with BeautifulSoup
     try:
         r = requests.get(url)
