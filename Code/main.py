@@ -63,7 +63,7 @@ def getUrl(url,file_name):
             path = f"{html_path}/Quarterly10Yrs"
             
             # Append the sector name to a text file within the `Companies` directory
-            append_sector(f"{base_dir}/sector.txt", final_sector_name)
+            # append_sector(f"{base_dir}/sector.txt", final_sector_name)
             
             # Create directory structure within `Companies` for organizing data by sector and company
             create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Excel"))

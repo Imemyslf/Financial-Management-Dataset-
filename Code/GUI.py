@@ -1,6 +1,7 @@
 import customtkinter
 from customtkinter import *
 from main import getUrl
+import time as t
 
 # Initialize the main app window
 app = CTk()
@@ -29,33 +30,39 @@ file_name = customtkinter.CTkEntry(
 )
 file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
 
+# Label to indicate the status
+label_message = customtkinter.CTkLabel(app, text="", width=15, height=15, fg_color="grey", corner_radius=12)
+label_message.grid(row=4, column=1, padx=10, pady=10)
+
+# Function to update label color
+def update_label_color(color):
+    label_message.configure(fg_color=color)
+
 # Function to call getUrl and handle URL and file name inputs
 def f1():
+    # Set label to grey initially to indicate processing
+    update_label_color("grey")
+    
+    # Retrieve user inputs
     link = url_name.get()
     file = file_name.get()
     print("Link:", link, "\nFile Name:", file)
+    
+    # Call getUrl function and check result
     result = getUrl(link, file)
     
-    app.geometry("400x250")
-    if result != True:
-        lable_message = customtkinter.CTkLabel(
-            app, text="Failed", font=("Arial", 20, "bold"), text_color="black", 
-            fg_color="Red", width=150, corner_radius=20
-        )
-        lable_message.grid(row=3, column=0, padx=20, pady=10)
+    # Update label color based on success or failure
+    if result:
+        update_label_color("green")
     else:
-        lable_message = customtkinter.CTkLabel(
-            app, text="Successful", font=("Arial", 20, "bold"), text_color="black", 
-            fg_color="Green", width=150, corner_radius=20
-        )
-        lable_message.grid(row=3, column=0, padx=20, pady=10)
+        update_label_color("red")
+    
+    # Reset label color to grey after 2 seconds
+    app.after(3000, lambda: update_label_color("grey"))
     
     # Clear the input fields
     url_name.delete(0, END)
     file_name.delete(0, END)
-    
-    # Close app after 3 seconds without freezing the UI
-    # app.after(3000, app.destroy)
 
 # Process Button to trigger the scraping function
 process = customtkinter.CTkButton(
