@@ -3,10 +3,6 @@ from bs4 import BeautifulSoup
 from findTable import append_sector, make_main_dir, create_company_directory, create_excel_file
 import os
 
-# Get and print the current working directory
-current_path = os.getcwd()
-print("Current path:", current_path)
-
 # Function to fetch HTML content from a URL and save it as an HTML file
 def fetchandSave(url, path, filename):  
     r = requests.get(url)  # Send GET request to the URL
@@ -18,13 +14,15 @@ def fetchandSave(url, path, filename):
 # url = "https://www.moneycontrol.com/financials/mahindramahindra/results/quarterly-results/MM#MM"
 
 def getUrl(url,file_name):
-    print("Insidde Function\n")
-    print(url)
+    
+    # print("Insidde Function\n")
+    # print(url)
     # Send a request to the URL and parse the HTML content with BeautifulSoup
+    
     r = requests.get(url)
     soup = BeautifulSoup(r.content, "html.parser")
 
-    print(soup.prettify())
+    # print(soup.prettify())
     # Extract the company name from the parsed HTML
     company_soup_name = soup.find(class_="pcstname")
     company_name = company_soup_name.get_text().strip()
@@ -36,25 +34,28 @@ def getUrl(url,file_name):
     final_sector_name = " ".join(sector_name).strip()
     print("Sector Name:", final_sector_name, "\n")
 
+    # Get and print the current working directory
+    current_dir = os.getcwd()
+    print("Current directory:", current_dir)
 
     # Define base directories for storing data
-    base_dir = f"{current_path}/Companies"      # Directory to store sector/company data
-    current_dir = f"{current_path}/data"        # Directory to store raw data
+    base_dir = f"{current_dir}/Companies"      # Directory to store sector/company data
+    data_folder = f"{current_dir}/data"        # Directory to store raw data
 
-    print("\ncurrent_dir:", current_dir, "\n")
+    print("\ndata_folder:", data_folder, "\n")
 
     # Create the main directory for companies if it doesn’t exist
-    file_creation = make_main_dir(base_dir)
+    make_main_dir(base_dir)
 
     # Create a subdirectory for the company’s quarterly data within `data` directory
-    data_html = create_company_directory(os.path.join(current_dir, company_name, "Quarterly10Yrs"))
+    data_html = create_company_directory(os.path.join(data_folder, company_name, "Quarterly10Yrs"))
 
     # Set up the path for HTML storage and the filename for saving the quarterly report
-    html_path = f"{current_dir}/{company_name}"
+    html_path = f"{data_folder}/{company_name}"
     # file_name = "9_Jun24_Jun23"
 
     # Proceed with data saving only if the main directory was created successfully
-    if file_creation != False:
+    if data_html != False:
         # Define path for saving the HTML file in the Quarterly10Yrs subdirectory
         path = f"{html_path}/Quarterly10Yrs"
         
