@@ -1,3 +1,6 @@
-1 Transport Infrastructure
-2 Oil and Energy
-3 Kishan
+1 Bank - Private
+2 Bank - Private
+3 Oil Exploration and Production
+4 Oil Exploration and Production
+5 Automobile - LCVS/ HVCS
+6 Automobile - Auto & Truck Manufacturers
