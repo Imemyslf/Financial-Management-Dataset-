@@ -6,6 +6,7 @@ import os
 # Function to fetch HTML content from a URL and save it as an HTML file
 def fetchandSave(url, path, filename):  
     r = requests.get(url)  # Send GET request to the URL
+    
     # Write the HTML content to the specified file
     with open(f"{path}/{filename}.html", "w", encoding="utf-8") as f:
         f.write(r.text)
@@ -23,6 +24,7 @@ def getUrl(url,file_name):
     soup = BeautifulSoup(r.content, "html.parser")
 
     # print(soup.prettify())
+    
     # Extract the company name from the parsed HTML
     company_soup_name = soup.find(class_="pcstname")
     company_name = company_soup_name.get_text().strip()
@@ -56,6 +58,7 @@ def getUrl(url,file_name):
 
     # Proceed with data saving only if the main directory was created successfully
     if data_html != False:
+        
         # Define path for saving the HTML file in the Quarterly10Yrs subdirectory
         path = f"{html_path}/Quarterly10Yrs"
         
@@ -71,3 +74,4 @@ def getUrl(url,file_name):
         
         # Convert the HTML file to an Excel file and save it in the company’s directory under its sector
         create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel", file_name)
+        return True

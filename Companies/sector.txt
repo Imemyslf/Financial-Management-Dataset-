@@ -7,3 +7,7 @@
 7 Automobile - Auto & Truck Manufacturers
 8 Bank - Public
 9 Bank - Public
+10 Bank - Private
+1 Bank - Private
+2 Bank - Private
+3 Bank - Private

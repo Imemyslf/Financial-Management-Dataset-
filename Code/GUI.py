@@ -6,7 +6,7 @@ from main import getUrl
 app = CTk()
 app.title("Scraper")
 app.geometry("400x200")
-app.resizable(False, False)  # Prevent resizing to keep layout consistent
+app.resizable(False, False)
 
 # Configure overall grid layout for better alignment
 app.grid_columnconfigure(0, weight=1)
@@ -34,13 +34,34 @@ def f1():
     link = url_name.get()
     file = file_name.get()
     print("Link:", link, "\nFile Name:", file)
-    getUrl(link, file)
+    result = getUrl(link, file)
+    
+    app.geometry("400x250")
+    if result != True:
+        lable_message = customtkinter.CTkLabel(
+            app, text="Failed", font=("Arial", 20, "bold"), text_color="black", 
+            fg_color="Red", width=150, corner_radius=20
+        )
+        lable_message.grid(row=3, column=0, padx=20, pady=10)
+    else:
+        lable_message = customtkinter.CTkLabel(
+            app, text="Successful", font=("Arial", 20, "bold"), text_color="black", 
+            fg_color="Green", width=150, corner_radius=20
+        )
+        lable_message.grid(row=3, column=0, padx=20, pady=10)
+    
+    # Clear the input fields
+    url_name.delete(0, END)
+    file_name.delete(0, END)
+    
+    # Close app after 3 seconds without freezing the UI
+    app.after(3000, app.destroy)
 
 # Process Button to trigger the scraping function
 process = customtkinter.CTkButton(
     app, text="Start Scraping", command=f1, width=200, font=("Arial", 14, "bold")
 )
-process.grid(row=3, column=0, padx=20, pady=20)
+process.grid(row=4, column=0, padx=20, pady=20)
 
 # Run the app main loop
 app.mainloop()
