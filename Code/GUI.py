@@ -55,7 +55,7 @@ def f1():
     file_name.delete(0, END)
     
     # Close app after 3 seconds without freezing the UI
-    app.after(3000, app.destroy)
+    # app.after(3000, app.destroy)
 
 # Process Button to trigger the scraping function
 process = customtkinter.CTkButton(
