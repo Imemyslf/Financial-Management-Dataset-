@@ -1,7 +1,7 @@
 import customtkinter
 from customtkinter import *
 from main import getUrl
-
+import os
 # Initialize the main app window
 app = CTk()
 app.title("Scraper")
@@ -20,31 +20,61 @@ def f1():
     # Set label to grey initially to indicate processing
     update_label_color("grey")
     
+    current_dir = os.getcwd()
+    path = f"{current_dir}/Companies/Bank - Public/UCO Bank Ltd/Excel"
+    dir_list = os.listdir(path)
+    dir_list.reverse()
+    print(dir_list)
+
+    n = 9
+    for i in range(0,n):
+        if i == 0:
+            link = "https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04#BF04"
+            file = dir_list[i]
+        else:
+            link = f"https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04/{i+1}#BF04" 
+            file = dir_list[i]
+        print(i,link,file)
+
+        #  Call getUrl function and check result
+        result = getUrl(link, file)
+        
+        # Update label color based on success or failure
+        if result:
+            update_label_color("green")
+        else:
+            update_label_color("red")
+        
+        # Reset label color to grey after 3 seconds
+        app.after(3000, lambda: update_label_color("grey"))
+    
     # https://www.moneycontrol.com/financials/vodafoneidea/results/quarterly-results/IC8/1#IC8
     # https://www.moneycontrol.com/financials/suzlonenergy/results/quarterly-results/SE17#SE17
     # https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04#BF04
+    # https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04/2#BF04
+    # https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04/3#BF04
     
     
     # Retrieve user inputs
-    link = url_name.get()
-    file = file_name.get()
-    print("Link:", link, "\nFile Name:", file)
+    # link = url_name.get()
+    # file = file_name.get()
+    # print("Link:", link, "\nFile Name:", file)
     
     # Call getUrl function and check result
-    result = getUrl(link, file)
+    # result = getUrl(link, file)
     
-    # Update label color based on success or failure
-    if result:
-        update_label_color("green")
-    else:
-        update_label_color("red")
+    # # Update label color based on success or failure
+    # if result:
+    #     update_label_color("green")
+    # else:
+    #     update_label_color("red")
     
-    # Reset label color to grey after 3 seconds
-    app.after(3000, lambda: update_label_color("grey"))
+    # # Reset label color to grey after 3 seconds
+    # app.after(3000, lambda: update_label_color("grey"))
     
-    # Clear the input fields
-    url_name.delete(0, END)
-    file_name.delete(0, END)
+    # # Clear the input fields
+    # url_name.delete(0, END)
+    # file_name.delete(0, END)
     
 # Title label for the application
 title_label = customtkinter.CTkLabel(
