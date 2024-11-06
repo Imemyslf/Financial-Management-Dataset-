@@ -20,6 +20,7 @@ def f1():
     # Set label to grey initially to indicate processing
     update_label_color("grey")
     
+    # https://www.moneycontrol.com/financials/vodafoneidea/results/quarterly-results/IC8/1#IC8
     # Retrieve user inputs
     link = url_name.get()
     file = file_name.get()
