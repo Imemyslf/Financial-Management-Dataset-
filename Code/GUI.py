@@ -21,6 +21,10 @@ def f1():
     update_label_color("grey")
     
     # https://www.moneycontrol.com/financials/vodafoneidea/results/quarterly-results/IC8/1#IC8
+    # https://www.moneycontrol.com/financials/suzlonenergy/results/quarterly-results/SE17#SE17
+    # https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04#BF04
+    
+    
     # Retrieve user inputs
     link = url_name.get()
     file = file_name.get()
