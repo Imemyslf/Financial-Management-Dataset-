@@ -24,19 +24,33 @@ def f1():
     path = f"{current_dir}/Companies/Bank - Public/UCO Bank Ltd/Excel"
     dir_list = os.listdir(path)
     dir_list.reverse()
-    print(dir_list)
+    # print(dir_list)
 
     n = 9
+    
     for i in range(0,n):
         if i == 0:
-            link = "https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04#BF04"
+            link = url_name.get()
             file = dir_list[i]
         else:
-            link = f"https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04/{i+1}#BF04" 
+            url = url_name.get().split("/")
+            string = url[-1]
+
+            # Find the position of #
+            j = string.find('#')
+
+            # Insert "/{i+1}" before #
+            if j != -1:
+                modified_string = string[:j] + f"/{i+1}" + string[j:]
+                print(modified_string)
+
+            url[-1] = modified_string
+            print()
+            link = '/'.join(url) 
             file = dir_list[i]
         print(i,link,file)
 
-        #  Call getUrl function and check result
+        # #  Call getUrl function and check result
         result = getUrl(link, file)
         
         # Update label color based on success or failure
@@ -48,33 +62,8 @@ def f1():
         # Reset label color to grey after 3 seconds
         app.after(3000, lambda: update_label_color("grey"))
     
-    # https://www.moneycontrol.com/financials/vodafoneidea/results/quarterly-results/IC8/1#IC8
-    # https://www.moneycontrol.com/financials/suzlonenergy/results/quarterly-results/SE17#SE17
-    # https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04#BF04
-    # https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04/2#BF04
-    # https://www.moneycontrol.com/financials/bajajfinserv/results/quarterly-results/BF04/3#BF04
-    
-    
-    # Retrieve user inputs
-    # link = url_name.get()
-    # file = file_name.get()
-    # print("Link:", link, "\nFile Name:", file)
-    
-    # Call getUrl function and check result
-    # result = getUrl(link, file)
-    
-    # # Update label color based on success or failure
-    # if result:
-    #     update_label_color("green")
-    # else:
-    #     update_label_color("red")
-    
-    # # Reset label color to grey after 3 seconds
-    # app.after(3000, lambda: update_label_color("grey"))
-    
-    # # Clear the input fields
-    # url_name.delete(0, END)
-    # file_name.delete(0, END)
+    url_name.delete(0, END)
+    file_name.delete(0, END)
     
 # Title label for the application
 title_label = customtkinter.CTkLabel(
