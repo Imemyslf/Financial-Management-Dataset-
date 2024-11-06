@@ -11,14 +11,7 @@ def fetchandSave(url, path, filename):
     with open(f"{path}/{filename}.html", "w", encoding="utf-8") as f:
         f.write(r.text)
 
-# Define the URL for the company financial data
-# url = "https://www.moneycontrol.com/financials/mahindramahindra/results/quarterly-results/MM#MM"
-
-def getUrl(url,file_name):
-    
-    # print("Insidde Function\n")
-    # print(url)
-    
+def getUrl(url,file_name):    
     # Send a request to the URL and parse the HTML content with BeautifulSoup
     try:
         r = requests.get(url)
@@ -58,13 +51,9 @@ def getUrl(url,file_name):
         # file_name = "9_Jun24_Jun23"
 
         # Proceed with data saving only if the main directory was created successfully
-        if data_html != False:
-            
+        if data_html != False:            
             # Define path for saving the HTML file in the Quarterly10Yrs subdirectory
             path = f"{html_path}/Quarterly10Yrs"
-            
-            # Append the sector name to a text file within the `Companies` directory
-            # append_sector(f"{base_dir}/sector.txt", final_sector_name)
             
             # Create directory structure within `Companies` for organizing data by sector and company
             create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Excel"))
@@ -76,6 +65,7 @@ def getUrl(url,file_name):
             # Convert the HTML file to an Excel file and save it in the company’s directory under its sector
             create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel", file_name)
             return True
+    
     except Exception as e:
         print("\nException:- \n", e)
         return False
