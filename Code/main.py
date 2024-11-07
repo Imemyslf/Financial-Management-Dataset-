@@ -74,4 +74,4 @@ if __name__ == "__main__":
     current_dir = os.getcwd()
     path = f"{current_dir}/Companies"
     print(path)
-    create_company_directory(os.path.join(path,"Trading","Adani Enterprises Ltd","Pruned_Excel","1.txt"))
+    create_company_directory(os.path.join(path,"Trading","Adani Enterprises Ltd","Pruned_Excel","1.txt"),1)

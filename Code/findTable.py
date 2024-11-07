@@ -49,9 +49,13 @@ def append_sector(path, final_sector_name):
         insert_sector(count, final_sector_name)        
 
 # Function to create a directory structure for a specific company
-def create_company_directory(directory):    
+def create_company_directory(directory,num):    
     try: 
         os.makedirs(directory)
+
+        if num == 1:
+            with open(directory,"w") as f:
+                f.write("dummy")
         return f"{directory} directory created successfully"
     except FileExistsError as e:
         return "File already exists or Error in creating directory", e
