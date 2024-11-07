@@ -114,9 +114,9 @@ def spacexcel(output_file_path,sector_name,company_name,file):
 
 if __name__ == '__main__':
     current_dir = os.getcwd()
-    sector_name = "Bank - Public"
-    company_name  = "UCO Bank Ltd"
-    file = "3_Mar16_Mar17.xlsx"
+    sector_name = "Trading"
+    company_name  = "Adani Enterprises Ltd"
+    # file = "3_Mar16_Mar17.xlsx"
     
     # prune_data(sector_name,company_name,file)
     path = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"
