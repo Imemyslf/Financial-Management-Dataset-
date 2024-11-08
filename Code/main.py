@@ -44,7 +44,7 @@ def getUrl(url,file_name):
         make_main_dir(base_dir)
 
         # Create a subdirectory for the company’s quarterly data within `data` directory
-        data_html = create_company_directory(os.path.join(data_folder, company_name, "Quarterly10Yrs"))
+        data_html = create_company_directory(os.path.join(data_folder, company_name, "Quarterly10Yrs"),0)
 
         # Set up the path for HTML storage and the filename for saving the quarterly report
         html_path = f"{data_folder}/{company_name}"
@@ -56,14 +56,14 @@ def getUrl(url,file_name):
             path = f"{html_path}/Quarterly10Yrs"
             
             # Create directory structure within `Companies` for organizing data by sector and company
-            create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Excel"))
+            create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Excel"),0)
             create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Pruned_Excel"),1)
             
             # Fetch and save the HTML file from the URL to the specified path
             fetchandSave(url, path, file_name)
             
             # Convert the HTML file to an Excel file and save it in the company’s directory under its sector
-            # create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel", file_name)
+            create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel", file_name)
             return True
     
     except Exception as e:

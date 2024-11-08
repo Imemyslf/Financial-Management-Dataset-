@@ -75,7 +75,7 @@ def create_company_directory(directory,num):
         return False
 
 # Function to convert HTML table data to an Excel file
-def create_excel_file(path, base_dir, file_name):
+def create_excel_file(path, base_dir,file):
     print("Path:", path)
     # Open the HTML file and read its content
     with open(path, "r", encoding="utf-8") as f:
@@ -95,18 +95,48 @@ def create_excel_file(path, base_dir, file_name):
         cols = row.find_all(["td", "th"])  # Find all cells
         col_text = [col.get_text(strip=True) for col in cols]  # Get cell text without extra whitespace
         table_data.append(col_text)
-        
+    
+    quarter = table_data[0]
+    index_1 = quarter[5].find("'")
+    index_2 = quarter[1].find("'")
+    start = quarter[5]
+    end = quarter[1]
+    print(index_1,index_2)
+    
+    start_timeline = start[:index_1] + start[index_1 + 1:]
+    start_timeline = start_timeline.replace(" ","")
+    print(start_timeline)
+    
+    end_timeline = end[:index_2] + end[index_2 + 1:]
+    end_timeline = end_timeline.replace(" ","")
+    print(end_timeline)
+    
+    final_filename = f"{file}_{start_timeline}_{end_timeline}.xlsx"  
+    print("\n\n Filename:- ",final_filename)
+    
+    final_excel_path = f"{base_dir}/{final_filename}"
+    print(final_excel_path)
     # Create a DataFrame with extracted table data
     df = pd.DataFrame(table_data[1:], columns=table_data[0])  
     
     # Save the DataFrame to an Excel file at the specified path
-    df.to_excel(f"{base_dir}/{file_name}", index=False)
+    df.to_excel(f"{final_excel_path}", index=False)
         
 # Main execution of the script
 if __name__ == "__main__": 
-    path = "../data/AdaniPorts/Quarterly10Yrs/9_Jun23_Jun24.html"  # Path to the HTML file
-    base_dir = "../data/AdaniPorts"  # Base directory for the company
-    file_name = "9_Sep23_Sep24.xlsx"  # Name of the Excel file to save
+    current_dir = os.getcwd()
+    print(current_dir)
+    
+    company_name = "Titan Company Ltd"
+    sector_name = "Diamond & Jewellery"
+    file = "9"
+    original_path = f"{current_dir}/data/{company_name}/Quarterly10Yrs/{file}.html"  # Path to the HTML file
+    
+    base_dir = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"  # Base directory for the company
+    # file_name = "9_Sep23_Sep24.xlsx"  # Name of the Excel file to save
+    
+    print("\n original file path:- ",original_path)
+    print("\n base file path:- ",base_dir)
     
     # Convert HTML table to Excel
-    create_excel_file(path, base_dir, file_name)    
+    create_excel_file(original_path, base_dir,file)    

@@ -19,14 +19,20 @@ def update_label_color(color):
 def f1():
     # Set label to grey initially to indicate processing
     update_label_color("grey")
+    for i in range(0,2):
+        print(i)
     
     n = 9
     dir_list = []
     for i in range(0,n):
         dir_list.append(str(n))
         n -= 1
-    # print(dir_list)
+    print(dir_list)
     
+    for i in range(0,2):
+        print(i)
+    
+    n = 9
     for i in range(0,n):
         print("Loop start")
         if i == 0:
@@ -45,7 +51,7 @@ def f1():
                 print(modified_string)
 
             url[-1] = modified_string
-            print()
+            # print()
             link = '/'.join(url) 
             file = dir_list[i]
         print(i,link,file)
