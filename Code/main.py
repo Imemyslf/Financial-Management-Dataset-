@@ -57,7 +57,7 @@ def getUrl(url,file_name):
             
             # Create directory structure within `Companies` for organizing data by sector and company
             create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Excel"))
-            create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Pruned_Excel","Dummy.txt"))
+            create_company_directory(os.path.join(base_dir, final_sector_name, company_name,"Pruned_Excel"),1)
             
             # Fetch and save the HTML file from the URL to the specified path
             fetchandSave(url, path, file_name)
