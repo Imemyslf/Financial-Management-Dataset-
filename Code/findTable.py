@@ -54,10 +54,18 @@ def create_company_directory(directory,num):
         os.makedirs(directory)
 
         if num == 1:
-            with open(directory,"w") as f:
+            with open(f"{directory}/1.txt","w") as f:
                 f.write("dummy")
+                print("File created")
+                
         return f"{directory} directory created successfully"
     except FileExistsError as e:
+        
+        if num == 1:
+            with open(f"{directory}/1.txt","w") as f:
+                f.write("dummy")
+                print("File created")
+                
         return "File already exists or Error in creating directory", e
     except PermissionError as e:
         print("Permission denied", e)

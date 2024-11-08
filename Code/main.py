@@ -72,6 +72,25 @@ def getUrl(url,file_name):
         
 if __name__ == "__main__":
     current_dir = os.getcwd()
+    
     path = f"{current_dir}/Companies"
-    print(path)
-    create_company_directory(os.path.join(path,"Trading","Adani Enterprises Ltd","Pruned_Excel","1.txt"),1)
+    sector_list = os.listdir(path)
+    print("\nSector list:- ",sector_list)
+    # print(len(sector_list))
+    
+    for i in range(len(sector_list)):
+        path = f"{current_dir}/Companies"
+        sector = sector_list[i]
+        path = path + "/" + sector
+        # print("Iteration:- ",i)
+        # print("\nPath:- ",path)
+        comapnies_list = os.listdir(path)
+        # print("\nCompanies List:- ",comapnies_list)
+        
+        for i in range(len(comapnies_list)):
+            company = comapnies_list[i]
+            # print(f"Company {i}:- {company}")
+            path = f"{current_dir}/Companies"
+            create_company_directory(os.path.join(path,sector,company,"Pruned_Excel"),1)
+            print("File successfully created in:- ",path)
+            
