@@ -114,17 +114,39 @@ def spacexcel(output_file_path,sector_name,company_name,file):
 
 if __name__ == '__main__':
     current_dir = os.getcwd()
-    sector_name = "Trading"
-    company_name  = "Adani Enterprises Ltd"
-    # file = "3_Mar16_Mar17.xlsx"
+        
+    path = f"{current_dir}/Companies"
+    sector_list = os.listdir(path)
+    print("\nSector list:- ",sector_list)
+    # print(len(sector_list))
     
-    # prune_data(sector_name,company_name,file)
-    path = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"
-    print(path)
+    for i in range(len(sector_list)):
+        path = f"{current_dir}/Companies"
+        sector = sector_list[i]
+        path = path + "/" + sector
+        # print("Iteration:- ",i)
+        # print("\nPath:- ",path)
+        comapnies_list = os.listdir(path)
+        # print("\nCompanies List:- ",comapnies_list)
+        
+        for i in range(len(comapnies_list)):
+            company = comapnies_list[i]
+            # print(f"Company {i}:- {company}")
+            # path = f"{current_dir}/Companies"
+            path = f"{current_dir}/Companies/{sector}/{company}/Excel"
+            print("\nFinal path to  excel:-",path)
     
-    dir_list = os.listdir(path)
-       
-    for dir in dir_list:
-        print("\n\nFile name:- ",dir,"\n")
-        prune_data(sector_name,company_name,dir)
+            dir_list = os.listdir(path)
+            
+            for dir in dir_list:
+                print("\n\nFile name:- ",dir,"\n")
+                prune_data(sector,company,dir)
+            
+    # sector_name = "Trading"
+    # company_name  = "Adani Enterprises Ltd"
+    # # file = "3_Mar16_Mar17.xlsx"
+    
+    # # prune_data(sector_name,company_name,file)
+    
+    
         

@@ -100,7 +100,7 @@ def create_excel_file(path, base_dir, file_name):
     df = pd.DataFrame(table_data[1:], columns=table_data[0])  
     
     # Save the DataFrame to an Excel file at the specified path
-    df.to_excel(f"{base_dir}/{file_name}.xlsx", index=False)
+    df.to_excel(f"{base_dir}/{file_name}", index=False)
         
 # Main execution of the script
 if __name__ == "__main__": 
@@ -110,6 +110,3 @@ if __name__ == "__main__":
     
     # Convert HTML table to Excel
     create_excel_file(path, base_dir, file_name)    
-    
-    # Append the sector information to the text file
-    append_sector("Oil and Energy")

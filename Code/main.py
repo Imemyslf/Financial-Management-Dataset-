@@ -63,7 +63,7 @@ def getUrl(url,file_name):
             fetchandSave(url, path, file_name)
             
             # Convert the HTML file to an Excel file and save it in the company’s directory under its sector
-            create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel", file_name)
+            # create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel", file_name)
             return True
     
     except Exception as e:

@@ -20,15 +20,15 @@ def f1():
     # Set label to grey initially to indicate processing
     update_label_color("grey")
     
-    current_dir = os.getcwd()
-    path = f"{current_dir}/Companies/Bank - Public/UCO Bank Ltd/Excel"
-    dir_list = os.listdir(path)
-    dir_list.reverse()
-    # print(dir_list)
-
     n = 9
+    dir_list = []
+    for i in range(0,n):
+        dir_list.append(str(n))
+        n -= 1
+    # print(dir_list)
     
     for i in range(0,n):
+        print("Loop start")
         if i == 0:
             link = url_name.get()
             file = dir_list[i]
