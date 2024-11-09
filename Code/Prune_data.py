@@ -64,7 +64,7 @@ def prune_data(sector_name,company_name,file):
     for row in output_data:
         paramter, *values = row
         print("\nValue before:- ",values)
-        values.append("")
+        #values.append("")
         
         print("\nValues after:- ",values)
         if any(isValids(value) for value in values):
@@ -77,28 +77,28 @@ def prune_data(sector_name,company_name,file):
             minus_float_list = [v for v in float_list if isinstance(v, float)]
             # print("\n\nMinus float 2:- ",minus_float_list,"\n")
             
-            max_val = max(value for value in minus_float_list)
-            min_val = min(value for value in minus_float_list)
-            avg = sum(minus_float_list) /len(minus_float_list)
+            # max_val = max(value for value in minus_float_list)
+            # min_val = min(value for value in minus_float_list)
+            # avg = sum(minus_float_list) /len(minus_float_list)
             
-            param.append([paramter] + values + []+[max_val] + [min_val] + [avg])
+            param.append([paramter] + values + [])
 
     
     print("\nData:- \n",param)
 
-    # col_name = col_names[0]
-    # quaters = col_names[1:]
+    col_name = col_names[0]
+    #quaters = col_names[1:]
 
-    # print(col_name,quaters)
-    # output_file_path = f"{current_dir}/Companies/{sector_name}/{company_name}/Pruned_Excel/{file}"
-    # print("\n\nCurrent dir:- ",output_file_path)
+    print(col_name,quaters)
+    output_file_path = f"{current_dir}/Companies/{sector_name}/{company_name}/Pruned_Excel/{file}"
+    print("\n\nCurrent dir:- ",output_file_path)
     
-    # output_df = pd.DataFrame(param,columns=[str(col_name)]+col_names[1:]+[""]+["Max"]+["Min"]+["Avg"])
+    output_df = pd.DataFrame(param,columns=[str(col_name)]+quaters+[""])
     
 
-    # output_df.to_excel(output_file_path,index=False)
-    # print("\n\n\nSuccessfully saved the file in:- ",output_file_path)
-    # spacexcel(output_file_path,sector_name,company_name,file)
+    output_df.to_excel(output_file_path,index=False)
+    print("\n\n\nSuccessfully saved the file in:- ",output_file_path)
+    spacexcel(output_file_path,sector_name,company_name,file)
 
 def spacexcel(output_file_path,sector_name,company_name,file):
     global current_dir
@@ -167,7 +167,7 @@ if __name__ == '__main__':
     
     sector_name = "Trading"
     company_name  = "Adani Enterprises Ltd"
-    file = "2_Dec14_Dec15.xlsx"
+    file = "1_Sep13_Sep14.xlsx"
     
     # path = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"
     # kisu_list = os.listdir(path)
