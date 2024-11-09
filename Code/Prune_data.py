@@ -6,11 +6,13 @@ from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment
 
 current_dir = os.getcwd()
+path = f"{current_dir}/Companies"
 
-def prune_data(sector_name,company_name,file):
+def prune_data(sector_name,company_name,file,arr):
     global current_dir
     print(current_dir)
     
+    print(arr)
     file_name = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel/{file}"
     
     df = pd.read_excel(file_name)
@@ -20,11 +22,14 @@ def prune_data(sector_name,company_name,file):
     # print(df.columns)
 
     data_list = df.values.tolist()
+    # print(f"Data list:- {data_list}")
     
+    # data_list.insert(0,arr)
+    # print(f"\n After insert Data list:- {data_list}")
     param = []
 
     output_data = []
-    # dict = {}
+    dict = {}
             
     
     def isValid(data):
@@ -36,7 +41,9 @@ def prune_data(sector_name,company_name,file):
             output_data.append([company] + values)
             # dict[company] = values
 
-    # print("Output data:-",output_data)
+    # print("Output data before :-",output_data)
+    # output_data = output_data[1:]
+    # print("Output data after :-",output_data[1:])
 
     def isValids(val):
         if(str(val) == "nan" ):
@@ -46,9 +53,10 @@ def prune_data(sector_name,company_name,file):
         
     for row in output_data:
         paramter, *values = row
-        print(values)
+        print("\nValue before:- ",values)
         values.append("")
         
+        print("\nValues after:- ",values)
         if any(isValids(value) for value in values):
             param.append([""])
             param.append([paramter] + values)
@@ -65,7 +73,7 @@ def prune_data(sector_name,company_name,file):
             
             param.append([paramter] + values + []+[max_val] + [min_val] + [avg])
 
-    
+    param.insert(0,arr)
     print("\nData:- \n",param)
 
     col_name = col_names[0]
@@ -112,10 +120,10 @@ def spacexcel(output_file_path,sector_name,company_name,file):
     workbook.save(output_path)
     print("\n\n\nSuccessfully saved the file in:- ",output_path)
 
-if __name__ == '__main__':
-    current_dir = os.getcwd()
-        
-    path = f"{current_dir}/Companies"
+
+def prune_folders():
+    global current_dir, path
+    print("\n\n Path inside pruned folders:- ",path)
     sector_list = os.listdir(path)
     print("\nSector list:- ",sector_list)
     # print(len(sector_list))
@@ -141,12 +149,17 @@ if __name__ == '__main__':
             for dir in dir_list:
                 print("\n\nFile name:- ",dir,"\n")
                 prune_data(sector,company,dir)
-            
-    # sector_name = "Trading"
-    # company_name  = "Adani Enterprises Ltd"
-    # # file = "3_Mar16_Mar17.xlsx"
+    pass
+
+if __name__ == '__main__':    
     
-    # # prune_data(sector_name,company_name,file)
+    # prune_folders()
+    
+    sector_name = "Trading"
+    company_name  = "Adani Enterprises Ltd"
+    file = "1_Sep13_Sep14.xlsx"
+    
+    prune_data(sector_name,company_name,file,["","Q5","Q4","Q3","Q2","Q1","","","",""])
     
     
         
