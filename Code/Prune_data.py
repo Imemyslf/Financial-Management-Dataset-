@@ -20,7 +20,7 @@ def prune_data(sector_name,company_name,file):
     col_names = list(df.columns)
     #print(col_names)
     
-    quaters = col_names[1:-1]
+    quaters = col_names[1:]
     quaters.reverse()
     #print(quaters)
     
@@ -93,7 +93,7 @@ def prune_data(sector_name,company_name,file):
     output_file_path = f"{current_dir}/Companies/{sector_name}/{company_name}/Pruned_Excel/{file}"
     print("\n\nCurrent dir:- ",output_file_path)
     
-    output_df = pd.DataFrame(param,columns=[str(col_name)]+quaters+[""])
+    output_df = pd.DataFrame(param,columns=[str(col_name)]+quaters)
     
 
     output_df.to_excel(output_file_path,index=False)
