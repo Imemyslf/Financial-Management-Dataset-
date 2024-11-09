@@ -7,6 +7,7 @@ from openpyxl.styles import Alignment
 
 current_dir = os.getcwd()
 path = f"{current_dir}/Companies"
+final_quaters = []
 
 def prune_data(sector_name,company_name,file):
     global current_dir
@@ -17,7 +18,17 @@ def prune_data(sector_name,company_name,file):
     df = pd.read_excel(file_name)
 
     col_names = list(df.columns)
-    print(col_names) 
+    #print(col_names)
+    
+    quaters = col_names[1:-1]
+    quaters.reverse()
+    #print(quaters)
+    
+    for i in quaters:
+        final_quaters.append(i)
+    
+    # print(f"\nfilename {file} \n quaters{quaters}")
+    # print(final_quaters)
     # print(df.columns)
 
     data_list = df.values.tolist()
@@ -35,6 +46,7 @@ def prune_data(sector_name,company_name,file):
 
     for row in data_list:
         company, *values = row
+        values.reverse()
         if any(isValid(value) for value in values):
             output_data.append([company] + values)
             # dict[company] = values
@@ -74,19 +86,19 @@ def prune_data(sector_name,company_name,file):
     
     print("\nData:- \n",param)
 
-    col_name = col_names[0]
-    quaters = col_names[1:]
+    # col_name = col_names[0]
+    # quaters = col_names[1:]
 
-    print(col_name,quaters)
-    output_file_path = f"{current_dir}/Companies/{sector_name}/{company_name}/Pruned_Excel/{file}"
-    print("\n\nCurrent dir:- ",output_file_path)
+    # print(col_name,quaters)
+    # output_file_path = f"{current_dir}/Companies/{sector_name}/{company_name}/Pruned_Excel/{file}"
+    # print("\n\nCurrent dir:- ",output_file_path)
     
-    output_df = pd.DataFrame(param,columns=[str(col_name)]+col_names[1:]+[""]+["Max"]+["Min"]+["Avg"])
+    # output_df = pd.DataFrame(param,columns=[str(col_name)]+col_names[1:]+[""]+["Max"]+["Min"]+["Avg"])
     
 
-    output_df.to_excel(output_file_path,index=False)
-    print("\n\n\nSuccessfully saved the file in:- ",output_file_path)
-    spacexcel(output_file_path,sector_name,company_name,file)
+    # output_df.to_excel(output_file_path,index=False)
+    # print("\n\n\nSuccessfully saved the file in:- ",output_file_path)
+    # spacexcel(output_file_path,sector_name,company_name,file)
 
 def spacexcel(output_file_path,sector_name,company_name,file):
     global current_dir
@@ -155,8 +167,15 @@ if __name__ == '__main__':
     
     sector_name = "Trading"
     company_name  = "Adani Enterprises Ltd"
-    file = "1_Sep13_Sep14.xlsx"
+    file = "2_Dec14_Dec15.xlsx"
     
+    # path = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"
+    # kisu_list = os.listdir(path)
+    # #print(kisu_list)
+    
+    # for kisu in kisu_list:
+    #     #print(kisu)
+    #     prune_data(sector_name,company_name,kisu)
     prune_data(sector_name,company_name,file)
     
     
