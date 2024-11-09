@@ -8,11 +8,10 @@ from openpyxl.styles import Alignment
 current_dir = os.getcwd()
 path = f"{current_dir}/Companies"
 
-def prune_data(sector_name,company_name,file,arr):
+def prune_data(sector_name,company_name,file):
     global current_dir
     print(current_dir)
     
-    print(arr)
     file_name = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel/{file}"
     
     df = pd.read_excel(file_name)
@@ -24,7 +23,6 @@ def prune_data(sector_name,company_name,file,arr):
     data_list = df.values.tolist()
     # print(f"Data list:- {data_list}")
     
-    # data_list.insert(0,arr)
     # print(f"\n After insert Data list:- {data_list}")
     param = []
 
@@ -73,7 +71,7 @@ def prune_data(sector_name,company_name,file,arr):
             
             param.append([paramter] + values + []+[max_val] + [min_val] + [avg])
 
-    param.insert(0,arr)
+    
     print("\nData:- \n",param)
 
     col_name = col_names[0]
@@ -159,7 +157,7 @@ if __name__ == '__main__':
     company_name  = "Adani Enterprises Ltd"
     file = "1_Sep13_Sep14.xlsx"
     
-    prune_data(sector_name,company_name,file,["","Q5","Q4","Q3","Q2","Q1","","","",""])
+    prune_data(sector_name,company_name,file)
     
     
         
