@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from findTable import append_sector, make_main_dir, create_company_directory, create_excel_file
+from Concat import consolidate_and_merge_excel_sheets
 import os
 
 # Function to fetch HTML content from a URL and save it as an HTML file
@@ -64,7 +65,9 @@ def getUrl(url,file_name):
             
             # Convert the HTML file to an Excel file and save it in the company’s directory under its sector
             create_excel_file(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel", file_name)
-            return True
+        
+        # consolidate_and_merge_excel_sheets(f"{path}/{file_name}.html", f"{base_dir}/{final_sector_name}/{company_name}/Excel")
+        return True
     
     except Exception as e:
         print("\nException:- \n", e)

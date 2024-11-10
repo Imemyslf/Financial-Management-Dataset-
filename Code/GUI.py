@@ -71,6 +71,7 @@ def f1():
     url_name.delete(0, END)
     file_name.delete(0, END)
     
+    
 # Title label for the application
 title_label = customtkinter.CTkLabel(
     app, text="Web Scraper Tool", font=("Arial", 20, "bold")
