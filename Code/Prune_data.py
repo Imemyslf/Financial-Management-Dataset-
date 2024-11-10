@@ -134,26 +134,27 @@ def prune_data(sector_name,company_name,file):
         else:
             # print(values)
             float_list = [float(value.replace(',', '')) if value not in ["", "--"] else value for value in values]
-
-            minus_float_list = [v for v in float_list if isinstance(v, float)]
+            print("\n\nFloat List:- ",float_list)
+            print("\n Values:- ",values)
+            
+            # minus_float_list = [v for v in float_list if isinstance(v, float)]
             # print("\n\nMinus float 2:- ",minus_float_list,"\n")
             
             # max_val = max(value for value in minus_float_list)
             # min_val = min(value for value in minus_float_list)
             # avg = sum(minus_float_list) /len(minus_float_list)
             
-            param.append([paramter] + values + [])
+            param.append([paramter] + float_list + [])
 
     
     param.insert(0,quater_Q)
-    # print("\nData:- \n",param)
+    print("\nData:- \n",param)
 
     col_name = col_names[0]
 
     print(col_name,quaters)
     output_file_path = f"{current_dir}/Companies/{sector_name}/{company_name}/Pruned_Excel/{file}"
     print("\n\nCurrent dir:- ",output_file_path)
-    deleteExtraCell(output_file_path)
     output_df = pd.DataFrame(param,columns=[str(col_name)]+final_quaters)
     
 
@@ -161,10 +162,6 @@ def prune_data(sector_name,company_name,file):
     print("\n\n\nSuccessfully saved the file in:- ",output_file_path)
     spacexcel(output_file_path,sector_name,company_name,file)
 
-
-def deleteExtraCell(output_file_path):
-    print("Inside delete cel; ",output_file_path)
-    pass
 
 def spacexcel(output_file_path,sector_name,company_name,file):
     global current_dir
