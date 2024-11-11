@@ -227,20 +227,20 @@ def prune_folders():
 
 if __name__ == '__main__':    
     
-    prune_folders()
+    #prune_folders()
     
-    # sector_name = "Refineries"
-    # company_name  = "Bharat Petroleum Corporation Ltd"
-    # file = "combined_excel_file.xlsx"
+    sector_name = "IT Services & Consulting"
+    company_name  = "Tata Consultancy Services Ltd"
+    file = "combined_excel_file.xlsx"
     
-    # # path = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"
-    # # kisu_list = os.listdir(path)
-    # # #print(kisu_list)
+    # path = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"
+    # kisu_list = os.listdir(path)
+    # #print(kisu_list)
     
-    # # for kisu in kisu_list:
-    # #     #print(kisu)
-    # #     prune_data(sector_name,company_name,kisu)
-    # prune_data(sector_name,company_name,file)
+    # for kisu in kisu_list:
+    #     #print(kisu)
+    #     prune_data(sector_name,company_name,kisu)
+    prune_data(sector_name,company_name,file)
     
     
         
