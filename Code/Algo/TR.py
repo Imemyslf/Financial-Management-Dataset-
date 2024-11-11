@@ -138,8 +138,26 @@ for item in list_data:
         temp.append(item)
 
 # Define Income and Expenditure labels
-income_labels = extracted_data[0]
-expenditure_labels = extracted_data[1][1:]
+# income_labels = extracted_data[0]
+# expenditure_labels = extracted_data[1][1:]
+
+income_labels = ['Total Income From Operations']
+# expenditure_labels = extracted_data[1]
+# List of expenditure labels
+expenditure_labels = [
+    "Consumption of Raw Materials",
+    "Purchase of Traded Goods",
+    "Increase/Decrease in Stocks",
+    "Power & Fuel",
+    "Employees Cost",
+    "depreciat",
+    "Excise Duty",
+    "Admin. And Selling Expenses",
+    "R & D Expenses",
+    "Provisions And Contingencies",
+    "Exp. Capitalised",
+    "Other Expenses"
+]
 
 # Filter data for Income and Expenditure rows
 income_data = data[data[parameter_name[0]].isin(income_labels)]
