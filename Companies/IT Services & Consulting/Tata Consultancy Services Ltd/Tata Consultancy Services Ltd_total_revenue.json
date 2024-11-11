@@ -1,0 +1,1041 @@
+{
+    "Quarters": {
+        "Sep '13": {
+            "total_income": {
+                "values": [
+                    16607.72
+                ],
+                "sum": 16607.72
+            },
+            "total_expenditure": {
+                "values": [
+                    5428.79,
+                    261.74,
+                    5430.48
+                ],
+                "sum": 11121.009999999998
+            },
+            "total_revenue": {
+                "values": [
+                    5486.710000000003
+                ],
+                "sum": 5486.710000000003
+            }
+        },
+        "Dec '13": {
+            "total_income": {
+                "values": [
+                    16692.65
+                ],
+                "sum": 16692.65
+            },
+            "total_expenditure": {
+                "values": [
+                    5430.93,
+                    280.36,
+                    5482.53
+                ],
+                "sum": 11193.82
+            },
+            "total_revenue": {
+                "values": [
+                    5498.830000000002
+                ],
+                "sum": 5498.830000000002
+            }
+        },
+        "Mar '14": {
+            "total_income": {
+                "values": [
+                    16893.91
+                ],
+                "sum": 16893.91
+            },
+            "total_expenditure": {
+                "values": [
+                    5354.04,
+                    297.21,
+                    5974.83
+                ],
+                "sum": 11626.08
+            },
+            "total_revenue": {
+                "values": [
+                    5267.83
+                ],
+                "sum": 5267.83
+            }
+        },
+        "Jun '14": {
+            "total_income": {
+                "values": [
+                    17438.43
+                ],
+                "sum": 17438.43
+            },
+            "total_expenditure": {
+                "values": [
+                    6024.84,
+                    335.26,
+                    5925.38
+                ],
+                "sum": 12285.48
+            },
+            "total_revenue": {
+                "values": [
+                    5152.950000000001
+                ],
+                "sum": 5152.950000000001
+            }
+        },
+        "Sep '14": {
+            "total_income": {
+                "values": [
+                    18405.05
+                ],
+                "sum": 18405.05
+            },
+            "total_expenditure": {
+                "values": [
+                    6260.67,
+                    340.71,
+                    6243.0
+                ],
+                "sum": 12844.380000000001
+            },
+            "total_revenue": {
+                "values": [
+                    5560.669999999998
+                ],
+                "sum": 5560.669999999998
+            }
+        },
+        "Dec '14": {
+            "total_income": {
+                "values": [
+                    18936.35
+                ],
+                "sum": 18936.35
+            },
+            "total_expenditure": {
+                "values": [
+                    6440.38,
+                    350.51,
+                    6354.75
+                ],
+                "sum": 13145.64
+            },
+            "total_revenue": {
+                "values": [
+                    5790.709999999999
+                ],
+                "sum": 5790.709999999999
+            }
+        },
+        "Mar '15": {
+            "total_income": {
+                "values": [
+                    18798.23
+                ],
+                "sum": 18798.23
+            },
+            "total_expenditure": {
+                "values": [
+                    8642.43,
+                    367.29,
+                    6658.41
+                ],
+                "sum": 15668.130000000001
+            },
+            "total_revenue": {
+                "values": [
+                    3130.0999999999985
+                ],
+                "sum": 3130.0999999999985
+            }
+        },
+        "Jun '15": {
+            "total_income": {
+                "values": [
+                    20349.0
+                ],
+                "sum": 20349.0
+            },
+            "total_expenditure": {
+                "values": [
+                    10104.0,
+                    348.0,
+                    3752.0
+                ],
+                "sum": 14204.0
+            },
+            "total_revenue": {
+                "values": [
+                    6145.0
+                ],
+                "sum": 6145.0
+            }
+        },
+        "Sep '15": {
+            "total_income": {
+                "values": [
+                    21636.0
+                ],
+                "sum": 21636.0
+            },
+            "total_expenditure": {
+                "values": [
+                    10318.0,
+                    362.0,
+                    4247.0
+                ],
+                "sum": 14927.0
+            },
+            "total_revenue": {
+                "values": [
+                    6709.0
+                ],
+                "sum": 6709.0
+            }
+        },
+        "Dec '15": {
+            "total_income": {
+                "values": [
+                    21621.0
+                ],
+                "sum": 21621.0
+            },
+            "total_expenditure": {
+                "values": [
+                    10809.0,
+                    365.0,
+                    4020.0
+                ],
+                "sum": 15194.0
+            },
+            "total_revenue": {
+                "values": [
+                    6427.0
+                ],
+                "sum": 6427.0
+            }
+        },
+        "Mar '16": {
+            "total_income": {
+                "values": [
+                    22258.0
+                ],
+                "sum": 22258.0
+            },
+            "total_expenditure": {
+                "values": [
+                    11189.0,
+                    384.0,
+                    4371.0
+                ],
+                "sum": 15944.0
+            },
+            "total_revenue": {
+                "values": [
+                    6314.0
+                ],
+                "sum": 6314.0
+            }
+        },
+        "Jun '16": {
+            "total_income": {
+                "values": [
+                    23087.0
+                ],
+                "sum": 23087.0
+            },
+            "total_expenditure": {
+                "values": [
+                    11891.0,
+                    386.0,
+                    4389.0
+                ],
+                "sum": 16666.0
+            },
+            "total_revenue": {
+                "values": [
+                    6421.0
+                ],
+                "sum": 6421.0
+            }
+        },
+        "Sep '16": {
+            "total_income": {
+                "values": [
+                    23016.0
+                ],
+                "sum": 23016.0
+            },
+            "total_expenditure": {
+                "values": [
+                    11937.0,
+                    396.0,
+                    4260.0
+                ],
+                "sum": 16593.0
+            },
+            "total_revenue": {
+                "values": [
+                    6423.0
+                ],
+                "sum": 6423.0
+            }
+        },
+        "Dec '16": {
+            "total_income": {
+                "values": [
+                    23184.0
+                ],
+                "sum": 23184.0
+            },
+            "total_expenditure": {
+                "values": [
+                    11941.0,
+                    394.0,
+                    4495.0
+                ],
+                "sum": 16830.0
+            },
+            "total_revenue": {
+                "values": [
+                    6354.0
+                ],
+                "sum": 6354.0
+            }
+        },
+        "Mar '17": {
+            "total_income": {
+                "values": [
+                    23406.0
+                ],
+                "sum": 23406.0
+            },
+            "total_expenditure": {
+                "values": [
+                    12347.0,
+                    399.0,
+                    4344.0
+                ],
+                "sum": 17090.0
+            },
+            "total_revenue": {
+                "values": [
+                    6316.0
+                ],
+                "sum": 6316.0
+            }
+        },
+        "Jun '17": {
+            "total_income": {
+                "values": [
+                    23476.0
+                ],
+                "sum": 23476.0
+            },
+            "total_expenditure": {
+                "values": [
+                    12740.0,
+                    396.0,
+                    4450.0
+                ],
+                "sum": 17586.0
+            },
+            "total_revenue": {
+                "values": [
+                    5890.0
+                ],
+                "sum": 5890.0
+            }
+        },
+        "Sep '17": {
+            "total_income": {
+                "values": [
+                    24032.0
+                ],
+                "sum": 24032.0
+            },
+            "total_expenditure": {
+                "values": [
+                    12896.0,
+                    412.0,
+                    4223.0
+                ],
+                "sum": 17531.0
+            },
+            "total_revenue": {
+                "values": [
+                    6501.0
+                ],
+                "sum": 6501.0
+            }
+        },
+        "Dec '17": {
+            "total_income": {
+                "values": [
+                    24278.0
+                ],
+                "sum": 24278.0
+            },
+            "total_expenditure": {
+                "values": [
+                    12669.0,
+                    419.0,
+                    4492.0
+                ],
+                "sum": 17580.0
+            },
+            "total_revenue": {
+                "values": [
+                    6698.0
+                ],
+                "sum": 6698.0
+            }
+        },
+        "Mar '18": {
+            "total_income": {
+                "values": [
+                    25570.0
+                ],
+                "sum": 25570.0
+            },
+            "total_expenditure": {
+                "values": [
+                    13194.0,
+                    420.0,
+                    4887.0
+                ],
+                "sum": 18501.0
+            },
+            "total_revenue": {
+                "values": [
+                    7069.0
+                ],
+                "sum": 7069.0
+            }
+        },
+        "Jun '18": {
+            "total_income": {
+                "values": [
+                    29368.0
+                ],
+                "sum": 29368.0
+            },
+            "total_expenditure": {
+                "values": [
+                    14126.0,
+                    415.0,
+                    6854.0
+                ],
+                "sum": 21395.0
+            },
+            "total_revenue": {
+                "values": [
+                    7973.0
+                ],
+                "sum": 7973.0
+            }
+        },
+        "Sep '18": {
+            "total_income": {
+                "values": [
+                    30792.0
+                ],
+                "sum": 30792.0
+            },
+            "total_expenditure": {
+                "values": [
+                    14812.0,
+                    424.0,
+                    6998.0
+                ],
+                "sum": 22234.0
+            },
+            "total_revenue": {
+                "values": [
+                    8558.0
+                ],
+                "sum": 8558.0
+            }
+        },
+        "Dec '18": {
+            "total_income": {
+                "values": [
+                    30964.0
+                ],
+                "sum": 30964.0
+            },
+            "total_expenditure": {
+                "values": [
+                    15175.0,
+                    430.0,
+                    7237.0
+                ],
+                "sum": 22842.0
+            },
+            "total_revenue": {
+                "values": [
+                    8122.0
+                ],
+                "sum": 8122.0
+            }
+        },
+        "Mar '19": {
+            "total_income": {
+                "values": [
+                    32046.0
+                ],
+                "sum": 32046.0
+            },
+            "total_expenditure": {
+                "values": [
+                    15264.0,
+                    447.0,
+                    7740.0
+                ],
+                "sum": 23451.0
+            },
+            "total_revenue": {
+                "values": [
+                    8595.0
+                ],
+                "sum": 8595.0
+            }
+        },
+        "Jun '19": {
+            "total_income": {
+                "values": [
+                    32657.0
+                ],
+                "sum": 32657.0
+            },
+            "total_expenditure": {
+                "values": [
+                    15723.0,
+                    636.0,
+                    7273.0
+                ],
+                "sum": 23632.0
+            },
+            "total_revenue": {
+                "values": [
+                    9025.0
+                ],
+                "sum": 9025.0
+            }
+        },
+        "Sep '19": {
+            "total_income": {
+                "values": [
+                    32387.0
+                ],
+                "sum": 32387.0
+            },
+            "total_expenditure": {
+                "values": [
+                    16207.0,
+                    664.0,
+                    7186.0
+                ],
+                "sum": 24057.0
+            },
+            "total_revenue": {
+                "values": [
+                    8330.0
+                ],
+                "sum": 8330.0
+            }
+        },
+        "Dec '19": {
+            "total_income": {
+                "values": [
+                    33040.0
+                ],
+                "sum": 33040.0
+            },
+            "total_expenditure": {
+                "values": [
+                    16333.0,
+                    677.0,
+                    7262.0
+                ],
+                "sum": 24272.0
+            },
+            "total_revenue": {
+                "values": [
+                    8768.0
+                ],
+                "sum": 8768.0
+            }
+        },
+        "Mar '20": {
+            "total_income": {
+                "values": [
+                    33222.0
+                ],
+                "sum": 33222.0
+            },
+            "total_expenditure": {
+                "values": [
+                    16643.0,
+                    724.0,
+                    7326.0
+                ],
+                "sum": 24693.0
+            },
+            "total_revenue": {
+                "values": [
+                    8529.0
+                ],
+                "sum": 8529.0
+            }
+        },
+        "Jun '20": {
+            "total_income": {
+                "values": [
+                    31624.0
+                ],
+                "sum": 31624.0
+            },
+            "total_expenditure": {
+                "values": [
+                    16637.0,
+                    739.0,
+                    6393.0
+                ],
+                "sum": 23769.0
+            },
+            "total_revenue": {
+                "values": [
+                    7855.0
+                ],
+                "sum": 7855.0
+            }
+        },
+        "Sep '20": {
+            "total_income": {
+                "values": [
+                    33365.0
+                ],
+                "sum": 33365.0
+            },
+            "total_expenditure": {
+                "values": [
+                    17211.0,
+                    755.0,
+                    6068.0
+                ],
+                "sum": 24034.0
+            },
+            "total_revenue": {
+                "values": [
+                    9331.0
+                ],
+                "sum": 9331.0
+            }
+        },
+        "Dec '20": {
+            "total_income": {
+                "values": [
+                    34957.0
+                ],
+                "sum": 34957.0
+            },
+            "total_expenditure": {
+                "values": [
+                    17779.0,
+                    771.0,
+                    6500.0
+                ],
+                "sum": 25050.0
+            },
+            "total_revenue": {
+                "values": [
+                    9907.0
+                ],
+                "sum": 9907.0
+            }
+        },
+        "Mar '21": {
+            "total_income": {
+                "values": [
+                    36017.0
+                ],
+                "sum": 36017.0
+            },
+            "total_expenditure": {
+                "values": [
+                    17419.0,
+                    788.0,
+                    7646.0
+                ],
+                "sum": 25853.0
+            },
+            "total_revenue": {
+                "values": [
+                    10164.0
+                ],
+                "sum": 10164.0
+            }
+        },
+        "Jun '21": {
+            "total_income": {
+                "values": [
+                    37722.0
+                ],
+                "sum": 37722.0
+            },
+            "total_expenditure": {
+                "values": [
+                    19212.0,
+                    809.0,
+                    7317.0
+                ],
+                "sum": 27338.0
+            },
+            "total_revenue": {
+                "values": [
+                    10384.0
+                ],
+                "sum": 10384.0
+            }
+        },
+        "Sep '21": {
+            "total_income": {
+                "values": [
+                    39315.0
+                ],
+                "sum": 39315.0
+            },
+            "total_expenditure": {
+                "values": [
+                    20007.0,
+                    844.0,
+                    7673.0
+                ],
+                "sum": 28524.0
+            },
+            "total_revenue": {
+                "values": [
+                    10791.0
+                ],
+                "sum": 10791.0
+            }
+        },
+        "Dec '21": {
+            "total_income": {
+                "values": [
+                    40845.0
+                ],
+                "sum": 40845.0
+            },
+            "total_expenditure": {
+                "values": [
+                    20535.0,
+                    925.0,
+                    8605.0
+                ],
+                "sum": 30065.0
+            },
+            "total_revenue": {
+                "values": [
+                    10780.0
+                ],
+                "sum": 10780.0
+            }
+        },
+        "Mar '22": {
+            "total_income": {
+                "values": [
+                    42459.0
+                ],
+                "sum": 42459.0
+            },
+            "total_expenditure": {
+                "values": [
+                    21343.0,
+                    944.0,
+                    9404.0
+                ],
+                "sum": 31691.0
+            },
+            "total_revenue": {
+                "values": [
+                    10768.0
+                ],
+                "sum": 10768.0
+            }
+        },
+        "Jun '22": {
+            "total_income": {
+                "values": [
+                    44480.0
+                ],
+                "sum": 44480.0
+            },
+            "total_expenditure": {
+                "values": [
+                    22971.0,
+                    960.0,
+                    9680.0
+                ],
+                "sum": 33611.0
+            },
+            "total_revenue": {
+                "values": [
+                    10869.0
+                ],
+                "sum": 10869.0
+            }
+        },
+        "Sep '22": {
+            "total_income": {
+                "values": [
+                    46819.0
+                ],
+                "sum": 46819.0
+            },
+            "total_expenditure": {
+                "values": [
+                    23511.0,
+                    976.0,
+                    10526.0
+                ],
+                "sum": 35013.0
+            },
+            "total_revenue": {
+                "values": [
+                    11806.0
+                ],
+                "sum": 11806.0
+            }
+        },
+        "Dec '22": {
+            "total_income": {
+                "values": [
+                    49275.0
+                ],
+                "sum": 49275.0
+            },
+            "total_expenditure": {
+                "values": [
+                    24478.0,
+                    996.0,
+                    11281.0
+                ],
+                "sum": 36755.0
+            },
+            "total_revenue": {
+                "values": [
+                    12520.0
+                ],
+                "sum": 12520.0
+            }
+        },
+        "Mar '23": {
+            "total_income": {
+                "values": [
+                    49780.0
+                ],
+                "sum": 49780.0
+            },
+            "total_expenditure": {
+                "values": [
+                    25258.0,
+                    1008.0,
+                    11652.0
+                ],
+                "sum": 37918.0
+            },
+            "total_revenue": {
+                "values": [
+                    11862.0
+                ],
+                "sum": 11862.0
+            }
+        },
+        "Jun '23": {
+            "total_income": {
+                "values": [
+                    49862.0
+                ],
+                "sum": 49862.0
+            },
+            "total_expenditure": {
+                "values": [
+                    25979.0,
+                    969.0,
+                    10747.0
+                ],
+                "sum": 37695.0
+            },
+            "total_revenue": {
+                "values": [
+                    12167.0
+                ],
+                "sum": 12167.0
+            }
+        },
+        "Sep '23": {
+            "total_income": {
+                "values": [
+                    50165.0
+                ],
+                "sum": 50165.0
+            },
+            "total_expenditure": {
+                "values": [
+                    26018.0,
+                    979.0,
+                    10345.0
+                ],
+                "sum": 37342.0
+            },
+            "total_revenue": {
+                "values": [
+                    12823.0
+                ],
+                "sum": 12823.0
+            }
+        },
+        "Dec '23": {
+            "total_income": {
+                "values": [
+                    50844.0
+                ],
+                "sum": 50844.0
+            },
+            "total_expenditure": {
+                "values": [
+                    25511.0,
+                    964.0,
+                    10970.0
+                ],
+                "sum": 37445.0
+            },
+            "total_revenue": {
+                "values": [
+                    13399.0
+                ],
+                "sum": 13399.0
+            }
+        },
+        "Mar '24": {
+            "total_income": {
+                "values": [
+                    51488.0
+                ],
+                "sum": 51488.0
+            },
+            "total_expenditure": {
+                "values": [
+                    25631.0,
+                    975.0,
+                    11311.0
+                ],
+                "sum": 37917.0
+            },
+            "total_revenue": {
+                "values": [
+                    13571.0
+                ],
+                "sum": 13571.0
+            }
+        },
+        "Jun '24": {
+            "total_income": {
+                "values": [
+                    52844.0
+                ],
+                "sum": 52844.0
+            },
+            "total_expenditure": {
+                "values": [
+                    26657.0,
+                    969.0,
+                    11612.0
+                ],
+                "sum": 39238.0
+            },
+            "total_revenue": {
+                "values": [
+                    13606.0
+                ],
+                "sum": 13606.0
+            }
+        },
+        "Sep '24": {
+            "total_income": {
+                "values": [
+                    53990.0
+                ],
+                "sum": 53990.0
+            },
+            "total_expenditure": {
+                "values": [
+                    26815.0,
+                    1008.0,
+                    12617.0
+                ],
+                "sum": 40440.0
+            },
+            "total_revenue": {
+                "values": [
+                    13550.0
+                ],
+                "sum": 13550.0
+            }
+        }
+    },
+    "Total Revenue": [
+        5486.710000000003,
+        5498.830000000002,
+        5267.83,
+        5152.950000000001,
+        5560.669999999998,
+        5790.709999999999,
+        3130.0999999999985,
+        6145.0,
+        6709.0,
+        6427.0,
+        6314.0,
+        6421.0,
+        6423.0,
+        6354.0,
+        6316.0,
+        5890.0,
+        6501.0,
+        6698.0,
+        7069.0,
+        7973.0,
+        8558.0,
+        8122.0,
+        8595.0,
+        9025.0,
+        8330.0,
+        8768.0,
+        8529.0,
+        7855.0,
+        9331.0,
+        9907.0,
+        10164.0,
+        10384.0,
+        10791.0,
+        10780.0,
+        10768.0,
+        10869.0,
+        11806.0,
+        12520.0,
+        11862.0,
+        12167.0,
+        12823.0,
+        13399.0,
+        13571.0,
+        13606.0,
+        13550.0
+    ]
+}
