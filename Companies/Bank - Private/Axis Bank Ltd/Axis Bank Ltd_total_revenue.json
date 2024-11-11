@@ -1,0 +1,636 @@
+{
+    "Quarters": {
+        "Sep '13": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 643.92,
+                "Purchase of Traded Goods": 1309.04,
+                "Increase/Decrease in Stocks": 687.49
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 2640.45,
+                "Total Profit": -2640.45
+            }
+        },
+        "Dec '13": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 655.1,
+                "Purchase of Traded Goods": 1358.3,
+                "Increase/Decrease in Stocks": 202.49
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 2215.89,
+                "Total Profit": -2215.89
+            }
+        },
+        "Mar '14": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 659.25,
+                "Purchase of Traded Goods": 1472.19,
+                "Increase/Decrease in Stocks": 505.23
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 2636.67,
+                "Total Profit": -2636.67
+            }
+        },
+        "Jun '14": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 751.75,
+                "Purchase of Traded Goods": 1354.13,
+                "Increase/Decrease in Stocks": 386.6
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 2492.48,
+                "Total Profit": -2492.48
+            }
+        },
+        "Sep '14": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 785.98,
+                "Purchase of Traded Goods": 1524.18,
+                "Increase/Decrease in Stocks": 0.0
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 2310.16,
+                "Total Profit": -2310.16
+            }
+        },
+        "Dec '14": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 778.48,
+                "Purchase of Traded Goods": 1535.55,
+                "Increase/Decrease in Stocks": 0.0
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 2314.03,
+                "Total Profit": -2314.03
+            }
+        },
+        "Mar '15": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 798.76,
+                "Purchase of Traded Goods": 1674.91,
+                "Increase/Decrease in Stocks": 709.82
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 3183.49,
+                "Total Profit": -3183.49
+            }
+        },
+        "Jun '15": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 809.28,
+                "Purchase of Traded Goods": 1453.15,
+                "Increase/Decrease in Stocks": 1121.77
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 3384.2,
+                "Total Profit": -3384.2
+            }
+        },
+        "Sep '15": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 829.31,
+                "Purchase of Traded Goods": 1646.23,
+                "Increase/Decrease in Stocks": 707.17
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 3182.71,
+                "Total Profit": -3182.71
+            }
+        },
+        "Dec '15": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 829.54,
+                "Purchase of Traded Goods": 1685.24,
+                "Increase/Decrease in Stocks": 712.59
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 3227.37,
+                "Total Profit": -3227.37
+            }
+        },
+        "Mar '16": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 907.88,
+                "Purchase of Traded Goods": 1940.19,
+                "Increase/Decrease in Stocks": 1168.33
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 4016.4,
+                "Total Profit": -4016.4
+            }
+        },
+        "Jun '16": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 963.18,
+                "Purchase of Traded Goods": 1822.65,
+                "Increase/Decrease in Stocks": 2117.17
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 4903.0,
+                "Total Profit": -4903.0
+            }
+        },
+        "Sep '16": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 988.83,
+                "Purchase of Traded Goods": 1964.52,
+                "Increase/Decrease in Stocks": 3622.74
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 6576.09,
+                "Total Profit": -6576.09
+            }
+        },
+        "Dec '16": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 991.88,
+                "Purchase of Traded Goods": 2101.83,
+                "Increase/Decrease in Stocks": 3795.8
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 6889.51,
+                "Total Profit": -6889.51
+            }
+        },
+        "Mar '17": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 947.97,
+                "Purchase of Traded Goods": 2419.05,
+                "Increase/Decrease in Stocks": 2581.25
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 5948.27,
+                "Total Profit": -5948.27
+            }
+        },
+        "Jun '17": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1088.25,
+                "Purchase of Traded Goods": 2236.54,
+                "Increase/Decrease in Stocks": 2341.93
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 5666.72,
+                "Total Profit": -5666.72
+            }
+        },
+        "Sep '17": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1082.84,
+                "Purchase of Traded Goods": 2265.0,
+                "Increase/Decrease in Stocks": 3140.41
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 6488.25,
+                "Total Profit": -6488.25
+            }
+        },
+        "Dec '17": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1062.94,
+                "Purchase of Traded Goods": 2407.86,
+                "Increase/Decrease in Stocks": 2811.04
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 6281.84,
+                "Total Profit": -6281.84
+            }
+        },
+        "Mar '18": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1078.93,
+                "Purchase of Traded Goods": 2767.98,
+                "Increase/Decrease in Stocks": 7179.53
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 11026.44,
+                "Total Profit": -11026.44
+            }
+        },
+        "Jun '18": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1227.8,
+                "Purchase of Traded Goods": 2491.95,
+                "Increase/Decrease in Stocks": 3337.7
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7057.45,
+                "Total Profit": -7057.45
+            }
+        },
+        "Sep '18": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1174.65,
+                "Purchase of Traded Goods": 2641.84,
+                "Increase/Decrease in Stocks": 2927.38
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 6743.87,
+                "Total Profit": -6743.87
+            }
+        },
+        "Dec '18": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1202.59,
+                "Purchase of Traded Goods": 2877.12,
+                "Increase/Decrease in Stocks": 3054.51
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7134.22,
+                "Total Profit": -7134.22
+            }
+        },
+        "Mar '19": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1142.28,
+                "Purchase of Traded Goods": 3075.17,
+                "Increase/Decrease in Stocks": 2711.43
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 6928.88,
+                "Total Profit": -6928.88
+            }
+        },
+        "Jun '19": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1306.84,
+                "Purchase of Traded Goods": 2512.81,
+                "Increase/Decrease in Stocks": 3814.58
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7634.23,
+                "Total Profit": -7634.23
+            }
+        },
+        "Sep '19": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1274.97,
+                "Purchase of Traded Goods": 2771.05,
+                "Increase/Decrease in Stocks": 3518.39
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7564.41,
+                "Total Profit": -7564.41
+            }
+        },
+        "Dec '19": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1365.22,
+                "Purchase of Traded Goods": 3131.64,
+                "Increase/Decrease in Stocks": 3470.92
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7967.78,
+                "Total Profit": -7967.78
+            }
+        },
+        "Mar '20": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1373.97,
+                "Purchase of Traded Goods": 3568.12,
+                "Increase/Decrease in Stocks": 7730.02
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 12672.11,
+                "Total Profit": -12672.11
+            }
+        },
+        "Jun '20": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1406.12,
+                "Purchase of Traded Goods": 2321.47,
+                "Increase/Decrease in Stocks": 4416.42
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 8144.01,
+                "Total Profit": -8144.01
+            }
+        },
+        "Sep '20": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1412.94,
+                "Purchase of Traded Goods": 2822.7,
+                "Increase/Decrease in Stocks": 4580.65
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 8816.29,
+                "Total Profit": -8816.29
+            }
+        },
+        "Dec '20": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1677.35,
+                "Purchase of Traded Goods": 3375.94,
+                "Increase/Decrease in Stocks": 4604.28
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 9657.57,
+                "Total Profit": -9657.57
+            }
+        },
+        "Mar '21": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1667.6,
+                "Purchase of Traded Goods": 3691.03,
+                "Increase/Decrease in Stocks": 3294.98
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 8653.61,
+                "Total Profit": -8653.61
+            }
+        },
+        "Jun '21": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1851.87,
+                "Purchase of Traded Goods": 3080.53,
+                "Increase/Decrease in Stocks": 3532.01
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 8464.41,
+                "Total Profit": -8464.41
+            }
+        },
+        "Sep '21": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1935.54,
+                "Purchase of Traded Goods": 3834.97,
+                "Increase/Decrease in Stocks": 1735.09
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7505.6,
+                "Total Profit": -7505.6
+            }
+        },
+        "Dec '21": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1938.61,
+                "Purchase of Traded Goods": 4392.75,
+                "Increase/Decrease in Stocks": 1334.83
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7666.19,
+                "Total Profit": -7666.19
+            }
+        },
+        "Mar '22": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 1886.53,
+                "Purchase of Traded Goods": 4689.95,
+                "Increase/Decrease in Stocks": 987.23
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7563.71,
+                "Total Profit": -7563.71
+            }
+        },
+        "Jun '22": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 2186.09,
+                "Purchase of Traded Goods": 4309.88,
+                "Increase/Decrease in Stocks": 359.36
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 6855.33,
+                "Total Profit": -6855.33
+            }
+        },
+        "Sep '22": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 2166.65,
+                "Purchase of Traded Goods": 4418.55,
+                "Increase/Decrease in Stocks": 549.78
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7134.98,
+                "Total Profit": -7134.98
+            }
+        },
+        "Dec '22": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 2281.05,
+                "Purchase of Traded Goods": 4566.22,
+                "Increase/Decrease in Stocks": 1437.73
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 8285.0,
+                "Total Profit": -8285.0
+            }
+        },
+        "Mar '23": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 2163.62,
+                "Purchase of Traded Goods": 5306.25,
+                "Increase/Decrease in Stocks": 305.77
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 7775.64,
+                "Total Profit": -7775.64
+            }
+        },
+        "Jun '23": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 2688.48,
+                "Purchase of Traded Goods": 5543.2,
+                "Increase/Decrease in Stocks": 1034.88
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 9266.56,
+                "Total Profit": -9266.56
+            }
+        },
+        "Sep '23": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 2609.76,
+                "Purchase of Traded Goods": 6107.02,
+                "Increase/Decrease in Stocks": 814.56
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 9531.34,
+                "Total Profit": -9531.34
+            }
+        },
+        "Dec '23": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 2711.33,
+                "Purchase of Traded Goods": 6234.4,
+                "Increase/Decrease in Stocks": 1028.34
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 9974.07,
+                "Total Profit": -9974.07
+            }
+        },
+        "Mar '24": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 2923.54,
+                "Purchase of Traded Goods": 6395.55,
+                "Increase/Decrease in Stocks": 1185.31
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 10504.4,
+                "Total Profit": -10504.4
+            }
+        },
+        "Jun '24": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 3129.45,
+                "Purchase of Traded Goods": 5996.03,
+                "Increase/Decrease in Stocks": 2039.28
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 11164.76,
+                "Total Profit": -11164.76
+            }
+        },
+        "Sep '24": {
+            "Income": {},
+            "Expenditure": {
+                "Consumption of Raw Materials": 3117.19,
+                "Purchase of Traded Goods": 6375.39,
+                "Increase/Decrease in Stocks": 2204.09
+            },
+            "Profit": {
+                "Total Income sum": 0.0,
+                "Total Expenditure_sum": 11696.67,
+                "Total Profit": -11696.67
+            }
+        }
+    },
+    "Total Profit for each quarter": {
+        "Q1": -2640.45,
+        "Q2": -2215.89,
+        "Q3": -2636.67,
+        "Q4": -2492.48,
+        "Q5": -2310.16,
+        "Q6": -2314.03,
+        "Q7": -3183.49,
+        "Q8": -3384.2,
+        "Q9": -3182.71,
+        "Q10": -3227.37,
+        "Q11": -4016.4,
+        "Q12": -4903.0,
+        "Q13": -6576.09,
+        "Q14": -6889.51,
+        "Q15": -5948.27,
+        "Q16": -5666.72,
+        "Q17": -6488.25,
+        "Q18": -6281.84,
+        "Q19": -11026.44,
+        "Q20": -7057.45,
+        "Q21": -6743.87,
+        "Q22": -7134.22,
+        "Q23": -6928.88,
+        "Q24": -7634.23,
+        "Q25": -7564.41,
+        "Q26": -7967.78,
+        "Q27": -12672.11,
+        "Q28": -8144.01,
+        "Q29": -8816.29,
+        "Q30": -9657.57,
+        "Q31": -8653.61,
+        "Q32": -8464.41,
+        "Q33": -7505.6,
+        "Q34": -7666.19,
+        "Q35": -7563.71,
+        "Q36": -6855.33,
+        "Q37": -7134.98,
+        "Q38": -8285.0,
+        "Q39": -7775.64,
+        "Q40": -9266.56,
+        "Q41": -9531.34,
+        "Q42": -9974.07,
+        "Q43": -10504.4,
+        "Q44": -11164.76,
+        "Q45": -11696.67
+    }
+}

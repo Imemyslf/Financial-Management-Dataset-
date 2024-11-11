@@ -1,0 +1,771 @@
+{
+    "Quarters": {
+        "Sep '13": {
+            "Income": {
+                "Total Income From Operations": 961.65
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 80.84,
+                "Purchase of Traded Goods": 4.95,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 243.41
+            },
+            "Profit": {
+                "Total Income sum": 961.65,
+                "Total Expenditure_sum": 329.2,
+                "Total Profit": 632.45
+            }
+        },
+        "Dec '13": {
+            "Income": {
+                "Total Income From Operations": 1070.32
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 89.16,
+                "Purchase of Traded Goods": 6.15,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 282.07
+            },
+            "Profit": {
+                "Total Income sum": 1070.32,
+                "Total Expenditure_sum": 377.38,
+                "Total Profit": 692.94
+            }
+        },
+        "Mar '14": {
+            "Income": {
+                "Total Income From Operations": 1071.13
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 92.89,
+                "Purchase of Traded Goods": 14.19,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 261.14
+            },
+            "Profit": {
+                "Total Income sum": 1071.13,
+                "Total Expenditure_sum": 368.22,
+                "Total Profit": 702.91
+            }
+        },
+        "Jun '14": {
+            "Income": {
+                "Total Income From Operations": 1243.61
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 107.81,
+                "Purchase of Traded Goods": 7.77,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 310.14
+            },
+            "Profit": {
+                "Total Income sum": 1243.61,
+                "Total Expenditure_sum": 425.72,
+                "Total Profit": 817.89
+            }
+        },
+        "Sep '14": {
+            "Income": {
+                "Total Income From Operations": 1232.21
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 105.93,
+                "Purchase of Traded Goods": 8.4,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 284.31
+            },
+            "Profit": {
+                "Total Income sum": 1232.21,
+                "Total Expenditure_sum": 398.64,
+                "Total Profit": 833.57
+            }
+        },
+        "Dec '14": {
+            "Income": {
+                "Total Income From Operations": 1476.55
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 119.79,
+                "Purchase of Traded Goods": 9.89,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 370.26
+            },
+            "Profit": {
+                "Total Income sum": 1476.55,
+                "Total Expenditure_sum": 499.94,
+                "Total Profit": 976.61
+            }
+        },
+        "Mar '15": {
+            "Income": {
+                "Total Income From Operations": 1429.43
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 117.2,
+                "Purchase of Traded Goods": 9.54,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 361.95
+            },
+            "Profit": {
+                "Total Income sum": 1429.43,
+                "Total Expenditure_sum": 488.69,
+                "Total Profit": 940.74
+            }
+        },
+        "Jun '15": {
+            "Income": {
+                "Total Income From Operations": 1646.21
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 144.59,
+                "Purchase of Traded Goods": 11.5,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 400.26
+            },
+            "Profit": {
+                "Total Income sum": 1646.21,
+                "Total Expenditure_sum": 556.35,
+                "Total Profit": 1089.86
+            }
+        },
+        "Sep '15": {
+            "Income": {
+                "Total Income From Operations": 1679.93
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 149.84,
+                "Purchase of Traded Goods": 12.61,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 415.49
+            },
+            "Profit": {
+                "Total Income sum": 1679.93,
+                "Total Expenditure_sum": 577.94,
+                "Total Profit": 1101.99
+            }
+        },
+        "Dec '15": {
+            "Income": {
+                "Total Income From Operations": 2061.36
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 170.53,
+                "Purchase of Traded Goods": 15.09,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 509.51
+            },
+            "Profit": {
+                "Total Income sum": 2061.36,
+                "Total Expenditure_sum": 695.13,
+                "Total Profit": 1366.23
+            }
+        },
+        "Mar '16": {
+            "Income": {
+                "Total Income From Operations": 1916.23
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 164.67,
+                "Purchase of Traded Goods": 17.14,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 466.8
+            },
+            "Profit": {
+                "Total Income sum": 1916.23,
+                "Total Expenditure_sum": 648.61,
+                "Total Profit": 1267.62
+            }
+        },
+        "Jun '16": {
+            "Income": {
+                "Total Income From Operations": 2286.4
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 201.79,
+                "Purchase of Traded Goods": 15.98,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 548.45
+            },
+            "Profit": {
+                "Total Income sum": 2286.4,
+                "Total Expenditure_sum": 766.22,
+                "Total Profit": 1520.18
+            }
+        },
+        "Sep '16": {
+            "Income": {
+                "Total Income From Operations": 2347.01
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 212.99,
+                "Purchase of Traded Goods": 17.75,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 552.78
+            },
+            "Profit": {
+                "Total Income sum": 2347.01,
+                "Total Expenditure_sum": 783.52,
+                "Total Profit": 1563.49
+            }
+        },
+        "Dec '16": {
+            "Income": {
+                "Total Income From Operations": 2701.97
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 252.52,
+                "Purchase of Traded Goods": 17.72,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 628.64
+            },
+            "Profit": {
+                "Total Income sum": 2701.97,
+                "Total Expenditure_sum": 898.88,
+                "Total Profit": 1803.09
+            }
+        },
+        "Mar '17": {
+            "Income": {
+                "Total Income From Operations": 2665.02
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 264.37,
+                "Purchase of Traded Goods": 19.71,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 715.46
+            },
+            "Profit": {
+                "Total Income sum": 2665.02,
+                "Total Expenditure_sum": 999.54,
+                "Total Profit": 1665.48
+            }
+        },
+        "Jun '17": {
+            "Income": {
+                "Total Income From Operations": 3150.47
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 308.19,
+                "Purchase of Traded Goods": 21.88,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 831.06
+            },
+            "Profit": {
+                "Total Income sum": 3150.47,
+                "Total Expenditure_sum": 1161.13,
+                "Total Profit": 1989.34
+            }
+        },
+        "Sep '17": {
+            "Income": {
+                "Total Income From Operations": 3086.24
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 336.16,
+                "Purchase of Traded Goods": 24.07,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 742.83
+            },
+            "Profit": {
+                "Total Income sum": 3086.24,
+                "Total Expenditure_sum": 1103.06,
+                "Total Profit": 1983.18
+            }
+        },
+        "Dec '17": {
+            "Income": {
+                "Total Income From Operations": 3540.63
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 369.52,
+                "Purchase of Traded Goods": 26.76,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 799.91
+            },
+            "Profit": {
+                "Total Income sum": 3540.63,
+                "Total Expenditure_sum": 1196.19,
+                "Total Profit": 2344.44
+            }
+        },
+        "Mar '18": {
+            "Income": {
+                "Total Income From Operations": 3534.76
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 387.54,
+                "Purchase of Traded Goods": 29.25,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 849.11
+            },
+            "Profit": {
+                "Total Income sum": 3534.76,
+                "Total Expenditure_sum": 1265.9,
+                "Total Profit": 2268.86
+            }
+        },
+        "Jun '18": {
+            "Income": {
+                "Total Income From Operations": 3791.34
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 391.67,
+                "Purchase of Traded Goods": 28.7,
+                "Increase/Decrease in Stocks": 321.05,
+                "Power & Fuel": 464.23
+            },
+            "Profit": {
+                "Total Income sum": 3791.34,
+                "Total Expenditure_sum": 1205.65,
+                "Total Profit": 2585.69
+            }
+        },
+        "Sep '18": {
+            "Income": {
+                "Total Income From Operations": 4045.35
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 403.81,
+                "Purchase of Traded Goods": 31.85,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 800.9
+            },
+            "Profit": {
+                "Total Income sum": 4045.35,
+                "Total Expenditure_sum": 1236.56,
+                "Total Profit": 2808.79
+            }
+        },
+        "Dec '18": {
+            "Income": {
+                "Total Income From Operations": 4657.9
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 453.03,
+                "Purchase of Traded Goods": 37.89,
+                "Increase/Decrease in Stocks": 444.6,
+                "Power & Fuel": 565.68
+            },
+            "Profit": {
+                "Total Income sum": 4657.9,
+                "Total Expenditure_sum": 1501.2,
+                "Total Profit": 3156.7
+            }
+        },
+        "Mar '19": {
+            "Income": {
+                "Total Income From Operations": 4886.54
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 480.96,
+                "Purchase of Traded Goods": 38.93,
+                "Increase/Decrease in Stocks": 0.0,
+                "Power & Fuel": 998.07
+            },
+            "Profit": {
+                "Total Income sum": 4886.54,
+                "Total Expenditure_sum": 1517.96,
+                "Total Profit": 3368.58
+            }
+        },
+        "Jun '19": {
+            "Income": {
+                "Total Income From Operations": 5297.78
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 522.84,
+                "Purchase of Traded Goods": 56.47,
+                "Increase/Decrease in Stocks": 541.77,
+                "Power & Fuel": 642.5
+            },
+            "Profit": {
+                "Total Income sum": 5297.78,
+                "Total Expenditure_sum": 1763.58,
+                "Total Profit": 3534.2
+            }
+        },
+        "Sep '19": {
+            "Income": {
+                "Total Income From Operations": 5696.63
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 560.67,
+                "Purchase of Traded Goods": 63.79,
+                "Increase/Decrease in Stocks": 581.25,
+                "Power & Fuel": 679.58
+            },
+            "Profit": {
+                "Total Income sum": 5696.63,
+                "Total Expenditure_sum": 1885.29,
+                "Total Profit": 3811.34
+            }
+        },
+        "Dec '19": {
+            "Income": {
+                "Total Income From Operations": 6303.56
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 650.56,
+                "Purchase of Traded Goods": 69.72,
+                "Increase/Decrease in Stocks": 816.96,
+                "Power & Fuel": 730.37
+            },
+            "Profit": {
+                "Total Income sum": 6303.56,
+                "Total Expenditure_sum": 2267.61,
+                "Total Profit": 4035.95
+            }
+        },
+        "Mar '20": {
+            "Income": {
+                "Total Income From Operations": 6511.09
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 562.51,
+                "Purchase of Traded Goods": 80.72,
+                "Increase/Decrease in Stocks": 1865.17,
+                "Power & Fuel": 745.61
+            },
+            "Profit": {
+                "Total Income sum": 6511.09,
+                "Total Expenditure_sum": 3254.01,
+                "Total Profit": 3257.08
+            }
+        },
+        "Jun '20": {
+            "Income": {
+                "Total Income From Operations": 5900.63
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 482.6,
+                "Purchase of Traded Goods": 76.98,
+                "Increase/Decrease in Stocks": 1640.53,
+                "Power & Fuel": 532.88
+            },
+            "Profit": {
+                "Total Income sum": 5900.63,
+                "Total Expenditure_sum": 2732.99,
+                "Total Profit": 3167.64
+            }
+        },
+        "Sep '20": {
+            "Income": {
+                "Total Income From Operations": 5783.17
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 461.18,
+                "Purchase of Traded Goods": 67.11,
+                "Increase/Decrease in Stocks": 1634.99,
+                "Power & Fuel": 572.89
+            },
+            "Profit": {
+                "Total Income sum": 5783.17,
+                "Total Expenditure_sum": 2736.17,
+                "Total Profit": 3047.0
+            }
+        },
+        "Dec '20": {
+            "Income": {
+                "Total Income From Operations": 5845.41
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 612.43,
+                "Purchase of Traded Goods": 73.25,
+                "Increase/Decrease in Stocks": 1244.95,
+                "Power & Fuel": 625.03
+            },
+            "Profit": {
+                "Total Income sum": 5845.41,
+                "Total Expenditure_sum": 2555.66,
+                "Total Profit": 3289.75
+            }
+        },
+        "Mar '21": {
+            "Income": {
+                "Total Income From Operations": 6006.18
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 686.21,
+                "Purchase of Traded Goods": 84.91,
+                "Increase/Decrease in Stocks": 1200.81,
+                "Power & Fuel": 743.54
+            },
+            "Profit": {
+                "Total Income sum": 6006.18,
+                "Total Expenditure_sum": 2715.47,
+                "Total Profit": 3290.71
+            }
+        },
+        "Jun '21": {
+            "Income": {
+                "Total Income From Operations": 5915.9
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 548.69,
+                "Purchase of Traded Goods": 82.43,
+                "Increase/Decrease in Stocks": 1724.4,
+                "Power & Fuel": 648.07
+            },
+            "Profit": {
+                "Total Income sum": 5915.9,
+                "Total Expenditure_sum": 3003.59,
+                "Total Profit": 2912.31
+            }
+        },
+        "Sep '21": {
+            "Income": {
+                "Total Income From Operations": 6808.23
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 848.06,
+                "Purchase of Traded Goods": 87.58,
+                "Increase/Decrease in Stocks": 1239.29,
+                "Power & Fuel": 976.9
+            },
+            "Profit": {
+                "Total Income sum": 6808.23,
+                "Total Expenditure_sum": 3151.83,
+                "Total Profit": 3656.4
+            }
+        },
+        "Dec '21": {
+            "Income": {
+                "Total Income From Operations": 7523.07
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 920.13,
+                "Purchase of Traded Goods": 88.8,
+                "Increase/Decrease in Stocks": 994.64,
+                "Power & Fuel": 940.04
+            },
+            "Profit": {
+                "Total Income sum": 7523.07,
+                "Total Expenditure_sum": 2943.61,
+                "Total Profit": 4579.46
+            }
+        },
+        "Mar '22": {
+            "Income": {
+                "Total Income From Operations": 7617.08
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 905.0,
+                "Purchase of Traded Goods": 96.1,
+                "Increase/Decrease in Stocks": 663.73,
+                "Power & Fuel": 948.1
+            },
+            "Profit": {
+                "Total Income sum": 7617.08,
+                "Total Expenditure_sum": 2612.93,
+                "Total Profit": 5004.15
+            }
+        },
+        "Jun '22": {
+            "Income": {
+                "Total Income From Operations": 8144.68
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1058.62,
+                "Purchase of Traded Goods": 102.11,
+                "Increase/Decrease in Stocks": 748.04,
+                "Power & Fuel": 1055.3
+            },
+            "Profit": {
+                "Total Income sum": 8144.68,
+                "Total Expenditure_sum": 2964.07,
+                "Total Profit": 5180.61
+            }
+        },
+        "Sep '22": {
+            "Income": {
+                "Total Income From Operations": 8602.63
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1124.74,
+                "Purchase of Traded Goods": 110.82,
+                "Increase/Decrease in Stocks": 704.86,
+                "Power & Fuel": 1121.72
+            },
+            "Profit": {
+                "Total Income sum": 8602.63,
+                "Total Expenditure_sum": 3062.14,
+                "Total Profit": 5540.49
+            }
+        },
+        "Dec '22": {
+            "Income": {
+                "Total Income From Operations": 9213.53
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1163.87,
+                "Purchase of Traded Goods": 108.31,
+                "Increase/Decrease in Stocks": 810.97,
+                "Power & Fuel": 1135.29
+            },
+            "Profit": {
+                "Total Income sum": 9213.53,
+                "Total Expenditure_sum": 3218.44,
+                "Total Profit": 5995.09
+            }
+        },
+        "Mar '23": {
+            "Income": {
+                "Total Income From Operations": 9716.19
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1216.83,
+                "Purchase of Traded Goods": 122.53,
+                "Increase/Decrease in Stocks": 802.59,
+                "Power & Fuel": 1132.18
+            },
+            "Profit": {
+                "Total Income sum": 9716.19,
+                "Total Expenditure_sum": 3274.13,
+                "Total Profit": 6442.06
+            }
+        },
+        "Jun '23": {
+            "Income": {
+                "Total Income From Operations": 10664.1
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1366.31,
+                "Purchase of Traded Goods": 143.32,
+                "Increase/Decrease in Stocks": 988.61,
+                "Power & Fuel": 1149.88
+            },
+            "Profit": {
+                "Total Income sum": 10664.1,
+                "Total Expenditure_sum": 3648.12,
+                "Total Profit": 7015.98
+            }
+        },
+        "Sep '23": {
+            "Income": {
+                "Total Income From Operations": 11407.86
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1452.45,
+                "Purchase of Traded Goods": 145.21,
+                "Increase/Decrease in Stocks": 1058.55,
+                "Power & Fuel": 1211.7
+            },
+            "Profit": {
+                "Total Income sum": 11407.86,
+                "Total Expenditure_sum": 3867.91,
+                "Total Profit": 7539.95
+            }
+        },
+        "Dec '23": {
+            "Income": {
+                "Total Income From Operations": 12100.23
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1527.22,
+                "Purchase of Traded Goods": 161.91,
+                "Increase/Decrease in Stocks": 1247.52,
+                "Power & Fuel": 1257.35
+            },
+            "Profit": {
+                "Total Income sum": 12100.23,
+                "Total Expenditure_sum": 4194.0,
+                "Total Profit": 7906.23
+            }
+        },
+        "Mar '24": {
+            "Income": {
+                "Total Income From Operations": 12760.49
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1503.49,
+                "Purchase of Traded Goods": 178.69,
+                "Increase/Decrease in Stocks": 1277.51,
+                "Power & Fuel": 1377.48
+            },
+            "Profit": {
+                "Total Income sum": 12760.49,
+                "Total Expenditure_sum": 4337.17,
+                "Total Profit": 8423.32
+            }
+        },
+        "Jun '24": {
+            "Income": {
+                "Total Income From Operations": 13723.11
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1631.59,
+                "Purchase of Traded Goods": 185.77,
+                "Increase/Decrease in Stocks": 1671.36,
+                "Power & Fuel": 1432.99
+            },
+            "Profit": {
+                "Total Income sum": 13723.11,
+                "Total Expenditure_sum": 4921.71,
+                "Total Profit": 8801.4
+            }
+        },
+        "Sep '24": {
+            "Income": {
+                "Total Income From Operations": 14487.43
+            },
+            "Expenditure": {
+                "Consumption of Raw Materials": 1683.37,
+                "Purchase of Traded Goods": 195.66,
+                "Increase/Decrease in Stocks": 1903.3,
+                "Power & Fuel": 1518.54
+            },
+            "Profit": {
+                "Total Income sum": 14487.43,
+                "Total Expenditure_sum": 5300.87,
+                "Total Profit": 9186.56
+            }
+        }
+    },
+    "Total Profit for each quarter": {
+        "Q1": 632.45,
+        "Q2": 692.94,
+        "Q3": 702.91,
+        "Q4": 817.89,
+        "Q5": 833.57,
+        "Q6": 976.61,
+        "Q7": 940.74,
+        "Q8": 1089.86,
+        "Q9": 1101.99,
+        "Q10": 1366.23,
+        "Q11": 1267.62,
+        "Q12": 1520.18,
+        "Q13": 1563.49,
+        "Q14": 1803.09,
+        "Q15": 1665.48,
+        "Q16": 1989.34,
+        "Q17": 1983.18,
+        "Q18": 2344.44,
+        "Q19": 2268.86,
+        "Q20": 2585.69,
+        "Q21": 2808.79,
+        "Q22": 3156.7,
+        "Q23": 3368.58,
+        "Q24": 3534.2,
+        "Q25": 3811.34,
+        "Q26": 4035.95,
+        "Q27": 3257.08,
+        "Q28": 3167.64,
+        "Q29": 3047.0,
+        "Q30": 3289.75,
+        "Q31": 3290.71,
+        "Q32": 2912.31,
+        "Q33": 3656.4,
+        "Q34": 4579.46,
+        "Q35": 5004.15,
+        "Q36": 5180.61,
+        "Q37": 5540.49,
+        "Q38": 5995.09,
+        "Q39": 6442.06,
+        "Q40": 7015.98,
+        "Q41": 7539.95,
+        "Q42": 7906.23,
+        "Q43": 8423.32,
+        "Q44": 8801.4,
+        "Q45": 9186.56
+    }
+}

@@ -1,1041 +1,726 @@
 {
     "Quarters": {
         "Sep '13": {
-            "total_income": {
-                "values": [
-                    16607.72
-                ],
-                "sum": 16607.72
+            "Income": {
+                "Total Income From Operations": 16607.72
             },
-            "total_expenditure": {
-                "values": [
-                    5428.79,
-                    261.74,
-                    5430.48
-                ],
-                "sum": 11121.009999999998
+            "Expenditure": {
+                "Consumption of Raw Materials": 5428.79,
+                "Purchase of Traded Goods": 261.74,
+                "Increase/Decrease in Stocks": 5430.48
             },
-            "total_revenue": {
-                "values": [
-                    5486.710000000003
-                ],
-                "sum": 5486.710000000003
+            "Profit": {
+                "Total Income sum": 16607.72,
+                "Total Expenditure_sum": 11121.01,
+                "Total Profit": 5486.71
             }
         },
         "Dec '13": {
-            "total_income": {
-                "values": [
-                    16692.65
-                ],
-                "sum": 16692.65
+            "Income": {
+                "Total Income From Operations": 16692.65
             },
-            "total_expenditure": {
-                "values": [
-                    5430.93,
-                    280.36,
-                    5482.53
-                ],
-                "sum": 11193.82
+            "Expenditure": {
+                "Consumption of Raw Materials": 5430.93,
+                "Purchase of Traded Goods": 280.36,
+                "Increase/Decrease in Stocks": 5482.53
             },
-            "total_revenue": {
-                "values": [
-                    5498.830000000002
-                ],
-                "sum": 5498.830000000002
+            "Profit": {
+                "Total Income sum": 16692.65,
+                "Total Expenditure_sum": 11193.82,
+                "Total Profit": 5498.83
             }
         },
         "Mar '14": {
-            "total_income": {
-                "values": [
-                    16893.91
-                ],
-                "sum": 16893.91
+            "Income": {
+                "Total Income From Operations": 16893.91
             },
-            "total_expenditure": {
-                "values": [
-                    5354.04,
-                    297.21,
-                    5974.83
-                ],
-                "sum": 11626.08
+            "Expenditure": {
+                "Consumption of Raw Materials": 5354.04,
+                "Purchase of Traded Goods": 297.21,
+                "Increase/Decrease in Stocks": 5974.83
             },
-            "total_revenue": {
-                "values": [
-                    5267.83
-                ],
-                "sum": 5267.83
+            "Profit": {
+                "Total Income sum": 16893.91,
+                "Total Expenditure_sum": 11626.08,
+                "Total Profit": 5267.83
             }
         },
         "Jun '14": {
-            "total_income": {
-                "values": [
-                    17438.43
-                ],
-                "sum": 17438.43
+            "Income": {
+                "Total Income From Operations": 17438.43
             },
-            "total_expenditure": {
-                "values": [
-                    6024.84,
-                    335.26,
-                    5925.38
-                ],
-                "sum": 12285.48
+            "Expenditure": {
+                "Consumption of Raw Materials": 6024.84,
+                "Purchase of Traded Goods": 335.26,
+                "Increase/Decrease in Stocks": 5925.38
             },
-            "total_revenue": {
-                "values": [
-                    5152.950000000001
-                ],
-                "sum": 5152.950000000001
+            "Profit": {
+                "Total Income sum": 17438.43,
+                "Total Expenditure_sum": 12285.48,
+                "Total Profit": 5152.95
             }
         },
         "Sep '14": {
-            "total_income": {
-                "values": [
-                    18405.05
-                ],
-                "sum": 18405.05
+            "Income": {
+                "Total Income From Operations": 18405.05
             },
-            "total_expenditure": {
-                "values": [
-                    6260.67,
-                    340.71,
-                    6243.0
-                ],
-                "sum": 12844.380000000001
+            "Expenditure": {
+                "Consumption of Raw Materials": 6260.67,
+                "Purchase of Traded Goods": 340.71,
+                "Increase/Decrease in Stocks": 6243.0
             },
-            "total_revenue": {
-                "values": [
-                    5560.669999999998
-                ],
-                "sum": 5560.669999999998
+            "Profit": {
+                "Total Income sum": 18405.05,
+                "Total Expenditure_sum": 12844.38,
+                "Total Profit": 5560.67
             }
         },
         "Dec '14": {
-            "total_income": {
-                "values": [
-                    18936.35
-                ],
-                "sum": 18936.35
+            "Income": {
+                "Total Income From Operations": 18936.35
             },
-            "total_expenditure": {
-                "values": [
-                    6440.38,
-                    350.51,
-                    6354.75
-                ],
-                "sum": 13145.64
+            "Expenditure": {
+                "Consumption of Raw Materials": 6440.38,
+                "Purchase of Traded Goods": 350.51,
+                "Increase/Decrease in Stocks": 6354.75
             },
-            "total_revenue": {
-                "values": [
-                    5790.709999999999
-                ],
-                "sum": 5790.709999999999
+            "Profit": {
+                "Total Income sum": 18936.35,
+                "Total Expenditure_sum": 13145.64,
+                "Total Profit": 5790.71
             }
         },
         "Mar '15": {
-            "total_income": {
-                "values": [
-                    18798.23
-                ],
-                "sum": 18798.23
+            "Income": {
+                "Total Income From Operations": 18798.23
             },
-            "total_expenditure": {
-                "values": [
-                    8642.43,
-                    367.29,
-                    6658.41
-                ],
-                "sum": 15668.130000000001
+            "Expenditure": {
+                "Consumption of Raw Materials": 8642.43,
+                "Purchase of Traded Goods": 367.29,
+                "Increase/Decrease in Stocks": 6658.41
             },
-            "total_revenue": {
-                "values": [
-                    3130.0999999999985
-                ],
-                "sum": 3130.0999999999985
+            "Profit": {
+                "Total Income sum": 18798.23,
+                "Total Expenditure_sum": 15668.13,
+                "Total Profit": 3130.1
             }
         },
         "Jun '15": {
-            "total_income": {
-                "values": [
-                    20349.0
-                ],
-                "sum": 20349.0
+            "Income": {
+                "Total Income From Operations": 20349.0
             },
-            "total_expenditure": {
-                "values": [
-                    10104.0,
-                    348.0,
-                    3752.0
-                ],
-                "sum": 14204.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 10104.0,
+                "Purchase of Traded Goods": 348.0,
+                "Increase/Decrease in Stocks": 3752.0
             },
-            "total_revenue": {
-                "values": [
-                    6145.0
-                ],
-                "sum": 6145.0
+            "Profit": {
+                "Total Income sum": 20349.0,
+                "Total Expenditure_sum": 14204.0,
+                "Total Profit": 6145.0
             }
         },
         "Sep '15": {
-            "total_income": {
-                "values": [
-                    21636.0
-                ],
-                "sum": 21636.0
+            "Income": {
+                "Total Income From Operations": 21636.0
             },
-            "total_expenditure": {
-                "values": [
-                    10318.0,
-                    362.0,
-                    4247.0
-                ],
-                "sum": 14927.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 10318.0,
+                "Purchase of Traded Goods": 362.0,
+                "Increase/Decrease in Stocks": 4247.0
             },
-            "total_revenue": {
-                "values": [
-                    6709.0
-                ],
-                "sum": 6709.0
+            "Profit": {
+                "Total Income sum": 21636.0,
+                "Total Expenditure_sum": 14927.0,
+                "Total Profit": 6709.0
             }
         },
         "Dec '15": {
-            "total_income": {
-                "values": [
-                    21621.0
-                ],
-                "sum": 21621.0
+            "Income": {
+                "Total Income From Operations": 21621.0
             },
-            "total_expenditure": {
-                "values": [
-                    10809.0,
-                    365.0,
-                    4020.0
-                ],
-                "sum": 15194.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 10809.0,
+                "Purchase of Traded Goods": 365.0,
+                "Increase/Decrease in Stocks": 4020.0
             },
-            "total_revenue": {
-                "values": [
-                    6427.0
-                ],
-                "sum": 6427.0
+            "Profit": {
+                "Total Income sum": 21621.0,
+                "Total Expenditure_sum": 15194.0,
+                "Total Profit": 6427.0
             }
         },
         "Mar '16": {
-            "total_income": {
-                "values": [
-                    22258.0
-                ],
-                "sum": 22258.0
+            "Income": {
+                "Total Income From Operations": 22258.0
             },
-            "total_expenditure": {
-                "values": [
-                    11189.0,
-                    384.0,
-                    4371.0
-                ],
-                "sum": 15944.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 11189.0,
+                "Purchase of Traded Goods": 384.0,
+                "Increase/Decrease in Stocks": 4371.0
             },
-            "total_revenue": {
-                "values": [
-                    6314.0
-                ],
-                "sum": 6314.0
+            "Profit": {
+                "Total Income sum": 22258.0,
+                "Total Expenditure_sum": 15944.0,
+                "Total Profit": 6314.0
             }
         },
         "Jun '16": {
-            "total_income": {
-                "values": [
-                    23087.0
-                ],
-                "sum": 23087.0
+            "Income": {
+                "Total Income From Operations": 23087.0
             },
-            "total_expenditure": {
-                "values": [
-                    11891.0,
-                    386.0,
-                    4389.0
-                ],
-                "sum": 16666.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 11891.0,
+                "Purchase of Traded Goods": 386.0,
+                "Increase/Decrease in Stocks": 4389.0
             },
-            "total_revenue": {
-                "values": [
-                    6421.0
-                ],
-                "sum": 6421.0
+            "Profit": {
+                "Total Income sum": 23087.0,
+                "Total Expenditure_sum": 16666.0,
+                "Total Profit": 6421.0
             }
         },
         "Sep '16": {
-            "total_income": {
-                "values": [
-                    23016.0
-                ],
-                "sum": 23016.0
+            "Income": {
+                "Total Income From Operations": 23016.0
             },
-            "total_expenditure": {
-                "values": [
-                    11937.0,
-                    396.0,
-                    4260.0
-                ],
-                "sum": 16593.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 11937.0,
+                "Purchase of Traded Goods": 396.0,
+                "Increase/Decrease in Stocks": 4260.0
             },
-            "total_revenue": {
-                "values": [
-                    6423.0
-                ],
-                "sum": 6423.0
+            "Profit": {
+                "Total Income sum": 23016.0,
+                "Total Expenditure_sum": 16593.0,
+                "Total Profit": 6423.0
             }
         },
         "Dec '16": {
-            "total_income": {
-                "values": [
-                    23184.0
-                ],
-                "sum": 23184.0
+            "Income": {
+                "Total Income From Operations": 23184.0
             },
-            "total_expenditure": {
-                "values": [
-                    11941.0,
-                    394.0,
-                    4495.0
-                ],
-                "sum": 16830.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 11941.0,
+                "Purchase of Traded Goods": 394.0,
+                "Increase/Decrease in Stocks": 4495.0
             },
-            "total_revenue": {
-                "values": [
-                    6354.0
-                ],
-                "sum": 6354.0
+            "Profit": {
+                "Total Income sum": 23184.0,
+                "Total Expenditure_sum": 16830.0,
+                "Total Profit": 6354.0
             }
         },
         "Mar '17": {
-            "total_income": {
-                "values": [
-                    23406.0
-                ],
-                "sum": 23406.0
+            "Income": {
+                "Total Income From Operations": 23406.0
             },
-            "total_expenditure": {
-                "values": [
-                    12347.0,
-                    399.0,
-                    4344.0
-                ],
-                "sum": 17090.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 12347.0,
+                "Purchase of Traded Goods": 399.0,
+                "Increase/Decrease in Stocks": 4344.0
             },
-            "total_revenue": {
-                "values": [
-                    6316.0
-                ],
-                "sum": 6316.0
+            "Profit": {
+                "Total Income sum": 23406.0,
+                "Total Expenditure_sum": 17090.0,
+                "Total Profit": 6316.0
             }
         },
         "Jun '17": {
-            "total_income": {
-                "values": [
-                    23476.0
-                ],
-                "sum": 23476.0
+            "Income": {
+                "Total Income From Operations": 23476.0
             },
-            "total_expenditure": {
-                "values": [
-                    12740.0,
-                    396.0,
-                    4450.0
-                ],
-                "sum": 17586.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 12740.0,
+                "Purchase of Traded Goods": 396.0,
+                "Increase/Decrease in Stocks": 4450.0
             },
-            "total_revenue": {
-                "values": [
-                    5890.0
-                ],
-                "sum": 5890.0
+            "Profit": {
+                "Total Income sum": 23476.0,
+                "Total Expenditure_sum": 17586.0,
+                "Total Profit": 5890.0
             }
         },
         "Sep '17": {
-            "total_income": {
-                "values": [
-                    24032.0
-                ],
-                "sum": 24032.0
+            "Income": {
+                "Total Income From Operations": 24032.0
             },
-            "total_expenditure": {
-                "values": [
-                    12896.0,
-                    412.0,
-                    4223.0
-                ],
-                "sum": 17531.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 12896.0,
+                "Purchase of Traded Goods": 412.0,
+                "Increase/Decrease in Stocks": 4223.0
             },
-            "total_revenue": {
-                "values": [
-                    6501.0
-                ],
-                "sum": 6501.0
+            "Profit": {
+                "Total Income sum": 24032.0,
+                "Total Expenditure_sum": 17531.0,
+                "Total Profit": 6501.0
             }
         },
         "Dec '17": {
-            "total_income": {
-                "values": [
-                    24278.0
-                ],
-                "sum": 24278.0
+            "Income": {
+                "Total Income From Operations": 24278.0
             },
-            "total_expenditure": {
-                "values": [
-                    12669.0,
-                    419.0,
-                    4492.0
-                ],
-                "sum": 17580.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 12669.0,
+                "Purchase of Traded Goods": 419.0,
+                "Increase/Decrease in Stocks": 4492.0
             },
-            "total_revenue": {
-                "values": [
-                    6698.0
-                ],
-                "sum": 6698.0
+            "Profit": {
+                "Total Income sum": 24278.0,
+                "Total Expenditure_sum": 17580.0,
+                "Total Profit": 6698.0
             }
         },
         "Mar '18": {
-            "total_income": {
-                "values": [
-                    25570.0
-                ],
-                "sum": 25570.0
+            "Income": {
+                "Total Income From Operations": 25570.0
             },
-            "total_expenditure": {
-                "values": [
-                    13194.0,
-                    420.0,
-                    4887.0
-                ],
-                "sum": 18501.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 13194.0,
+                "Purchase of Traded Goods": 420.0,
+                "Increase/Decrease in Stocks": 4887.0
             },
-            "total_revenue": {
-                "values": [
-                    7069.0
-                ],
-                "sum": 7069.0
+            "Profit": {
+                "Total Income sum": 25570.0,
+                "Total Expenditure_sum": 18501.0,
+                "Total Profit": 7069.0
             }
         },
         "Jun '18": {
-            "total_income": {
-                "values": [
-                    29368.0
-                ],
-                "sum": 29368.0
+            "Income": {
+                "Total Income From Operations": 29368.0
             },
-            "total_expenditure": {
-                "values": [
-                    14126.0,
-                    415.0,
-                    6854.0
-                ],
-                "sum": 21395.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 14126.0,
+                "Purchase of Traded Goods": 415.0,
+                "Increase/Decrease in Stocks": 6854.0
             },
-            "total_revenue": {
-                "values": [
-                    7973.0
-                ],
-                "sum": 7973.0
+            "Profit": {
+                "Total Income sum": 29368.0,
+                "Total Expenditure_sum": 21395.0,
+                "Total Profit": 7973.0
             }
         },
         "Sep '18": {
-            "total_income": {
-                "values": [
-                    30792.0
-                ],
-                "sum": 30792.0
+            "Income": {
+                "Total Income From Operations": 30792.0
             },
-            "total_expenditure": {
-                "values": [
-                    14812.0,
-                    424.0,
-                    6998.0
-                ],
-                "sum": 22234.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 14812.0,
+                "Purchase of Traded Goods": 424.0,
+                "Increase/Decrease in Stocks": 6998.0
             },
-            "total_revenue": {
-                "values": [
-                    8558.0
-                ],
-                "sum": 8558.0
+            "Profit": {
+                "Total Income sum": 30792.0,
+                "Total Expenditure_sum": 22234.0,
+                "Total Profit": 8558.0
             }
         },
         "Dec '18": {
-            "total_income": {
-                "values": [
-                    30964.0
-                ],
-                "sum": 30964.0
+            "Income": {
+                "Total Income From Operations": 30964.0
             },
-            "total_expenditure": {
-                "values": [
-                    15175.0,
-                    430.0,
-                    7237.0
-                ],
-                "sum": 22842.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 15175.0,
+                "Purchase of Traded Goods": 430.0,
+                "Increase/Decrease in Stocks": 7237.0
             },
-            "total_revenue": {
-                "values": [
-                    8122.0
-                ],
-                "sum": 8122.0
+            "Profit": {
+                "Total Income sum": 30964.0,
+                "Total Expenditure_sum": 22842.0,
+                "Total Profit": 8122.0
             }
         },
         "Mar '19": {
-            "total_income": {
-                "values": [
-                    32046.0
-                ],
-                "sum": 32046.0
+            "Income": {
+                "Total Income From Operations": 32046.0
             },
-            "total_expenditure": {
-                "values": [
-                    15264.0,
-                    447.0,
-                    7740.0
-                ],
-                "sum": 23451.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 15264.0,
+                "Purchase of Traded Goods": 447.0,
+                "Increase/Decrease in Stocks": 7740.0
             },
-            "total_revenue": {
-                "values": [
-                    8595.0
-                ],
-                "sum": 8595.0
+            "Profit": {
+                "Total Income sum": 32046.0,
+                "Total Expenditure_sum": 23451.0,
+                "Total Profit": 8595.0
             }
         },
         "Jun '19": {
-            "total_income": {
-                "values": [
-                    32657.0
-                ],
-                "sum": 32657.0
+            "Income": {
+                "Total Income From Operations": 32657.0
             },
-            "total_expenditure": {
-                "values": [
-                    15723.0,
-                    636.0,
-                    7273.0
-                ],
-                "sum": 23632.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 15723.0,
+                "Purchase of Traded Goods": 636.0,
+                "Increase/Decrease in Stocks": 7273.0
             },
-            "total_revenue": {
-                "values": [
-                    9025.0
-                ],
-                "sum": 9025.0
+            "Profit": {
+                "Total Income sum": 32657.0,
+                "Total Expenditure_sum": 23632.0,
+                "Total Profit": 9025.0
             }
         },
         "Sep '19": {
-            "total_income": {
-                "values": [
-                    32387.0
-                ],
-                "sum": 32387.0
+            "Income": {
+                "Total Income From Operations": 32387.0
             },
-            "total_expenditure": {
-                "values": [
-                    16207.0,
-                    664.0,
-                    7186.0
-                ],
-                "sum": 24057.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 16207.0,
+                "Purchase of Traded Goods": 664.0,
+                "Increase/Decrease in Stocks": 7186.0
             },
-            "total_revenue": {
-                "values": [
-                    8330.0
-                ],
-                "sum": 8330.0
+            "Profit": {
+                "Total Income sum": 32387.0,
+                "Total Expenditure_sum": 24057.0,
+                "Total Profit": 8330.0
             }
         },
         "Dec '19": {
-            "total_income": {
-                "values": [
-                    33040.0
-                ],
-                "sum": 33040.0
+            "Income": {
+                "Total Income From Operations": 33040.0
             },
-            "total_expenditure": {
-                "values": [
-                    16333.0,
-                    677.0,
-                    7262.0
-                ],
-                "sum": 24272.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 16333.0,
+                "Purchase of Traded Goods": 677.0,
+                "Increase/Decrease in Stocks": 7262.0
             },
-            "total_revenue": {
-                "values": [
-                    8768.0
-                ],
-                "sum": 8768.0
+            "Profit": {
+                "Total Income sum": 33040.0,
+                "Total Expenditure_sum": 24272.0,
+                "Total Profit": 8768.0
             }
         },
         "Mar '20": {
-            "total_income": {
-                "values": [
-                    33222.0
-                ],
-                "sum": 33222.0
+            "Income": {
+                "Total Income From Operations": 33222.0
             },
-            "total_expenditure": {
-                "values": [
-                    16643.0,
-                    724.0,
-                    7326.0
-                ],
-                "sum": 24693.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 16643.0,
+                "Purchase of Traded Goods": 724.0,
+                "Increase/Decrease in Stocks": 7326.0
             },
-            "total_revenue": {
-                "values": [
-                    8529.0
-                ],
-                "sum": 8529.0
+            "Profit": {
+                "Total Income sum": 33222.0,
+                "Total Expenditure_sum": 24693.0,
+                "Total Profit": 8529.0
             }
         },
         "Jun '20": {
-            "total_income": {
-                "values": [
-                    31624.0
-                ],
-                "sum": 31624.0
+            "Income": {
+                "Total Income From Operations": 31624.0
             },
-            "total_expenditure": {
-                "values": [
-                    16637.0,
-                    739.0,
-                    6393.0
-                ],
-                "sum": 23769.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 16637.0,
+                "Purchase of Traded Goods": 739.0,
+                "Increase/Decrease in Stocks": 6393.0
             },
-            "total_revenue": {
-                "values": [
-                    7855.0
-                ],
-                "sum": 7855.0
+            "Profit": {
+                "Total Income sum": 31624.0,
+                "Total Expenditure_sum": 23769.0,
+                "Total Profit": 7855.0
             }
         },
         "Sep '20": {
-            "total_income": {
-                "values": [
-                    33365.0
-                ],
-                "sum": 33365.0
+            "Income": {
+                "Total Income From Operations": 33365.0
             },
-            "total_expenditure": {
-                "values": [
-                    17211.0,
-                    755.0,
-                    6068.0
-                ],
-                "sum": 24034.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 17211.0,
+                "Purchase of Traded Goods": 755.0,
+                "Increase/Decrease in Stocks": 6068.0
             },
-            "total_revenue": {
-                "values": [
-                    9331.0
-                ],
-                "sum": 9331.0
+            "Profit": {
+                "Total Income sum": 33365.0,
+                "Total Expenditure_sum": 24034.0,
+                "Total Profit": 9331.0
             }
         },
         "Dec '20": {
-            "total_income": {
-                "values": [
-                    34957.0
-                ],
-                "sum": 34957.0
+            "Income": {
+                "Total Income From Operations": 34957.0
             },
-            "total_expenditure": {
-                "values": [
-                    17779.0,
-                    771.0,
-                    6500.0
-                ],
-                "sum": 25050.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 17779.0,
+                "Purchase of Traded Goods": 771.0,
+                "Increase/Decrease in Stocks": 6500.0
             },
-            "total_revenue": {
-                "values": [
-                    9907.0
-                ],
-                "sum": 9907.0
+            "Profit": {
+                "Total Income sum": 34957.0,
+                "Total Expenditure_sum": 25050.0,
+                "Total Profit": 9907.0
             }
         },
         "Mar '21": {
-            "total_income": {
-                "values": [
-                    36017.0
-                ],
-                "sum": 36017.0
+            "Income": {
+                "Total Income From Operations": 36017.0
             },
-            "total_expenditure": {
-                "values": [
-                    17419.0,
-                    788.0,
-                    7646.0
-                ],
-                "sum": 25853.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 17419.0,
+                "Purchase of Traded Goods": 788.0,
+                "Increase/Decrease in Stocks": 7646.0
             },
-            "total_revenue": {
-                "values": [
-                    10164.0
-                ],
-                "sum": 10164.0
+            "Profit": {
+                "Total Income sum": 36017.0,
+                "Total Expenditure_sum": 25853.0,
+                "Total Profit": 10164.0
             }
         },
         "Jun '21": {
-            "total_income": {
-                "values": [
-                    37722.0
-                ],
-                "sum": 37722.0
+            "Income": {
+                "Total Income From Operations": 37722.0
             },
-            "total_expenditure": {
-                "values": [
-                    19212.0,
-                    809.0,
-                    7317.0
-                ],
-                "sum": 27338.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 19212.0,
+                "Purchase of Traded Goods": 809.0,
+                "Increase/Decrease in Stocks": 7317.0
             },
-            "total_revenue": {
-                "values": [
-                    10384.0
-                ],
-                "sum": 10384.0
+            "Profit": {
+                "Total Income sum": 37722.0,
+                "Total Expenditure_sum": 27338.0,
+                "Total Profit": 10384.0
             }
         },
         "Sep '21": {
-            "total_income": {
-                "values": [
-                    39315.0
-                ],
-                "sum": 39315.0
+            "Income": {
+                "Total Income From Operations": 39315.0
             },
-            "total_expenditure": {
-                "values": [
-                    20007.0,
-                    844.0,
-                    7673.0
-                ],
-                "sum": 28524.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 20007.0,
+                "Purchase of Traded Goods": 844.0,
+                "Increase/Decrease in Stocks": 7673.0
             },
-            "total_revenue": {
-                "values": [
-                    10791.0
-                ],
-                "sum": 10791.0
+            "Profit": {
+                "Total Income sum": 39315.0,
+                "Total Expenditure_sum": 28524.0,
+                "Total Profit": 10791.0
             }
         },
         "Dec '21": {
-            "total_income": {
-                "values": [
-                    40845.0
-                ],
-                "sum": 40845.0
+            "Income": {
+                "Total Income From Operations": 40845.0
             },
-            "total_expenditure": {
-                "values": [
-                    20535.0,
-                    925.0,
-                    8605.0
-                ],
-                "sum": 30065.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 20535.0,
+                "Purchase of Traded Goods": 925.0,
+                "Increase/Decrease in Stocks": 8605.0
             },
-            "total_revenue": {
-                "values": [
-                    10780.0
-                ],
-                "sum": 10780.0
+            "Profit": {
+                "Total Income sum": 40845.0,
+                "Total Expenditure_sum": 30065.0,
+                "Total Profit": 10780.0
             }
         },
         "Mar '22": {
-            "total_income": {
-                "values": [
-                    42459.0
-                ],
-                "sum": 42459.0
+            "Income": {
+                "Total Income From Operations": 42459.0
             },
-            "total_expenditure": {
-                "values": [
-                    21343.0,
-                    944.0,
-                    9404.0
-                ],
-                "sum": 31691.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 21343.0,
+                "Purchase of Traded Goods": 944.0,
+                "Increase/Decrease in Stocks": 9404.0
             },
-            "total_revenue": {
-                "values": [
-                    10768.0
-                ],
-                "sum": 10768.0
+            "Profit": {
+                "Total Income sum": 42459.0,
+                "Total Expenditure_sum": 31691.0,
+                "Total Profit": 10768.0
             }
         },
         "Jun '22": {
-            "total_income": {
-                "values": [
-                    44480.0
-                ],
-                "sum": 44480.0
+            "Income": {
+                "Total Income From Operations": 44480.0
             },
-            "total_expenditure": {
-                "values": [
-                    22971.0,
-                    960.0,
-                    9680.0
-                ],
-                "sum": 33611.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 22971.0,
+                "Purchase of Traded Goods": 960.0,
+                "Increase/Decrease in Stocks": 9680.0
             },
-            "total_revenue": {
-                "values": [
-                    10869.0
-                ],
-                "sum": 10869.0
+            "Profit": {
+                "Total Income sum": 44480.0,
+                "Total Expenditure_sum": 33611.0,
+                "Total Profit": 10869.0
             }
         },
         "Sep '22": {
-            "total_income": {
-                "values": [
-                    46819.0
-                ],
-                "sum": 46819.0
+            "Income": {
+                "Total Income From Operations": 46819.0
             },
-            "total_expenditure": {
-                "values": [
-                    23511.0,
-                    976.0,
-                    10526.0
-                ],
-                "sum": 35013.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 23511.0,
+                "Purchase of Traded Goods": 976.0,
+                "Increase/Decrease in Stocks": 10526.0
             },
-            "total_revenue": {
-                "values": [
-                    11806.0
-                ],
-                "sum": 11806.0
+            "Profit": {
+                "Total Income sum": 46819.0,
+                "Total Expenditure_sum": 35013.0,
+                "Total Profit": 11806.0
             }
         },
         "Dec '22": {
-            "total_income": {
-                "values": [
-                    49275.0
-                ],
-                "sum": 49275.0
+            "Income": {
+                "Total Income From Operations": 49275.0
             },
-            "total_expenditure": {
-                "values": [
-                    24478.0,
-                    996.0,
-                    11281.0
-                ],
-                "sum": 36755.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 24478.0,
+                "Purchase of Traded Goods": 996.0,
+                "Increase/Decrease in Stocks": 11281.0
             },
-            "total_revenue": {
-                "values": [
-                    12520.0
-                ],
-                "sum": 12520.0
+            "Profit": {
+                "Total Income sum": 49275.0,
+                "Total Expenditure_sum": 36755.0,
+                "Total Profit": 12520.0
             }
         },
         "Mar '23": {
-            "total_income": {
-                "values": [
-                    49780.0
-                ],
-                "sum": 49780.0
+            "Income": {
+                "Total Income From Operations": 49780.0
             },
-            "total_expenditure": {
-                "values": [
-                    25258.0,
-                    1008.0,
-                    11652.0
-                ],
-                "sum": 37918.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 25258.0,
+                "Purchase of Traded Goods": 1008.0,
+                "Increase/Decrease in Stocks": 11652.0
             },
-            "total_revenue": {
-                "values": [
-                    11862.0
-                ],
-                "sum": 11862.0
+            "Profit": {
+                "Total Income sum": 49780.0,
+                "Total Expenditure_sum": 37918.0,
+                "Total Profit": 11862.0
             }
         },
         "Jun '23": {
-            "total_income": {
-                "values": [
-                    49862.0
-                ],
-                "sum": 49862.0
+            "Income": {
+                "Total Income From Operations": 49862.0
             },
-            "total_expenditure": {
-                "values": [
-                    25979.0,
-                    969.0,
-                    10747.0
-                ],
-                "sum": 37695.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 25979.0,
+                "Purchase of Traded Goods": 969.0,
+                "Increase/Decrease in Stocks": 10747.0
             },
-            "total_revenue": {
-                "values": [
-                    12167.0
-                ],
-                "sum": 12167.0
+            "Profit": {
+                "Total Income sum": 49862.0,
+                "Total Expenditure_sum": 37695.0,
+                "Total Profit": 12167.0
             }
         },
         "Sep '23": {
-            "total_income": {
-                "values": [
-                    50165.0
-                ],
-                "sum": 50165.0
+            "Income": {
+                "Total Income From Operations": 50165.0
             },
-            "total_expenditure": {
-                "values": [
-                    26018.0,
-                    979.0,
-                    10345.0
-                ],
-                "sum": 37342.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 26018.0,
+                "Purchase of Traded Goods": 979.0,
+                "Increase/Decrease in Stocks": 10345.0
             },
-            "total_revenue": {
-                "values": [
-                    12823.0
-                ],
-                "sum": 12823.0
+            "Profit": {
+                "Total Income sum": 50165.0,
+                "Total Expenditure_sum": 37342.0,
+                "Total Profit": 12823.0
             }
         },
         "Dec '23": {
-            "total_income": {
-                "values": [
-                    50844.0
-                ],
-                "sum": 50844.0
+            "Income": {
+                "Total Income From Operations": 50844.0
             },
-            "total_expenditure": {
-                "values": [
-                    25511.0,
-                    964.0,
-                    10970.0
-                ],
-                "sum": 37445.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 25511.0,
+                "Purchase of Traded Goods": 964.0,
+                "Increase/Decrease in Stocks": 10970.0
             },
-            "total_revenue": {
-                "values": [
-                    13399.0
-                ],
-                "sum": 13399.0
+            "Profit": {
+                "Total Income sum": 50844.0,
+                "Total Expenditure_sum": 37445.0,
+                "Total Profit": 13399.0
             }
         },
         "Mar '24": {
-            "total_income": {
-                "values": [
-                    51488.0
-                ],
-                "sum": 51488.0
+            "Income": {
+                "Total Income From Operations": 51488.0
             },
-            "total_expenditure": {
-                "values": [
-                    25631.0,
-                    975.0,
-                    11311.0
-                ],
-                "sum": 37917.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 25631.0,
+                "Purchase of Traded Goods": 975.0,
+                "Increase/Decrease in Stocks": 11311.0
             },
-            "total_revenue": {
-                "values": [
-                    13571.0
-                ],
-                "sum": 13571.0
+            "Profit": {
+                "Total Income sum": 51488.0,
+                "Total Expenditure_sum": 37917.0,
+                "Total Profit": 13571.0
             }
         },
         "Jun '24": {
-            "total_income": {
-                "values": [
-                    52844.0
-                ],
-                "sum": 52844.0
+            "Income": {
+                "Total Income From Operations": 52844.0
             },
-            "total_expenditure": {
-                "values": [
-                    26657.0,
-                    969.0,
-                    11612.0
-                ],
-                "sum": 39238.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 26657.0,
+                "Purchase of Traded Goods": 969.0,
+                "Increase/Decrease in Stocks": 11612.0
             },
-            "total_revenue": {
-                "values": [
-                    13606.0
-                ],
-                "sum": 13606.0
+            "Profit": {
+                "Total Income sum": 52844.0,
+                "Total Expenditure_sum": 39238.0,
+                "Total Profit": 13606.0
             }
         },
         "Sep '24": {
-            "total_income": {
-                "values": [
-                    53990.0
-                ],
-                "sum": 53990.0
+            "Income": {
+                "Total Income From Operations": 53990.0
             },
-            "total_expenditure": {
-                "values": [
-                    26815.0,
-                    1008.0,
-                    12617.0
-                ],
-                "sum": 40440.0
+            "Expenditure": {
+                "Consumption of Raw Materials": 26815.0,
+                "Purchase of Traded Goods": 1008.0,
+                "Increase/Decrease in Stocks": 12617.0
             },
-            "total_revenue": {
-                "values": [
-                    13550.0
-                ],
-                "sum": 13550.0
+            "Profit": {
+                "Total Income sum": 53990.0,
+                "Total Expenditure_sum": 40440.0,
+                "Total Profit": 13550.0
             }
         }
     },
-    "Total Revenue": [
-        5486.710000000003,
-        5498.830000000002,
-        5267.83,
-        5152.950000000001,
-        5560.669999999998,
-        5790.709999999999,
-        3130.0999999999985,
-        6145.0,
-        6709.0,
-        6427.0,
-        6314.0,
-        6421.0,
-        6423.0,
-        6354.0,
-        6316.0,
-        5890.0,
-        6501.0,
-        6698.0,
-        7069.0,
-        7973.0,
-        8558.0,
-        8122.0,
-        8595.0,
-        9025.0,
-        8330.0,
-        8768.0,
-        8529.0,
-        7855.0,
-        9331.0,
-        9907.0,
-        10164.0,
-        10384.0,
-        10791.0,
-        10780.0,
-        10768.0,
-        10869.0,
-        11806.0,
-        12520.0,
-        11862.0,
-        12167.0,
-        12823.0,
-        13399.0,
-        13571.0,
-        13606.0,
-        13550.0
-    ]
+    "Total Profit for each quarter": {
+        "Q1": 5486.71,
+        "Q2": 5498.83,
+        "Q3": 5267.83,
+        "Q4": 5152.95,
+        "Q5": 5560.67,
+        "Q6": 5790.71,
+        "Q7": 3130.1,
+        "Q8": 6145.0,
+        "Q9": 6709.0,
+        "Q10": 6427.0,
+        "Q11": 6314.0,
+        "Q12": 6421.0,
+        "Q13": 6423.0,
+        "Q14": 6354.0,
+        "Q15": 6316.0,
+        "Q16": 5890.0,
+        "Q17": 6501.0,
+        "Q18": 6698.0,
+        "Q19": 7069.0,
+        "Q20": 7973.0,
+        "Q21": 8558.0,
+        "Q22": 8122.0,
+        "Q23": 8595.0,
+        "Q24": 9025.0,
+        "Q25": 8330.0,
+        "Q26": 8768.0,
+        "Q27": 8529.0,
+        "Q28": 7855.0,
+        "Q29": 9331.0,
+        "Q30": 9907.0,
+        "Q31": 10164.0,
+        "Q32": 10384.0,
+        "Q33": 10791.0,
+        "Q34": 10780.0,
+        "Q35": 10768.0,
+        "Q36": 10869.0,
+        "Q37": 11806.0,
+        "Q38": 12520.0,
+        "Q39": 11862.0,
+        "Q40": 12167.0,
+        "Q41": 12823.0,
+        "Q42": 13399.0,
+        "Q43": 13571.0,
+        "Q44": 13606.0,
+        "Q45": 13550.0
+    }
 }
