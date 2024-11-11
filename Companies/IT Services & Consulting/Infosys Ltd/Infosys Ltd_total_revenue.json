@@ -5,9 +5,9 @@
                 "Total Income From Operations": 11482.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6572.0,
-                "Purchase of Traded Goods": 257.0,
-                "Increase/Decrease in Stocks": 1948.0
+                "Employees Cost": 6572.0,
+                "depreciat": 257.0,
+                "Other Expenses": 1948.0
             },
             "Profit": {
                 "Total Income sum": 11482.0,
@@ -20,9 +20,9 @@
                 "Total Income From Operations": 11534.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6158.0,
-                "Purchase of Traded Goods": 285.0,
-                "Increase/Decrease in Stocks": 1968.0
+                "Employees Cost": 6158.0,
+                "depreciat": 285.0,
+                "Other Expenses": 1968.0
             },
             "Profit": {
                 "Total Income sum": 11534.0,
@@ -35,9 +35,9 @@
                 "Total Income From Operations": 11366.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6053.0,
-                "Purchase of Traded Goods": 409.0,
-                "Increase/Decrease in Stocks": 1819.0
+                "Employees Cost": 6053.0,
+                "depreciat": 409.0,
+                "Other Expenses": 1819.0
             },
             "Profit": {
                 "Total Income sum": 11366.0,
@@ -50,9 +50,9 @@
                 "Total Income From Operations": 11319.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6234.0,
-                "Purchase of Traded Goods": 192.0,
-                "Increase/Decrease in Stocks": 1888.0
+                "Employees Cost": 6234.0,
+                "depreciat": 192.0,
+                "Other Expenses": 1888.0
             },
             "Profit": {
                 "Total Income sum": 11319.0,
@@ -65,9 +65,9 @@
                 "Total Income From Operations": 11863.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6340.0,
-                "Purchase of Traded Goods": 251.0,
-                "Increase/Decrease in Stocks": 1936.0
+                "Employees Cost": 6340.0,
+                "depreciat": 251.0,
+                "Other Expenses": 1936.0
             },
             "Profit": {
                 "Total Income sum": 11863.0,
@@ -80,9 +80,9 @@
                 "Total Income From Operations": 12192.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6358.0,
-                "Purchase of Traded Goods": 229.0,
-                "Increase/Decrease in Stocks": 2176.0
+                "Employees Cost": 6358.0,
+                "depreciat": 229.0,
+                "Other Expenses": 2176.0
             },
             "Profit": {
                 "Total Income sum": 12192.0,
@@ -95,9 +95,9 @@
                 "Total Income From Operations": 11926.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6183.0,
-                "Purchase of Traded Goods": 241.0,
-                "Increase/Decrease in Stocks": 2223.0
+                "Employees Cost": 6183.0,
+                "depreciat": 241.0,
+                "Other Expenses": 2223.0
             },
             "Profit": {
                 "Total Income sum": 11926.0,
@@ -110,9 +110,9 @@
                 "Total Income From Operations": 12738.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6807.0,
-                "Purchase of Traded Goods": 252.0,
-                "Increase/Decrease in Stocks": 2410.0
+                "Employees Cost": 6807.0,
+                "depreciat": 252.0,
+                "Other Expenses": 2410.0
             },
             "Profit": {
                 "Total Income sum": 12738.0,
@@ -125,9 +125,9 @@
                 "Total Income From Operations": 13525.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 6987.0,
-                "Purchase of Traded Goods": 272.0,
-                "Increase/Decrease in Stocks": 2488.0
+                "Employees Cost": 6987.0,
+                "depreciat": 272.0,
+                "Other Expenses": 2488.0
             },
             "Profit": {
                 "Total Income sum": 13525.0,
@@ -140,9 +140,9 @@
                 "Total Income From Operations": 13562.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 7115.0,
-                "Purchase of Traded Goods": 275.0,
-                "Increase/Decrease in Stocks": 2556.0
+                "Employees Cost": 7115.0,
+                "depreciat": 275.0,
+                "Other Expenses": 2556.0
             },
             "Profit": {
                 "Total Income sum": 13562.0,
@@ -155,9 +155,9 @@
                 "Total Income From Operations": 14158.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 7297.0,
-                "Purchase of Traded Goods": 315.0,
-                "Increase/Decrease in Stocks": 2614.0
+                "Employees Cost": 7297.0,
+                "depreciat": 315.0,
+                "Other Expenses": 2614.0
             },
             "Profit": {
                 "Total Income sum": 14158.0,
@@ -170,9 +170,9 @@
                 "Total Income From Operations": 14420.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 7605.0,
-                "Purchase of Traded Goods": 319.0,
-                "Increase/Decrease in Stocks": 2797.0
+                "Employees Cost": 7605.0,
+                "depreciat": 319.0,
+                "Other Expenses": 2797.0
             },
             "Profit": {
                 "Total Income sum": 14420.0,
@@ -185,9 +185,9 @@
                 "Total Income From Operations": 15000.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 7939.0,
-                "Purchase of Traded Goods": 338.0,
-                "Increase/Decrease in Stocks": 2674.0
+                "Employees Cost": 7939.0,
+                "depreciat": 338.0,
+                "Other Expenses": 2674.0
             },
             "Profit": {
                 "Total Income sum": 15000.0,
@@ -200,9 +200,9 @@
                 "Total Income From Operations": 14949.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 7733.0,
-                "Purchase of Traded Goods": 339.0,
-                "Increase/Decrease in Stocks": 2799.0
+                "Employees Cost": 7733.0,
+                "depreciat": 339.0,
+                "Other Expenses": 2799.0
             },
             "Profit": {
                 "Total Income sum": 14949.0,
@@ -215,9 +215,9 @@
                 "Total Income From Operations": 14920.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 7667.0,
-                "Purchase of Traded Goods": 336.0,
-                "Increase/Decrease in Stocks": 2867.0
+                "Employees Cost": 7667.0,
+                "depreciat": 336.0,
+                "Other Expenses": 2867.0
             },
             "Profit": {
                 "Total Income sum": 14920.0,
@@ -230,9 +230,9 @@
                 "Total Income From Operations": 14971.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 7752.0,
-                "Purchase of Traded Goods": 343.0,
-                "Increase/Decrease in Stocks": 2883.0
+                "Employees Cost": 7752.0,
+                "depreciat": 343.0,
+                "Other Expenses": 2883.0
             },
             "Profit": {
                 "Total Income sum": 14971.0,
@@ -245,9 +245,9 @@
                 "Total Income From Operations": 15356.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 8015.0,
-                "Purchase of Traded Goods": 347.0,
-                "Increase/Decrease in Stocks": 2963.0
+                "Employees Cost": 8015.0,
+                "depreciat": 347.0,
+                "Other Expenses": 2963.0
             },
             "Profit": {
                 "Total Income sum": 15356.0,
@@ -260,9 +260,9 @@
                 "Total Income From Operations": 15631.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 8287.0,
-                "Purchase of Traded Goods": 354.0,
-                "Increase/Decrease in Stocks": 2879.0
+                "Employees Cost": 8287.0,
+                "depreciat": 354.0,
+                "Other Expenses": 2879.0
             },
             "Profit": {
                 "Total Income sum": 15631.0,
@@ -275,9 +275,9 @@
                 "Total Income From Operations": 15984.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 8418.0,
-                "Purchase of Traded Goods": 363.0,
-                "Increase/Decrease in Stocks": 3449.0
+                "Employees Cost": 8418.0,
+                "depreciat": 363.0,
+                "Other Expenses": 3449.0
             },
             "Profit": {
                 "Total Income sum": 15984.0,
@@ -290,9 +290,9 @@
                 "Total Income From Operations": 17056.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 8826.0,
-                "Purchase of Traded Goods": 374.0,
-                "Increase/Decrease in Stocks": 3790.0
+                "Employees Cost": 8826.0,
+                "depreciat": 374.0,
+                "Other Expenses": 3790.0
             },
             "Profit": {
                 "Total Income sum": 17056.0,
@@ -305,9 +305,9 @@
                 "Total Income From Operations": 18297.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 9489.0,
-                "Purchase of Traded Goods": 390.0,
-                "Increase/Decrease in Stocks": 3909.0
+                "Employees Cost": 9489.0,
+                "depreciat": 390.0,
+                "Other Expenses": 3909.0
             },
             "Profit": {
                 "Total Income sum": 18297.0,
@@ -320,9 +320,9 @@
                 "Total Income From Operations": 18819.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 9784.0,
-                "Purchase of Traded Goods": 406.0,
-                "Increase/Decrease in Stocks": 4443.0
+                "Employees Cost": 9784.0,
+                "depreciat": 406.0,
+                "Other Expenses": 4443.0
             },
             "Profit": {
                 "Total Income sum": 18819.0,
@@ -335,9 +335,9 @@
                 "Total Income From Operations": 18935.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 10198.0,
-                "Purchase of Traded Goods": 429.0,
-                "Increase/Decrease in Stocks": 3994.0
+                "Employees Cost": 10198.0,
+                "depreciat": 429.0,
+                "Other Expenses": 3994.0
             },
             "Profit": {
                 "Total Income sum": 18935.0,
@@ -350,9 +350,9 @@
                 "Total Income From Operations": 19131.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 10380.0,
-                "Purchase of Traded Goods": 510.0,
-                "Increase/Decrease in Stocks": 4106.0
+                "Employees Cost": 10380.0,
+                "depreciat": 510.0,
+                "Other Expenses": 4106.0
             },
             "Profit": {
                 "Total Income sum": 19131.0,
@@ -365,9 +365,9 @@
                 "Total Income From Operations": 19666.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 10604.0,
-                "Purchase of Traded Goods": 542.0,
-                "Increase/Decrease in Stocks": 3973.0
+                "Employees Cost": 10604.0,
+                "depreciat": 542.0,
+                "Other Expenses": 3973.0
             },
             "Profit": {
                 "Total Income sum": 19666.0,
@@ -380,9 +380,9 @@
                 "Total Income From Operations": 20064.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 10783.0,
-                "Purchase of Traded Goods": 544.0,
-                "Increase/Decrease in Stocks": 4102.0
+                "Employees Cost": 10783.0,
+                "depreciat": 544.0,
+                "Other Expenses": 4102.0
             },
             "Profit": {
                 "Total Income sum": 20064.0,
@@ -395,9 +395,9 @@
                 "Total Income From Operations": 20187.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 10666.0,
-                "Purchase of Traded Goods": 548.0,
-                "Increase/Decrease in Stocks": 4399.0
+                "Employees Cost": 10666.0,
+                "depreciat": 548.0,
+                "Other Expenses": 4399.0
             },
             "Profit": {
                 "Total Income sum": 20187.0,
@@ -410,9 +410,9 @@
                 "Total Income From Operations": 20325.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 11222.0,
-                "Purchase of Traded Goods": 546.0,
-                "Increase/Decrease in Stocks": 3626.0
+                "Employees Cost": 11222.0,
+                "depreciat": 546.0,
+                "Other Expenses": 3626.0
             },
             "Profit": {
                 "Total Income sum": 20325.0,
@@ -425,9 +425,9 @@
                 "Total Income From Operations": 21046.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 11053.0,
-                "Purchase of Traded Goods": 608.0,
-                "Increase/Decrease in Stocks": 3773.0
+                "Employees Cost": 11053.0,
+                "depreciat": 608.0,
+                "Other Expenses": 3773.0
             },
             "Profit": {
                 "Total Income sum": 21046.0,
@@ -440,9 +440,9 @@
                 "Total Income From Operations": 22043.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 11371.0,
-                "Purchase of Traded Goods": 589.0,
-                "Increase/Decrease in Stocks": 4060.0
+                "Employees Cost": 11371.0,
+                "depreciat": 589.0,
+                "Other Expenses": 4060.0
             },
             "Profit": {
                 "Total Income sum": 22043.0,
@@ -455,9 +455,9 @@
                 "Total Income From Operations": 22497.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 11532.0,
-                "Purchase of Traded Goods": 578.0,
-                "Increase/Decrease in Stocks": 4818.0
+                "Employees Cost": 11532.0,
+                "depreciat": 578.0,
+                "Other Expenses": 4818.0
             },
             "Profit": {
                 "Total Income sum": 22497.0,
@@ -470,9 +470,9 @@
                 "Total Income From Operations": 23714.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 12191.0,
-                "Purchase of Traded Goods": 576.0,
-                "Increase/Decrease in Stocks": 4992.0
+                "Employees Cost": 12191.0,
+                "depreciat": 576.0,
+                "Other Expenses": 4992.0
             },
             "Profit": {
                 "Total Income sum": 23714.0,
@@ -485,9 +485,9 @@
                 "Total Income From Operations": 25462.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 12734.0,
-                "Purchase of Traded Goods": 601.0,
-                "Increase/Decrease in Stocks": 5844.0
+                "Employees Cost": 12734.0,
+                "depreciat": 601.0,
+                "Other Expenses": 5844.0
             },
             "Profit": {
                 "Total Income sum": 25462.0,
@@ -500,9 +500,9 @@
                 "Total Income From Operations": 27337.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 13275.0,
-                "Purchase of Traded Goods": 631.0,
-                "Increase/Decrease in Stocks": 6622.0
+                "Employees Cost": 13275.0,
+                "depreciat": 631.0,
+                "Other Expenses": 6622.0
             },
             "Profit": {
                 "Total Income sum": 27337.0,
@@ -515,9 +515,9 @@
                 "Total Income From Operations": 27426.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 13464.0,
-                "Purchase of Traded Goods": 620.0,
-                "Increase/Decrease in Stocks": 6993.0
+                "Employees Cost": 13464.0,
+                "depreciat": 620.0,
+                "Other Expenses": 6993.0
             },
             "Profit": {
                 "Total Income sum": 27426.0,
@@ -530,9 +530,9 @@
                 "Total Income From Operations": 29527.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 14914.0,
-                "Purchase of Traded Goods": 643.0,
-                "Increase/Decrease in Stocks": 7682.0
+                "Employees Cost": 14914.0,
+                "depreciat": 643.0,
+                "Other Expenses": 7682.0
             },
             "Profit": {
                 "Total Income sum": 29527.0,
@@ -545,9 +545,9 @@
                 "Total Income From Operations": 31567.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 15873.0,
-                "Purchase of Traded Goods": 682.0,
-                "Increase/Decrease in Stocks": 7751.0
+                "Employees Cost": 15873.0,
+                "depreciat": 682.0,
+                "Other Expenses": 7751.0
             },
             "Profit": {
                 "Total Income sum": 31567.0,
@@ -560,9 +560,9 @@
                 "Total Income From Operations": 32389.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 16395.0,
-                "Purchase of Traded Goods": 713.0,
-                "Increase/Decrease in Stocks": 8122.0
+                "Employees Cost": 16395.0,
+                "depreciat": 713.0,
+                "Other Expenses": 8122.0
             },
             "Profit": {
                 "Total Income sum": 32389.0,
@@ -575,9 +575,9 @@
                 "Total Income From Operations": 30531.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 15581.0,
-                "Purchase of Traded Goods": 714.0,
-                "Increase/Decrease in Stocks": 7002.0
+                "Employees Cost": 15581.0,
+                "depreciat": 714.0,
+                "Other Expenses": 7002.0
             },
             "Profit": {
                 "Total Income sum": 30531.0,
@@ -590,9 +590,9 @@
                 "Total Income From Operations": 31811.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 16353.0,
-                "Purchase of Traded Goods": 746.0,
-                "Increase/Decrease in Stocks": 7524.0
+                "Employees Cost": 16353.0,
+                "depreciat": 746.0,
+                "Other Expenses": 7524.0
             },
             "Profit": {
                 "Total Income sum": 31811.0,
@@ -605,9 +605,9 @@
                 "Total Income From Operations": 32629.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 16435.0,
-                "Purchase of Traded Goods": 738.0,
-                "Increase/Decrease in Stocks": 8200.0
+                "Employees Cost": 16435.0,
+                "depreciat": 738.0,
+                "Other Expenses": 8200.0
             },
             "Profit": {
                 "Total Income sum": 32629.0,
@@ -620,9 +620,9 @@
                 "Total Income From Operations": 32491.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 16304.0,
-                "Purchase of Traded Goods": 738.0,
-                "Increase/Decrease in Stocks": 8073.0
+                "Employees Cost": 16304.0,
+                "depreciat": 738.0,
+                "Other Expenses": 8073.0
             },
             "Profit": {
                 "Total Income sum": 32491.0,
@@ -635,9 +635,9 @@
                 "Total Income From Operations": 32001.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 16047.0,
-                "Purchase of Traded Goods": 722.0,
-                "Increase/Decrease in Stocks": 8239.0
+                "Employees Cost": 16047.0,
+                "depreciat": 722.0,
+                "Other Expenses": 8239.0
             },
             "Profit": {
                 "Total Income sum": 32001.0,
@@ -650,9 +650,9 @@
                 "Total Income From Operations": 33283.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 16495.0,
-                "Purchase of Traded Goods": 698.0,
-                "Increase/Decrease in Stocks": 8624.0
+                "Employees Cost": 16495.0,
+                "depreciat": 698.0,
+                "Other Expenses": 8624.0
             },
             "Profit": {
                 "Total Income sum": 33283.0,
@@ -665,9 +665,9 @@
                 "Total Income From Operations": 34257.0
             },
             "Expenditure": {
-                "Consumption of Raw Materials": 16864.0,
-                "Purchase of Traded Goods": 670.0,
-                "Increase/Decrease in Stocks": 8992.0
+                "Employees Cost": 16864.0,
+                "depreciat": 670.0,
+                "Other Expenses": 8992.0
             },
             "Profit": {
                 "Total Income sum": 34257.0,

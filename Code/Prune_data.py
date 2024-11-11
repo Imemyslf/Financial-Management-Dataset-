@@ -153,7 +153,7 @@ def prune_data(sector_name,company_name,file):
     col_name = col_names[0]
 
     print(col_name,quaters)
-    output_file_path = f"{current_dir}/Companies/{sector_name}/{company_name}/Pruned_Excel/{file}"
+    output_file_path = f"{current_dir}/Companies/{sector_name}/{company_name}/Pruned_Excel/{company_name}_{file}"
     print("\n\nCurrent dir:- ",output_file_path)
     output_df = pd.DataFrame(param,columns=[str(col_name)]+final_quaters)
     
@@ -196,28 +196,26 @@ def spacexcel(output_file_path,sector_name,company_name,file):
 
 def prune_folders():
     global current_dir, path
-    print("\n\n Path inside pruned folders:- ",path)
+    # print("\n\n Path inside pruned folders:- ",path)
     sector_list = os.listdir(path)
-    print("\nSector list:- ",sector_list)
+    # print("\nSector list:- ",sector_list)
     # print(len(sector_list))
     
-    for i in range(len(sector_list)):
-        path = f"{current_dir}/Companies"
-        sector = sector_list[i]
-        path = path + "/" + sector
-        # print("Iteration:- ",i)
-        # print("\nPath:- ",path)
-        comapnies_list = os.listdir(path)
-        # print("\nCompanies List:- ",comapnies_list)
+    for sector in sector_list:
         
-        for i in range(len(comapnies_list)):
-            company = comapnies_list[i]
-            print(f"Company {i}:- {company}")
-            # path = f"{current_dir}/Companies"
-            path = f"{current_dir}/Companies/{sector}/{company}"
-            print("\nFinal path to excel:-",path)
+        if sector != "IT Services & Consulting":
+            company_path = f"{current_dir}/Companies/{sector}"
+            # sector = sector_list[i]
+            
+            # print(company_path)
+            comapnies_list = os.listdir(company_path)
+            
+            for company in comapnies_list:
+                # print(company)
+            #     file_path = f"{current_dir}/Companies/{sector}/{company}/Pruned_Excel"
+            #     # print("\nFinal path to excel:-",path)
 
-            prune_data(sector,company,"combined_excel_file.xlsx")
+                prune_data(sector,company,"combined_excel_file.xlsx")
             # dir_list = os.listdir(path)
             
             # for dir in dir_list:
@@ -227,20 +225,12 @@ def prune_folders():
 
 if __name__ == '__main__':    
     
-    #prune_folders()
+    prune_folders()
     
-    sector_name = "IT Services & Consulting"
-    company_name  = "Tata Consultancy Services Ltd"
-    file = "combined_excel_file.xlsx"
-    
-    # path = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"
-    # kisu_list = os.listdir(path)
-    # #print(kisu_list)
-    
-    # for kisu in kisu_list:
-    #     #print(kisu)
-    #     prune_data(sector_name,company_name,kisu)
-    prune_data(sector_name,company_name,file)
+    # sector_name = "IT Services & Consulting"
+    # company_name  = "Tata Consultancy Services Ltd"
+    # file = "combined_excel_file.xlsx"
+    # prune_data(sector_name,company_name,file)
     
     
         

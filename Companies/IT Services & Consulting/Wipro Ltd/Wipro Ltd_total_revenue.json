@@ -8,10 +8,10 @@
                 "Consumption of Raw Materials": -19.7,
                 "Purchase of Traded Goods": 574.4,
                 "Increase/Decrease in Stocks": 23.0,
-                "Power & Fuel": 4653.5,
-                "Employees Cost": 177.1,
-                "depreciat": 0.0,
-                "Excise Duty": 2240.4
+                "Employees Cost": 4653.5,
+                "depreciat": 177.1,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2240.4
             },
             "Profit": {
                 "Total Income sum": 9806.5,
@@ -27,10 +27,10 @@
                 "Consumption of Raw Materials": 187.5,
                 "Purchase of Traded Goods": 453.3,
                 "Increase/Decrease in Stocks": -41.0,
-                "Power & Fuel": 4648.2,
-                "Employees Cost": 187.3,
-                "depreciat": 0.0,
-                "Excise Duty": 2326.2
+                "Employees Cost": 4648.2,
+                "depreciat": 187.3,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2326.2
             },
             "Profit": {
                 "Total Income sum": 10069.1,
@@ -46,10 +46,10 @@
                 "Consumption of Raw Materials": 2.4,
                 "Purchase of Traded Goods": 724.4,
                 "Increase/Decrease in Stocks": 51.0,
-                "Power & Fuel": 4653.8,
-                "Employees Cost": 194.0,
-                "depreciat": 0.0,
-                "Excise Duty": 2237.9
+                "Employees Cost": 4653.8,
+                "depreciat": 194.0,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2237.9
             },
             "Profit": {
                 "Total Income sum": 10401.8,
@@ -65,10 +65,10 @@
                 "Consumption of Raw Materials": 1.9,
                 "Purchase of Traded Goods": 550.4,
                 "Increase/Decrease in Stocks": -6.4,
-                "Power & Fuel": 4776.5,
-                "Employees Cost": 187.0,
-                "depreciat": 0.0,
-                "Excise Duty": 2339.8
+                "Employees Cost": 4776.5,
+                "depreciat": 187.0,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2339.8
             },
             "Profit": {
                 "Total Income sum": 10104.1,
@@ -84,10 +84,10 @@
                 "Consumption of Raw Materials": 0.9,
                 "Purchase of Traded Goods": 547.6,
                 "Increase/Decrease in Stocks": -36.1,
-                "Power & Fuel": 4997.4,
-                "Employees Cost": 190.1,
-                "depreciat": 0.0,
-                "Excise Duty": 2485.5
+                "Employees Cost": 4997.4,
+                "depreciat": 190.1,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2485.5
             },
             "Profit": {
                 "Total Income sum": 10358.2,
@@ -103,10 +103,10 @@
                 "Consumption of Raw Materials": 0.6,
                 "Purchase of Traded Goods": 636.3,
                 "Increase/Decrease in Stocks": -166.2,
-                "Power & Fuel": 4974.6,
-                "Employees Cost": 200.4,
-                "depreciat": 0.0,
-                "Excise Duty": 2699.5
+                "Employees Cost": 4974.6,
+                "depreciat": 200.4,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2699.5
             },
             "Profit": {
                 "Total Income sum": 10521.2,
@@ -122,10 +122,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 722.1,
                 "Increase/Decrease in Stocks": -45.6,
-                "Power & Fuel": 4977.7,
-                "Employees Cost": 200.9,
-                "depreciat": 0.0,
-                "Excise Duty": 2554.0
+                "Employees Cost": 4977.7,
+                "depreciat": 200.9,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2554.0
             },
             "Profit": {
                 "Total Income sum": 10651.5,
@@ -141,10 +141,10 @@
                 "Consumption of Raw Materials": 0.1,
                 "Purchase of Traded Goods": 709.6,
                 "Increase/Decrease in Stocks": 10.8,
-                "Power & Fuel": 5182.9,
-                "Employees Cost": 200.4,
-                "depreciat": 0.0,
-                "Excise Duty": 2547.3
+                "Employees Cost": 5182.9,
+                "depreciat": 200.4,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2547.3
             },
             "Profit": {
                 "Total Income sum": 10775.4,
@@ -160,10 +160,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 586.1,
                 "Increase/Decrease in Stocks": -84.1,
-                "Power & Fuel": 5327.2,
-                "Employees Cost": 207.0,
-                "depreciat": 0.0,
-                "Excise Duty": 2734.2
+                "Employees Cost": 5327.2,
+                "depreciat": 207.0,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2734.2
             },
             "Profit": {
                 "Total Income sum": 11036.9,
@@ -179,10 +179,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 643.3,
                 "Increase/Decrease in Stocks": -16.4,
-                "Power & Fuel": 5334.0,
-                "Employees Cost": 230.4,
-                "depreciat": 0.0,
-                "Excise Duty": 2981.3
+                "Employees Cost": 5334.0,
+                "depreciat": 230.4,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2981.3
             },
             "Profit": {
                 "Total Income sum": 11206.9,
@@ -198,10 +198,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 716.9,
                 "Increase/Decrease in Stocks": 36.8,
-                "Power & Fuel": 5423.2,
-                "Employees Cost": 237.6,
-                "depreciat": 0.0,
-                "Excise Duty": 2940.9
+                "Employees Cost": 5423.2,
+                "depreciat": 237.6,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2940.9
             },
             "Profit": {
                 "Total Income sum": 11661.5,
@@ -217,10 +217,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 701.8,
                 "Increase/Decrease in Stocks": -55.9,
-                "Power & Fuel": 5527.6,
-                "Employees Cost": 241.1,
-                "depreciat": 0.0,
-                "Excise Duty": 3091.6
+                "Employees Cost": 5527.6,
+                "depreciat": 241.1,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3091.6
             },
             "Profit": {
                 "Total Income sum": 11587.5,
@@ -236,10 +236,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 551.9,
                 "Increase/Decrease in Stocks": 78.2,
-                "Power & Fuel": 5568.8,
-                "Employees Cost": 259.7,
-                "depreciat": 0.0,
-                "Excise Duty": 3033.0
+                "Employees Cost": 5568.8,
+                "depreciat": 259.7,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3033.0
             },
             "Profit": {
                 "Total Income sum": 11453.8,
@@ -255,10 +255,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 556.8,
                 "Increase/Decrease in Stocks": -35.3,
-                "Power & Fuel": 5320.5,
-                "Employees Cost": 281.7,
-                "depreciat": 0.0,
-                "Excise Duty": 3179.5
+                "Employees Cost": 5320.5,
+                "depreciat": 281.7,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3179.5
             },
             "Profit": {
                 "Total Income sum": 11378.3,
@@ -274,10 +274,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 376.4,
                 "Increase/Decrease in Stocks": 177.0,
-                "Power & Fuel": 5427.1,
-                "Employees Cost": 265.2,
-                "depreciat": 0.0,
-                "Excise Duty": 2991.8
+                "Employees Cost": 5427.1,
+                "depreciat": 265.2,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2991.8
             },
             "Profit": {
                 "Total Income sum": 11628.2,
@@ -293,10 +293,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 523.9,
                 "Increase/Decrease in Stocks": 52.0,
-                "Power & Fuel": 5361.4,
-                "Employees Cost": 251.2,
-                "depreciat": 0.0,
-                "Excise Duty": 2892.7
+                "Employees Cost": 5361.4,
+                "depreciat": 251.2,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2892.7
             },
             "Profit": {
                 "Total Income sum": 11152.8,
@@ -312,10 +312,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 206.7,
                 "Increase/Decrease in Stocks": 25.7,
-                "Power & Fuel": 5377.0,
-                "Employees Cost": 259.3,
-                "depreciat": 0.0,
-                "Excise Duty": 3031.8
+                "Employees Cost": 5377.0,
+                "depreciat": 259.3,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3031.8
             },
             "Profit": {
                 "Total Income sum": 11050.5,
@@ -331,10 +331,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 289.1,
                 "Increase/Decrease in Stocks": 50.9,
-                "Power & Fuel": 5399.7,
-                "Employees Cost": 262.5,
-                "depreciat": 0.0,
-                "Excise Duty": 3214.8
+                "Employees Cost": 5399.7,
+                "depreciat": 262.5,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3214.8
             },
             "Profit": {
                 "Total Income sum": 11072.7,
@@ -350,10 +350,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 449.9,
                 "Increase/Decrease in Stocks": -70.9,
-                "Power & Fuel": 5618.1,
-                "Employees Cost": 241.8,
-                "depreciat": 0.0,
-                "Excise Duty": 3333.4
+                "Employees Cost": 5618.1,
+                "depreciat": 241.8,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3333.4
             },
             "Profit": {
                 "Total Income sum": 11434.0,
@@ -369,10 +369,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 379.3,
                 "Increase/Decrease in Stocks": -37.9,
-                "Power & Fuel": 5767.1,
-                "Employees Cost": 242.7,
-                "depreciat": 0.0,
-                "Excise Duty": 3266.9
+                "Employees Cost": 5767.1,
+                "depreciat": 242.7,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3266.9
             },
             "Profit": {
                 "Total Income sum": 11567.5,
@@ -388,10 +388,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 237.8,
                 "Increase/Decrease in Stocks": -4.1,
-                "Power & Fuel": 5933.5,
-                "Employees Cost": 241.4,
-                "depreciat": 0.0,
-                "Excise Duty": 3782.3
+                "Employees Cost": 5933.5,
+                "depreciat": 241.4,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3782.3
             },
             "Profit": {
                 "Total Income sum": 12002.3,
@@ -407,10 +407,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 213.0,
                 "Increase/Decrease in Stocks": 7.1,
-                "Power & Fuel": 5948.0,
-                "Employees Cost": 228.4,
-                "depreciat": 0.0,
-                "Excise Duty": 3321.3
+                "Employees Cost": 5948.0,
+                "depreciat": 228.4,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3321.3
             },
             "Profit": {
                 "Total Income sum": 12138.7,
@@ -426,10 +426,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 311.9,
                 "Increase/Decrease in Stocks": -20.4,
-                "Power & Fuel": 6159.9,
-                "Employees Cost": 221.8,
-                "depreciat": 0.0,
-                "Excise Duty": 4077.5
+                "Employees Cost": 6159.9,
+                "depreciat": 221.8,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4077.5
             },
             "Profit": {
                 "Total Income sum": 12395.8,
@@ -445,10 +445,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 252.7,
                 "Increase/Decrease in Stocks": -16.7,
-                "Power & Fuel": 6253.1,
-                "Employees Cost": 274.6,
-                "depreciat": 0.0,
-                "Excise Duty": 3307.7
+                "Employees Cost": 6253.1,
+                "depreciat": 274.6,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3307.7
             },
             "Profit": {
                 "Total Income sum": 12061.3,
@@ -464,10 +464,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 116.7,
                 "Increase/Decrease in Stocks": 148.7,
-                "Power & Fuel": 6548.0,
-                "Employees Cost": 263.8,
-                "depreciat": 0.0,
-                "Excise Duty": 3133.2
+                "Employees Cost": 6548.0,
+                "depreciat": 263.8,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3133.2
             },
             "Profit": {
                 "Total Income sum": 12522.6,
@@ -483,10 +483,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 184.7,
                 "Increase/Decrease in Stocks": 17.4,
-                "Power & Fuel": 6559.3,
-                "Employees Cost": 293.7,
-                "depreciat": 0.0,
-                "Excise Duty": 3194.4
+                "Employees Cost": 6559.3,
+                "depreciat": 293.7,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3194.4
             },
             "Profit": {
                 "Total Income sum": 12695.9,
@@ -502,10 +502,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 244.2,
                 "Increase/Decrease in Stocks": 10.5,
-                "Power & Fuel": 6811.4,
-                "Employees Cost": 309.0,
-                "depreciat": 0.0,
-                "Excise Duty": 3434.3
+                "Employees Cost": 6811.4,
+                "depreciat": 309.0,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3434.3
             },
             "Profit": {
                 "Total Income sum": 13127.2,
@@ -521,10 +521,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 137.0,
                 "Increase/Decrease in Stocks": 43.0,
-                "Power & Fuel": 6424.2,
-                "Employees Cost": 321.7,
-                "depreciat": 0.0,
-                "Excise Duty": 2994.2
+                "Employees Cost": 6424.2,
+                "depreciat": 321.7,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 2994.2
             },
             "Profit": {
                 "Total Income sum": 12192.9,
@@ -540,10 +540,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 153.7,
                 "Increase/Decrease in Stocks": 20.5,
-                "Power & Fuel": 6661.3,
-                "Employees Cost": 350.9,
-                "depreciat": 23.7,
-                "Excise Duty": 2709.3
+                "Employees Cost": 6661.3,
+                "depreciat": 350.9,
+                "Admin. And Selling Expenses": 23.7,
+                "Other Expenses": 2709.3
             },
             "Profit": {
                 "Total Income sum": 12250.4,
@@ -559,10 +559,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 126.5,
                 "Increase/Decrease in Stocks": -24.0,
-                "Power & Fuel": 6597.9,
-                "Employees Cost": 333.4,
-                "depreciat": 23.9,
-                "Excise Duty": 2673.4
+                "Employees Cost": 6597.9,
+                "depreciat": 333.4,
+                "Admin. And Selling Expenses": 23.9,
+                "Other Expenses": 2673.4
             },
             "Profit": {
                 "Total Income sum": 12596.1,
@@ -578,10 +578,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 170.7,
                 "Increase/Decrease in Stocks": -5.0,
-                "Power & Fuel": 6783.9,
-                "Employees Cost": 343.3,
-                "depreciat": 25.5,
-                "Excise Duty": 2705.9
+                "Employees Cost": 6783.9,
+                "depreciat": 343.3,
+                "Admin. And Selling Expenses": 25.5,
+                "Other Expenses": 2705.9
             },
             "Profit": {
                 "Total Income sum": 13260.0,
@@ -597,10 +597,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 124.5,
                 "Increase/Decrease in Stocks": 12.4,
-                "Power & Fuel": 7392.4,
-                "Employees Cost": 355.0,
-                "depreciat": 0.0,
-                "Excise Duty": 3537.0
+                "Employees Cost": 7392.4,
+                "depreciat": 355.0,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3537.0
             },
             "Profit": {
                 "Total Income sum": 13990.1,
@@ -616,10 +616,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 88.9,
                 "Increase/Decrease in Stocks": 5.5,
-                "Power & Fuel": 7755.7,
-                "Employees Cost": 357.9,
-                "depreciat": 0.0,
-                "Excise Duty": 3801.5
+                "Employees Cost": 7755.7,
+                "depreciat": 357.9,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3801.5
             },
             "Profit": {
                 "Total Income sum": 14720.0,
@@ -635,10 +635,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 180.8,
                 "Increase/Decrease in Stocks": -30.8,
-                "Power & Fuel": 8004.6,
-                "Employees Cost": 377.8,
-                "depreciat": 0.0,
-                "Excise Duty": 3976.2
+                "Employees Cost": 8004.6,
+                "depreciat": 377.8,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 3976.2
             },
             "Profit": {
                 "Total Income sum": 15278.7,
@@ -654,10 +654,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 94.6,
                 "Increase/Decrease in Stocks": 6.5,
-                "Power & Fuel": 8389.7,
-                "Employees Cost": 395.0,
-                "depreciat": 45.4,
-                "Excise Duty": 3778.3
+                "Employees Cost": 8389.7,
+                "depreciat": 395.0,
+                "Admin. And Selling Expenses": 45.4,
+                "Other Expenses": 3778.3
             },
             "Profit": {
                 "Total Income sum": 15585.6,
@@ -673,10 +673,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 139.6,
                 "Increase/Decrease in Stocks": -41.9,
-                "Power & Fuel": 8684.7,
-                "Employees Cost": 394.9,
-                "depreciat": 0.0,
-                "Excise Duty": 4378.6
+                "Employees Cost": 8684.7,
+                "depreciat": 394.9,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4378.6
             },
             "Profit": {
                 "Total Income sum": 16255.6,
@@ -692,10 +692,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 113.2,
                 "Increase/Decrease in Stocks": -10.8,
-                "Power & Fuel": 9517.9,
-                "Employees Cost": 405.2,
-                "depreciat": 0.0,
-                "Excise Duty": 4276.1
+                "Employees Cost": 9517.9,
+                "depreciat": 405.2,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4276.1
             },
             "Profit": {
                 "Total Income sum": 16941.8,
@@ -711,10 +711,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 110.2,
                 "Increase/Decrease in Stocks": -14.4,
-                "Power & Fuel": 9376.9,
-                "Employees Cost": 408.1,
-                "depreciat": 0.0,
-                "Excise Duty": 4454.3
+                "Employees Cost": 9376.9,
+                "depreciat": 408.1,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4454.3
             },
             "Profit": {
                 "Total Income sum": 17078.7,
@@ -730,10 +730,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 15.2,
                 "Increase/Decrease in Stocks": 63.6,
-                "Power & Fuel": 9622.1,
-                "Employees Cost": 383.9,
-                "depreciat": 0.0,
-                "Excise Duty": 4932.4
+                "Employees Cost": 9622.1,
+                "depreciat": 383.9,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4932.4
             },
             "Profit": {
                 "Total Income sum": 17477.3,
@@ -749,10 +749,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 92.0,
                 "Increase/Decrease in Stocks": -13.3,
-                "Power & Fuel": 9735.6,
-                "Employees Cost": 376.7,
-                "depreciat": 0.0,
-                "Excise Duty": 4127.9
+                "Employees Cost": 9735.6,
+                "depreciat": 376.7,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4127.9
             },
             "Profit": {
                 "Total Income sum": 17202.8,
@@ -768,10 +768,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 74.9,
                 "Increase/Decrease in Stocks": 14.6,
-                "Power & Fuel": 9642.7,
-                "Employees Cost": 370.8,
-                "depreciat": 0.0,
-                "Excise Duty": 4208.1
+                "Employees Cost": 9642.7,
+                "depreciat": 370.8,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4208.1
             },
             "Profit": {
                 "Total Income sum": 16680.7,
@@ -787,10 +787,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 49.6,
                 "Increase/Decrease in Stocks": -1.5,
-                "Power & Fuel": 9317.5,
-                "Employees Cost": 370.0,
-                "depreciat": 0.0,
-                "Excise Duty": 4167.2
+                "Employees Cost": 9317.5,
+                "depreciat": 370.0,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4167.2
             },
             "Profit": {
                 "Total Income sum": 16315.7,
@@ -806,10 +806,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 47.7,
                 "Increase/Decrease in Stocks": 18.1,
-                "Power & Fuel": 9593.7,
-                "Employees Cost": 374.3,
-                "depreciat": 0.0,
-                "Excise Duty": 4040.8
+                "Employees Cost": 9593.7,
+                "depreciat": 374.3,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4040.8
             },
             "Profit": {
                 "Total Income sum": 16593.2,
@@ -825,10 +825,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 55.4,
                 "Increase/Decrease in Stocks": -3.9,
-                "Power & Fuel": 9199.8,
-                "Employees Cost": 366.3,
-                "depreciat": 0.0,
-                "Excise Duty": 4037.4
+                "Employees Cost": 9199.8,
+                "depreciat": 366.3,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4037.4
             },
             "Profit": {
                 "Total Income sum": 16481.3,
@@ -844,10 +844,10 @@
                 "Consumption of Raw Materials": 0.0,
                 "Purchase of Traded Goods": 67.5,
                 "Increase/Decrease in Stocks": -10.1,
-                "Power & Fuel": 9503.6,
-                "Employees Cost": 359.5,
-                "depreciat": 0.0,
-                "Excise Duty": 4072.5
+                "Employees Cost": 9503.6,
+                "depreciat": 359.5,
+                "Admin. And Selling Expenses": 0.0,
+                "Other Expenses": 4072.5
             },
             "Profit": {
                 "Total Income sum": 16895.8,
