@@ -12,7 +12,7 @@
             "Profit": {
                 "Total Income sum": 11482.0,
                 "Total Expenditure_sum": 8777.0,
-                "Total Profit": 2705.0
+                "Net Profit": 2705.0
             }
         },
         "Dec '13": {
@@ -27,7 +27,7 @@
             "Profit": {
                 "Total Income sum": 11534.0,
                 "Total Expenditure_sum": 8411.0,
-                "Total Profit": 3123.0
+                "Net Profit": 3123.0
             }
         },
         "Mar '14": {
@@ -42,7 +42,7 @@
             "Profit": {
                 "Total Income sum": 11366.0,
                 "Total Expenditure_sum": 8281.0,
-                "Total Profit": 3085.0
+                "Net Profit": 3085.0
             }
         },
         "Jun '14": {
@@ -57,7 +57,7 @@
             "Profit": {
                 "Total Income sum": 11319.0,
                 "Total Expenditure_sum": 8314.0,
-                "Total Profit": 3005.0
+                "Net Profit": 3005.0
             }
         },
         "Sep '14": {
@@ -72,7 +72,7 @@
             "Profit": {
                 "Total Income sum": 11863.0,
                 "Total Expenditure_sum": 8527.0,
-                "Total Profit": 3336.0
+                "Net Profit": 3336.0
             }
         },
         "Dec '14": {
@@ -87,7 +87,7 @@
             "Profit": {
                 "Total Income sum": 12192.0,
                 "Total Expenditure_sum": 8763.0,
-                "Total Profit": 3429.0
+                "Net Profit": 3429.0
             }
         },
         "Mar '15": {
@@ -102,7 +102,7 @@
             "Profit": {
                 "Total Income sum": 11926.0,
                 "Total Expenditure_sum": 8647.0,
-                "Total Profit": 3279.0
+                "Net Profit": 3279.0
             }
         },
         "Jun '15": {
@@ -117,7 +117,7 @@
             "Profit": {
                 "Total Income sum": 12738.0,
                 "Total Expenditure_sum": 9469.0,
-                "Total Profit": 3269.0
+                "Net Profit": 3269.0
             }
         },
         "Sep '15": {
@@ -132,7 +132,7 @@
             "Profit": {
                 "Total Income sum": 13525.0,
                 "Total Expenditure_sum": 9747.0,
-                "Total Profit": 3778.0
+                "Net Profit": 3778.0
             }
         },
         "Dec '15": {
@@ -147,7 +147,7 @@
             "Profit": {
                 "Total Income sum": 13562.0,
                 "Total Expenditure_sum": 9946.0,
-                "Total Profit": 3616.0
+                "Net Profit": 3616.0
             }
         },
         "Mar '16": {
@@ -162,7 +162,7 @@
             "Profit": {
                 "Total Income sum": 14158.0,
                 "Total Expenditure_sum": 10226.0,
-                "Total Profit": 3932.0
+                "Net Profit": 3932.0
             }
         },
         "Jun '16": {
@@ -177,7 +177,7 @@
             "Profit": {
                 "Total Income sum": 14420.0,
                 "Total Expenditure_sum": 10721.0,
-                "Total Profit": 3699.0
+                "Net Profit": 3699.0
             }
         },
         "Sep '16": {
@@ -192,7 +192,7 @@
             "Profit": {
                 "Total Income sum": 15000.0,
                 "Total Expenditure_sum": 10951.0,
-                "Total Profit": 4049.0
+                "Net Profit": 4049.0
             }
         },
         "Dec '16": {
@@ -207,7 +207,7 @@
             "Profit": {
                 "Total Income sum": 14949.0,
                 "Total Expenditure_sum": 10871.0,
-                "Total Profit": 4078.0
+                "Net Profit": 4078.0
             }
         },
         "Mar '17": {
@@ -222,7 +222,7 @@
             "Profit": {
                 "Total Income sum": 14920.0,
                 "Total Expenditure_sum": 10870.0,
-                "Total Profit": 4050.0
+                "Net Profit": 4050.0
             }
         },
         "Jun '17": {
@@ -237,7 +237,7 @@
             "Profit": {
                 "Total Income sum": 14971.0,
                 "Total Expenditure_sum": 10978.0,
-                "Total Profit": 3993.0
+                "Net Profit": 3993.0
             }
         },
         "Sep '17": {
@@ -252,7 +252,7 @@
             "Profit": {
                 "Total Income sum": 15356.0,
                 "Total Expenditure_sum": 11325.0,
-                "Total Profit": 4031.0
+                "Net Profit": 4031.0
             }
         },
         "Dec '17": {
@@ -267,7 +267,7 @@
             "Profit": {
                 "Total Income sum": 15631.0,
                 "Total Expenditure_sum": 11520.0,
-                "Total Profit": 4111.0
+                "Net Profit": 4111.0
             }
         },
         "Mar '18": {
@@ -282,7 +282,7 @@
             "Profit": {
                 "Total Income sum": 15984.0,
                 "Total Expenditure_sum": 12230.0,
-                "Total Profit": 3754.0
+                "Net Profit": 3754.0
             }
         },
         "Jun '18": {
@@ -297,7 +297,7 @@
             "Profit": {
                 "Total Income sum": 17056.0,
                 "Total Expenditure_sum": 12990.0,
-                "Total Profit": 4066.0
+                "Net Profit": 4066.0
             }
         },
         "Sep '18": {
@@ -312,7 +312,7 @@
             "Profit": {
                 "Total Income sum": 18297.0,
                 "Total Expenditure_sum": 13788.0,
-                "Total Profit": 4509.0
+                "Net Profit": 4509.0
             }
         },
         "Dec '18": {
@@ -327,7 +327,7 @@
             "Profit": {
                 "Total Income sum": 18819.0,
                 "Total Expenditure_sum": 14633.0,
-                "Total Profit": 4186.0
+                "Net Profit": 4186.0
             }
         },
         "Mar '19": {
@@ -342,7 +342,7 @@
             "Profit": {
                 "Total Income sum": 18935.0,
                 "Total Expenditure_sum": 14621.0,
-                "Total Profit": 4314.0
+                "Net Profit": 4314.0
             }
         },
         "Jun '19": {
@@ -357,7 +357,7 @@
             "Profit": {
                 "Total Income sum": 19131.0,
                 "Total Expenditure_sum": 14996.0,
-                "Total Profit": 4135.0
+                "Net Profit": 4135.0
             }
         },
         "Sep '19": {
@@ -372,7 +372,7 @@
             "Profit": {
                 "Total Income sum": 19666.0,
                 "Total Expenditure_sum": 15119.0,
-                "Total Profit": 4547.0
+                "Net Profit": 4547.0
             }
         },
         "Dec '19": {
@@ -387,7 +387,7 @@
             "Profit": {
                 "Total Income sum": 20064.0,
                 "Total Expenditure_sum": 15429.0,
-                "Total Profit": 4635.0
+                "Net Profit": 4635.0
             }
         },
         "Mar '20": {
@@ -402,7 +402,7 @@
             "Profit": {
                 "Total Income sum": 20187.0,
                 "Total Expenditure_sum": 15613.0,
-                "Total Profit": 4574.0
+                "Net Profit": 4574.0
             }
         },
         "Jun '20": {
@@ -417,7 +417,7 @@
             "Profit": {
                 "Total Income sum": 20325.0,
                 "Total Expenditure_sum": 15394.0,
-                "Total Profit": 4931.0
+                "Net Profit": 4931.0
             }
         },
         "Sep '20": {
@@ -432,7 +432,7 @@
             "Profit": {
                 "Total Income sum": 21046.0,
                 "Total Expenditure_sum": 15434.0,
-                "Total Profit": 5612.0
+                "Net Profit": 5612.0
             }
         },
         "Dec '20": {
@@ -447,7 +447,7 @@
             "Profit": {
                 "Total Income sum": 22043.0,
                 "Total Expenditure_sum": 16020.0,
-                "Total Profit": 6023.0
+                "Net Profit": 6023.0
             }
         },
         "Mar '21": {
@@ -462,7 +462,7 @@
             "Profit": {
                 "Total Income sum": 22497.0,
                 "Total Expenditure_sum": 16928.0,
-                "Total Profit": 5569.0
+                "Net Profit": 5569.0
             }
         },
         "Jun '21": {
@@ -477,7 +477,7 @@
             "Profit": {
                 "Total Income sum": 23714.0,
                 "Total Expenditure_sum": 17759.0,
-                "Total Profit": 5955.0
+                "Net Profit": 5955.0
             }
         },
         "Sep '21": {
@@ -492,7 +492,7 @@
             "Profit": {
                 "Total Income sum": 25462.0,
                 "Total Expenditure_sum": 19179.0,
-                "Total Profit": 6283.0
+                "Net Profit": 6283.0
             }
         },
         "Dec '21": {
@@ -507,7 +507,7 @@
             "Profit": {
                 "Total Income sum": 27337.0,
                 "Total Expenditure_sum": 20528.0,
-                "Total Profit": 6809.0
+                "Net Profit": 6809.0
             }
         },
         "Mar '22": {
@@ -522,7 +522,7 @@
             "Profit": {
                 "Total Income sum": 27426.0,
                 "Total Expenditure_sum": 21077.0,
-                "Total Profit": 6349.0
+                "Net Profit": 6349.0
             }
         },
         "Jun '22": {
@@ -537,7 +537,7 @@
             "Profit": {
                 "Total Income sum": 29527.0,
                 "Total Expenditure_sum": 23239.0,
-                "Total Profit": 6288.0
+                "Net Profit": 6288.0
             }
         },
         "Sep '22": {
@@ -552,7 +552,7 @@
             "Profit": {
                 "Total Income sum": 31567.0,
                 "Total Expenditure_sum": 24306.0,
-                "Total Profit": 7261.0
+                "Net Profit": 7261.0
             }
         },
         "Dec '22": {
@@ -567,7 +567,7 @@
             "Profit": {
                 "Total Income sum": 32389.0,
                 "Total Expenditure_sum": 25230.0,
-                "Total Profit": 7159.0
+                "Net Profit": 7159.0
             }
         },
         "Mar '23": {
@@ -582,7 +582,7 @@
             "Profit": {
                 "Total Income sum": 30531.0,
                 "Total Expenditure_sum": 23297.0,
-                "Total Profit": 7234.0
+                "Net Profit": 7234.0
             }
         },
         "Jun '23": {
@@ -597,7 +597,7 @@
             "Profit": {
                 "Total Income sum": 31811.0,
                 "Total Expenditure_sum": 24623.0,
-                "Total Profit": 7188.0
+                "Net Profit": 7188.0
             }
         },
         "Sep '23": {
@@ -612,7 +612,7 @@
             "Profit": {
                 "Total Income sum": 32629.0,
                 "Total Expenditure_sum": 25373.0,
-                "Total Profit": 7256.0
+                "Net Profit": 7256.0
             }
         },
         "Dec '23": {
@@ -627,7 +627,7 @@
             "Profit": {
                 "Total Income sum": 32491.0,
                 "Total Expenditure_sum": 25115.0,
-                "Total Profit": 7376.0
+                "Net Profit": 7376.0
             }
         },
         "Mar '24": {
@@ -642,7 +642,7 @@
             "Profit": {
                 "Total Income sum": 32001.0,
                 "Total Expenditure_sum": 25008.0,
-                "Total Profit": 6993.0
+                "Net Profit": 6993.0
             }
         },
         "Jun '24": {
@@ -657,7 +657,7 @@
             "Profit": {
                 "Total Income sum": 33283.0,
                 "Total Expenditure_sum": 25817.0,
-                "Total Profit": 7466.0
+                "Net Profit": 7466.0
             }
         },
         "Sep '24": {
@@ -672,55 +672,325 @@
             "Profit": {
                 "Total Income sum": 34257.0,
                 "Total Expenditure_sum": 26526.0,
-                "Total Profit": 7731.0
+                "Net Profit": 7731.0
             }
         }
     },
     "Total Profit for each quarter": {
-        "Q1": 2705.0,
-        "Q2": 3123.0,
-        "Q3": 3085.0,
-        "Q4": 3005.0,
-        "Q5": 3336.0,
-        "Q6": 3429.0,
-        "Q7": 3279.0,
-        "Q8": 3269.0,
-        "Q9": 3778.0,
-        "Q10": 3616.0,
-        "Q11": 3932.0,
-        "Q12": 3699.0,
-        "Q13": 4049.0,
-        "Q14": 4078.0,
-        "Q15": 4050.0,
-        "Q16": 3993.0,
-        "Q17": 4031.0,
-        "Q18": 4111.0,
-        "Q19": 3754.0,
-        "Q20": 4066.0,
-        "Q21": 4509.0,
-        "Q22": 4186.0,
-        "Q23": 4314.0,
-        "Q24": 4135.0,
-        "Q25": 4547.0,
-        "Q26": 4635.0,
-        "Q27": 4574.0,
-        "Q28": 4931.0,
-        "Q29": 5612.0,
-        "Q30": 6023.0,
-        "Q31": 5569.0,
-        "Q32": 5955.0,
-        "Q33": 6283.0,
-        "Q34": 6809.0,
-        "Q35": 6349.0,
-        "Q36": 6288.0,
-        "Q37": 7261.0,
-        "Q38": 7159.0,
-        "Q39": 7234.0,
-        "Q40": 7188.0,
-        "Q41": 7256.0,
-        "Q42": 7376.0,
-        "Q43": 6993.0,
-        "Q44": 7466.0,
-        "Q45": 7731.0
+        "Q1": {
+            "Profit": 2705.0,
+            "Difference and Percentage": {
+                "Difference": 0,
+                "Percentage": 0
+            }
+        },
+        "Q2": {
+            "Profit": 3123.0,
+            "Difference and Percentage": {
+                "Difference": 418.0,
+                "Percentage": "15.45 %"
+            }
+        },
+        "Q3": {
+            "Profit": 3085.0,
+            "Difference and Percentage": {
+                "Difference": -38.0,
+                "Percentage": "-1.22 %"
+            }
+        },
+        "Q4": {
+            "Profit": 3005.0,
+            "Difference and Percentage": {
+                "Difference": -80.0,
+                "Percentage": "-2.59 %"
+            }
+        },
+        "Q5": {
+            "Profit": 3336.0,
+            "Difference and Percentage": {
+                "Difference": 331.0,
+                "Percentage": "11.01 %"
+            }
+        },
+        "Q6": {
+            "Profit": 3429.0,
+            "Difference and Percentage": {
+                "Difference": 93.0,
+                "Percentage": "2.79 %"
+            }
+        },
+        "Q7": {
+            "Profit": 3279.0,
+            "Difference and Percentage": {
+                "Difference": -150.0,
+                "Percentage": "-4.37 %"
+            }
+        },
+        "Q8": {
+            "Profit": 3269.0,
+            "Difference and Percentage": {
+                "Difference": -10.0,
+                "Percentage": "-0.3 %"
+            }
+        },
+        "Q9": {
+            "Profit": 3778.0,
+            "Difference and Percentage": {
+                "Difference": 509.0,
+                "Percentage": "15.57 %"
+            }
+        },
+        "Q10": {
+            "Profit": 3616.0,
+            "Difference and Percentage": {
+                "Difference": -162.0,
+                "Percentage": "-4.29 %"
+            }
+        },
+        "Q11": {
+            "Profit": 3932.0,
+            "Difference and Percentage": {
+                "Difference": 316.0,
+                "Percentage": "8.74 %"
+            }
+        },
+        "Q12": {
+            "Profit": 3699.0,
+            "Difference and Percentage": {
+                "Difference": -233.0,
+                "Percentage": "-5.93 %"
+            }
+        },
+        "Q13": {
+            "Profit": 4049.0,
+            "Difference and Percentage": {
+                "Difference": 350.0,
+                "Percentage": "9.46 %"
+            }
+        },
+        "Q14": {
+            "Profit": 4078.0,
+            "Difference and Percentage": {
+                "Difference": 29.0,
+                "Percentage": "0.72 %"
+            }
+        },
+        "Q15": {
+            "Profit": 4050.0,
+            "Difference and Percentage": {
+                "Difference": -28.0,
+                "Percentage": "-0.69 %"
+            }
+        },
+        "Q16": {
+            "Profit": 3993.0,
+            "Difference and Percentage": {
+                "Difference": -57.0,
+                "Percentage": "-1.41 %"
+            }
+        },
+        "Q17": {
+            "Profit": 4031.0,
+            "Difference and Percentage": {
+                "Difference": 38.0,
+                "Percentage": "0.95 %"
+            }
+        },
+        "Q18": {
+            "Profit": 4111.0,
+            "Difference and Percentage": {
+                "Difference": 80.0,
+                "Percentage": "1.98 %"
+            }
+        },
+        "Q19": {
+            "Profit": 3754.0,
+            "Difference and Percentage": {
+                "Difference": -357.0,
+                "Percentage": "-8.68 %"
+            }
+        },
+        "Q20": {
+            "Profit": 4066.0,
+            "Difference and Percentage": {
+                "Difference": 312.0,
+                "Percentage": "8.31 %"
+            }
+        },
+        "Q21": {
+            "Profit": 4509.0,
+            "Difference and Percentage": {
+                "Difference": 443.0,
+                "Percentage": "10.9 %"
+            }
+        },
+        "Q22": {
+            "Profit": 4186.0,
+            "Difference and Percentage": {
+                "Difference": -323.0,
+                "Percentage": "-7.16 %"
+            }
+        },
+        "Q23": {
+            "Profit": 4314.0,
+            "Difference and Percentage": {
+                "Difference": 128.0,
+                "Percentage": "3.06 %"
+            }
+        },
+        "Q24": {
+            "Profit": 4135.0,
+            "Difference and Percentage": {
+                "Difference": -179.0,
+                "Percentage": "-4.15 %"
+            }
+        },
+        "Q25": {
+            "Profit": 4547.0,
+            "Difference and Percentage": {
+                "Difference": 412.0,
+                "Percentage": "9.96 %"
+            }
+        },
+        "Q26": {
+            "Profit": 4635.0,
+            "Difference and Percentage": {
+                "Difference": 88.0,
+                "Percentage": "1.94 %"
+            }
+        },
+        "Q27": {
+            "Profit": 4574.0,
+            "Difference and Percentage": {
+                "Difference": -61.0,
+                "Percentage": "-1.32 %"
+            }
+        },
+        "Q28": {
+            "Profit": 4931.0,
+            "Difference and Percentage": {
+                "Difference": 357.0,
+                "Percentage": "7.8 %"
+            }
+        },
+        "Q29": {
+            "Profit": 5612.0,
+            "Difference and Percentage": {
+                "Difference": 681.0,
+                "Percentage": "13.81 %"
+            }
+        },
+        "Q30": {
+            "Profit": 6023.0,
+            "Difference and Percentage": {
+                "Difference": 411.0,
+                "Percentage": "7.32 %"
+            }
+        },
+        "Q31": {
+            "Profit": 5569.0,
+            "Difference and Percentage": {
+                "Difference": -454.0,
+                "Percentage": "-7.54 %"
+            }
+        },
+        "Q32": {
+            "Profit": 5955.0,
+            "Difference and Percentage": {
+                "Difference": 386.0,
+                "Percentage": "6.93 %"
+            }
+        },
+        "Q33": {
+            "Profit": 6283.0,
+            "Difference and Percentage": {
+                "Difference": 328.0,
+                "Percentage": "5.51 %"
+            }
+        },
+        "Q34": {
+            "Profit": 6809.0,
+            "Difference and Percentage": {
+                "Difference": 526.0,
+                "Percentage": "8.37 %"
+            }
+        },
+        "Q35": {
+            "Profit": 6349.0,
+            "Difference and Percentage": {
+                "Difference": -460.0,
+                "Percentage": "-6.76 %"
+            }
+        },
+        "Q36": {
+            "Profit": 6288.0,
+            "Difference and Percentage": {
+                "Difference": -61.0,
+                "Percentage": "-0.96 %"
+            }
+        },
+        "Q37": {
+            "Profit": 7261.0,
+            "Difference and Percentage": {
+                "Difference": 973.0,
+                "Percentage": "15.47 %"
+            }
+        },
+        "Q38": {
+            "Profit": 7159.0,
+            "Difference and Percentage": {
+                "Difference": -102.0,
+                "Percentage": "-1.4 %"
+            }
+        },
+        "Q39": {
+            "Profit": 7234.0,
+            "Difference and Percentage": {
+                "Difference": 75.0,
+                "Percentage": "1.05 %"
+            }
+        },
+        "Q40": {
+            "Profit": 7188.0,
+            "Difference and Percentage": {
+                "Difference": -46.0,
+                "Percentage": "-0.64 %"
+            }
+        },
+        "Q41": {
+            "Profit": 7256.0,
+            "Difference and Percentage": {
+                "Difference": 68.0,
+                "Percentage": "0.95 %"
+            }
+        },
+        "Q42": {
+            "Profit": 7376.0,
+            "Difference and Percentage": {
+                "Difference": 120.0,
+                "Percentage": "1.65 %"
+            }
+        },
+        "Q43": {
+            "Profit": 6993.0,
+            "Difference and Percentage": {
+                "Difference": -383.0,
+                "Percentage": "-5.19 %"
+            }
+        },
+        "Q44": {
+            "Profit": 7466.0,
+            "Difference and Percentage": {
+                "Difference": 473.0,
+                "Percentage": "6.76 %"
+            }
+        },
+        "Q45": {
+            "Profit": 7731.0,
+            "Difference and Percentage": {
+                "Difference": 265.0,
+                "Percentage": "3.55 %"
+            }
+        }
     }
 }
