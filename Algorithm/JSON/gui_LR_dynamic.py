@@ -114,6 +114,7 @@ def predict_manual_input():
 # Initialize the main window
 root = tk.Tk()
 root.title("Financial Analysis GUI")
+root.geometry("500x300")
 
 # Create frame for loading JSON and model training
 frame_load = tk.Frame(root)
