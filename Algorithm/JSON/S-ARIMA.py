@@ -86,6 +86,9 @@ for quarter, values in data['Quarters'].items():
     quarters.append(datetime.strptime(quarter, "%b '%y"))
     net_profit_data.append(values['Profit']['Net Profit'])  # Adjusted to 'Net Profit'
 
+print(net_profit_data)
+# exit()
+
 # Create a DataFrame
 df = pd.DataFrame({'Quarter': quarters, 'Net Profit': net_profit_data})
 df.set_index('Quarter', inplace=True)
@@ -108,7 +111,7 @@ sarima_result = model.fit()
 # print(sarima_result.summary())
 
 # Forecast the next 4 quarters (1 year)
-forecast = sarima_result.get_forecast(steps=4)
+forecast = sarima_result.get_forecast(steps=8)
 forecast_df = forecast.summary_frame()
 
 
