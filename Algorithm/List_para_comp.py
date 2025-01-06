@@ -104,7 +104,7 @@ if __name__ == '__main__':
     
     parameters = ['Employees Cost', 'depreciat', 'Other Expenses']
     start_quarter = "Dec '21"
-    n = 8
+    n = 4
 
     # Call the function with user-specified parameters
     results = analyze_company_performance(json_list, start_quarter, parameters,n)

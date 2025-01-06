@@ -10,6 +10,22 @@ app.resizable(False, False)
 
 # Configure overall grid layout for better alignment
 app.grid_columnconfigure(0, weight=1)
+    
+# Title label for the application
+title_label = customtkinter.CTkLabel(app, text="Web Scraper Tool", font=("Arial", 20, "bold"))
+title_label.grid(row=0, column=0, padx=10, pady=(10, 20))
+
+# URL Entry widget with placeholder text
+url_name = customtkinter.CTkEntry(app, placeholder_text="Enter URL to scrape", width=300, font=("Arial", 14))
+url_name.grid(row=1, column=0, padx=20, pady=(0, 10))
+
+# File name Entry widget with placeholder text
+file_name = customtkinter.CTkEntry(app, placeholder_text="File name for saved data", width=300, font=("Arial", 14))
+file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
+
+# Create a frame to hold the button and label_message side by side
+button_frame = customtkinter.CTkFrame(app,fg_color="transparent")
+button_frame.grid(row=4, column=0, padx=20, pady=20)
 
 # Function to update label color
 def update_label_color(color):
@@ -70,40 +86,13 @@ def f1():
     
     url_name.delete(0, END)
     file_name.delete(0, END)
-    
-    
-# Title label for the application
-title_label = customtkinter.CTkLabel(
-    app, text="Web Scraper Tool", font=("Arial", 20, "bold")
-)
-title_label.grid(row=0, column=0, padx=10, pady=(10, 20))
-
-# URL Entry widget with placeholder text
-url_name = customtkinter.CTkEntry(
-    app, placeholder_text="Enter URL to scrape", width=300, font=("Arial", 14)
-)
-url_name.grid(row=1, column=0, padx=20, pady=(0, 10))
-
-# File name Entry widget with placeholder text
-file_name = customtkinter.CTkEntry(
-    app, placeholder_text="File name for saved data", width=300, font=("Arial", 14)
-)
-file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
-
-# Create a frame to hold the button and label_message side by side
-button_frame = customtkinter.CTkFrame(app,fg_color="transparent")
-button_frame.grid(row=4, column=0, padx=20, pady=20)
 
 # Process Button to trigger the scraping function
-process = customtkinter.CTkButton(
-    button_frame, text="Start Scraping", command=f1, width=180, font=("Arial", 14, "bold")
-)
+process = customtkinter.CTkButton(button_frame, text="Start Scraping", command=f1, width=180, font=("Arial", 14, "bold"))
 process.grid(row=0, column=0, padx=(0, 50))  # Increased right padding for more spacing
 
 # Label to indicate the status
-label_message = customtkinter.CTkLabel(
-    button_frame, text="", width=15, height=15, fg_color="grey", corner_radius=12
-)
+label_message = customtkinter.CTkLabel(button_frame, text="", width=15, height=15, fg_color="grey", corner_radius=12)
 label_message.grid(row=0, column=1, padx=(50, 0))  # Left padding to move it toward the corner
 
 # Run the app main loop
