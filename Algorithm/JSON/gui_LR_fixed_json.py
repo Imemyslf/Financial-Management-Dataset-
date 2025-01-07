@@ -61,7 +61,7 @@ def predict_manual():
         depreciation = float(entry_depreciation.get())
         other_expenses = float(entry_expenses.get())
         
-        # Create a DataFrame for the manual input
+        # Create a DataFrame for the manual input 
         manual_input = pd.DataFrame([[total_income, employees_cost, depreciation, other_expenses]],
                                     columns=['Total Income From Operations', 'Employees Cost', 'Depreciation', 'Other Expenses'])
         

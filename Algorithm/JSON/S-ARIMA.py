@@ -39,7 +39,7 @@ plt.show()
 exit()
 # Annotate historical net profit values above the dots
 for i, value in enumerate(df['Net Profit']):
-    plt.text(df.index[i], value, f'{value:.2f}', color='blue', fontsize=7, ha='right', va='top')
+    plt.text(df.index[i], value, f'{value:.2f}', color='blue', fontsize=7, ha='right', va='bottom')
 
 # Fit the SARIMA model on Net Profit data
 model = SARIMAX(df['Net Profit'], order=(1, 1, 1), seasonal_order=(1, 1, 1, 4))
@@ -49,7 +49,7 @@ sarima_result = model.fit()
 # print(sarima_result.summary())
 
 # Forecast the next 4 quarters (1 year)
-forecast = sarima_result.get_forecast(steps=4)
+forecast = sarima_result.get_forecast(steps=2)
 forecast_df = forecast.summary_frame()
 
 
@@ -63,8 +63,7 @@ for i, value in enumerate(forecast_df['mean']):
         var = 'top'  # Align text above the data point (even indices)
     else:
         var = 'bottom'
-    plt.text(forecast_df.index[i], value, f'{value:.2f}', color='red', fontsize=7, ha='center', va=var)
-
+    plt.text(forecast_df.index[i], value, f'{value:.2f}', color='red', fontsize=7, ha='left', va='bottom')
 # Fill between the confidence intervals for the forecast
 plt.fill_between(forecast_df.index,
                  forecast_df['mean_ci_lower'],
