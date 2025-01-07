@@ -19,10 +19,6 @@ title_label.grid(row=0, column=0, padx=10, pady=(10, 20))
 url_name = customtkinter.CTkEntry(app, placeholder_text="Enter URL to scrape", width=300, font=("Arial", 14))
 url_name.grid(row=1, column=0, padx=20, pady=(0, 10))
 
-# # File name Entry widget with placeholder text
-# file_name = customtkinter.CTkEntry(app, placeholder_text="File name for saved data", width=300, font=("Arial", 14))
-# file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
-
 # Create a frame to hold the button and label_message side by side
 button_frame = customtkinter.CTkFrame(app,fg_color="transparent")
 button_frame.grid(row=4, column=0, padx=20, pady=20)
@@ -47,9 +43,9 @@ def f1():
         for i in range(0,n):
             dir_list.append(str(n))
             n -= 1
-        print(dir_list)
-        for i in range(0,2):
-            print(i)
+        # print(dir_list)
+        # for i in range(0,2):
+        #     print(i)
         n = 9
         for i in range(0,n):
             print("Loop start")
