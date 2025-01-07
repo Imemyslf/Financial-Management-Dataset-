@@ -19,9 +19,9 @@ title_label.grid(row=0, column=0, padx=10, pady=(10, 20))
 url_name = customtkinter.CTkEntry(app, placeholder_text="Enter URL to scrape", width=300, font=("Arial", 14))
 url_name.grid(row=1, column=0, padx=20, pady=(0, 10))
 
-# File name Entry widget with placeholder text
-file_name = customtkinter.CTkEntry(app, placeholder_text="File name for saved data", width=300, font=("Arial", 14))
-file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
+# # File name Entry widget with placeholder text
+# file_name = customtkinter.CTkEntry(app, placeholder_text="File name for saved data", width=300, font=("Arial", 14))
+# file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
 
 # Create a frame to hold the button and label_message side by side
 button_frame = customtkinter.CTkFrame(app,fg_color="transparent")
@@ -35,57 +35,63 @@ def update_label_color(color):
 def f1():
     # Set label to grey initially to indicate processing
     update_label_color("grey")
-    for i in range(0,2):
-        print(i)
     
-    n = 9
-    dir_list = []
-    for i in range(0,n):
-        dir_list.append(str(n))
-        n -= 1
-    print(dir_list)
+    name = url_name.get()
+    index = name.find("moneycontrol")
+    print(index)
     
-    for i in range(0,2):
-        print(i)
-    
-    n = 9
-    for i in range(0,n):
-        print("Loop start")
-        if i == 0:
-            link = url_name.get()
-            file = dir_list[i]
-        else:
-            url = url_name.get().split("/")
-            string = url[-1]
-
-            # Find the position of #
-            j = string.find('#')
-
-            # Insert "/{i+1}" before #
-            if j != -1:
-                modified_string = string[:j] + f"/{i+1}" + string[j:]
-                print(modified_string)
-
-            url[-1] = modified_string
-            # print()
-            link = '/'.join(url) 
-            file = dir_list[i]
-        print(i,link,file)
-
-        # #  Call getUrl function and check result
-        result = getUrl(link, file)
         
-        # Update label color based on success or failure
-        if result:
-            update_label_color("green")
-        else:
-            update_label_color("red")
-        
-        # Reset label color to grey after 3 seconds
-        app.after(3000, lambda: update_label_color("grey"))
+    if index == 1:
+        n = 9
+        dir_list = []
+        for i in range(0,n):
+            dir_list.append(str(n))
+            n -= 1
+        print(dir_list)
+        for i in range(0,2):
+            print(i)
+        n = 9
+        for i in range(0,n):
+            print("Loop start")
+            if i == 0:
+                link = url_name.get()
+                file = dir_list[i]
+            else:
+                url = url_name.get().split("/")
+                string = url[-1]
+
+                # Find the position of #
+                j = string.find('#')
+
+                # Insert "/{i+1}" before #
+                if j != -1:
+                    modified_string = string[:j] + f"/{i+1}" + string[j:]
+                    print(modified_string)
+
+                url[-1] = modified_string
+                # print()
+                link = '/'.join(url) 
+                file = dir_list[i]
+            print(i,link,file)
+
+            # #  Call getUrl function and check result
+            result = getUrl(link, file,index)
+            
+            # Update label color based on success or failure
+            if result:
+                update_label_color("green")
+            else:
+                update_label_color("red")
+            
+            # Reset label color to grey after 3 seconds
+            app.after(3000, lambda: update_label_color("grey"))
+    else:
+        print("Screnner",url_name.get())
+        # exit()
+        result = getUrl(url_name.get(),"9",index)
+        print(result)
     
     url_name.delete(0, END)
-    file_name.delete(0, END)
 
 # Process Button to trigger the scraping function
 process = customtkinter.CTkButton(button_frame, text="Start Scraping", command=f1, width=180, font=("Arial", 14, "bold"))
