@@ -85,10 +85,10 @@ url_name = customtkinter.CTkEntry(
 url_name.grid(row=1, column=0, padx=20, pady=(0, 10))
 
 # File name Entry widget with placeholder text
-file_name = customtkinter.CTkEntry(
-    app, placeholder_text="File name for saved data", width=300, font=("Arial", 14)
-)
-file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
+# file_name = customtkinter.CTkEntry(
+#     app, placeholder_text="File name for saved data", width=300, font=("Arial", 14)
+# )
+# file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
 
 # Create a frame to hold the button and label_message side by side
 button_frame = customtkinter.CTkFrame(app,fg_color="transparent")
