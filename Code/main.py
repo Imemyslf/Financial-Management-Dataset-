@@ -20,7 +20,6 @@ def fetchandSave(url, path, filename):
 def webiste_call(url):
     r = requests.get(url)
     soup = BeautifulSoup(r.content, "html.parser")
-    # print(soup)
     return soup
 
 
@@ -28,14 +27,14 @@ def getUrl(url, file_name, index, company_data_info):
     global current_dir, base_dir, data_folder    
     try:        
         soup = webiste_call(url)
-        print("Company_data_info:", company_data_info)
+        # print("Company_data_info:", company_data_info)
         
         if index in url:
             site = "MoneyControl"
             # Extract company and sector details
             company_soup_name = soup.find(class_="pcstname")
             company_name = company_soup_name.get_text().strip()
-            print("Company Name:", company_name, "\n")
+            print("\nCompany Name:", company_name, "\n")
             
             sector_class = soup.find(class_="hidden-lg")
             sector_name = sector_class.get_text().split()
@@ -55,7 +54,7 @@ def getUrl(url, file_name, index, company_data_info):
             
             # Path for storing the HTML file
             html_path = os.path.join(quarterly_dir, f"{file_name}.html")
-            print("HTML Path:", html_path)
+            print("\nHTML Path:", html_path)
             
             # Fetch and save HTML file
             fetchandSave(url, quarterly_dir, file_name)
@@ -68,7 +67,7 @@ def getUrl(url, file_name, index, company_data_info):
             create_excel_file(html_path, os.path.join(base_dir, "Companies", final_sector_name, company_name, "Excel"), file_name)
             return True
         else:
-            print("URL does not match the specified index.")
+            print("\nURL does not match the specified index.")
             return False
     except Exception as e:
         print("\nException occurred:\n", e)

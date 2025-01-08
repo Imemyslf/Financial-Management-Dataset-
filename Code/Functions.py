@@ -51,7 +51,6 @@ def append_sector(path, final_sector_name):
 # Function to create a directory structure for a specific company
 def create_company_directory(directory,num):    
     try: 
-        print("Creating directory",directory)
         os.makedirs(directory)
 
         if num == 1:
