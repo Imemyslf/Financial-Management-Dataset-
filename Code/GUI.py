@@ -2,6 +2,7 @@ import customtkinter
 from customtkinter import *
 from main import getUrl
 import os
+
 # Initialize the main app window
 app = CTk()
 app.title("Scraper")
@@ -10,7 +11,7 @@ app.resizable(False, False)
 
 # Configure overall grid layout for better alignment
 app.grid_columnconfigure(0, weight=1)
-    
+
 # Title label for the application
 title_label = customtkinter.CTkLabel(app, text="Web Scraper Tool", font=("Arial", 20, "bold"))
 title_label.grid(row=0, column=0, padx=10, pady=(10, 20))
@@ -20,7 +21,7 @@ url_name = customtkinter.CTkEntry(app, placeholder_text="Enter URL to scrape", w
 url_name.grid(row=1, column=0, padx=20, pady=(0, 10))
 
 # Create a frame to hold the button and label_message side by side
-button_frame = customtkinter.CTkFrame(app,fg_color="transparent")
+button_frame = customtkinter.CTkFrame(app, fg_color="transparent")
 button_frame.grid(row=4, column=0, padx=20, pady=20)
 
 # Function to update label color
@@ -31,26 +32,20 @@ def update_label_color(color):
 def f1():
     # Set label to grey initially to indicate processing
     update_label_color("grey")
-    
+
     name = url_name.get()
-    index = name.find("moneycontrol")
-    print(index)
-    
-        
-    if index == 1:
+    company_data = name.split("/")[-2].capitalize()
+
+    # Check if "moneycontrol" exists in the URL
+    if "moneycontrol" in name:
         n = 9
-        dir_list = []
-        for i in range(0,n):
-            dir_list.append(str(n))
-            n -= 1
-        # print(dir_list)
-        # for i in range(0,2):
-        #     print(i)
-        n = 9
-        for i in range(0,n):
+        dir_list = [str(i) for i in range(n, 0, -1)]
+
+        for i in range(0, n):
             print("Loop start")
             if i == 0:
                 link = url_name.get()
+                print(f"{i} -> {link}")
                 file = dir_list[i]
             else:
                 url = url_name.get().split("/")
@@ -65,28 +60,28 @@ def f1():
                     print(modified_string)
 
                 url[-1] = modified_string
-                # print()
-                link = '/'.join(url) 
+                link = '/'.join(url)
+                print(f"{i} -> {link}")
                 file = dir_list[i]
-            print(i,link,file)
 
-            # #  Call getUrl function and check result
-            result = getUrl(link, file,index)
+            # print(i, link, file)
+
+            # Call getUrl function and check result
+            result = getUrl(link, file, "moneycontrol", company_data[:-2])
             
             # Update label color based on success or failure
             if result:
                 update_label_color("green")
             else:
                 update_label_color("red")
-            
+
             # Reset label color to grey after 3 seconds
             app.after(3000, lambda: update_label_color("grey"))
     else:
-        print("Screnner",url_name.get())
-        # exit()
-        result = getUrl(url_name.get(),"9",index)
+        print("Screnner", url_name.get())
+        result = getUrl(url_name.get(), "9", 0)
         print(result)
-    
+
     url_name.delete(0, END)
 
 # Process Button to trigger the scraping function
