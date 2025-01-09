@@ -1,16 +1,87 @@
 import customtkinter
 from customtkinter import *
 from main import getUrl
-import os
+
+# Function to call getUrl and handle URL and file name inputs
+def f1():
+    update_label_color("grey")  # Set label to grey initially to indicate processing
+
+    name = url_name.get()
+    company_data = name.split("/")[-2].capitalize()
+
+    # Check if "moneycontrol" exists in the URL
+    if "moneycontrol" in name:
+        dir_list = [str(i) for i in range(n, 0, -1)]
+
+        for i in range(0, n):
+            print("\nLoop start")
+            if i == 0:
+                link = url_name.get()
+                print(f"{i} -> {link}")
+                file = dir_list[i]
+            else:
+                url = url_name.get().split("/")
+                string = url[-1]
+                print("\n\n String:- ", string)
+
+                # Find the position of #
+                j = string.find('#')
+
+                # Insert "/{i+1}" before #
+                if j != -1:
+                    modified_string = string[:j] + f"/{i+1}" + string[j:]
+                    print("\n modified_string", modified_string)
+                    if i >= 2:
+                        modified_string = modified_string[2:]
+                        print("\n new_modified_string", modified_string)
+
+                print("\n\n Split modified String:- ", modified_string.split("/"))
+                url[-1] = modified_string
+                link = '/'.join(url)
+                print(f"\n\n{i} -> {link}")
+                file = dir_list[i]
+
+                # Update the URL entry with the modified link
+                url_name.delete(0, END)  # Clear the current content
+                url_name.insert(0, link)  # Insert the updated link
+
+            # Call getUrl function and check result
+            result = getUrl(link, file, "moneycontrol", company_data[:-2])
+
+            # Update label color based on success or failure
+            if result:
+                update_label_color("green")
+                app.after(3000, lambda: update_label_color("grey"))  # Reset to grey after 3 seconds
+            else:
+                update_label_color("red")
+                app.after(3000, lambda: update_label_color("grey"))  # Reset to grey after 3 seconds
+
+    else:
+        print("Screnner", url_name.get())
+        result = getUrl(url_name.get(), "9", 0)
+        print(result)
+
+    url_name.delete(0, END)
+
+# Function to update label color
+def update_label_color(color):
+    label_message.configure(fg_color=color)
+
+# Function to handle option menu selection
+def optionmenu_callback(choice):
+    global n
+    n = int(choice)  # Convert selected option to integer
+    print("Option menu dropdown clicked:", n)
+
 # Initialize the main app window
 app = CTk()
 app.title("Scraper")
-app.geometry("400x200")
+app.geometry("400x300")
 app.resizable(False, False)
 
 # Configure overall grid layout for better alignment
 app.grid_columnconfigure(0, weight=1)
-    
+
 # Title label for the application
 title_label = customtkinter.CTkLabel(app, text="Web Scraper Tool", font=("Arial", 20, "bold"))
 title_label.grid(row=0, column=0, padx=10, pady=(10, 20))
@@ -19,79 +90,27 @@ title_label.grid(row=0, column=0, padx=10, pady=(10, 20))
 url_name = customtkinter.CTkEntry(app, placeholder_text="Enter URL to scrape", width=300, font=("Arial", 14))
 url_name.grid(row=1, column=0, padx=20, pady=(0, 10))
 
-# # File name Entry widget with placeholder text
-# file_name = customtkinter.CTkEntry(app, placeholder_text="File name for saved data", width=300, font=("Arial", 14))
-# file_name.grid(row=2, column=0, padx=20, pady=(0, 20))
+# Create a frame for option menu and label
+option_frame = customtkinter.CTkFrame(app, fg_color="transparent") 
+option_frame.grid(row=2, column=0, padx=20, pady=20)
+
+# Label for the option menu
+option_label = customtkinter.CTkLabel(option_frame, text="How many Years?", font=("Arial", 14, "bold"))
+option_label.grid(row=0, column=0, padx=(0, 10))  
+
+# Option menu for selecting years
+optionmenu_var = customtkinter.StringVar(value="10")  # Default value
+optionmenu = customtkinter.CTkOptionMenu(option_frame, values=["1", "3", "5", "10"],
+                                         command=optionmenu_callback,
+                                         variable=optionmenu_var)
+optionmenu.grid(row=0, column=1, padx=(10, 0))
+
+# Initialize 'n' with default value from option menu
+n = int(optionmenu_var.get())
 
 # Create a frame to hold the button and label_message side by side
-button_frame = customtkinter.CTkFrame(app,fg_color="transparent")
+button_frame = customtkinter.CTkFrame(app, fg_color="transparent")
 button_frame.grid(row=4, column=0, padx=20, pady=20)
-
-# Function to update label color
-def update_label_color(color):
-    label_message.configure(fg_color=color)
-
-# Function to call getUrl and handle URL and file name inputs
-def f1():
-    # Set label to grey initially to indicate processing
-    update_label_color("grey")
-    
-    name = url_name.get()
-    index = name.find("moneycontrol")
-    print(index)
-    
-        
-    if index == 1:
-        n = 9
-        dir_list = []
-        for i in range(0,n):
-            dir_list.append(str(n))
-            n -= 1
-        print(dir_list)
-        for i in range(0,2):
-            print(i)
-        n = 9
-        for i in range(0,n):
-            print("Loop start")
-            if i == 0:
-                link = url_name.get()
-                file = dir_list[i]
-            else:
-                url = url_name.get().split("/")
-                string = url[-1]
-
-                # Find the position of #
-                j = string.find('#')
-
-                # Insert "/{i+1}" before #
-                if j != -1:
-                    modified_string = string[:j] + f"/{i+1}" + string[j:]
-                    print(modified_string)
-
-                url[-1] = modified_string
-                # print()
-                link = '/'.join(url) 
-                file = dir_list[i]
-            print(i,link,file)
-
-            # #  Call getUrl function and check result
-            result = getUrl(link, file,index)
-            
-            # Update label color based on success or failure
-            if result:
-                update_label_color("green")
-            else:
-                update_label_color("red")
-            
-            # Reset label color to grey after 3 seconds
-            app.after(3000, lambda: update_label_color("grey"))
-    else:
-        print("Screnner",url_name.get())
-        # exit()
-        result = getUrl(url_name.get(),"9",index)
-        print(result)
-    
-    url_name.delete(0, END)
 
 # Process Button to trigger the scraping function
 process = customtkinter.CTkButton(button_frame, text="Start Scraping", command=f1, width=180, font=("Arial", 14, "bold"))

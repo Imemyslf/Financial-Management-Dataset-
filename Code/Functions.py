@@ -127,12 +127,13 @@ if __name__ == "__main__":
     current_dir = os.getcwd()
     print(current_dir)
     
-    company_name = "Titan Company Ltd"
-    sector_name = "Diamond & Jewellery"
-    file = "9"
+    site = "Screener"
+    company_name = "Tata Consultancy Services Ltd"
+    sector_name = "IT - Software"
+    file = f"{company_name}_excel"
     original_path = f"{current_dir}/data/{company_name}/Quarterly10Yrs/{file}.html"  # Path to the HTML file
     
-    base_dir = f"{current_dir}/Companies/{sector_name}/{company_name}/Excel"  # Base directory for the company
+    base_dir = f"{current_dir}/Main_Data/{site}/Companies/{sector_name}/{company_name}/Excel"  # Base directory for the company
     # file_name = "9_Sep23_Sep24.xlsx"  # Name of the Excel file to save
     
     print("\n original file path:- ",original_path)
