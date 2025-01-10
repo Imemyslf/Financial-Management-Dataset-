@@ -23,7 +23,7 @@ def webiste_call(url):
     return soup
 
 
-def getUrl(url, file_name, index, company_data_info):
+def getUrl(url, file_name="", index=0, company_data_info=""):
     global current_dir, base_dir, data_folder    
     try:        
         soup = webiste_call(url)
