@@ -58,7 +58,7 @@ def f1():
 
     else:
         print("Screnner", url_name.get())
-        result = getUrl(url_name.get(), "9", 0)
+        result = getUrl(url_name.get(), "", 0,"")
         print(result)
 
     url_name.delete(0, END)

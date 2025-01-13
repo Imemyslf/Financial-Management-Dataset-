@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # Define the file path
 current_dir = os.getcwd()
-path = os.path.join(current_dir, "Companies", "IT Services & Consulting", "Infosys Ltd", "Infosys Ltd_total_revenue.json")
+path = os.path.join(current_dir,"Main_Data","MoneyControl", "Companies", "IT Services & Consulting", "Infosys Ltd", "Infosys Ltd_total_revenue.json")
 
 print(path)
 
@@ -133,4 +133,3 @@ while(choice):
         predict_manual_input()
     else:
         choice = False
-q
