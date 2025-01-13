@@ -45,6 +45,7 @@ df.to_excel(output_path, index=False)
 print(f"Excel file saved at: {output_path}")
 
 exit()
+
 # Instantiate TesseractOCR
 ocr = TesseractOCR(n_threads=1, lang="eng")
 
@@ -59,6 +60,7 @@ extracted_tables = doc.extract_tables(
 )
 
 print(extracted_tables)
+
 import pandas as pd
 
 # Save extracted tables to an Excel file
