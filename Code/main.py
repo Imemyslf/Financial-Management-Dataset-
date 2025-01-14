@@ -64,7 +64,7 @@ def getUrl(url, file_name="", index=0, company_data_info=""):
             create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Pruned_Excel"), 1)
 
             # Convert the saved HTML to Excel
-            create_excel_file(html_path, os.path.join(base_dir, "Companies", final_sector_name, company_name, "Excel"), file_name)
+            # create_excel_file(html_path, os.path.join(base_dir, "Companies", final_sector_name, company_name, "Excel"), file_name)
             return True
         else:
             print("\nURL does not match the specified index.")
