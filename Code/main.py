@@ -56,12 +56,13 @@ def getUrl(url, file_name="", index=0, company_data_info=""):
             html_path = os.path.join(quarterly_dir, f"{file_name}.html")
             print("\nHTML Path:", html_path)
             
+            create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Excel"), 1)
+            create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Pruned_Excel"), 1)
+            
             # Fetch and save HTML file
             fetchandSave(url, quarterly_dir, file_name)
             
             # Create Excel directories
-            create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Excel"), 0)
-            create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Pruned_Excel"), 1)
 
             # Convert the saved HTML to Excel
             # create_excel_file(html_path, os.path.join(base_dir, "Companies", final_sector_name, company_name, "Excel"), file_name)

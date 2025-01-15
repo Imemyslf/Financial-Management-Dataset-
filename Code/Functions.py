@@ -49,34 +49,36 @@ def append_sector(path, final_sector_name):
         insert_sector(count, final_sector_name)        
 
 # Function to create a directory structure for a specific company
-def create_company_directory(directory,num):    
-    try: 
-        os.makedirs(directory)
-
-        if num == 1:
-            with open(f"{directory}/1.txt","w") as f:
-                f.write("dummy")
-                print("File created")
-                
-        return f"{directory} directory created successfully"
-    except FileExistsError as e:
+def create_company_directory(directory, num):
+    try:
+        print(f"Attempting to create directory: {directory}")
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            print(f"Successfully created directory: {directory}")
         
         if num == 1:
-            with open(f"{directory}/1.txt","w") as f:
+            dummy_file = os.path.join(directory, "1.txt")
+            with open(dummy_file, "w") as f:
                 f.write("dummy")
-                print("File created")
-                
-        return "File already exists or Error in creating directory", e
+                print(f"Dummy file created at: {dummy_file}")
+        
+        return f"{directory} created successfully"
+    except FileExistsError:
+        print(f"Directory already exists: {directory}")
+        return f"{directory} already exists"
     except PermissionError as e:
-        print("Permission denied", e)
-        return False
+        print(f"Permission denied for {directory}: {e}")
+        return f"Permission error for {directory}"
     except Exception as e:
-        print("An Error Occurred while creating the directory", e)
-        return False
+        print(f"An error occurred while creating the directory: {e}")
+        return f"Error creating {directory}: {e}"
+
 
 # Function to convert HTML table data to an Excel file
 def create_excel_file(path, base_dir,file):
     print("Path:", path)
+    
+    # exit()
     # Open the HTML file and read its content
     with open(path, "r", encoding="utf-8") as f:
         html_content = f.read()
@@ -127,11 +129,11 @@ if __name__ == "__main__":
     current_dir = os.getcwd()
     print(current_dir)
     
-    site = "Screener"
-    company_name = "Tata Consultancy Services Ltd"
-    sector_name = "IT - Software"
+    site = "MoneyControl"
+    company_name = "Cyient Ltd"
+    sector_name = "IT Services & Consulting"
     file = f"{company_name}_excel"
-    original_path = f"{current_dir}/data/{company_name}/Quarterly10Yrs/{file}.html"  # Path to the HTML file
+    original_path = f"{current_dir}/Main_Data/{site}/data/{company_name}/Quarterly-resulQuarterly10Yrs/1.html"  # Path to the HTML file
     
     base_dir = f"{current_dir}/Main_Data/{site}/Companies/{sector_name}/{company_name}/Excel"  # Base directory for the company
     # file_name = "9_Sep23_Sep24.xlsx"  # Name of the Excel file to save
