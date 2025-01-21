@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
 # Path to your WebDriver (e.g., chromedriver.exe for Chrome)
-driver_path = "path_to_chromedriver"
+driver_path = "chromedriver.exe"
 
 # Initialize the WebDriver
 driver = webdriver.Chrome(driver_path)

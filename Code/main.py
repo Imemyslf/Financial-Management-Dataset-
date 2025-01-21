@@ -45,7 +45,7 @@ def getUrl(url, file_name="", index=0, company_data_info=""):
             make_main_dir(base_dir)
 
             # Create directory for quarterly data
-            quarterly_dir = os.path.join(base_dir, site, "data", company_name, f"{company_data_info}Quarterly10Yrs")
+            quarterly_dir = os.path.join(base_dir, site, "data", company_name, f"{company_data_info}")
             data_html_created = create_company_directory(quarterly_dir, 0)
 
             if not data_html_created:
