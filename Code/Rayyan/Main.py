@@ -7,7 +7,7 @@ import os
 
 current_dir = os.getcwd()
 # Define base directories for storing data
-base_dir = f"{current_dir}/Main_Data"      # Directory to store sector/company data
+base_dir = f"{current_dir}/Financial_Data"      # Directory to store sector/company data
 
 # Function to fetch HTML content from a URL and save it as an HTML file
 def fetchandSave(url, path, filename):  
@@ -28,49 +28,39 @@ def getUrl(url, file_name="", index=0, company_data_info=""):
     try:        
         soup = webiste_call(url)
         print("\n\n",url)
-        # print("Company_data_info:", company_data_info)
+        print("\n\n Company_data_info:", company_data_info)
+        site = "MoneyControl"
+        # Extract company and sector details
+        company_soup_name = soup.find(class_="pcstname")
+        company_name = company_soup_name.get_text().strip()
+        print("\nCompany Name:", company_name, "\n")
         
-        if index in url:
-            site = "MoneyControl"
-            # Extract company and sector details
-            company_soup_name = soup.find(class_="pcstname")
-            company_name = company_soup_name.get_text().strip()
-            print("\nCompany Name:", company_name, "\n")
-            
-            sector_class = soup.find(class_="hidden-lg")
-            sector_name = sector_class.get_text().split()
-            final_sector_name = " ".join(sector_name).strip()
-            print("Sector Name:", final_sector_name, "\n")
+        sector_class = soup.find(class_="hidden-lg")
+        sector_name = sector_class.get_text().split()
+        final_sector_name = " ".join(sector_name).strip()
+        print("Sector Name:", final_sector_name, "\n")
 
-            # Ensure main directory exists
-            make_main_dir(base_dir)
+        # Ensure main directory exists
+        make_main_dir(base_dir)
 
-            # Create directory for quarterly data
-            quarterly_dir = os.path.join(base_dir, site, "data", company_name, f"{company_data_info}")
-            data_html_created = create_company_directory(quarterly_dir, 0)
+        # Create directory for quarterly data
+        quarterly_dir = os.path.join(base_dir, site, "data", company_name, f"{company_data_info}")
+        data_html_created = create_company_directory(quarterly_dir, 0)
 
-            if not data_html_created:
-                print("Failed to create directory:", quarterly_dir)
-                return False
-            
-            # Path for storing the HTML file
-            html_path = os.path.join(quarterly_dir, f"{file_name}.html")
-            print("\nHTML Path:", html_path)
-            
-            create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Excel"), 1)
-            create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Pruned_Excel"), 1)
-            
-            # Fetch and save HTML file
-            fetchandSave(url, quarterly_dir, file_name)
-            
-            # Create Excel directories
-
-            # Convert the saved HTML to Excel
-            # create_excel_file(html_path, os.path.join(base_dir, "Companies", final_sector_name, company_name, "Excel"), file_name)
-            return True
-        else:
-            print("\nURL does not match the specified index.")
+        if not data_html_created:
+            print("Failed to create directory:", quarterly_dir)
             return False
+        
+        # Path for storing the HTML file
+        html_path = os.path.join(quarterly_dir, f"{file_name}.html")
+        print("\nHTML Path:", html_path)
+        
+        create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Excel"), 1)
+        create_company_directory(os.path.join(base_dir, site, "Companies", final_sector_name, company_name, "Pruned_Excel"), 1)
+        
+        # Fetch and save HTML file
+        fetchandSave(url, quarterly_dir, file_name)
+            
     except Exception as e:
         print("\nException occurred:\n", e)
         return False
