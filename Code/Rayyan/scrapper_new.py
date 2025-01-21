@@ -6,7 +6,8 @@ from gui import f1  # Assuming f1 is a valid function in gui.py
 from selenium.webdriver.chrome.options import Options
 
 # URL to scrape
-url = "https://www.moneycontrol.com/india/stockpricequote/computers-software/tataconsultancyservices/TCS"
+url = input("\n Enter the URL to scrape:- \n URL:- ")
+# url = "https://www.moneycontrol.com/india/stockpricequote/computers-software/tataconsultancyservices/TCS"
 
 # Send a request to the URL
 request = requests.get(url)
