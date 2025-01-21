@@ -231,7 +231,19 @@ if __name__ == "__main__":
     "Zensar Technologies Ltd"
     ]
     
+    site = "MoneyControl"
+    path_to_html = f"{current_dir}/Financial_Data/{site}/data"
     sector_name = "IT Services & Consulting"
+    companies_name = os.listdir(path_to_html)
+    
+    for company in companies_name:
+        dataset_name_list = os.listdir(f"{path_to_html}/{company}")
+        
+        for dataset_name in dataset_name_list:
+            html_content_list = os.listdir(f"{path_to_html}/{company}/{dataset_name}")
+            print(html_content_list)
+        
+    exit()
     origin_data = f"{current_dir}/Main_Data/{site}/data"
     for company_name in companies:        
         file = f"{company_name}_excel"
@@ -255,15 +267,3 @@ if __name__ == "__main__":
                 save_dir = f"{current_dir}/Main_Data/{site}/Companies/{sector_name}/{company_name}/Excel"
                 print(original_path)
                 create_excel_file(original_path,save_dir,file)
-        
-            
-
-        
-        # base_dir = f"{current_dir}/Main_Data/{site}/Companies/{sector_name}/{company_name}/Excel"  # Base directory for the company
-        # # file_name = "9_Sep23_Sep24.xlsx"  # Name of the Excel file to save
-        
-        # print("\n original file path:- ",original_path)
-        # print("\n base file path:- ",base_dir)
-        
-        # # Convert HTML table to Excel
-        # create_excel_file(original_path, base_dir,file)   

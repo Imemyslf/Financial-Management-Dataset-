@@ -13,7 +13,8 @@ def f1(href_link):
     # Check if "moneycontrol" exists in the URL
     if "moneycontrol" in name:
         dir_list = [str(i) for i in range(n, 0, -1)]
-
+        print(dir_list)
+        
         for i in range(0, n):
             print("\nLoop start")
             if i == 0:
@@ -28,8 +29,6 @@ def f1(href_link):
                 # Find the position of #
                 j = string.find('#')
 
-                # Insert "/{i+1}" before #
-                # Insert "/{i+1}" before #
                 if j != -1:
                     modified_string = string[:j] + f"/{i+1}" + string[j:]
                     print("\n modified_string", modified_string)
@@ -41,9 +40,9 @@ def f1(href_link):
                 print(f"\n\n{i} -> {link}")
                 file = dir_list[i]
         
-                 # Insert the updated link
-                # Call getUrl function and check result
-                result = getUrl(link, file, "moneycontrol", company_data[:-2])
+            
+            # Call getUrl function and check result
+            result = getUrl(link, file, "moneycontrol", company_data[:-2])
             
         return "Sucess" if result else "Failure"
 
