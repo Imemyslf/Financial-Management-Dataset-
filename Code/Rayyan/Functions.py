@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import pandas as pd  
 import os
-import shutil
 
 # Function to create the main directory for storing company data
 def make_main_dir(base_dir):
