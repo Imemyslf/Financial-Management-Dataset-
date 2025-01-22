@@ -16,8 +16,8 @@ with open(path, "r") as f:
     IT_links = json.load(f)
 
 
-for url in IT_links[:5]:
-    
+for url in IT_links[20:30]:
+
     # Send a request to the URL
     request = requests.get(url)
     if request.status_code == 200:
