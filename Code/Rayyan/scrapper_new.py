@@ -4,21 +4,22 @@ from selenium import webdriver
 import time
 from gui import f1  # Assuming f1 is a valid function in gui.py
 from selenium.webdriver.chrome.options import Options
+import os
+import json
 
 # URL to scrape
 # url = input("\n Enter the URL to scrape:- \n URL:- ")
 # url = "https://www.moneycontrol.com/india/stockpricequote/computers-software/tataconsultancyservices/TCS"
 
-with open("links.txt", "r") as f:
-    IT_links = f.read()
+path = f"{os.getcwd()}/Code/Rayyan/Sector_Links/It-services-consulting_links.json"
+with open(path, "r") as f:
+    IT_links = json.load(f)
 
-# print(IT_links)
 
-for links in IT_links[0:9]:
-    print(links)
-    exit()
+for url in IT_links[:5]:
+    
     # Send a request to the URL
-    request = requests.get(links)
+    request = requests.get(url)
     if request.status_code == 200:
         html_content = request.text
     else:
@@ -47,7 +48,7 @@ for links in IT_links[0:9]:
         options.headless = True
         driver = webdriver.Chrome(options=options)
         print("Browser launched successfully.")
-        driver.get(links)  # Open the main page in the browser
+        driver.get(url)  # Open the main page in the browser
         time.sleep(2)  # Wait for the page to load
 
         # Check if the `link` exists before processing
