@@ -1,0 +1,1906 @@
+<!--header start-->
+Array
+<!--header end-->
+<div class="center" style="text-align: center;">
+<input type="hidden" value="QuarterlyResults" id="section" />
+<script>
+$(document).ready(function(e) {
+    $('.more_options').on('change', function() {
+        var url = $(this).children(':selected').data('url');
+        if (url != '' && url != 'undefined') {
+            window.open(url);
+        }
+    });
+    var txt = $('#section').val();
+    $('.' + txt).addClass('active');
+});
+</script>
+</div>
+<section id="mc_content" class="clearfix">
+    <!-- mobile add banner 300x250 start -->
+    <div class="mobile_banner300">				<div id='Moneycontrol_Mobile_WAP/MC_WAP_Markets/MC_WAP_Markets_StockPrice_QuartResult_320x50_ATF'> 
+			<script type='text/javascript'>
+				var width = window.innerWidth || document.documentElement.clientWidth;
+				adKey = "Moneycontrol_Mobile_WAP/MC_WAP_Markets/MC_WAP_Markets_StockPrice_QuartResult_320x50_ATF";
+				if (width >= 768 && adKey.indexOf("Moneycontrol") != -1 && adKey.indexOf("Moneycontrol_Mobile_WAP") < 0) {
+					if (adKey.indexOf("MC_MF_HP_728x90_ATF") < 0){
+						setTimeout(function() {
+							googletag.cmd.push(function() { googletag.display("Moneycontrol_Mobile_WAP/MC_WAP_Markets/MC_WAP_Markets_StockPrice_QuartResult_320x50_ATF") });
+						}, 2000);
+					}
+				}
+				if (width >= 1279 && adKey.indexOf("Moneycontrol") != -1 && adKey.indexOf("Moneycontrol_Mobile_WAP") < 0) {
+					if (adKey.indexOf("MC_MF_HP_728x90_ATF") != -1){
+						setTimeout(function() {
+							googletag.cmd.push(function() { googletag.display("") });
+						}, 2000);
+					}
+				}
+				if (width <= 768 && adKey.indexOf("Moneycontrol_Mobile_WAP") != -1) {
+					setTimeout(function() {
+						googletag.cmd.push(function() { googletag.display("Moneycontrol_Mobile_WAP/MC_WAP_Markets/MC_WAP_Markets_StockPrice_QuartResult_320x50_ATF") });
+					}, 2000);
+				}
+			</script>
+		</div>
+	</div>
+    <!-- mobile add banner 300x250 end -->
+
+    <!--price and chart homepage start-->
+    <div class="price_chartpg">
+        <!--money price and chart start-->
+        <section class="price_overview_wrap" id="sec_quotes">
+            <!--market action tab start-->
+            <!-- nifty sensex widget start here -->
+<style>
+.nifysenw_cnt { padding:10px 0 15px 0; display:none;}
+@media all and (max-width:767px){ .nifysenw_cnt  { display:block;}}
+</style>
+<div class="nifysenw_cnt">
+	<!-- Mobile Market Data -> Start -->
+		<style>
+			@media all and (max-width:767px){
+				.new_market_widget .market_widget_cmn, .market_widget_cmn * {margin: 0;padding: 0;box-sizing: border-box;}
+				.new_market_widget .market_widget_cmn ul, .market_widget_cmn li{list-style:none;}
+				.new_market_widget .market_widget_cmn .clearfix {display: block;}
+				.new_market_widget .market_widget_cmn a {text-decoration: none;}
+				.new_market_widget .market_widget_cmn .mkt_lft {float: left;width: 50%;color: #0367A4;margin-top: 5px;}
+				.new_market_widget .market_widget_cmn .new_mkt_lft a{color:#333333;font: 900 15px/21px 'Lato', sans-serif !important;}
+				.new_market_widget .market_widget_cmn .join_us_telegram {display: none; float: right; margin-top: 5px; vertical-align: top;}
+				.new_market_widget .market_widget_cmn .join_us_telegram .join_us_on_text {font: 11px "fira_sansregular", sans-serif; color: #000000; display: inline-block; vertical-align: middle;}
+				.new_market_widget .market_widget_cmn .join_us_telegram .logo_block {display: inline-block; vertical-align: middle; margin-left: 2px;}
+				.new_market_widget .market_widget_cmn .join_us_telegram .circle_a {fill: #039be5;}
+				.new_market_widget .market_widget_cmn .join_us_telegram .circle_b {fill: #fff;}
+				.new_market_widget .market_widget_cmn .mrkt_buttons_wrap {display: flex;}
+				.new_market_widget .mkt_livetv{display:block !important; float: right;width: 50%;text-align: right;margin-top:6px;}
+				.new_market_widget .market_widget_cmn .icnvmid{margin-top:-7px !important;margin-left:5px;}
+				.new_market_widget .market_widget_cmn .tvcn{margin-right: -4px !important;margin-top: 0 !important;display: inline-block;vertical-align: text-top;}
+				.new_market_widget .market_widget_cmn .live_tvbtn_hm{font:600 12px 'Lato', sans-serif;color:#E3515C ;display:inline-block;border:1px solid #E3515C; border-radius: 11px !important;padding: 4px 10px 3px !important;letter-spacing:0.06px !important;}
+				.new_market_widget span.mkt_live_tv{color:#333333 !important;letter-spacing:0.06px !important;}
+				.new_market_widget  span.live_circle{height:6px;position:relative;display:inline-block;width:6px;background:#E3515C !important;border-radius:50%;margin:0 10px 0 3px;bottom:2px}
+				.new_market_widget span.live_circle:before, span.live_circle:after{animation:liveblog 2s linear infinite;border:#E3515C solid 1px !important;border-radius:50%;box-sizing:border-box;content:' ';height:8px;width:8px;left:-1px;opacity:.6;position:absolute;top:-1px;transform:scale(.714);z-index:1}
+				.new_market_widget span.live_circle:after{animation-delay:1s;}
+				@keyframes liveblog{to{opacity:0;transform:scale(2.8)}}
+				.new_market_widget .market_wrapdata{background:transparent !important;margin-top:0 !important; display:flex; padding: 5px 0 0; flex-flow: nowrap; }
+				.new_market_widget .market_widget_cmn .market_wrapdata > li{list-style:none;padding:0 !important;position:relative; flex: 0 0 50%;border-left: 1px solid #ccc;}
+				.new_market_widget .market_widget_cmn .market_wrapdata > li:first-child {border-left: 0px;}
+				.new_market_widget .market_widget_cmn .mkt_dtrt {overflow: hidden;}
+				.new_market_widget .market_widget_cmn .market_wrapdata > li a {display:flex !important;text-transform: uppercase;text-decoration: none !important;}
+				.new_market_widget .market_widget_cmn .mkt_dtflt{color: #333;font: 400 12px/21px 'Lato', sans-serif !important;letter-spacing:0.06px !important;text-transform:capitalize !important;margin-right:7px !important;}
+				.new_market_widget .market_widget_cmn .mrkt_value{font: 900 15px/21px 'Lato', sans-serif !important;letter-spacing:-0.3px !important;color:#333333;}
+				.new_market_widget .market_widget_cmn .todayud_val{font: 700 12px/21px 'Lato', sans-serif !important;letter-spacing:-0.24px !important;color:#333333;margin-top:-4px !important;}
+				.new_market_widget #nifty_block_chg_pchg{font-weight:400 !important;}
+				/* .new_market_widget .market_widget_cmn .todayud_val #sensex_block_change{color:#E3515C !important;} */
+				.new_market_widget .market_widget_cmn .todayud_val #sensex_block_chg_pchg{font-weight:400;}
+				.new_market_widget .market_widget_cmn .market_wrapdata > li:nth-child(2){padding-left:15px !important;}
+				.new_market_widget #sensex_block_arrow, .new_market_widget #nifty_block_arrow{display:none;}
+				.new_market_widget .market_widget_cmn .grn_hilight { background: #16A086; color: #fff !important; }
+				.new_market_widget .market_widget_cmn .red_hilight { background: #E3515C; color: #fff !important; }
+				.new_market_widget .market_widget_cmn .grn_color { color: #16A086 !important; }
+				.new_market_widget .market_widget_cmn .red_color { color: #E3515C !important; }
+			}
+					</style>
+				<div class="new_market_widget">
+			<div class="market_widget_cmn">
+				<div class="clearfix topHead">
+					<div class="mkt_lft">
+						<a href="https://www.moneycontrol.com/stocksmarketsindia/" title="Markets">
+							MARKETS<span class="icnvmid">
+								<svg xmlns="https://www.w3.org/2000/svg" width="8.649" height="8.957" viewBox="0 0 8.649 8.957">
+									<g id="Group_74" data-name="Group 74" transform="translate(-93.319 -315.522)">
+										<g id="arrow_forward_ios" transform="translate(93.319 315.522)"><path id="Path_339" data-name="Path 339" d="M6.49,10.256l.8.8,4.478-4.478L7.291,2.1l-.8.8,3.678,3.678L6.49,10.256Z" transform="translate(-6.49 -2.1)" fill="#212121"/></g>
+										<g id="arrow_forward_ios-2" data-name="arrow_forward_ios" transform="translate(96.689 315.522)"><path id="Path_339-2" data-name="Path 339" d="M6.49,10.256l.8.8,4.478-4.478L7.291,2.1l-.8.8,3.678,3.678L6.49,10.256Z" transform="translate(-6.49 -2.1)" fill="#212121"/></g>
+									</g>
+								</svg>
+							</span>
+						</a>
+					</div>
+						<div id="join_us_telegram" class="join_us_telegram">
+						<a href="https://t.me/moneycontrolcom" title="Join Us on Telegram" onclick="GAEventTracker( 'Telegram', 'Widget', 'Market Data | ' + window.location.href );" target="_blank">
+							<div class="join_us_on_text">Join Us On</div>
+							<div class="logo_block">
+								<svg xmlns="https://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+									<g transform="translate(-0.424 -0.181)">
+										<circle class="circle_a" cx="11" cy="11" r="11" transform="translate(0.424 0.181)"/>
+										<path class="circle_b" d="M5.452,11.446,16.269,7.275c.5-.181.941.122.778.882h0l-1.842,8.678c-.137.615-.5.765-1.014.475l-2.8-2.067-1.353,1.3a.707.707,0,0,1-.566.276l.2-2.855,5.2-4.7c.226-.2-.05-.311-.349-.113L8.094,13.2l-2.769-.864c-.6-.191-.614-.6.127-.891Z" transform="translate(-0.331 -0.47)"/>
+									</g>
+								</svg>
+							</div>
+						</a>
+					</div>
+					<div id="mrkt_buttons_wrap" class="mrkt_buttons_wrap">
+						<div id="mkt_livetv" class="mkt_livetv hide_in_international">
+							<a id="mkt_livetv_button" href="https://m.moneycontrol.com/live_tv.php" title="Live TV" class="live_tvbtn_hm" onclick="GAEventTracker( 'Live TV Radio Button', 'Click', 'WAP | ' + window.location.href );">
+								<span class="tvcn"><span class="live_circle"> </span></span>
+								Live<span class="mkt_live_tv">TV</span>
+							</a>
+						</div>
+						<div id="mkt_livetv" class="mkt_livetv hide_in_international">
+							<a id="mkt_gold_rate_button" href="https://www.moneycontrol.com/news/gold-rates-today/" title="Gold Rate" class="live_tvbtn_hm" style="border: 1px solid #333;" onclick="GAEventTracker( 'Gold Rate Radio Button', 'Click', 'WAP | ' + window.location.href );"><span class="mkt_live_tv">Gold Rate</span></a>
+						</div>
+					</div>
+				</div>
+				<ul class="market_wrapdata">
+											<li>
+							<a href="https://www.moneycontrol.com/indian-indices/nifty-50-9.html" title="Nifty 50" class="clearfix">
+								<div class="mkt_dtflt"><p>Nifty 50</p></div>
+								<div class="mkt_dtrt">
+									<p class="mrkt_value"><span id="nifty_block_cp">23155.35</span></p>
+									<p id="nifty_block_chg_pc" class="todayud_val" class="grn_color"><span id="nifty_block_change">+130.70</span> <span id="nifty_block_chg_pchg">(+0.57%)</span></p>
+								</div>
+							</a>
+						</li>
+										<li>
+						<a href="https://www.moneycontrol.com/indian-indices/sensex-4.html" title="Sensex" class="clearfix">
+							<div class="mkt_dtflt sens"><p>Sensex</p></div>
+							<div class="mkt_dtrt">
+								<p class="mrkt_value"><span id="sensex_block_cp">76404.99</span></p>
+								<p id="sensex_block_chg_pc" class="todayud_val" class="grn_color"><span id="sensex_block_change">+566.63</span> <span id="sensex_block_chg_pchg">(+0.75%)</span></p>
+							</div>
+						</a>
+					</li>
+									</ul>
+			</div>
+		</div>
+		<script language="Javascript">
+			function reload_mobile_market_data() {
+				/* Update Nifty Section -> Start */
+					var ajax_link = 'https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BNSX';
+					var opts = {
+						method: 'GET',
+						headers: {}
+					};
+					fetch( ajax_link, opts ).then( function ( response ) { return response.json(); })
+					.then( function ( json_obj ) {
+						if( json_obj.hasOwnProperty( 'code' ) && json_obj.code === '200' ) {
+							var nifty_object = json_obj.data;
+
+							if( Object.keys( nifty_object ).length > 0 ) {
+								var color_bg_class = '';
+								var color_class = '';
+								if( nifty_object.pricechange > 0 ) {
+									color_bg_class = 'grn_hilight';
+									color_class = 'grn_color';
+								} else if( nifty_object.pricechange < 0 ) {
+									color_bg_class = 'red_hilight';
+									color_class = 'red_color';
+								}
+
+								var pricechange = 0;
+								pricechange = parseFloat( nifty_object.pricechange ).toFixed(2);
+								if( pricechange > 0 ) { pricechange = '+' + pricechange; }
+
+								var pricepercentchange = 0;
+								pricepercentchange = parseFloat( nifty_object.pricepercentchange ).toFixed(2);
+								if( pricepercentchange > 0 ) { pricepercentchange = '+' + pricepercentchange; }
+
+								document.getElementById( "nifty_block_chg_pc" ).classList.remove( 'red_color', 'grn_color' );
+								document.getElementById( "nifty_block_chg_pc" ).classList.add( color_class );
+
+								document.getElementById( "nifty_block_cp" ).classList.remove( 'red_hilight', 'grn_hilight' );
+								document.getElementById( "nifty_block_cp" ).classList.add( color_bg_class );
+								document.getElementById( "nifty_block_cp" ).innerHTML = nifty_object.pricecurrent;
+
+								document.getElementById( "nifty_block_change" ).innerHTML = pricechange;
+
+								document.getElementById( "nifty_block_chg_pchg" ).innerHTML = '(' + pricepercentchange + '%)';
+
+								setTimeout( function() {
+									document.getElementById( "nifty_block_cp" ).classList.remove( 'red_hilight', 'grn_hilight' );
+								}, 5000 );
+							}
+						}
+					});
+				/* End <- Update Nifty Section */
+
+				/* Update Sensex Section -> Start */
+					var ajax_link = 'https://priceapi.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BSEN';
+					var opts = {
+						method: 'GET',
+						headers: {}
+					};
+					fetch( ajax_link, opts ).then( function ( response ) { return response.json(); })
+					.then( function ( json_obj ) {
+						if( json_obj.hasOwnProperty( 'code' ) && json_obj.code === '200' ) {
+							var sensex_object = json_obj.data;
+							if( Object.keys( sensex_object ).length > 0 ) {
+								var color_bg_class = '';
+								var color_class = '';
+								if( sensex_object.pricechange > 0 ) {
+									color_bg_class = 'grn_hilight';
+									color_class = 'grn_color';
+								} else if( sensex_object.pricechange < 0 ) {
+									color_bg_class = 'red_hilight';
+									color_class = 'red_color';
+								}
+
+								var pricechange = 0;
+								pricechange = parseFloat( sensex_object.pricechange ).toFixed(2);
+								if( pricechange > 0 ) { pricechange = '+' + pricechange; }
+
+								var pricepercentchange = 0;
+								pricepercentchange = parseFloat( sensex_object.pricepercentchange ).toFixed(2);
+								if( pricepercentchange > 0 ) { pricepercentchange = '+' + pricepercentchange; }
+
+								document.getElementById( "sensex_block_chg_pc" ).classList.remove( 'red_color', 'grn_color' );
+								document.getElementById( "sensex_block_chg_pc" ).classList.add( color_class );
+
+								document.getElementById( "sensex_block_cp" ).classList.remove( 'red_hilight', 'grn_hilight' );
+								document.getElementById( "sensex_block_cp" ).classList.add( color_bg_class );
+								document.getElementById( "sensex_block_cp" ).innerHTML = sensex_object.pricecurrent;
+
+								document.getElementById( "sensex_block_change" ).innerHTML = pricechange;
+
+								document.getElementById( "sensex_block_chg_pchg" ).innerHTML = '(' + pricepercentchange + '%)';
+
+								setTimeout( function() {
+									document.getElementById( "sensex_block_cp" ).classList.remove( 'red_hilight', 'grn_hilight' );
+								}, 5000 );
+							}
+						}
+					});
+				/* End <- Update Sensex Section */
+				setTimeout( reload_mobile_market_data, 60000 );
+			}
+
+			/* Show Telegram Section */
+			var today = new Date();
+			if( today.getDay() == 6 || today.getDay() == 0 ) {
+				document.getElementById( "mrkt_buttons_wrap" ).style.display = "none";
+				document.getElementById( "join_us_telegram" ).style.display = "block";
+			}
+
+			GAEventTracker( 'Live TV Radio Button', 'Impression', 'WAP|' + window.location.href );	/* Impression Tracker */
+
+			reload_mobile_market_data();
+		</script>
+<!-- End <- Mobile Market Data -->        
+</div>
+<!-- nifty sensex widget end here -->
+            <!--market action tab end-->
+            <!--money price and chart start-->
+<input type="hidden" id="txt_scid" name="txt_scid" value="I11" />
+
+
+
+
+
+
+<!--<section class="price_overview_wrap" id="sec_quotes">-->
+<input type="hidden" id="nseid" name="nseid" value="3IINFOLTD" />
+<input type="hidden" id="bseid" name="bseid" value="532628" />
+<input type="hidden" id="scid" name="scid" value="I11" />
+<input type="hidden" id="bprevclose" name="bprevclose" value="27.40" />
+<input type="hidden" id="nprevclose" name="nprevclose" value="27.43" />
+
+  <div class="main_wrapper_res corporate-wrapper">
+    <div class="moneyprice_bx">
+      <h1 class="pcstname">3i Infotech Ltd.</h1>
+      <div class="clearfix MT10">
+        <p class="bsns_pcst disin"><ctag class="mob-hide">BSE: <span>532628</span> | NSE: <span>3IINFOLTD</span> | </ctag>
+                            <div class="disin PR ic_infoh mob-hide">
+                    <span class="info_icn" style="margin-top: -6px;"></span>
+                    <div class="info_hoverbx">Represents Equity.Intra - day transactions are permissible and normal trading is done in this category</div>
+                </div>
+                        <span class="mob-hide bsns_pcst">Series: <strong>EQ</strong> |</span> 
+         <span class="bsns_pcst">ISIN:</span> <span class="bsns_pcst"><strong>INE748C01038</strong></span> | <span class="bsns_pcst">SECTOR:</span> <span class="hidden-lg">IT Services &amp; Consulting</span><span class="mob-hide bsns_pcst"><strong>IT Services &amp; Consulting</strong></span></p>
+        <div class="clearfix MT10 MB10" id="add_to_portfolio_watchlist">
+            <div class="clearfix error_message_box Dnone MB20">
+                <div class="alert_strip success MB10 Dnone"><span class="ic_repsTick vmiddle MR5"></span> <span class="message">Success</span></div>
+                <div class="alert_strip yellow MB10 Dnone"><span class="ic_repsTick vmiddle MR5"></span> <span class="message">Alert</span></div>
+                <div class="alert_strip pink MB10 Dnone"><span class="ic_repsTick vmiddle MR5"></span> <span class="message">Please select a Day.</span></div>
+                <div class="alert_strip blue MB10 Dnone"><span class="ic_repsTick vmiddle MR5"></span> <span class="message">Info</span></div>
+            </div>
+            <!-- <button class="trd_btn" data-toggle="modal" data-target="#tradepop">Trade</button> -->
+                        <button class="trd_btn" data-toggle="modal" onclick="placeOrder('3IINFOLTD','I11','S',$('.pcstname').text())">Trade</button>
+                        <!-- Modal -->
+            <div class="mportwat">
+              <span class="plus_icn"></span> 
+             <ul>
+               <li><a href="javascript:;" onclick="document.getElementById('form_add_to_portfolio1').submit();">Portfolio</a></li>
+               <li><a href="javascript:;" onclick="saveWatchlist('0','1',1,1, '' );">Watchlist</a></li>
+             </ul> 
+           </div>
+          <ul class="pnc_wtchlist mob-hide">
+            <li>
+                <a href="javascript:;" class="add_portfolio hidden-xs" onclick="document.getElementById('form_add_to_portfolio1').submit();"><span class="plus_icn"></span><span class="flt_dis">Portfolio</span></a>
+                <a href="javascript:;" class="add_portfolio hidden-lg" onclick="document.getElementById('form_add_to_portfolio2').submit();"><span class="plus_icn"></span></a>
+                <!-- add portfolio wrap start -->
+                                <!-- add portfolio wrap end --> 
+                <span class="sep_line disin hidden-xs">|</span> <a href="javascript:;" class="hidden-xs" title="Watchlist" onclick="saveWatchlist('0','1',1,1, '' );"><span class="flt_dis">Watchlist</span></a>
+              </li>
+            <li class="messages"><a href="https://m.moneycontrol.com/stock-message-forum/3iinfotech/comments/241902" target="_blank"><span class="mesg_icn"></span><span class="hidden-xs">Messages</span></a></li>
+            <li class="messages"><a href="https://investmentwatch.moneycontrol.com/tracker.php?package_id=1&amp;sc_did=I11&amp;utm_source=IW_stocklink" target="_blank"><span class="bell_icn"></span>Set SMS Alert</a></li>
+          </ul>
+          <input name="chk_lst_stks" style="display:none;" class="chk_lst_stks" value="I11" name="" type="checkbox" checked />            
+            <input type="hidden" name="sc_dispid_port" value="I11" >
+          <div class="trade_nowbtnbx">
+		              <a href="https://www.moneycontrol.com/open-demat-account-online?classic=true&amp;script_id=INE748C01038&amp;ex=NSE&amp;site=web&amp;asset_class=stock&amp;utm_source=moneycontrol&amp;utm_medium=webstockpage&amp;utm_campaign=tradenow&amp;utm_content=webbutton" class="trade_btnlink MR10 hidden-xs"  onclick="GAtradeNow()" title="Open trading A/c" target="_blank"><!-- <span class="trade">O</span> -->Open trading A/c</a>
+            <!-- Smallcase params start -->
+            <!-- <a class="trade_btnlink MR10 hidden-xs" id="connectButton" onclick="placeOrder('3IINFOLTD')" ><span class="trade">P</span>Place Order</a> -->
+            
+            <!-- Smallcase params end -->
+            <a href="https://www.moneycontrol.com/open-demat-account-online?classic=true&amp;script_id=INE748C01038&amp;ex=NSE&amp;site=wap&amp;asset_class=stock&amp;utm_source=moneycontrol&amp;utm_medium=wapstockpage&amp;utm_campaign=tradenow&amp;utm_content=wapbutton" class="trade_btnlink MR10 hidden-lg"  onclick="GAtradeNow()" title="Open trading A/c" target="_blank">Open trading A/c</a>
+            <a class="stkreport ML10" id="thomson_icon_price_chart" href="javascript:;" title="Thomson Reuters report" data-toggle="modal" data-target="#thomson_popup" onclick="thomson_stk_reports('I11','I11');" target="_blank"><sup><img src="https://images.moneycontrol.com/assets/images/new_icon_animated_01.gif" title="Thomson Reuters report" alt="Thomson Reuters report"></sup><img src="https://images.moneycontrol.com/assets/images/stock_report.png" width="77" height="19" alt=""></a>
+          </div>
+        </div>
+        
+                  <!--menu price and chart start-->
+
+<!--main navigation start-->
+
+<div class="nav2 PR clearfix">
+<div class="hidenav_mobile">
+<div class="fixednav">
+	<nav class="mainstknav pncmenu-block">
+		<div class="forbgmax clearfix">
+			<ul class="pncmenu">
+																														<li class="firjmDrop main_sticky_menu"> 
+																																																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																								  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_quotes" target="_blank" title="quote" class= "">quote</a>
+														
+																																											<ul style="display:block;">
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_charts" target="_blank" title="charts" class= "">charts</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#pc_technical" target="_blank" title="Technicals" class= "">Technicals</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_valul" target="_blank" title="Valuations" class= "">Valuations</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_corpact" target="_blank" title="Corp Action" class= "">Corp Action</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_newsv" target="_blank" title="News" class= "">News</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																																																													
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_finanl" target="_blank" title="Financials" class= "active">Financials</a>
+														
+																																											<ul style="display:block;">
+																																																																									
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/balance-sheetVI/I11#I11" title="Balance sheet" target="_blank" class="Balancesheet">Balance sheet</a></li>
+																			
+																											
+																																																																				
+																																					 
+																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/profit-lossVI/I11#I11" title="Profit &amp; Loss" target="_blank" class="ProfitLoss">P &amp; L</a></li>
+																			
+																											
+																																																																				
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/results/quarterly-results/I11#I11" title="Quarterly Results" target="_blank" class="QuarterlyResults">Quarterly Results</a></li>
+																			
+																											
+																																																																				
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/results/half-yearly/I11#I11" title="Half Yearly Results" target="_blank" class="HalfYearlyResults">Half Yearly Results</a></li>
+																			
+																											
+																																																																				
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/results/nine-months/I11#I11" title="Nine Months Results" target="_blank" class="NineMonthsResults">Nine Months Results</a></li>
+																			
+																											
+																																																																				
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/results/yearly/I11#I11" title="Yearly Results" target="_blank" class="YearlyResults">Yearly Results</a></li>
+																			
+																											
+																																																																				
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/cash-flowVI/I11#I11" title="Cash Flows" target="_blank" class="CashFlows">Cash Flows</a></li>
+																			
+																											
+																																																																				
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/ratiosVI/I11#I11" title="Ratios" target="_blank" class="Ratios">Ratios</a></li>
+																			
+																											
+																																																																				
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/capital-structure/I11#I11" title="Capital Structure" target="_blank" class="CapitalStructure">Capital Structure</a></li>
+																			
+																											
+																																																																				
+																																															<li><a href="http://www.moneycontrol.com/financials/3iinfotech/financial-graphs/pbt-pat/I11" title="Financial Graphs" target="_blank" class="FinancialGraphs">Financial Graphs</a></li>
+																			
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="http://www.moneycontrol.com/annual-report/3iinfotech/directors-report/I11#I11" target="_blank" title="Annual Report" class= "">Annual Report</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_shrhldPat" target="_blank" title="Shareholding" class= "">Shareholding</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_peers" target="_blank" title="Peers" class= "">Peers</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#sec_comInf" target="_blank" title="Company Info" class= "">Company Info</a>
+														
+																																											<ul>
+																																																																									
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																																																				
+																											
+																											
+																																	</ul>
+							  
+					</li>
+						 
+																			<li class=" main_sticky_menu"> 
+																																											
+																									
+																																					
+															<a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11#MshareElement" target="_blank" title="Forum (1)" class= "">Forum (1)</a>
+														
+																																						</li>
+						 
+							</ul>
+		</div>
+	</nav>
+	<div class="stickybsense">
+										<div class="main_wrapper_res PR">
+			
+			<span class="txt14B hidden-lg">3i Infotech Lt</span>
+			<span class="txt14B hidden-xs">3i Infotech Ltd.</span>
+			<span class="divir"> |</span>
+			<span class="txt14B MR10">BSE</span> <span class="txt15B bse_span_price_wrap">27.40</span> <span class="bse_span_price_arrow red_arwdn_sm"></span> 
+			<span class="bse_span_price_change_prcnt txt14R">-0.20 <strong>(-0.72%)</strong></span> <span class="divir"> |</span>
+			 
+			<span class="txt14B MR10 hidden-xs">NSE</span> <span class="txt15B nse_span_price_wrap hidden-xs">27.43</span> <span class="nse_span_price_arrow red_arwdn_sm hidden-xs"></span> 
+			<span class="nse_span_price_change_prcnt txt14R hidden-xs">-0.22 <strong>(-0.80%)</strong></span>  
+			
+			<span class="divir hidden-xs">|</span>
+			<!--<a href="https://www.moneycontrol.com/open-demat-account-online?classic=true&amp;script_id=INE748C01038&amp;ex=NSE&amp;site=web&amp;asset_class=stock&amp;utm_source=moneycontrol&amp;utm_medium=webstockpage&amp;utm_campaign=tradenow&amp;utm_content=webbutton" title="Trade Now" class="trade_btnlink hidden-xs" target="_blank">
+				<span class="trade">T</span>Trade Now
+			</a>-->
+			<a href="javascript:void(0);" onclick="placeOrder('3IINFOLTD','I11','S',$('.pcstname').text())" title="Trade" class="trade_btnlink hidden-xs">
+						Trade
+			</a>
+			
+			<span class="divir">|</span>
+			<a href="javascript:;" class="link_black12 add_portfolio hidden-xs" style="padding-top:2px; vertical-align:top;" onclick="document.getElementById('form_add_to_portfolio1').submit();" target="_blank">
+				<span class="plus_icn" style="vertical-align:top;"></span>
+				<span style="display:inline-block; padding-top:3px;">Add</span>
+			</a>
+			<div>
+				<form id="form_add_to_portfolio1" action="https://www.moneycontrol.com//stocks/company_info/add_to_portfolio.php" name="form_add_to_portfolio1" method="post" target="_blank">
+					<input type="hidden" id="ap_sc_id" name="ap_sc_id" value="I11">
+				</form>
+			</div>
+			<div>
+				<form id="form_add_to_portfolio2" action="https://m.moneycontrol.com/transaction.php?add_id=I11&amp;categoryid=1" name="form_add_to_portfolio2" method="post" target="_blank">
+					<input type="hidden" id="ap_sc_id" name="ap_sc_id" value="I11">
+				</form>
+			</div>
+			 
+
+					</div>
+	</div>
+</div>
+</div>
+</div>
+<!--mobile navigation menu start-->
+	<div class="fxd_naviport" style="display:none;">
+		<div class="mn_overlay"></div>
+		<div class="show_nav_mobile">
+			<div class="PR">
+				<div class="navsidemenu mob-show">
+					<ul>
+																				<li class="dropdnw_menu"><a href="#mc_header" target="_blank" title="Home">Home</a>
+								<ul>
+																			<li><a href="https://www.moneycontrol.com/" target="_blank" title="Home">Home</a></li>
+																			<li><a href="https://www.moneycontrol.com/news/" target="_blank" title="News">News</a></li>
+																			<li><a href="https://www.moneycontrol.com/stocksmarketsindia/" target="_blank" title="Markets">Markets</a></li>
+																			<li><a href="https://www.moneycontrol.com/mutualfundindia/" target="_blank" title="Mutual Funds">Mutual Funds</a></li>
+																			<li><a href="http://www.moneycontrol.com/commodity/" target="_blank" title="Commodities">Commodities</a></li>
+																			<li><a href="https://www.moneycontrol.com/real-estate-property/" target="_blank" title="Property">Property</a></li>
+																			<li><a href="http://www.moneycontrol.com/personal-finance/" target="_blank" title="Personal Finance">Personal Finance</a></li>
+																			<li><a href="http://www.moneycontrol.com/bestportfolio/wealth-management-tool/investments#port_top" target="_blank" title="Portfolio">Portfolio</a></li>
+																			<li><a href="https://mmb.moneycontrol.com/" target="_blank" title="Messages">Messages</a></li>
+																			<li><a href="http://www.moneycontrol.com/news/" target="_blank" title="sme">sme</a></li>
+																			<li><a href="https://www.cnbctv18.com/live-tv/" target="_blank" title="Live TV">Live TV</a></li>
+																			<li><a href="https://www.cnbctv18.com/live-tv/" target="_blank" title="tv18">tv18</a></li>
+																			<li><a href="http://terminal.moneycontrol.com/" target="_blank" title="terminal">terminal</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_quotes" target="_blank" title="quote">quote</a>
+								<ul>
+																			<li><a href="#sec_quotes" target="_blank" title="Today&#039;s L/H">Today&#039;s L/H</a></li>
+																			<li><a href="#sec_quotes" target="_blank" title="52 Wk L/H ">52 Wk L/H </a></li>
+																			<li><a href="#sec_quotes" target="_blank" title="Circuit">Circuit</a></li>
+																			<li><a href="#sec_quotes" target="_blank" title="VWAP">VWAP</a></li>
+																			<li><a href="#sec_fno_quote" target="_blank" title="F&amp;O Quote">F&amp;O Quote</a></li>
+																			<li><a href="#sec_historical_prices" target="_blank" title="Historical Prices">Historical Prices</a></li>
+																			<li><a href="#sec_pre_opening_session_prices" target="_blank" title="Pre Opening Session Prices">Pre Opening Session Prices</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_charts" target="_blank" title="charts">charts</a>
+								<ul>
+																			<li><a href="#sec_charts" target="_blank" title="Basic">Basic</a></li>
+																			<li><a href="http://www.moneycontrol.com/stock-charts/3iinfotech/charts/I11#I11" target="_blank" title="Advanced">Advanced</a></li>
+																			<li><a href="http://www.moneycontrol.com/india/stockpricequote/it-services-consulting/3iinfotech/charts/technical-chart-analysis/I11" target="_blank" title="Technical Chart">Technical Chart</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#pc_technical" target="_blank" title="Technicals">Technicals</a>
+								<ul>
+																			<li><a href="http://www.moneycontrol.com/technical-analysis/3iinfotech/I11" target="_blank" title="Moving Average">Moving Average</a></li>
+																			<li><a href="http://www.moneycontrol.com/technical-analysis/3iinfotech/I11" target="_blank" title="Pivot Table">Pivot Table</a></li>
+																			<li><a href="http://www.moneycontrol.com/technical-analysis/3iinfotech/I11" target="_blank" title="Indicators">Indicators</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_valul" target="_blank" title="Valuations">Valuations</a>
+								<ul>
+																			<li><a href="#sec_valul" target="_blank" title="Moving Averages">Moving Averages</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_corpact" target="_blank" title="Corp Action">Corp Action</a>
+								<ul>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/board-meetings/I11#I11" target="_blank" title="Board meetings">Board meetings</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/agm-egm/I11#I11" target="_blank" title="AGM/EGM">AGM/EGM</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/dividends/I11#I11" target="_blank" title="Dividends">Dividends</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/bonus/I11#I11" target="_blank" title="Bonus">Bonus</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/splits/I11#I11" target="_blank" title="Splits">Splits</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/rights/I11#I11" target="_blank" title="Rights">Rights</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_newsv" target="_blank" title="News">News</a>
+								<ul>
+																			<li><a href="http://www.moneycontrol.com/company-article/3iinfotech/news/I11#I11" target="_blank" title="All News">All News</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-notices/3iinfotech/notices/I11" target="_blank" title="Announcements">Announcements</a></li>
+																			<li><a href="http://www.moneycontrol.com/news/3iinfotech/business-I11-6months.html" target="_blank" title="Business">Business</a></li>
+																			<li><a href="http://www.moneycontrol.com/news/3iinfotech/results-I11-6months.html" target="_blank" title="Earnings">Earnings</a></li>
+																			<li><a href="http://www.moneycontrol.com/news/3iinfotech/management-interviews-I11-6months.html" target="_blank" title="Mgmt Interviews">Mgmt Interviews</a></li>
+																			<li><a href="http://www.moneycontrol.com/news/3iinfotech/stock-views-I11-6months.html" target="_blank" title="Advice">Advice</a></li>
+																			<li><a href="http://www.moneycontrol.com/news/3iinfotech/brokerage-reports-I11-6months.html" target="_blank" title="Research reports">Research reports</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/company_info/sector_info.php?sub_sector=it-services-consulting#I11" target="_blank" title="Sector">Sector</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_finanl" target="_blank" title="Financials">Financials</a>
+								<ul>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/balance-sheetVI/I11#I11" target="_blank" title="Balance sheet">Balance sheet</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/profit-lossVI/I11#I11" target="_blank" title="Profit &amp; Loss">Profit &amp; Loss</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/results/quarterly-results/I11#I11" target="_blank" title="Quarterly Results">Quarterly Results</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/results/half-yearly/I11#I11" target="_blank" title="Half Yearly Results">Half Yearly Results</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/results/nine-months/I11#I11" target="_blank" title="Nine Months Results">Nine Months Results</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/results/yearly/I11#I11" target="_blank" title="Yearly Results">Yearly Results</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/cash-flowVI/I11#I11" target="_blank" title="Cash Flows">Cash Flows</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/ratiosVI/I11#I11" target="_blank" title="Ratios">Ratios</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/capital-structure/I11#I11" target="_blank" title="Capital Structure">Capital Structure</a></li>
+																			<li><a href="http://www.moneycontrol.com/financials/3iinfotech/financial-graphs/pbt-pat/I11" target="_blank" title="Financial Graphs">Financial Graphs</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="http://www.moneycontrol.com/annual-report/3iinfotech/directors-report/I11#I11" target="_blank" title="Annual Report">Annual Report</a>
+								<ul>
+																			<li><a href="http://www.moneycontrol.com/annual-report/3iinfotech/directors-report/I11#I11" target="_blank" title="Directors report">Directors report</a></li>
+																			<li><a href="http://www.moneycontrol.com/annual-report/3iinfotech/chairmans-speech/I11#I11" target="_blank" title="Chairman&#039;s speech">Chairman&#039;s speech</a></li>
+																			<li><a href="http://www.moneycontrol.com/annual-report/3iinfotech/auditors-report/I11#I11" target="_blank" title="Auditors report">Auditors report</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_shrhldPat" target="_blank" title="Shareholding">Shareholding</a>
+								<ul>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/shareholding-pattern/I11#I11" target="_blank" title="SH Pattern ">SH Pattern </a></li>
+																			<li><a href="http://www.moneycontrol.com/mf/user_scheme/mfholddetail_sec.php?sc_did=I11#I11" target="_blank" title="MF holding">MF holding</a></li>
+																			<li><a href="http://www.moneycontrol.com/bse/shareholding/shp_public_shares.php?sc_dispid=I11#I11" target="_blank" title="Top Public SH">Top Public SH</a></li>
+																			<li><a href="http://www.moneycontrol.com/bse/shareholding/shp_promoters.php?sc_dispid=I11#I11" target="_blank" title="Promoter H">Promoter H</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/company_info/blockdeals_query.php?sc_id=I11&amp;post_flg=1&amp;myexchg=Both#I11" target="_blank" title="Bulk deals">Bulk deals</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/marketstats/blockdeals/view_deals.php?sc_did=I11#I11" target="_blank" title="Large deals">Large deals</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_peers" target="_blank" title="Peers">Peers</a>
+								<ul>
+																			<li><a href="http://www.moneycontrol.com/competition/3iinfotech/comparison/I11#I11" target="_blank" title="Competition">Competition</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/data-bank/standalone/it-services-consulting.html" target="_blank" title="Data Bank">Data Bank</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/marketstats/indcomp.php?optex=BSE&amp;indcode=it-services-consulting" target="_blank" title="Latest price">Latest price</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/marketstats/sec_performance/bse/it-services-consulting.html" target="_blank" title="Stock Performance">Stock Performance</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/top-companies-in-india/market-capitalisation-bse/it-services-consulting.html" target="_blank" title="Market Cap">Market Cap</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/top-companies-in-india/net-sales-bse/it-services-consulting.html" target="_blank" title="Net sales">Net sales</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/top-companies-in-india/net-profit-bse/it-services-consulting.html" target="_blank" title="Net profit">Net profit</a></li>
+																			<li><a href="http://www.moneycontrol.com/stocks/top-companies-in-india/total-assets-bse/it-services-consulting.html" target="_blank" title="Total assets">Total assets</a></li>
+																			<li><a href="http://www.moneycontrol.com/mf/secholdings/sector/index.php?sel_sector=I11" target="_blank" title="Fund Manager holdings">Fund Manager holdings</a></li>
+																	</ul>
+							</li>
+																											<li class="dropdnw_menu"><a href="#sec_comInf" target="_blank" title="Company Info">Company Info</a>
+								<ul>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/management/I11#I11" target="_blank" title="Management">Management</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/history/I11#I11" target="_blank" title="History">History</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/background/I11#I11" target="_blank" title="Background">Background</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/locations/I11#I11" target="_blank" title="Location">Location</a></li>
+																			<li><a href="http://www.moneycontrol.com/company-facts/3iinfotech/listing/I11#I11" target="_blank" title="Listing">Listing</a></li>
+																	</ul>
+							</li>
+																												<li><a href="#MshareElement" target="_blank" title="Forum (1)">Forum (1)</a></li>
+																		</ul>
+				</div>
+			</div>
+			<span class="ic_menu_mobile"></span>
+		</div>
+	</div>
+<!--mobile navigation menu end--> 
+<!--menu price and chart end--> 
+
+
+ 
+              </div>
+	  
+	   <div class="nsbs_maincnt nsbs_block">
+	  <div id="ajaxPreopeningDiv"></div>
+      <div id="div_bse_nse_livebox_wrap" class="bse_nse_livebox">
+        <div id="div_bse_livebox_wrap" class="bselft">
+          										            
+          <div class="bsedata_bx ">
+            <div class="nsbs_bg">
+              <div class="clearfix">
+                <div class="FL bsepcnm">
+                  <p>BSE <span class="bslive">Live</span></p>
+                  <span class="display_lastupd">Jan 22, 15:47</span> </div>
+                                                                                <div class="pcnsb div_live_price_wrap">
+                	<span class="span_price_wrap stprh red_hilight rdclr">27.40</span>
+                    <span class="span_price_arrow rd_arwdown"></span>
+                    <span class="span_price_change_prcnt rdpc1">-0.20 <em>(-0.72%)</em></span>
+                </div>
+                <div class="volume_fl div_average_volume_box"> 
+                  <span class="txt11_pc FL">Volume</span>
+                		<span class="light_img FL"></span>
+                        <div class="FL PR ic_infoh div_average_volume_box"> 
+                            <span class="info_icn"></span>
+                            <div class="info_hoverbx div_average_volume_table" >
+                                                                <div class="tbl_titlehed">AVERAGE VOLUME</div>
+                                <div class="divTable">
+                                    <div class="divTableBody average_volume_table">
+                                                                                    <div class="divTableRow">
+                                                <div class="divTableCell price_display_name">5-Day</div>
+                                                <div class="divTableCell price_value">195,709</div>
+                                            </div>
+                                                                                    <div class="divTableRow">
+                                                <div class="divTableCell price_display_name">10-Day</div>
+                                                <div class="divTableCell price_value">148,567</div>
+                                            </div>
+                                                                                    <div class="divTableRow">
+                                                <div class="divTableCell price_display_name">30-Day</div>
+                                                <div class="divTableCell price_value">151,292</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                                            </div>
+                        </div>
+              
+                  <span class="txt13_pc volume_data">42,466</span> </div>
+              </div>
+            </div>
+            <div class="clearfix mkt_openclosebx">
+              <div class="open_lhs1">
+                <ul class="clearfix op_list">
+                  <li>
+                    <p>Prev. Close</p>
+                    <p class="prev_open priceprevclose">27.60</p>
+                  </li>
+                  <li>
+                    <p>Open Price</p>
+                    <p class="prev_open priceopen">27.65</p>
+                  </li>
+                </ul>
+                              </div>
+              <div class="open_lhs2">
+                <ul class="clearfix op_list">
+                  <li>
+                    <p>Bid Price (Qty.)
+                    <p class="prev_open bidp">27.44 <span>(510)</span></p>
+                  </li>
+                  <li>
+                    <p>Offer Price (Qty.)
+                    <p class="prev_open offerp">0.00 <span>(0)</span></p>
+                  </li>
+                </ul>
+                              </div>
+            </div>
+          </div>
+                                            <div class="not_tradedbx bse"></div>
+        </div>
+        <div id="div_nse_livebox_wrap" class="nsert">
+          										          <div class="nsedata_bx ">
+            <div class="nsbs_bg">
+              <div class="clearfix">
+                <div class="FL bsepcnm">
+                  <p>NSE <span class="bslive">Live</span></p>
+                  <span class="display_lastupd">Jan 22, 15:56</span> </div>
+                                                                                              <div class="pcnsb div_live_price_wrap">
+                	<span class="span_price_wrap stprh red_hilight rdclr">27.43</span>
+                    <span class="span_price_arrow rd_arwdown"></span>
+                    <span class="span_price_change_prcnt rdpc1">-0.22 <em>(-0.80%)</em></span>
+                </div>
+                
+                <div class="volume_fl div_average_volume_box">
+                  <span class="txt11_pc FL">Volume</span>
+                		<span class="light_img FL"></span>
+                        <div class="FL PR ic_infoh div_average_volume_box">
+                            <span class="info_icn"></span>
+                            <div class="info_hoverbx div_average_volume_table" >
+                                                                <div class="tbl_titlehed">AVERAGE VOLUME</div>
+                                <div class="divTable">
+                                    <div class="divTableBody average_volume_table">
+                                                                                    <div class="divTableRow">
+                                                <div class="divTableCell price_display_name">5-Day</div>
+                                                <div class="divTableCell price_value">1,445,513</div>
+                                            </div>
+                                                                                    <div class="divTableRow">
+                                                <div class="divTableCell price_display_name">10-Day</div>
+                                                <div class="divTableCell price_value">1,103,932</div>
+                                            </div>
+                                                                                    <div class="divTableRow">
+                                                <div class="divTableCell price_display_name">30-Day</div>
+                                                <div class="divTableCell price_value">1,002,182</div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                                            </div>
+                        </div>
+                    
+                  <span class="txt13_pc volume_data">422,842</span> </div>
+              </div>
+            </div>
+            <div class="clearfix mkt_openclosebx">
+              <div class="open_lhs1">
+                <ul class="clearfix op_list">
+                  <li>
+                    <p>Prev. Close</p>
+                    <p class="prev_open priceprevclose">27.65</p>
+                  </li>
+                  <li>
+                    <p>Open Price</p>
+                    <p class="prev_open priceopen">27.85</p>
+                  </li>
+                </ul>
+                              </div>
+              <div class="open_lhs2">
+                <ul class="clearfix op_list">
+                  <li>
+                    <p>Bid Price (Qty.)
+                    <p class="prev_open bidp">27.43 <span>(1137)</span></p>
+                  </li>
+                  <li>
+                    <p>Offer Price (Qty.)
+                    <p class="prev_open offerp">0.00 <span>(0)</span></p>
+                  </li>
+                </ul>
+                              </div>
+            </div>
+          </div>
+          						          <div class="not_tradedbx nse"></div>
+        </div>
+      </div>
+	  </div>
+	 
+    </div>
+  </div>
+  <div class="modal fade mc_common_overlay" id="VWAP" role="dialog">
+	<div class="modal-dialog"> 
+		<!-- Modal content-->
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<div class="clearfix">
+				<div class="overlay_common_title">VWAP And Current Price Comparison</div>
+				<div id="bse_vwap_cp_chart" class="vwap_chartbx"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div id="thomson_popup" class="modal fade popups"></div>
+    <div id="thomson_popup_thanks" class="modal fade popups"></div>
+<!--</section>-->
+<!--money price and chart end--> 
+<script>
+function trackTradeButton(){
+    var stkname = $(".pcstname").text();
+    ga('send', 'event', 'Trade', 'Stock Quote', ''+stkname+'');
+}
+</script>
+
+        </section>
+        <!--money price and chart end-->
+        
+        <div class="main_wrapper_res clearfix">
+            <div class="banner728x90 hidden-xs">				<div id='Moneycontrol/MC_Market/MC_Market_StockPrice_QuartResult_728x90'> 
+			<script type='text/javascript'>
+				var width = window.innerWidth || document.documentElement.clientWidth;
+				adKey = "Moneycontrol/MC_Market/MC_Market_StockPrice_QuartResult_728x90";
+				if (width >= 768 && adKey.indexOf("Moneycontrol") != -1 && adKey.indexOf("Moneycontrol_Mobile_WAP") < 0) {
+					if (adKey.indexOf("MC_MF_HP_728x90_ATF") < 0){
+						setTimeout(function() {
+							googletag.cmd.push(function() { googletag.display("Moneycontrol/MC_Market/MC_Market_StockPrice_QuartResult_728x90") });
+						}, 2000);
+					}
+				}
+				if (width >= 1279 && adKey.indexOf("Moneycontrol") != -1 && adKey.indexOf("Moneycontrol_Mobile_WAP") < 0) {
+					if (adKey.indexOf("MC_MF_HP_728x90_ATF") != -1){
+						setTimeout(function() {
+							googletag.cmd.push(function() { googletag.display("") });
+						}, 2000);
+					}
+				}
+				if (width <= 768 && adKey.indexOf("Moneycontrol_Mobile_WAP") != -1) {
+					setTimeout(function() {
+						googletag.cmd.push(function() { googletag.display("Moneycontrol/MC_Market/MC_Market_StockPrice_QuartResult_728x90") });
+					}, 2000);
+				}
+			</script>
+		</div>
+	</div>
+            <!-- financials starts -->
+            <h2 class="title_18px CTR title_botline MT20 MB0">Financials</h2>
+            <div class="financial-section">
+                                <ul class="pagination clearfix">
+                                    <li><a href="https://www.moneycontrol.com/financials/3iinfotech/results/quarterly-results/I11/5#I11" class="active"><span class="prevpaging"></span></a></li>
+                                                    <li><a href="https://www.moneycontrol.com/financials/3iinfotech/results/quarterly-results/I11/7#I11" class="active"><span class="nextpaging"></span></a></li>
+                                                </ul>
+                <div class="PR clearfix financial-tabs-block">
+                    <ul class="nav-tabs mctab clearfix"  style="visibility:hidden" >
+                                            <li><a href="https://www.moneycontrol.com/financials/3iinfotech/results/cash-flowVI/I11#I11"><span>Result in</span><br>New Format</a></li>
+                        <li class="active"><a href="javascript:void();"><span>Result in</span><br>Old Format</a></li>
+                                        </ul>
+                    <!--                     
+                    <div class="annual-report">
+                        <span class="hidden-xs">Download Annual Report in PDF format <span class="ic_pdf"></span></span>                        
+                        <span class="annual-years">
+                                                </span>
+                        <div class="more-block hidden-xs">
+                            <select class="more_options">
+                                <option data-url="" style="display: none">More</option>
+                                                            </select>
+                            <span class="selectbox-arw"></span>
+                        </div>
+                        <div class="more-block hidden-lg hidden-md hidden-sm mt15">
+                            <select class="more_options">
+                                <option style="display: none">Annual Report</option>
+                                                            </select>
+                            <span class="selectbox-arw"></span>
+                        </div>
+                    </div>
+                     -->
+                </div>
+                <div class="tab-content clearfix">
+                    <div id="new-format" class="tab-pane fade active in">
+                        <div class="nsebsetab subnsebsetab clearfix">
+                            <ul class="subtabs nav-tabs">
+                                                            <li class="active"><a href="javascript:void();" id="#standalone">Standalone</a></li>
+                                <li><a href="https://www.moneycontrol.com/financials/3iinfotech/results/consolidated-quarterly-results/I11#I11" id="#consolidated">Consolidated</a></li>
+                                                        </ul>
+                            <div class="print-block">
+                                <form name="print_frm" id="print_frm" method="post" target="_blank" action="https://www.moneycontrol.com/stocks/company_info/print_main.php">
+                                    Print/Copy to Excel :
+                                    <span class="form small disb">
+                                        <input type="hidden" name="sc_did" id="sc_did" value="I11">
+                                        <select name="sel_opt" id="sel_opt">
+                                                                                                                                                                            <option value="0" >- Standalone -</option>
+                                                                                                                                                                            <option value="1" >Profit &amp; Loss</option>
+                                                                                                                                                                            <option value="2" >Profit &amp; Loss (New)</option>
+                                                                                                                                                                            <option value="3" >Balance Sheet</option>
+                                                                                                                                                                            <option value="4" >Balance Sheet (New)</option>
+                                                                                                                                                                            <option value="5" >Cash Flows</option>
+                                                                                                                                                                            <option value="6" >Cash Flows (New)</option>
+                                                                                                                                                                                                                                                                        <option value="7" selected=&quot;selected&quot;>Quarterly</option>
+                                                                                                                                                                            <option value="8" >Half Yearly</option>
+                                                                                                                                                                            <option value="9" >Nine Monthly</option>
+                                                                                                                                                                            <option value="10" >Yearly</option>
+                                                                                                                                                                            <option value="11" >Capital Structure</option>
+                                                                                                                                                                            <option value="12" >Raw Materials</option>
+                                                                                                                                                                            <option value="13" >Finished Goods</option>
+                                                                                                                                                                            <option value="14" >Financial Ratios</option>
+                                                                                                                                                                            <option value="15" >Financial Ratios (New)</option>
+                                                                                                                                                                            <option value="16" >- Consolidated - </option>
+                                                                                                                                                                            <option value="17" >Quaterly</option>
+                                                                                                                                                                            <option value="18" >Half Yearly</option>
+                                                                                                                                                                            <option value="19" >Nine Monthly</option>
+                                                                                                                                                                            <option value="20" >Yearly</option>
+                                                                                                                                                                            <option value="21" >Profit &amp; Loss</option>
+                                                                                                                                                                            <option value="22" >Profit &amp; Loss (New)</option>
+                                                                                                                                                                            <option value="23" >Balance Sheet</option>
+                                                                                                                                                                            <option value="24" >Balance Sheet (New)</option>
+                                                                                                                                                                            <option value="25" >Cash Flows</option>
+                                                                                                                                                                            <option value="26" >Cash Flows (New)</option>
+                                                                                                                                                                            <option value="27" >Financial Ratios</option>
+                                                                                                                                                                            <option value="28" >Financial Ratios (New)</option>
+                                                                                </select>
+                                    </span>
+                                    <a href="javascript:void();" onclick="document.getElementById('print_frm').submit();" class="btn_common small_btn_common_go" title="Go">Go</a>
+                                </form>
+                            </div>
+                        </div>
+
+                                                <div class="tab-content">
+                        <div class="tab-pane fade active in" id="standalone-new">
+                            <div class="table-responsive financial-table">
+                                <table class="mctable1" width="100%">
+                                                                                                                                                                                                                                                        <tr class="lightbg">
+                                                                                <td>Quarterly Results of 3i Infotech <span class="ttn">(in Rs. Cr.)</span></td>
+                                                                                                                            <td>Jun &#039;18</td>
+                                                                                                                                <td>Mar &#039;18</td>
+                                                                                                                                <td>Dec &#039;17</td>
+                                                                                                                                <td>Sep &#039;17</td>
+                                                                                                                                <td>Jun &#039;17</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Net Sales/Income from operations</td>
+                                                                                                                            <td>58.70</td>
+                                                                                                                                <td>66.29</td>
+                                                                                                                                <td>58.12</td>
+                                                                                                                                <td>57.72</td>
+                                                                                                                                <td>55.38</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Other Operating Income</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Total Income From Operations</td>
+                                                                                                                            <td>58.70</td>
+                                                                                                                                <td>66.29</td>
+                                                                                                                                <td>58.12</td>
+                                                                                                                                <td>57.72</td>
+                                                                                                                                <td>55.38</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="darkbg">
+                                                                                <td>EXPENDITURE</td>
+                                                                                                                            <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Consumption of Raw Materials</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Purchase of Traded Goods</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Increase/Decrease in Stocks</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Power &amp; Fuel</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Employees Cost</td>
+                                                                                                                            <td>28.20</td>
+                                                                                                                                <td>24.08</td>
+                                                                                                                                <td>14.68</td>
+                                                                                                                                <td>22.50</td>
+                                                                                                                                <td>16.68</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>depreciat</td>
+                                                                                                                            <td>1.66</td>
+                                                                                                                                <td>1.63</td>
+                                                                                                                                <td>1.70</td>
+                                                                                                                                <td>2.05</td>
+                                                                                                                                <td>1.78</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Excise Duty</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Admin. And Selling Expenses</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>R &amp; D Expenses</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Provisions And Contingencies</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Exp. Capitalised</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Other Expenses</td>
+                                                                                                                            <td>22.54</td>
+                                                                                                                                <td>18.62</td>
+                                                                                                                                <td>17.27</td>
+                                                                                                                                <td>162.13</td>
+                                                                                                                                <td>15.53</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>P/L Before Other Inc. , Int., Excpt. Items &amp; Tax</td>
+                                                                                                                            <td>6.30</td>
+                                                                                                                                <td>21.96</td>
+                                                                                                                                <td>24.47</td>
+                                                                                                                                <td>-128.96</td>
+                                                                                                                                <td>21.39</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Other Income</td>
+                                                                                                                            <td>8.68</td>
+                                                                                                                                <td>4.33</td>
+                                                                                                                                <td>8.25</td>
+                                                                                                                                <td>2.96</td>
+                                                                                                                                <td>9.38</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>P/L Before Int., Excpt. Items &amp; Tax</td>
+                                                                                                                            <td>14.98</td>
+                                                                                                                                <td>26.29</td>
+                                                                                                                                <td>32.72</td>
+                                                                                                                                <td>-126.00</td>
+                                                                                                                                <td>30.77</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Interest</td>
+                                                                                                                            <td>11.22</td>
+                                                                                                                                <td>11.44</td>
+                                                                                                                                <td>12.37</td>
+                                                                                                                                <td>12.21</td>
+                                                                                                                                <td>12.01</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>P/L Before Exceptional Items &amp; Tax</td>
+                                                                                                                            <td>3.76</td>
+                                                                                                                                <td>14.85</td>
+                                                                                                                                <td>20.35</td>
+                                                                                                                                <td>-138.21</td>
+                                                                                                                                <td>18.76</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Exceptional Items</td>
+                                                                                                                            <td>40.47</td>
+                                                                                                                                <td>17.35</td>
+                                                                                                                                <td>-18.40</td>
+                                                                                                                                <td>12.22</td>
+                                                                                                                                <td>-3.05</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>P/L Before Tax</td>
+                                                                                                                            <td>44.23</td>
+                                                                                                                                <td>32.20</td>
+                                                                                                                                <td>1.95</td>
+                                                                                                                                <td>-125.99</td>
+                                                                                                                                <td>15.71</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Tax</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>P/L After Tax from Ordinary Activities</td>
+                                                                                                                            <td>44.23</td>
+                                                                                                                                <td>32.20</td>
+                                                                                                                                <td>1.95</td>
+                                                                                                                                <td>-125.99</td>
+                                                                                                                                <td>15.71</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Prior Year Adjustments</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Extra Ordinary Items</td>
+                                                                                                                            <td>-4.69</td>
+                                                                                                                                <td>-4.45</td>
+                                                                                                                                <td>-4.05</td>
+                                                                                                                                <td>-4.10</td>
+                                                                                                                                <td>1.99</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Net Profit/(Loss) For the Period</td>
+                                                                                                                            <td>39.54</td>
+                                                                                                                                <td>27.75</td>
+                                                                                                                                <td>-2.10</td>
+                                                                                                                                <td>-130.09</td>
+                                                                                                                                <td>17.70</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Equity Share Capital</td>
+                                                                                                                            <td>1,615.55</td>
+                                                                                                                                <td>1,615.36</td>
+                                                                                                                                <td>1,334.15</td>
+                                                                                                                                <td>1,333.09</td>
+                                                                                                                                <td>1,286.00</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Reserves Excluding Revaluation Reserves</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Equity Dividend Rate (%)</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="darkbg">
+                                                                                <td>EPS Before Extra Ordinary</td>
+                                                                                                                            <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Basic EPS</td>
+                                                                                                                            <td>0.24</td>
+                                                                                                                                <td>0.17</td>
+                                                                                                                                <td>-0.02</td>
+                                                                                                                                <td>-0.99</td>
+                                                                                                                                <td>0.14</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Diluted EPS</td>
+                                                                                                                            <td>0.24</td>
+                                                                                                                                <td>0.17</td>
+                                                                                                                                <td>-0.02</td>
+                                                                                                                                <td>-0.99</td>
+                                                                                                                                <td>0.14</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="darkbg">
+                                                                                <td>EPS After Extra Ordinary</td>
+                                                                                                                            <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Basic EPS.</td>
+                                                                                                                            <td>0.24</td>
+                                                                                                                                <td>0.17</td>
+                                                                                                                                <td>-0.02</td>
+                                                                                                                                <td>-0.99</td>
+                                                                                                                                <td>0.14</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Diluted EPS.</td>
+                                                                                                                            <td>0.24</td>
+                                                                                                                                <td>0.17</td>
+                                                                                                                                <td>-0.02</td>
+                                                                                                                                <td>-0.99</td>
+                                                                                                                                <td>0.14</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="darkbg">
+                                                                                <td>Public Share Holding</td>
+                                                                                                                            <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>No Of Shares (Crores)</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>Share Holding (%)</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="darkbg">
+                                                                                <td>Promoters and Promoter Group Shareholding</td>
+                                                                                                                            <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="darkbg">
+                                                                                <td>a) Pledged/Encumbered</td>
+                                                                                                                            <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>- Number of shares (Crores)</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>- Per. of shares (as a % of the total sh. of prom. and promoter group)</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>- Per. of shares (as a % of the total Share Cap. of the company)</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="darkbg">
+                                                                                <td>b) Non-encumbered</td>
+                                                                                                                            <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                                                                <td></td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>- Number of shares (Crores).</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>- Per. of shares (as a % of the total sh. of prom. and promoter group).</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                            <tr class="">
+                                                                                <td>- Per. of shares (as a % of the total Share Cap. of the company).</td>
+                                                                                                                            <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                                                                <td>--</td>
+                                                                                        <td class="last_td" style="width: 5%;">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                                                                                                                                                                                                                        </table>
+                            </div>
+                         <div class="source-line"><span>Source :</span> Dion Global Solutions Limited</div>
+                        </div>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+            <!-- financials ends -->
+
+            <!-- result of Company and Sector  starts -->
+            <section class="results-section">
+                <div class="left-block">
+                    <h2 class="title_18px CTR title_botline">Results of 3i Infotech</h2>
+                    <ul class="nav-tabs mctab">
+                        <li class="active"><a href="#news" data-toggle="tab">News</a></li>
+                        <li><a href="#results" data-toggle="tab">Results</a></li>
+                        <li><a href="#estimates" data-toggle="tab">Estimates</a></li>
+                        <li><a href="#analysis" data-toggle="tab">Analysis</a></li>
+                    </ul>
+                                        <div class="tab-content">
+                        <div id="news" class="tab-pane fade active in">
+                                                    <ul class="tabs_nwsconlist">
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                        </ul>
+                                                </div>
+                        <div id="results" class="tab-pane fade">
+                                                    <ul class="tabs_nwsconlist">
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                        </ul>
+                                                </div>
+                        <div id="estimates" class="tab-pane fade">
+                                                    <ul class="tabs_nwsconlist">
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                        </ul>
+                                                </div>
+                        <div id="analysis" class="tab-pane fade">
+                                                    <ul class="tabs_nwsconlist">
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                        </ul>
+                                                </div>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <h2 class="title_18px CTR title_botline">Results of Computers - Software Sector</h2>
+                    <ul class="nav-tabs mctab">
+                        <li class="active"><a href="#news1" data-toggle="tab">News</a></li>
+                        <li><a href="#results1" data-toggle="tab">Results</a></li>
+                        <li><a href="#estimates1" data-toggle="tab">Estimates</a></li>
+                        <li><a href="#analysis1" data-toggle="tab">Analysis</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="news1" class="tab-pane fade active in">
+                                                    <ul class="tabs_nwsconlist">
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                        </ul>
+                                                </div>
+                        <div id="results1" class="tab-pane fade">
+                                                    <ul class="tabs_nwsconlist">
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                        </ul>
+                                                </div>
+                        <div id="estimates1" class="tab-pane fade">
+                                                    <ul class="tabs_nwsconlist">
+                                                                <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                                <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                                <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                                <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            </ul>
+                                                </div>
+                        <div id="analysis1" class="tab-pane fade">
+                                                    <ul class="tabs_nwsconlist">
+                                                                <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                                <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                                <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                                <li>
+                                    <p class="datetxt"></p>
+                                    <p><a href="" title="" target="_blank" class="active"></a></p>
+                                </li>
+                                                            </ul>
+                                                </div>
+                    </div>
+                </div>
+            </section>
+            <!-- result of sbi and result of banks starts -->
+
+        </div>
+        <!--quick links component start-->
+        <section class="mobile_hide grybg_main">Array</section>
+        <!--quick links component End-->
+
+        <section class="mobile_hide whtbg_main"><div class="main_wrapper_res">
+    <div>
+        <h3 class="all_title_sub">Related Searches</h3>
+        <div class="relsearcList"> 
+                        <a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11" target="_blank" title="3i Infotech Stock Price">3i Infotech Stock Price</a> | 
+                        <a href="https://www.moneycontrol.com/india/stockpricequote/computers-software/3iinfotech/I11" target="_blank" title="3i Infotech Stock Quote">3i Infotech Stock Quote</a> | 
+                        <a href="http://www.moneycontrol.com/financials/3i-infotech/results/quarterly-results/I11" target="_blank" title="3i Infotech Results ">3i Infotech Results </a> | 
+                        <a href="http://www.moneycontrol.com/company-article/3i-infotech/news/I11" target="_blank" title="3i Infotech News ">3i Infotech News </a> | 
+            
+            <a href="http://www.moneycontrol.com/stock/synonyms/3i-infotech-I11.html" target="_blank" title="View All Related Searches">View All Related Searches</a>
+        </div>
+    </div>
+</div></section>
+    </div>
+    <!--price and chart homepage End-->
+
+    <!-- mobile add banner 300x250 start -->
+    <div class="mobile_banner300">				<div id='Moneycontrol_Mobile_WAP/MC_WAP_Markets/MC_WAP_Markets_StockPrice_300x250_2'> 
+			<script type='text/javascript'>
+				var width = window.innerWidth || document.documentElement.clientWidth;
+				adKey = "Moneycontrol_Mobile_WAP/MC_WAP_Markets/MC_WAP_Markets_StockPrice_300x250_2";
+				if (width >= 768 && adKey.indexOf("Moneycontrol") != -1 && adKey.indexOf("Moneycontrol_Mobile_WAP") < 0) {
+					if (adKey.indexOf("MC_MF_HP_728x90_ATF") < 0){
+						setTimeout(function() {
+							googletag.cmd.push(function() { googletag.display("Moneycontrol_Mobile_WAP/MC_WAP_Markets/MC_WAP_Markets_StockPrice_300x250_2") });
+						}, 2000);
+					}
+				}
+				if (width >= 1279 && adKey.indexOf("Moneycontrol") != -1 && adKey.indexOf("Moneycontrol_Mobile_WAP") < 0) {
+					if (adKey.indexOf("MC_MF_HP_728x90_ATF") != -1){
+						setTimeout(function() {
+							googletag.cmd.push(function() { googletag.display("") });
+						}, 2000);
+					}
+				}
+				if (width <= 768 && adKey.indexOf("Moneycontrol_Mobile_WAP") != -1) {
+					setTimeout(function() {
+						googletag.cmd.push(function() { googletag.display("Moneycontrol_Mobile_WAP/MC_WAP_Markets/MC_WAP_Markets_StockPrice_300x250_2") });
+					}, 2000);
+				}
+			</script>
+		</div>
+	</div>
+    <!-- mobile add banner 300x250 end -->
+
+</section>
+
+<!-- footer start from here -->
+<div class="footer_container">
+    Array
+</div>
+<!-- footer end here -->
+Array
+</body>
+</html>
