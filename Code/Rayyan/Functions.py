@@ -144,10 +144,10 @@ def create_excel_file(path, base_dir, file):
             
 # Main execution of the script
 if __name__ == "__main__": 
-    current_dir = os.getcwd()
-    print(current_dir)
+    # current_dir = os.getcwd()
+    # print(current_dir)
     
-    site = "MoneyControl"
+    # site = "MoneyControl"
     
     companies = [
     "3i Infotech Ltd",
@@ -230,39 +230,75 @@ if __name__ == "__main__":
     "Zensar Technologies Ltd"
     ]
     
-    sector_name = "IT Services & Consulting"
-    origin_data = f"{current_dir}/Main_Data/{site}/data"
-    for company_name in companies:        
-        file = f"{company_name}_excel"
-        # print(company_name,"\n")
+    # path_to_data = os.listdir(f"{current_dir}/Financial_Data/{site}/data")
+    # sector_name = "IT Services & Consulting"
+    # origin_data = f"{current_dir}/Financial_Data/{site}/data"
+    
+    # for company_name in path_to_data:        
+    #     file = f"{company_name}_excel"
+    #     print(company_name,"\n")
         
-        new_dir_list_file = os.path.join(origin_data,company_name)
-        list_html_files = os.listdir(new_dir_list_file)
-        # print(list_html_files)
+    #     list_files = os.listdir(os.path.join(origin_data,company_name))
+    #     print(list_files)
         
-        for list in list_html_files:
-            print("li:- ",list)
-            new_path = os.path.join(new_dir_list_file,list)
-            # print(new_path)
+    #     for list in list_files:
+    #         list_html_files = os.listdir(os.path.join(origin_data,company_name,list))
+    #         print(list_html_files)
             
-            list_html_name = os.listdir(new_path)
-            
-            # print(list_html_name)
-            
-            for list_html in list_html_name:
-                original_path = os.path.join(new_path,list_html)
-                save_dir = f"{current_dir}/Main_Data/{site}/Companies/{sector_name}/{company_name}/Excel"
-                print(original_path)
-                create_excel_file(original_path,save_dir,file)
-        
-            
+    #         for list_html in list_html_files:
+    #             print(f"{list}",list_html,"\n\n")
+    #             original_path = os.path.join(origin_data,company_name,list,list_html)
+    #             save_dir = f"{current_dir}/Financial_Data/{site}/Companies/{sector_name}/{company_name}/Excel/{list}"
+                
+    #             try:
+    #                 os.makedirs(save_dir)
+    #             except FileExistsError as e:
+    #                 print(e)
+                    
+    #             print(original_path)
+    #             print(save_dir)
+    #             create_excel_file(original_path,save_dir,file)
+    
+import os
 
-        
-        # base_dir = f"{current_dir}/Main_Data/{site}/Companies/{sector_name}/{company_name}/Excel"  # Base directory for the company
-        # # file_name = "9_Sep23_Sep24.xlsx"  # Name of the Excel file to save
-        
-        # print("\n original file path:- ",original_path)
-        # print("\n base file path:- ",base_dir)
-        
-        # # Convert HTML table to Excel
-        # create_excel_file(original_path, base_dir,file)   
+# Define the directories
+current_dir = os.getcwd()
+site = "MoneyControl"
+data_dir = f"{current_dir}/Financial_Data/{site}/data"
+sector_name = "IT Services & Consulting"
+companies_dir = f"{current_dir}/Financial_Data/{site}/Companies/{sector_name}"
+
+# Iterate through each company's data
+for company_name in os.listdir(data_dir):
+    company_data_dir = os.path.join(data_dir, company_name)
+    if not os.path.isdir(company_data_dir):
+        continue  # Skip if not a directory
+
+    print(f"\nProcessing company: {company_name}")
+
+    # Iterate through folders like "Balance Sheet", "Profit & Loss", etc.
+    for subfolder in os.listdir(company_data_dir):
+        subfolder_path = os.path.join(company_data_dir, subfolder)
+        if not os.path.isdir(subfolder_path):
+            continue  # Skip if not a directory
+
+        print(f"  Subfolder: {subfolder}")
+
+        # Create the corresponding subfolder in the Excel directory
+        excel_subfolder = os.path.join(companies_dir, company_name, "Excel", subfolder)
+        os.makedirs(excel_subfolder, exist_ok=True)
+
+        # Iterate through HTML files in the subfolder
+        for html_file in os.listdir(subfolder_path):
+            html_file_path = os.path.join(subfolder_path, html_file)
+
+            # Ensure it's an HTML file
+            if not html_file.endswith(".html"):
+                continue
+
+            # Define the Excel file name
+            excel_file_name = os.path.splitext(html_file)[0]  # Remove .html extension
+            create_excel_file(html_file_path, excel_subfolder, excel_file_name)
+
+print("\nProcessing complete.")
+  
