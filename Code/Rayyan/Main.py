@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from Concat import consolidate_and_merge_excel_sheets
 import os
 
 
@@ -79,7 +78,7 @@ def getUrl(url, file_name="", index=0, company_data_info=""):
         print("Sector Name:", final_sector_name, "\n")
 
         # Ensure main directory exists
-        make_main_dir(base_dir,exits_ok=True)
+        make_main_dir(base_dir)
 
         # Create directory for quarterly data
         quarterly_dir = os.path.join(base_dir, site, "data", company_name, f"{company_data_info}")
