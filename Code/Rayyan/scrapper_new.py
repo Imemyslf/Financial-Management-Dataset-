@@ -16,7 +16,7 @@ with open(path, "r") as f:
     IT_links = json.load(f)
 
 
-for url in IT_links[67:70]:
+for url in IT_links[76:80]:
 
     # Send a request to the URL
     request = requests.get(url)
