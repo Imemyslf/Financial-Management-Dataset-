@@ -17,7 +17,7 @@ with open(path, "r") as f:
 
 
     
-for url in IT_links[76:80]:
+for url in IT_links[80:90]:
     # Send a request to the URL
     request = requests.get(url)
     if request.status_code == 200:
