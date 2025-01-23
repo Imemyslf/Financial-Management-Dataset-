@@ -28,7 +28,8 @@ def f1(href_link):
 
                 # Find the position of #
                 j = string.find('#')
-
+                print("\n\n j:- ", j)
+                
                 if j != -1:
                     modified_string = string[:j] + f"/{i+1}" + string[j:]
                     print("\n modified_string", modified_string)
@@ -39,7 +40,6 @@ def f1(href_link):
                 link = '/'.join(url)
                 print(f"\n\n{i} -> {link}")
                 file = dir_list[i]
-        
             
             # Call getUrl function and check result
             result = getUrl(link, file, "moneycontrol", company_data[:-2])

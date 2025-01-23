@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from Functions import append_sector, make_main_dir, create_company_directory, create_excel_file
-# from Concat import consolidate_and_merge_excel_sheets
+from Concat import consolidate_and_merge_excel_sheets
 import os
 
 
@@ -22,6 +21,45 @@ def webiste_call(url):
     soup = BeautifulSoup(r.content, "html.parser")
     return soup
 
+def make_main_dir(base_dir):
+    try:
+        os.mkdir(base_dir)
+        return f"{base_dir} directory created successfully"
+        
+    except FileExistsError as e:
+        return "File already exists in directory" 
+        
+    except PermissionError as e:
+        print("Permission denied", e)
+        return False
+    except Exception as e:
+        print("An Error Occurred while creating the directory", e)
+        return False
+
+# Function to create a directory structure for a specific company
+def create_company_directory(directory, num):
+    try:
+        print(f"Attempting to create directory: {directory}")
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            print(f"Successfully created directory: {directory}\n\n")
+        
+        if num == 1:
+            dummy_file = os.path.join(directory, "1.txt")
+            with open(dummy_file, "w") as f:
+                f.write("dummy")
+                print(f"Dummy file created at: {dummy_file}\n\n")
+        
+        return f"{directory} created successfully"
+    except FileExistsError:
+        print(f"Directory already exists: {directory}")
+        return f"{directory} already exists"
+    except PermissionError as e:
+        print(f"Permission denied for {directory}: {e}")
+        return f"Permission error for {directory}"
+    except Exception as e:
+        print(f"An error occurred while creating the directory: {e}")
+        return f"Error creating {directory}: {e}"
 
 def getUrl(url, file_name="", index=0, company_data_info=""):
     global current_dir, base_dir, data_folder    
@@ -41,7 +79,7 @@ def getUrl(url, file_name="", index=0, company_data_info=""):
         print("Sector Name:", final_sector_name, "\n")
 
         # Ensure main directory exists
-        make_main_dir(base_dir)
+        make_main_dir(base_dir,exits_ok=True)
 
         # Create directory for quarterly data
         quarterly_dir = os.path.join(base_dir, site, "data", company_name, f"{company_data_info}")
@@ -65,27 +103,10 @@ def getUrl(url, file_name="", index=0, company_data_info=""):
         print("\nException occurred:\n", e)
         return False
 
+
 if __name__ == "__main__":
     current_dir = os.getcwd()
     
-    path = f"{current_dir}/Companies"
-    sector_list = os.listdir(path)
-    print("\nSector list:- ",sector_list)
-    # print(len(sector_list))
+    path = f"{current_dir}/Financial_Data/MoneyControl"
+    print(path)
     
-    for i in range(len(sector_list)):
-        path = f"{current_dir}/Companies"
-        sector = sector_list[i]
-        path = path + "/" + sector
-        # print("Iteration:- ",i)
-        # print("\nPath:- ",path)
-        comapnies_list = os.listdir(path)
-        # print("\nCompanies List:- ",comapnies_list)
-        
-        for i in range(len(comapnies_list)):
-            company = comapnies_list[i]
-            # print(f"Company {i}:- {company}")
-            path = f"{current_dir}/Companies"
-            create_company_directory(os.path.join(path,sector,company,"Pruned_Excel"),1)
-            print("File successfully created in:- ",path)
-            
