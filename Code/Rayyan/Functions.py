@@ -71,14 +71,12 @@ def create_excel_file(path, base_dir, file):
     df.to_excel(f"{final_excel_path}", index=False)
 
 
-            
-# Main execution of the script
 if __name__ == "__main__": 
     # Define the directories
     current_dir = os.getcwd()
     site = "MoneyControl"
     data_dir = f"{current_dir}/Financial_Data/{site}/data"
-    sector_name = "IT Services & Consulting"
+    sector_name = "Oil Exploration and Production"
     companies_dir = f"{current_dir}/Financial_Data/{site}/Companies/{sector_name}"
 
     # Iterate through each company's data
