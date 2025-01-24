@@ -13,10 +13,10 @@ import json
 
 path = f"{os.getcwd()}/Code/Rayyan/Sector_Links/Transport-infrastructure_links.json"
 with open(path, "r") as f:
-    OEP_links = json.load(f)
-print("Length of OEP_links:- ",len(OEP_links))
+    Transport_links = json.load(f)
+print("Length of Transport_links:- ",len(Transport_links))
 
-for url in OEP_links['all_links']:
+for url in Transport_links:
     # Send a request to the URL
     request = requests.get(url)
     if request.status_code == 200:
