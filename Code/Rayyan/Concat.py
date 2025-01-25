@@ -42,7 +42,7 @@ def consolidate_and_merge_excel_sheets(folder_path, save_path):
         print(f"An error occurred while processing {folder_path}: {e}")
 
 
-def combine_excel_to_companies():
+def combine_excel_to_companies(sectot_name_folder):
     """
     Iterates through the Companies folder and consolidates Excel files in each subfolder
     into a single Excel file named after the subfolder.
@@ -56,6 +56,9 @@ def combine_excel_to_companies():
 
     # Iterate through sectors
     for sector_name in os.listdir(companies_root_path):
+        if sector_name not in sectot_name_folder:
+            continue
+        
         sector_path = os.path.join(companies_root_path, sector_name)
 
         if not os.path.isdir(sector_path):
@@ -86,4 +89,5 @@ def combine_excel_to_companies():
                     consolidate_and_merge_excel_sheets(subfolder_path, save_path)
 
 if __name__ == "__main__":
-    combine_excel_to_companies()
+    sector_list_name = ["Oil Exploration and Production","Transport Infrastructure"]
+    combine_excel_to_companies(sector_list_name)
