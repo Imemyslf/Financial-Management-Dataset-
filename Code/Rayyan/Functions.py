@@ -255,12 +255,16 @@ def combine_excel_to_companies():
 if __name__ == "__main__":
     current_dir = os.getcwd()
     site = "MoneyControl"
+    sector = "Hospital & Healthcare Services"
     data_dir = f"{current_dir}/Financial_Data/{site}/data"
-    companies_dir = f"{current_dir}/Financial_Data/{site}/Companies/Transport Infrastructure"
+    companies_dir = f"{current_dir}/Financial_Data/{site}/Companies/{sector}"
 
     # Get the list of companies from the "Companies" directory
     company_list = set(os.listdir(companies_dir))
-
+    print(company_list)
+    print(len(company_list))
+    
+    exit()
     # Process only matching companies in the "data" directory
     for company_name in os.listdir(data_dir):
         if company_name not in company_list:
