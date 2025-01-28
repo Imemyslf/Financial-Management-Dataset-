@@ -1,1 +1,0 @@
-print("kisu is the best")
