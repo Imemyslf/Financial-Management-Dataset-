@@ -3,6 +3,16 @@ import numpy as np
 import os
 from sklearn.impute import SimpleImputer
 
+
+current_dir = os.getcwd()
+
+# File path construction
+site = "MoneyControl"
+sector = "IT Services & Consulting"
+company_name = "HCL Technologies Ltd"
+file_name = "Quarterly-resul_combined.xlsx"
+file_name_2 = "Quarterly-resul_combined_2.xlsx"
+
 # Define reverse function
 def reverse_columns_in_groups(df, start_index, group_size=5):
     
@@ -20,11 +30,11 @@ def reverse_columns_in_groups(df, start_index, group_size=5):
     return df[new_columns]
 
 def handling_missing_values(df):
-    df.replace({"12 mths": np.nan, "0.00": np.nan, "--": np.nan}, inplace=True)
+    df.replace({"12 mths": np.nan,"9 mths":np.nan, "0.00": np.nan, "--": np.nan}, inplace=True)
     return df
 
 def checking_dtype(df, pos_1, pos_2):
-    print(type(df.iloc[pos_1, pos_2]))
+    print("\n\n",type(df.iloc[pos_1, pos_2]))
     
 def convert_dtr_float(df):      
     df.iloc[1:, 1:] = df.iloc[1:, 1:].replace({',': ''}, regex=True).astype(float)
@@ -43,7 +53,7 @@ def checking_for_missing_values(df):
         total_length = len(row[1:])  # Get the total length of the row (excluding the first column)
         
         if nan_count > 0:
-            print(f"Financial Term: {row[0]} - NaN values: {nan_count} out of {total_length} columns")
+            print(f"\n\n Financial Term: {row[0]} - NaN values: {nan_count} out of {total_length} columns")
     
     for column in missing_value.columns.values.tolist():
         # print(column)
@@ -63,15 +73,15 @@ def finding_null_values(df):
         # Check if more than half of the values are null
         if null_count > total_columns / 2:
             high_null_values.append(row[0])  # Add the row name (0th column) to high_null_values list
-        else:
+        elif 1 < null_count <= total_columns / 2:
             less_null_values.append(row[0])  # Add the row name (0th column) to less_null_values list
 
     # Print the results
-    print("Rows with more than half null values:", high_null_values)
-    print("Rows with half or fewer null values:", less_null_values)
-    print(f"Total rows with more than half null values: {len(high_null_values)}")
-    print(f"Total rows with half or fewer null values: {len(less_null_values)}")
-    print(f"Total rows in DataFrame: {len(df)}")
+    print("\n Rows with more than half null values:", high_null_values)
+    print("\n Rows with half or fewer null values:", less_null_values)
+    print(f"\n Total rows with more than half null values: {len(high_null_values)}")
+    print(f"\n Total rows with half or fewer null values: {len(less_null_values)}")
+    print(f"\n Total rows in DataFrame: {len(df)}")
     
     return high_null_values, less_null_values
 
@@ -88,35 +98,40 @@ def cleaning_data(df,less_null_values,high_null_values,save_path_relative):
         df_cleaned.to_excel(save_path_relative, index=False)
         # Print the cleaned DataFrame
         print(df_cleaned)
-
+        df.to_excel(save_path_relative, index=False)
 
         missing_value = df.isnull()
-        missing_value.tail(20)
+        print("\n\n Missing Values:- ",missing_value.tail(20))
 
         for column in missing_value.columns.values.tolist():
             # print(column)
             print(missing_value[column].value_counts())
             print("")
 
+        
+        save_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Pruned_Excel",f"2_Pruned_{file_name_2}") 
         df = df.T.reset_index()
         df.columns = ['Year'] + list(df.columns[1:])  # Rename the index column to "Year"
         df.to_excel(save_path_relative,index = False)
 
-        df_columns = df.iloc[0,1:]
-
-        print(less_null_values)
+        
+        # df_columns = df.iloc[0,1:]
+        # print("\n\n df_columns:- ", df_columns)
+        # print(less_null_values)
 
 
         # Set the first row as the header
         df.columns = df.iloc[0]  # Assign the first row as the column headers
         df = df[1:]  # Remove the first row since it's now the header
 
-        # Reset the index (optional)
-        df.reset_index(drop=True, inplace=True)
+        # # Reset the index (optional)
+        # df.reset_index(drop=True, inplace=True)
 
 
         # Check if all columns in less_null_values exist in the DataFrame
         missing_columns = [col for col in less_null_values if col not in df.columns]
+        print("\n\n Missing col:- ",missing_columns)
+        
         if missing_columns:
             print(f"Columns not found in DataFrame: {missing_columns}")
         else:
@@ -143,65 +158,7 @@ def cleaning_data(df,less_null_values,high_null_values,save_path_relative):
         df.columns = ['Year'] + list(df.columns[1:])
         df.to_excel(save_path_relative,index=False)
 
-def main():
-    # current_dir = os.getcwd()
-
-    # # File path construction
-    # site = "MoneyControl"
-    # sector = "IT Services & Consulting"
-    # company_name = "3i Infotech Ltd"
-    # file_name = "Profit-loss_combined.xlsx"
-    # file_name_2 = "Profit-loss_combined_2.xlsx"
-
-    # input_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Excel",file_name)
-    # print("Input file: ", input_path_relative)
-
-    # save_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Pruned_Excel",file_name_2)
-    # # Check if file exists
-    # if not os.path.exists(input_path_relative):
-    #     raise FileNotFoundError(f"Input file does not exist: {input_path_relative}")
-    
-    
-    # # Load the Excel file
-    # try:
-    #     df = pd.read_excel(input_path_relative)
-    #     print(df.head())
-    # except Exception as e:
-    #     print(f"Error reading the Excel file: {e}")
-
-    # # Start index where year columns begin
-    # start_index = 1  # Assuming the first column contains non-year data
-    # reversed_df = reverse_columns_in_groups(df, start_index=start_index)
-
-    # df = reversed_df
-    # print(df.head(5))
-
-    # df = handling_missing_values(df)
-    # df.to_excel(save_path_relative,index=False)
-
-    # checking_dtype(df,6,5)
-
-    # df = convert_dtr_float(df)
-
-    # checking_dtype(df,6,5)
-
-    # checking_for_missing_values(df)
-
-    # df.to_excel(save_path_relative,index=False)
-
-    # high_null_values = finding_null_values(df)[0]
-    # less_null_values = finding_null_values(df)[1]
-
-    # print(high_null_values)
-    # print(less_null_values)
-
-    # cleaning_data(df,less_null_values,high_null_values,save_path_relative)
-    
-    current_dir = os.getcwd()
-
-    # File path construction
-    site = "MoneyControl"    
-    sector = "IT Services & Consulting"
+def all_sector():
     
     total_companies = os.listdir(os.path.join(current_dir,"Financial_Data",site,"Companies",sector))
     
@@ -252,6 +209,62 @@ def main():
             print(less_null_values)
 
             cleaning_data(df,less_null_values,high_null_values,save_path_relative)
+
+def debug():
+    current_dir = os.getcwd()
+
+    # File path construction
+    site = "MoneyControl"
+    sector = "IT Services & Consulting"
+    company_name = "HCL Technologies Ltd"
+    file_name = "Quarterly-resul_combined.xlsx"
+    file_name_2 = "Quarterly-resul_combined_2.xlsx"
+
+    input_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Excel",file_name)
+    print("Input file: ", input_path_relative)
+
+    save_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Pruned_Excel",file_name_2)
+    # Check if file exists
+    if not os.path.exists(input_path_relative):
+        raise FileNotFoundError(f"Input file does not exist: {input_path_relative}")
+    
+    
+    # Load the Excel file
+    try:
+        df = pd.read_excel(input_path_relative)
+        print(df.head())
+    except Exception as e:
+        print(f"Error reading the Excel file: {e}")
+
+    # Start index where year columns begin
+    start_index = 1  # Assuming the first column contains non-year data
+    reversed_df = reverse_columns_in_groups(df, start_index=start_index)
+
+    df = reversed_df
+    print(df.head(5))
+
+    df = handling_missing_values(df)
+    df.to_excel(save_path_relative,index=False)
+
+    checking_dtype(df,6,5)
+
+    df = convert_dtr_float(df)
+    df.to_excel(save_path_relative,index=False)
+    
+    checking_dtype(df,6,5)
+
+    checking_for_missing_values(df)
+     
+    df.to_excel(save_path_relative,index=False)
+
+    high_null_values = finding_null_values(df)[0]
+    less_null_values = finding_null_values(df)[1]
+
+    print("\n High Null Values:- ",high_null_values)
+    print("\n Less Null Values:- ",less_null_values)
+
+    cleaning_data(df,less_null_values,high_null_values,save_path_relative)
     
 if __name__ == '__main__':    
-    main()
+    all_sector()
+    #debug()
