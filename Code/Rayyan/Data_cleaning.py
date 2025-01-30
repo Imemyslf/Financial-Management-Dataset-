@@ -271,5 +271,5 @@ def debug():
     cleaning_data(df,less_null_values,high_null_values,save_path_relative)
     
 if __name__ == '__main__':    
-    # all_sector()
-    debug()
+    all_sector()
+    # debug()
