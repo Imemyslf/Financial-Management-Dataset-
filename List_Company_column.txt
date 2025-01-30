@@ -1,0 +1,80 @@
+Companies with exactly 46 columns are 61:
+3i Infotech Ltd: 46
+Adroit Infotech Ltd: 46
+AION-TECH SOLUTIONS Ltd: 46
+Allied Digital Services Ltd: 46
+ASM Technologies Ltd: 46
+Avance Technologies Ltd: 46
+Bartronics India Ltd: 46
+Birlasoft Ltd: 46
+Cambridge Technology Enterprises Ltd: 46
+CG-Vak Software and Exports Ltd: 46
+COFORGE LIMITED Ltd: 46
+Cranes Software International Ltd: 46
+Cressanda Solution Ltd: 46
+Cybertech Systems and Software Ltd: 46
+Cyient Ltd: 46
+Danlaw Technologies India Ltd: 46
+Datamatics Global Services Ltd: 46
+Dynacons Systems and Solutions Ltd: 46
+Elnet Technologies Ltd: 46
+Equippp Social Impact Technologies Ltd: 46
+Expleo Solutions Ltd: 46
+FCS Software Solutions Ltd: 46
+Genesys International Corporation Ltd: 46
+HCL Technologies Ltd: 46
+Indian Infotech and Software Ltd: 46
+Infosys Ltd: 46
+Inspirisys Solutions Ltd: 46
+IZMO Ltd: 46
+Jeevan Scientific Technology Ltd: 46
+Kati Patang Lifestyle Ltd: 46
+Kellton Tech Solutions Ltd: 46
+Kernex Microsystems (India) Ltd: 46
+Mastek Ltd: 46
+Megasoft Ltd: 46
+MphasiS Ltd: 46
+Nettlinx Ltd: 46
+Onward Technologies Ltd: 46
+Oracle Financial Services Software Ltd: 46
+Palred Technologies Ltd: 46
+Persistent Systems Ltd: 46
+R Systems International Ltd: 46
+Sasken Technologies Ltd: 46
+Saven Technologies Ltd: 46
+SBSJHVHSV Ltd: 46
+Securekloud Technologies Ltd: 46
+Sofcom Systems Ltd: 46
+Softsol India Ltd: 46
+Sonata Software Ltd: 46
+Starcom Information Technology Ltd: 46
+Tata Consultancy Services Ltd: 46
+Tech Mahindra Ltd: 46
+Tera Software Ltd: 46
+Titan Intech Ltd: 46
+Trigyn Technologies Ltd: 46
+USG Tech Solutions Ltd: 46
+VEDAVAAG Systems Ltd: 46
+WEP Solutions Ltd: 46
+Wipro Ltd: 46
+Xchanging Solutions Ltd: 46
+Xtglobal Infotech Ltd: 46
+Zensar Technologies Ltd: 46
+
+Companies with less than 46 columns are 16:
+Affle India Ltd: 26
+Alphalogic Techsys Ltd: 11
+Atishay Ltd: 36
+Dev Information Technology Ltd: 16
+Happiest Minds Technologies Ltd: 21
+Intellect Design Arena Ltd: 41
+KPIT Technologies Ltd: 26
+Latent View Analytics Ltd: 16
+LTIMindtree Ltd: 40
+Protean eGov Technologies Ltd: 11
+Quick Heal Technologies Ltd: 40
+Route Mobile Ltd: 21
+RPSG VENTURES Ltd: 26
+Shradha AI Technologies Ltd: 11
+Sigma Solve Ltd: 11
+Unicommerce Esolutions Ltd: 6
