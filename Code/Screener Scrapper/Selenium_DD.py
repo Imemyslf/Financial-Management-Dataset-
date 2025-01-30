@@ -75,8 +75,11 @@ except Exception as e:
 # Step 5: Click the "+" button to expand dropdown (adjust selector as needed)
 time.sleep(3)  # Wait for the page to fully load
 try:
-    plus_button = driver.find_element(By.CLASS_NAME, "blue-icon")  # Adjust if needed
-    plus_button.click()
+    plus_button = driver.find_elements(By.CSS_SELECTOR, "span.blue-icon")  # Adjust if needed
+    for button in plus_button:
+        button.click()
+        plus_button_button = button.find_element(By.CSS_SELECTOR,"span.blue-icon")
+        print(plus_button_button)
     time.sleep(3)  # Wait for the dropdown data to load
     print("Expanded dropdown successfully.")
 except NoSuchElementException as e:
@@ -86,7 +89,11 @@ except Exception as e:
 
 # Step 6: Get the updated page source after rendering
 html = driver.page_source
+print(html)
 
+with open("Link.html","w",encoding="utf-8") as file:
+    file.write(html)
+    
 # Step 7: Use BeautifulSoup to parse the updated HTML
 soup = BeautifulSoup(html, 'html.parser')
 

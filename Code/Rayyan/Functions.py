@@ -107,35 +107,36 @@ def combine_excel_to_companies():
         return
 
     # Iterate through sectors
-    for sector_name in os.listdir(companies_root_path):
-        sector_path = os.path.join(companies_root_path, sector_name)
+    for sector_name in os.listdir(companies_root_path):        
+        if sector_name == "Hospital & Healthcare Services":
+            sector_path = os.path.join(companies_root_path, sector_name)
 
-        if not os.path.isdir(sector_path):
-            continue
-
-        print(f"Processing sector: {sector_name}")
-
-        # Iterate through companies
-        for company_name in os.listdir(sector_path):
-            company_path = os.path.join(sector_path, company_name)
-            excel_root_path = os.path.join(company_path, "Excel")
-
-            if not os.path.exists(excel_root_path):
-                print(f"Excel folder not found for {company_name} in {sector_name}. Skipping.")
+            if not os.path.isdir(sector_path):
                 continue
 
-            # Iterate through subfolders like Balance Sheet, Profit & Loss, etc.
-            for subfolder_name in os.listdir(excel_root_path):
-                subfolder_path = os.path.join(excel_root_path, subfolder_name)
+            print(f"Processing sector: {sector_name}")
 
-                if os.path.isdir(subfolder_path):
-                    print(f"Processing subfolder: {subfolder_name} for company: {company_name}")
+            # Iterate through companies
+            for company_name in os.listdir(sector_path):
+                company_path = os.path.join(sector_path, company_name)
+                excel_root_path = os.path.join(company_path, "Excel")
 
-                    # Define the save path for the consolidated Excel file
-                    save_path = os.path.join(excel_root_path, f"{subfolder_name}_combined.xlsx")
+                if not os.path.exists(excel_root_path):
+                    print(f"Excel folder not found for {company_name} in {sector_name}. Skipping.")
+                    continue
 
-                    # Consolidate Excel files
-                    consolidate_and_merge_excel_sheets(subfolder_path, save_path)
+                # Iterate through subfolders like Balance Sheet, Profit & Loss, etc.
+                for subfolder_name in os.listdir(excel_root_path):
+                    subfolder_path = os.path.join(excel_root_path, subfolder_name)
+
+                    if os.path.isdir(subfolder_path):
+                        print(f"Processing subfolder: {subfolder_name} for company: {company_name}")
+
+                        # Define the save path for the consolidated Excel file
+                        save_path = os.path.join(excel_root_path, f"{subfolder_name}_combined.xlsx")
+
+                        # Consolidate Excel files
+                        consolidate_and_merge_excel_sheets(subfolder_path, save_path)
                     
 if __name__ == "__main__":
     current_dir = os.getcwd()
@@ -149,7 +150,6 @@ if __name__ == "__main__":
     print(company_list)
     print(len(company_list))
     
-    exit()
     # Process only matching companies in the "data" directory
     for company_name in os.listdir(data_dir):
         if company_name not in company_list:
