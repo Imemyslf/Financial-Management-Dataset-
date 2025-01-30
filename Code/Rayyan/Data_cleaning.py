@@ -9,9 +9,9 @@ current_dir = os.getcwd()
 # File path construction
 site = "MoneyControl"
 sector = "IT Services & Consulting"
-company_name = "HCL Technologies Ltd"
-file_name = "Quarterly-resul_combined.xlsx"
-file_name_2 = "Quarterly-resul_combined_2.xlsx"
+company_name = "Sigma Solve Ltd"
+file_name = "Balance-sheet_combined.xlsx"
+file_name_2 = "Balance-sheet_combined_2.xlsx"
 
 # Define reverse function
 def reverse_columns_in_groups(df, start_index, group_size=5):
@@ -73,7 +73,7 @@ def finding_null_values(df):
         # Check if more than half of the values are null
         if null_count > total_columns / 2:
             high_null_values.append(row[0])  # Add the row name (0th column) to high_null_values list
-        elif 1 < null_count <= total_columns / 2:
+        elif 1 <= null_count <= total_columns / 2:
             less_null_values.append(row[0])  # Add the row name (0th column) to less_null_values list
 
     # Print the results
@@ -109,7 +109,7 @@ def cleaning_data(df,less_null_values,high_null_values,save_path_relative):
             print("")
 
         
-        save_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Pruned_Excel",f"2_Pruned_{file_name_2}") 
+        # save_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Pruned_Excel",f"2_Pruned_{file_name_2}") 
         df = df.T.reset_index()
         df.columns = ['Year'] + list(df.columns[1:])  # Rename the index column to "Year"
         df.to_excel(save_path_relative,index = False)
@@ -144,6 +144,10 @@ def cleaning_data(df,less_null_values,high_null_values,save_path_relative):
             # Fit and transform the specified columns
             df[less_null_values] = imputer.fit_transform(df[less_null_values])
 
+            
+            # Round the values to 2 decimal places
+            df[less_null_values] = df[less_null_values].round(2)
+            
             # Print the updated DataFrame (optional)
             print(df)
 
@@ -193,11 +197,11 @@ def all_sector():
             df = handling_missing_values(df)
             df.to_excel(save_path_relative,index=False)
 
-            checking_dtype(df,6,5)
+            checking_dtype(df,6,4)
 
             df = convert_dtr_float(df)
 
-            checking_dtype(df,6,5)
+            checking_dtype(df,6,4)
 
             checking_for_missing_values(df)
 
@@ -216,9 +220,9 @@ def debug():
     # File path construction
     site = "MoneyControl"
     sector = "IT Services & Consulting"
-    company_name = "HCL Technologies Ltd"
-    file_name = "Quarterly-resul_combined.xlsx"
-    file_name_2 = "Quarterly-resul_combined_2.xlsx"
+    # company_name = "HCL Technologies Ltd"
+    # file_name = "Quarterly-resul_combined.xlsx"
+    # file_name_2 = "Quarterly-resul_combined_2.xlsx"
 
     input_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Excel",file_name)
     print("Input file: ", input_path_relative)
@@ -241,17 +245,17 @@ def debug():
     reversed_df = reverse_columns_in_groups(df, start_index=start_index)
 
     df = reversed_df
-    print(df.head(5))
+    print("\n\n df.head():- \n",df.head(5))
 
     df = handling_missing_values(df)
     df.to_excel(save_path_relative,index=False)
 
-    checking_dtype(df,6,5)
+    checking_dtype(df,6,4)
 
     df = convert_dtr_float(df)
     df.to_excel(save_path_relative,index=False)
     
-    checking_dtype(df,6,5)
+    checking_dtype(df,6,4)
 
     checking_for_missing_values(df)
      
@@ -262,9 +266,10 @@ def debug():
 
     print("\n High Null Values:- ",high_null_values)
     print("\n Less Null Values:- ",less_null_values)
+    exit()
 
     cleaning_data(df,less_null_values,high_null_values,save_path_relative)
     
 if __name__ == '__main__':    
-    all_sector()
-    #debug()
+    # all_sector()
+    debug()
