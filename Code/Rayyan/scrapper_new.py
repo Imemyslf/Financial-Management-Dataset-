@@ -16,7 +16,7 @@ with open(path, "r") as f:
     hospital_links = json.load(f)
 print("Length of hospital_links:- ",len(hospital_links))
 
-for url in hospital_links[20:30]:
+for url in hospital_links[40:47]:
     # Send a request to the URL
     request = requests.get(url)
     if request.status_code == 200:
