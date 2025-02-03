@@ -87,7 +87,7 @@ def finding_null_values(df):
 
 
 
-def cleaning_data(df,less_null_values,high_null_values,save_path_relative):
+def cleaning_data(df,less_null_values,high_null_values,save_path_relative,excel_file):
     if len(less_null_values) > 0:
         # Iterate through the DataFrame and delete rows with names in high_null_values
         df_cleaned = df[~df.iloc[:, 0].isin(high_null_values)]
@@ -110,15 +110,13 @@ def cleaning_data(df,less_null_values,high_null_values,save_path_relative):
 
         
         # save_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Pruned_Excel",f"2_Pruned_{file_name_2}") 
-        df = df.T.reset_index()
-        df.columns = ['Year'] + list(df.columns[1:])  # Rename the index column to "Year"
-        df.to_excel(save_path_relative,index = False)
-
-        
-        # df_columns = df.iloc[0,1:]
-        # print("\n\n df_columns:- ", df_columns)
-        # print(less_null_values)
-
+        if excel_file == "Quarterly-resul_combined.xlsx":
+            df = df.T
+            df.to_excel(save_path_relative,index = False)
+        else:
+            df = df.T.reset_index()
+            df.columns = ['Year'] + list(df.columns[1:])  # Rename the index column to "Year"
+            df.to_excel(save_path_relative,index = False)
 
         # Set the first row as the header
         df.columns = df.iloc[0]  # Assign the first row as the column headers
@@ -212,7 +210,7 @@ def all_sector():
             print(high_null_values)
             print(less_null_values)
 
-            cleaning_data(df,less_null_values,high_null_values,save_path_relative)
+            cleaning_data(df,less_null_values,high_null_values,save_path_relative,excel_file)
 
 def debug():
     current_dir = os.getcwd()
@@ -271,5 +269,5 @@ def debug():
     cleaning_data(df,less_null_values,high_null_values,save_path_relative)
     
 if __name__ == '__main__':    
-    all_sector()
-    # debug()
+    # all_sector()
+    debug()
