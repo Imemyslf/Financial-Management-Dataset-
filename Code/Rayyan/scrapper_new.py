@@ -11,12 +11,12 @@ import json
 # url = input("\n Enter the URL to scrape:- \n URL:- ")
 # url = "https://www.moneycontrol.com/india/stockpricequote/computers-software/tataconsultancyservices/TCS"
 
-path = f"{os.getcwd()}/Code/Rayyan/Sector_Links/Hospital-healthcare-services_links.json"
+path = f"{os.getcwd()}/Code/Rayyan/Sector_Links/Construction-residential-commercial-complexes_links.json"
 with open(path, "r") as f:
     hospital_links = json.load(f)
 print("Length of hospital_links:- ",len(hospital_links))
 
-for url in hospital_links[20:30]:
+for url in hospital_links[1:30]:
     # Send a request to the URL
     request = requests.get(url)
     if request.status_code == 200:
