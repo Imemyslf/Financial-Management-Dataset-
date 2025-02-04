@@ -5,13 +5,8 @@ from sklearn.impute import SimpleImputer
 
 
 current_dir = os.getcwd()
-
-# File path construction
 site = "MoneyControl"
 sector = "IT Services & Consulting"
-company_name = "Sigma Solve Ltd"
-file_name = "Balance-sheet_combined.xlsx"
-file_name_2 = "Balance-sheet_combined_2.xlsx"
 
 # Define reverse function
 def reverse_columns_in_groups(df, start_index, group_size=5):
@@ -86,79 +81,168 @@ def finding_null_values(df):
     return high_null_values, less_null_values
 
 
-
-def cleaning_data(df,less_null_values,high_null_values,save_path_relative,excel_file):
-    if len(less_null_values) > 0:
-        # Iterate through the DataFrame and delete rows with names in high_null_values
-        df_cleaned = df[~df.iloc[:, 0].isin(high_null_values)]
-
-        # Reset the row index after removing the rows
-        df_cleaned = df_cleaned.reset_index(drop=True)
-        df = df_cleaned
-        df_cleaned.to_excel(save_path_relative, index=False)
-        # Print the cleaned DataFrame
-        print(df_cleaned)
+def cleaning_data(df, less_null_values, high_null_values, save_path_relative, excel_file):
+    def remove_high_null_values(df, high_null_values):
+        df_cleaned = df[~df.iloc[:, 0].isin(high_null_values)].reset_index(drop=True)
+        return df_cleaned
+    
+    def transpose_and_format(df):
+        df_transposed = df.T.reset_index()
+        df_transposed.columns = df_transposed.iloc[0]
+        return df_transposed[1:].rename(columns={df_transposed.columns[0]: "Quarter"})
+    
+    def impute_missing_values(df, columns):
+        if not columns:
+            return df
+        df[columns] = df[columns].apply(pd.to_numeric, errors='coerce')
+        imputer = SimpleImputer(strategy='mean')
+        df[columns] = imputer.fit_transform(df[columns])
+        df[columns] = df[columns].round(2)
+        return df
+    
+    df = remove_high_null_values(df, high_null_values)
+    df.to_excel(save_path_relative, index=False)
+    
+    if excel_file == "Quarterly-resul_combined.xlsx":
+        df = transpose_and_format(df)
+        df = impute_missing_values(df, less_null_values)
         df.to_excel(save_path_relative, index=False)
-
-        missing_value = df.isnull()
-        print("\n\n Missing Values:- ",missing_value.tail(20))
-
-        for column in missing_value.columns.values.tolist():
-            # print(column)
-            print(missing_value[column].value_counts())
-            print("")
-
+        print("SUCCESSFULLY CLEANED QUARTERLY DATA")
+        return
+    
+    if less_null_values:
+        df = df.T.reset_index()
+        df.columns = ['Year'] + list(df.columns[1:])
+        df.to_excel(save_path_relative, index=False)
         
-        # save_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Pruned_Excel",f"2_Pruned_{file_name_2}") 
-        if excel_file == "Quarterly-resul_combined.xlsx":
-            df = df.T
-            df.to_excel(save_path_relative,index = False)
-        else:
-            df = df.T.reset_index()
-            df.columns = ['Year'] + list(df.columns[1:])  # Rename the index column to "Year"
-            df.to_excel(save_path_relative,index = False)
-
-        # Set the first row as the header
-        df.columns = df.iloc[0]  # Assign the first row as the column headers
-        df = df[1:]  # Remove the first row since it's now the header
-
-        # # Reset the index (optional)
-        # df.reset_index(drop=True, inplace=True)
-
-
-        # Check if all columns in less_null_values exist in the DataFrame
+        df.columns = df.iloc[0]
+        df = df[1:]
+        
         missing_columns = [col for col in less_null_values if col not in df.columns]
-        print("\n\n Missing col:- ",missing_columns)
-        
         if missing_columns:
             print(f"Columns not found in DataFrame: {missing_columns}")
         else:
-            # Convert columns to numeric (if not already numeric)
-            df[less_null_values] = df[less_null_values].apply(pd.to_numeric, errors='coerce')
-
-            # Initialize the SimpleImputer with the strategy set to 'mean'
-            imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
-
-            # Fit and transform the specified columns
-            df[less_null_values] = imputer.fit_transform(df[less_null_values])
-
-            
-            # Round the values to 2 decimal places
-            df[less_null_values] = df[less_null_values].round(2)
-            
-            # Print the updated DataFrame (optional)
-            print(df)
-
-            # Save the updated DataFrame to Excel (optional)
+            df = impute_missing_values(df, less_null_values)
             df.to_excel(save_path_relative, index=False)
-
-        print(df.head(5))
+        
     else:
-        df = df.dropna(axis=0)
-        df = df.reset_index(drop=True)
-        df = df.T.reset_index()
-        df.columns = ['Year'] + list(df.columns[1:])
-        df.to_excel(save_path_relative,index=False)
+        df.dropna(axis=0, inplace=True)
+        df = transpose_and_format(df)
+        df.to_excel(save_path_relative, index=False)
+    
+    print("DATA CLEANING COMPLETE")
+
+
+# def cleaning_data(df,less_null_values,high_null_values,save_path_relative,excel_file):
+#     if excel_file == "Quarterly-resul_combined.xlsx":
+        
+#         print("INSIDE QUATERLY RESUL COMBINED")
+#         #CLEANING FOR QUATERLY
+#         df_cleaned = df[~df.iloc[:, 0].isin(high_null_values)]
+#         # Reset the row index after removing the rows
+#         df_cleaned = df_cleaned.reset_index(drop=True)
+#         df = df_cleaned
+#         # Print the cleaned DataFrame
+#         print(df_cleaned)
+#         df.to_excel(save_path_relative, index=False)# Iterate through the DataFrame and delete rows with names in high_null_values
+
+#         #TRANSFORMING QUATERS
+#         df_transposed = df.T
+#         # Reset index to move old headers into the first column
+#         df_transposed.reset_index(inplace=True)
+
+#         # Set the first row as the new column headers
+#         df_transposed.columns = df_transposed.iloc[0]
+#         df_transposed = df_transposed[1:]
+
+#         # Rename the first column
+#         df_transposed.rename(columns={df_transposed.columns[0]: "Quarter"}, inplace=True)
+#         df = df_transposed
+
+#         #MEAN FOR QUATERS
+#         df[less_null_values] = df[less_null_values].apply(pd.to_numeric, errors='coerce')
+
+#         # Initialize the SimpleImputer with the strategy set to 'mean'
+#         imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
+
+#         # Fit and transform the specified columns
+#         df[less_null_values] = imputer.fit_transform(df[less_null_values])
+
+#         # Round the values to 2 decimal places
+#         df[less_null_values] = df[less_null_values].round(2)
+
+#         df.to_excel(save_path_relative, index=False)
+#         print("SUCCESSFULLY CLEANED QUATERLY DATA")
+#         return
+
+
+#     if len(less_null_values) > 0:
+#         # Iterate through the DataFrame and delete rows with names in high_null_values
+#         df_cleaned = df[~df.iloc[:, 0].isin(high_null_values)]
+
+#         # Reset the row index after removing the rows
+#         df_cleaned = df_cleaned.reset_index(drop=True)
+#         df = df_cleaned
+#         df_cleaned.to_excel(save_path_relative, index=False)
+#         # Print the cleaned DataFrame
+#         print(df_cleaned)
+#         df.to_excel(save_path_relative, index=False)
+
+#         missing_value = df.isnull()
+#         print("\n\n Missing Values:- ",missing_value.tail(20))
+
+#         for column in missing_value.columns.values.tolist():
+#             # print(column)
+#             print(missing_value[column].value_counts())
+#             print("")
+
+        
+#         # save_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Pruned_Excel",f"2_Pruned_{file_name_2}") 
+#         df = df.T.reset_index()
+#         df.columns = ['Year'] + list(df.columns[1:])  # Rename the index column to "Year"
+#         df.to_excel(save_path_relative,index = False)
+
+#         # Set the first row as the header
+#         df.columns = df.iloc[0]  # Assign the first row as the column headers
+#         df = df[1:]  # Remove the first row since it's now the header
+
+#         # # Reset the index (optional)
+#         # df.reset_index(drop=True, inplace=True)
+
+
+#         # Check if all columns in less_null_values exist in the DataFrame
+#         missing_columns = [col for col in less_null_values if col not in df.columns]
+#         print("\n\n Missing col:- ",missing_columns)
+        
+#         if missing_columns:
+#             print(f"Columns not found in DataFrame: {missing_columns}")
+#         else:
+#             # Convert columns to numeric (if not already numeric)
+#             df[less_null_values] = df[less_null_values].apply(pd.to_numeric, errors='coerce')
+
+#             # Initialize the SimpleImputer with the strategy set to 'mean'
+#             imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
+
+#             # Fit and transform the specified columns
+#             df[less_null_values] = imputer.fit_transform(df[less_null_values])
+
+            
+#             # Round the values to 2 decimal places
+#             df[less_null_values] = df[less_null_values].round(2)
+            
+#             # Print the updated DataFrame (optional)
+#             print(df)
+
+#             # Save the updated DataFrame to Excel (optional)
+#             df.to_excel(save_path_relative, index=False)
+
+#         print(df.head(5))
+#     else:
+#         df = df.dropna(axis=0)
+#         df = df.reset_index(drop=True)
+#         df = df.T.reset_index()
+#         df.columns = ['Year'] + list(df.columns[1:])
+#         df.to_excel(save_path_relative,index=False)
 
 def all_sector():
     
@@ -218,9 +302,9 @@ def debug():
     # File path construction
     site = "MoneyControl"
     sector = "IT Services & Consulting"
-    # company_name = "HCL Technologies Ltd"
-    # file_name = "Quarterly-resul_combined.xlsx"
-    # file_name_2 = "Quarterly-resul_combined_2.xlsx"
+    company_name = "3i Infotech Ltd"
+    file_name = "Quarterly-resul_combined.xlsx"
+    file_name_2 = "zovbayek_aditya.xlsx"
 
     input_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Excel",file_name)
     print("Input file: ", input_path_relative)
@@ -264,10 +348,9 @@ def debug():
 
     print("\n High Null Values:- ",high_null_values)
     print("\n Less Null Values:- ",less_null_values)
-    exit()
 
-    cleaning_data(df,less_null_values,high_null_values,save_path_relative)
+    cleaning_data(df,less_null_values,high_null_values,save_path_relative,file_name)
     
 if __name__ == '__main__':    
-    # all_sector()
-    debug()
+    all_sector()
+    #debug()
