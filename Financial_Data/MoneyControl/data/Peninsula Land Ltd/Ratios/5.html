@@ -940,7 +940,7 @@
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga( 'create', 'UA-156703-1', 'moneycontrol.com' );
+	ga( 'create', 'UA-156703-1', 'moneycontrol.com', { 'sendPageview': false } );
 	ga( 'require', 'GTM-PGHT597' );
 
 	/* Set the user ID using signed-in user_id -> Start */
@@ -974,7 +974,7 @@
 		if( user_token_normal != '' ) { login_user = '1'; }
 		ga( 'set', 'dimension43', login_user );
 	/* End <- GA Custom Dimension for logged-in / Non Logged-in User */
-
+	/* set pageview from here manually */
 	ga( 'send', 'pageview' );
 
 	function urchinTracker(pa_str) {ga(['_trackPageview', ''+pa_str+'']);}
@@ -1150,10 +1150,10 @@
 	<div class="clearfix">
 		<ul class="suglist">
 			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/diamondjewellery/kalyanjewellersindia/KJI01" title="Kalyan Jeweller">Kalyan Jeweller <span>INE303R01014, KALYANKJIL, 543278</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/hotel-resortrestaurants/itchotels/IHL02" title="ITC Hotels">ITC Hotels <span>INE379A01028, ITCHOTELS, 544325</span></a></li>
 			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/auto-ancillaries-brakes/olaelectricmobility/OEM" title="Ola Electric">Ola Electric <span>INE0LXG01040, OLAELEC, 544225</span></a></li>
 			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/power-generationdistribution/suzlonenergy/SE17" title="Suzlon Energy">Suzlon Energy <span>INE040H01021, SUZLON, 532667</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/finance-investment/centraldepositoryservicesltd/CDS" title="CDSL">CDSL <span>INE736A01011, CDSL, 0</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/electronics-components/kaynestechnologyindia/KTI" title="Kaynes Tech">Kaynes Tech <span>INE918Z01012, KAYNES, 543664</span></a></li><li><a onclick='setGAEventTracker( "Search Trend", "Click", "Instant Cash 15 lakhs | " + window.location.href ); setCTEventTracker( "Lending", "Touchpoint", "Search | " + window.location.href );' href="https://www.moneycontrolpay.com/" class="trend_cb" title="Instant Cash 15 lakhs - Win Gold Coins"><div class="cb_search_new" style="text-align:center;"><img src="https://images.moneycontrol.com/images/common/header/trending_search_0402_800x66.png?impolicy=mchigh" alt="Tap & Unlock Your Funds! up to ₹15 lakhs" title="Tap & Unlock Your Funds! up to ₹15 lakhs" /></div></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI" title="Reliance">Reliance <span>INE002A01018, RELIANCE, 500325</span></a></li><li><a onclick='setGAEventTracker( "Search Trend", "Click", "Instant Cash 15 lakhs | " + window.location.href ); setCTEventTracker( "Lending", "Touchpoint", "Search | " + window.location.href );' href="https://www.moneycontrolpay.com/" class="trend_cb" title="Instant Cash 15 lakhs - Win Gold Coins"><div class="cb_search_new" style="text-align:center;"><img src="https://images.moneycontrol.com/images/common/header/trending_search_0402_800x66.png?impolicy=mchigh" alt="Tap & Unlock Your Funds! up to ₹15 lakhs" title="Tap & Unlock Your Funds! up to ₹15 lakhs" /></div></a></li>
 		</ul>
 	</div>
 </div>
@@ -1164,7 +1164,7 @@
 	function setCTEventTracker( optCategory, optAction, optLabel ) {
 		if( typeof window.clevertap === "object" ) { clevertap.event.push( optCategory, { [optAction]: optLabel } ); }
 	}
-</script><!-- Updated @ 2025-01-28 20:18:08 -->									<!-- End <- Trending search ooptions -->
+</script><!-- Updated @ 2025-02-05 12:48:38 -->									<!-- End <- Trending search ooptions -->
 
 									<!-- auto suggest box-->
 									<div class="sugBox" id="autosugg_mc1" style="display:none;">
@@ -2865,11 +2865,11 @@ function dfpGutter_getCookie(e){
 <!-- End <- MC Mega Menu - 3 - News -->
 								</li>
 														<li  cid="30" class="menu_l1 ">
-									<a href="https://www.moneycontrol.com/elections/assembly-election/delhi/" title="Delhi Elections"   >
-										Delhi Elections									</a>
+									<a href="https://www.moneycontrol.com/elections/assembly-election/delhi/" title="Delhi Polls"   >
+										Delhi Polls									</a>
 																	</li>
 													<li cid="13" class="menu_l1  budgetMenu">
-								<a href="https://www.moneycontrol.com/budget/" title="Budget 2025"   ><span class="gryBox">Budget 2<svg xmlns="https://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"> <g id="Group_5" data-name="Group 5" transform="translate(-121 -61)"> <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(121 61)" fill="none" stroke="#fff" stroke-width="1"> <circle cx="5" cy="5" r="5" stroke="none"></circle> <circle cx="5" cy="5" r="4.5" fill="none"></circle> </g> <path id="Path_9" data-name="Path 9" d="M271.009,183v.585c.342.018,1.216-.054,1.351.369h-1.351v.522h1.414a.856.856,0,0,1-.666.486l-.747.018L271,185.5l1.567,1.819h.811l-1.477-1.81a1.332,1.332,0,0,0,1.252-1.063l.567.018v-.5h-.612a.833.833,0,0,0-.171-.459h.8V183Z" transform="translate(-146.369 -118.926)" fill="#fff" fill-rule="evenodd"></path> </g> </svg>25</span>
+								<a href="https://www.moneycontrol.com/budget/" title="Budget 2025"   ><span class="gryBox">Budget<!-- Budget 2<svg xmlns="https://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"> <g id="Group_5" data-name="Group 5" transform="translate(-121 -61)"> <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(121 61)" fill="none" stroke="#fff" stroke-width="1"> <circle cx="5" cy="5" r="5" stroke="none"></circle> <circle cx="5" cy="5" r="4.5" fill="none"></circle> </g> <path id="Path_9" data-name="Path 9" d="M271.009,183v.585c.342.018,1.216-.054,1.351.369h-1.351v.522h1.414a.856.856,0,0,1-.666.486l-.747.018L271,185.5l1.567,1.819h.811l-1.477-1.81a1.332,1.332,0,0,0,1.252-1.063l.567.018v-.5h-.612a.833.833,0,0,0-.171-.459h.8V183Z" transform="translate(-146.369 -118.926)" fill="#fff" fill-rule="evenodd"></path> </g> </svg>25 --></span>
 								<span class="arrow down"></span>
 								</a>
 								<style>
@@ -3105,13 +3105,13 @@ function dfpGutter_getCookie(e){
 		</div>
 	</div>
 </div>							</li>
+														<li  cid="29" class="menu_l1 ">
+									<a href="https://www.moneycontrol.com/editors-picks/" title="Editor’s Picks"   >
+										Editor’s Picks									</a>
+																	</li>
 														<li  cid="20" class="menu_l1 ">
 									<a href="https://www.moneycontrol.com/news/technology-startups" title="Tech/Startups"   >
 										Tech									</a>
-																	</li>
-														<li  cid="9" class="menu_l1 ">
-									<a href="https://www.moneycontrol.com/news/india/" title="India"   >
-										India									</a>
 																	</li>
 														<li  cid="1" class="menu_l1  hoverblock">
 									<a href="https://www.moneycontrol.com/india/bestportfoliomanager/investment-tool" title="Portfolio"   >
@@ -4063,10 +4063,10 @@ function dfpGutter_getCookie(e){
 	<div class="clearfix">
 		<ul class="suglist">
 			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/diamondjewellery/kalyanjewellersindia/KJI01" title="Kalyan Jeweller">Kalyan Jeweller <span>INE303R01014, KALYANKJIL, 543278</span></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/hotel-resortrestaurants/itchotels/IHL02" title="ITC Hotels">ITC Hotels <span>INE379A01028, ITCHOTELS, 544325</span></a></li>
 			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/auto-ancillaries-brakes/olaelectricmobility/OEM" title="Ola Electric">Ola Electric <span>INE0LXG01040, OLAELEC, 544225</span></a></li>
 			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/power-generationdistribution/suzlonenergy/SE17" title="Suzlon Energy">Suzlon Energy <span>INE040H01021, SUZLON, 532667</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/finance-investment/centraldepositoryservicesltd/CDS" title="CDSL">CDSL <span>INE736A01011, CDSL, 0</span></a></li>
-			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/electronics-components/kaynestechnologyindia/KTI" title="Kaynes Tech">Kaynes Tech <span>INE918Z01012, KAYNES, 543664</span></a></li><li><a onclick='setGAEventTracker( "Search Trend", "Click", "Instant Cash 15 lakhs | " + window.location.href ); setCTEventTracker( "Lending", "Touchpoint", "Search | " + window.location.href );' href="https://www.moneycontrolpay.com/" class="trend_cb" title="Instant Cash 15 lakhs - Win Gold Coins"><div class="cb_search_new" style="text-align:center;"><img src="https://images.moneycontrol.com/images/common/header/trending_search_0402_800x66.png?impolicy=mchigh" alt="Tap & Unlock Your Funds! up to ₹15 lakhs" title="Tap & Unlock Your Funds! up to ₹15 lakhs" /></div></a></li>
+			<li><a onclick='setGAEventTracker( "SEARCHUSAGE", "MCTRENDS", "STKCLICK" );' href="https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI" title="Reliance">Reliance <span>INE002A01018, RELIANCE, 500325</span></a></li><li><a onclick='setGAEventTracker( "Search Trend", "Click", "Instant Cash 15 lakhs | " + window.location.href ); setCTEventTracker( "Lending", "Touchpoint", "Search | " + window.location.href );' href="https://www.moneycontrolpay.com/" class="trend_cb" title="Instant Cash 15 lakhs - Win Gold Coins"><div class="cb_search_new" style="text-align:center;"><img src="https://images.moneycontrol.com/images/common/header/trending_search_0402_800x66.png?impolicy=mchigh" alt="Tap & Unlock Your Funds! up to ₹15 lakhs" title="Tap & Unlock Your Funds! up to ₹15 lakhs" /></div></a></li>
 		</ul>
 	</div>
 </div>
@@ -4077,7 +4077,7 @@ function dfpGutter_getCookie(e){
 	function setCTEventTracker( optCategory, optAction, optLabel ) {
 		if( typeof window.clevertap === "object" ) { clevertap.event.push( optCategory, { [optAction]: optLabel } ); }
 	}
-</script><!-- Updated @ 2025-01-28 20:18:08 -->						</div>
+</script><!-- Updated @ 2025-02-05 12:48:38 -->						</div>
 						<!-- trending search ooptions end --> 
 
 						<!-- auto suggest box-->
@@ -4728,19 +4728,16 @@ function dfpGutter_getCookie(e){
 								<a href="https://www.moneycontrol.com/news/" title="News" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'News | ' + window.location.href );"   >News</a>
 							</li>
 												<li  cid="30" class="wap_menu_l1 ">
-								<a href="https://www.moneycontrol.com/elections/assembly-election/delhi/" title="Delhi Elections" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Delhi Elections | ' + window.location.href );"   >Delhi Elections</a>
+								<a href="https://www.moneycontrol.com/elections/assembly-election/delhi/" title="Delhi Polls" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Delhi Polls | ' + window.location.href );"   >Delhi Polls</a>
 							</li>
 												<li  cid="13" class="wap_menu_l1  budgetMenu">
-								<a href="https://www.moneycontrol.com/budget/" title="Budget 2025" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Budget 2025 | ' + window.location.href );"   ><span class="gryBox">Budget 2<svg xmlns="https://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"> <g id="Group_5" data-name="Group 5" transform="translate(-121 -61)"> <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(121 61)" fill="none" stroke="#fff" stroke-width="1"> <circle cx="5" cy="5" r="5" stroke="none"></circle> <circle cx="5" cy="5" r="4.5" fill="none"></circle> </g> <path id="Path_9" data-name="Path 9" d="M271.009,183v.585c.342.018,1.216-.054,1.351.369h-1.351v.522h1.414a.856.856,0,0,1-.666.486l-.747.018L271,185.5l1.567,1.819h.811l-1.477-1.81a1.332,1.332,0,0,0,1.252-1.063l.567.018v-.5h-.612a.833.833,0,0,0-.171-.459h.8V183Z" transform="translate(-146.369 -118.926)" fill="#fff" fill-rule="evenodd"></path> </g> </svg>25</span></a>
+								<a href="https://www.moneycontrol.com/budget/" title="Budget 2025" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Budget 2025 | ' + window.location.href );"   ><span class="gryBox">Budget<!-- Budget 2<svg xmlns="https://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"> <g id="Group_5" data-name="Group 5" transform="translate(-121 -61)"> <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(121 61)" fill="none" stroke="#fff" stroke-width="1"> <circle cx="5" cy="5" r="5" stroke="none"></circle> <circle cx="5" cy="5" r="4.5" fill="none"></circle> </g> <path id="Path_9" data-name="Path 9" d="M271.009,183v.585c.342.018,1.216-.054,1.351.369h-1.351v.522h1.414a.856.856,0,0,1-.666.486l-.747.018L271,185.5l1.567,1.819h.811l-1.477-1.81a1.332,1.332,0,0,0,1.252-1.063l.567.018v-.5h-.612a.833.833,0,0,0-.171-.459h.8V183Z" transform="translate(-146.369 -118.926)" fill="#fff" fill-rule="evenodd"></path> </g> </svg>25 --></span></a>
 							</li>
 												<li  cid="29" class="wap_menu_l1 ">
 								<a href="https://www.moneycontrol.com/editors-picks/" title="Editor’s Picks" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Editor’s Picks | ' + window.location.href );"   >Editor’s Picks</a>
 							</li>
 												<li  cid="20" class="wap_menu_l1 ">
 								<a href="https://www.moneycontrol.com/news/technology-startups" title="Tech/Startups" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Tech/Startups | ' + window.location.href );"   >Tech</a>
-							</li>
-												<li  cid="9" class="wap_menu_l1 ">
-								<a href="https://www.moneycontrol.com/news/india/" title="India" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'India | ' + window.location.href );"   >India</a>
 							</li>
 												<li  cid="1" class="wap_menu_l1  hoverblock">
 								<a href="https://www.moneycontrol.com/india/bestportfoliomanager/investment-tool" title="Portfolio" onclick="javascript:GAEventTracker( 'Navigation', 'L1 Menu WAP', 'Portfolio | ' + window.location.href );"   >Portfolio</a>
@@ -5194,7 +5191,7 @@ function dfpGutter_getCookie(e){
 
 <script type="text/javascript" src="https://stat2.moneycontrol.com/mcjs/common/moneycontrol_header.js?v=1.38" async="async"></script>
 
-<script type="text/javascript" src="https://stat1.moneycontrol.com/mcjs/common/slick.min.js?v=1.0"></script>
+<script type="text/javascript" src="https://stat4.moneycontrol.com/mcjs/common/slick.min.js?v=1.0"></script>
 		<link rel="stylesheet" type="text/css" href="https://stat2.moneycontrol.com/mccss/headfoot/mc_header.css?v=1.14" />
 			<link rel="stylesheet" href="https://stat2.moneycontrol.com/mccss/responsive/radar/mcradar.css?v=31012025_1110" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="https://stat2.moneycontrol.com/mccss/headfoot/mc_footer.css?v=1.9" />
@@ -5640,8 +5637,8 @@ $(document).ready(function(e) {
 							<a href="https://www.moneycontrol.com/indian-indices/nifty-50-9.html" title="Nifty 50" class="clearfix">
 								<div class="mkt_dtflt"><p>Nifty 50</p></div>
 								<div class="mkt_dtrt">
-									<p class="mrkt_value"><span id="nifty_block_cp">23770.70</span></p>
-									<p id="nifty_block_chg_pc" class="todayud_val" class="grn_color"><span id="nifty_block_change">+31.45</span> <span id="nifty_block_chg_pchg">(+0.13%)</span></p>
+									<p class="mrkt_value"><span id="nifty_block_cp">23696.30</span></p>
+									<p id="nifty_block_chg_pc" class="todayud_val" class="red_color"><span id="nifty_block_change">-42.95</span> <span id="nifty_block_chg_pchg">(-0.18%)</span></p>
 								</div>
 							</a>
 						</li>
@@ -5649,8 +5646,8 @@ $(document).ready(function(e) {
 						<a href="https://www.moneycontrol.com/indian-indices/sensex-4.html" title="Sensex" class="clearfix">
 							<div class="mkt_dtflt sens"><p>Sensex</p></div>
 							<div class="mkt_dtrt">
-								<p class="mrkt_value"><span id="sensex_block_cp">78534.17</span></p>
-								<p id="sensex_block_chg_pc" class="todayud_val" class="red_color"><span id="sensex_block_change">-49.64</span> <span id="sensex_block_chg_pchg">(-0.06%)</span></p>
+								<p class="mrkt_value"><span id="sensex_block_cp">78271.28</span></p>
+								<p id="sensex_block_chg_pc" class="todayud_val" class="red_color"><span id="sensex_block_change">-312.53</span> <span id="sensex_block_chg_pchg">(-0.40%)</span></p>
 							</div>
 						</a>
 					</li>
@@ -5785,8 +5782,8 @@ $(document).ready(function(e) {
 <input type="hidden" id="nseid" name="nseid" value="PENINLAND" />
 <input type="hidden" id="bseid" name="bseid" value="503031" />
 <input type="hidden" id="scid" name="scid" value="MGS" />
-<input type="hidden" id="bprevclose" name="bprevclose" value="37.85" />
-<input type="hidden" id="nprevclose" name="nprevclose" value="37.84" />
+<input type="hidden" id="bprevclose" name="bprevclose" value="38.11" />
+<input type="hidden" id="nprevclose" name="nprevclose" value="38.18" />
 
   <div class="main_wrapper_res corporate-wrapper">
     <div class="moneyprice_bx">
@@ -6224,11 +6221,11 @@ $(document).ready(function(e) {
 			<span class="txt14B hidden-lg">Peninsula Land</span>
 			<span class="txt14B hidden-xs">Peninsula Land Ltd.</span>
 			<span class="divir"> |</span>
-			<span class="txt14B MR10">BSE</span> <span class="txt15B bse_span_price_wrap">37.85</span> <span class="bse_span_price_arrow green_arwup_sm"></span> 
-			<span class="bse_span_price_change_prcnt txt14G">1.51 <strong>(4.16%)</strong></span> <span class="divir"> |</span>
+			<span class="txt14B MR10">BSE</span> <span class="txt15B bse_span_price_wrap">38.11</span> <span class="bse_span_price_arrow green_arwup_sm"></span> 
+			<span class="bse_span_price_change_prcnt txt14G">1.77 <strong>(4.87%)</strong></span> <span class="divir"> |</span>
 			 
-			<span class="txt14B MR10 hidden-xs">NSE</span> <span class="txt15B nse_span_price_wrap hidden-xs">37.84</span> <span class="nse_span_price_arrow green_arwup_sm hidden-xs"></span> 
-			<span class="nse_span_price_change_prcnt txt14G hidden-xs">1.57 <strong>(4.33%)</strong></span>  
+			<span class="txt14B MR10 hidden-xs">NSE</span> <span class="txt15B nse_span_price_wrap hidden-xs">38.18</span> <span class="nse_span_price_arrow green_arwup_sm hidden-xs"></span> 
+			<span class="nse_span_price_change_prcnt txt14G hidden-xs">1.91 <strong>(5.27%)</strong></span>  
 			
 			<span class="divir hidden-xs">|</span>
 			<!--<a href="https://www.moneycontrol.com/open-demat-account-online?classic=true&amp;script_id=INE138A01028&amp;ex=NSE&amp;site=web&amp;asset_class=stock&amp;utm_source=moneycontrol&amp;utm_medium=webstockpage&amp;utm_campaign=tradenow&amp;utm_content=webbutton" title="Trade Now" class="trade_btnlink hidden-xs" target="_blank">
@@ -6413,11 +6410,11 @@ $(document).ready(function(e) {
               <div class="clearfix">
                 <div class="FL bsepcnm">
                   <p>BSE <span class="bslive">Live</span></p>
-                  <span class="display_lastupd">Feb 05, 10:11</span> </div>
+                  <span class="display_lastupd">Feb 05, 16:01</span> </div>
                                                                                 <div class="pcnsb div_live_price_wrap">
-                	<span class="span_price_wrap stprh grn_hilight grnclr">37.85</span>
+                	<span class="span_price_wrap stprh grn_hilight grnclr">38.11</span>
                     <span class="span_price_arrow green_arwup"></span>
-                    <span class="span_price_change_prcnt grnpc1">1.51 <em>(4.16%)</em></span>
+                    <span class="span_price_change_prcnt grnpc1">1.77 <em>(4.87%)</em></span>
                 </div>
                 <div class="volume_fl div_average_volume_box"> 
                   <span class="txt11_pc FL">Volume</span>
@@ -6445,7 +6442,7 @@ $(document).ready(function(e) {
                                                             </div>
                         </div>
               
-                  <span class="txt13_pc volume_data">29,990</span> </div>
+                  <span class="txt13_pc volume_data">99,202</span> </div>
               </div>
             </div>
             <div class="clearfix mkt_openclosebx">
@@ -6465,11 +6462,11 @@ $(document).ready(function(e) {
                 <ul class="clearfix op_list">
                   <li>
                     <p>Bid Price (Qty.)
-                    <p class="prev_open bidp">37.80 <span>(145)</span></p>
+                    <p class="prev_open bidp">0.00 <span>(0)</span></p>
                   </li>
                   <li>
                     <p>Offer Price (Qty.)
-                    <p class="prev_open offerp">37.87 <span>(99)</span></p>
+                    <p class="prev_open offerp">0.00 <span>(0)</span></p>
                   </li>
                 </ul>
                               </div>
@@ -6483,11 +6480,11 @@ $(document).ready(function(e) {
               <div class="clearfix">
                 <div class="FL bsepcnm">
                   <p>NSE <span class="bslive">Live</span></p>
-                  <span class="display_lastupd">Feb 05, 10:11</span> </div>
+                  <span class="display_lastupd">Feb 05, 15:45</span> </div>
                                                                                               <div class="pcnsb div_live_price_wrap">
-                	<span class="span_price_wrap stprh grn_hilight grnclr">37.84</span>
+                	<span class="span_price_wrap stprh grn_hilight grnclr">38.18</span>
                     <span class="span_price_arrow green_arwup"></span>
-                    <span class="span_price_change_prcnt grnpc1">1.57 <em>(4.33%)</em></span>
+                    <span class="span_price_change_prcnt grnpc1">1.91 <em>(5.27%)</em></span>
                 </div>
                 
                 <div class="volume_fl div_average_volume_box">
@@ -6516,7 +6513,7 @@ $(document).ready(function(e) {
                                                             </div>
                         </div>
                     
-                  <span class="txt13_pc volume_data">281,365</span> </div>
+                  <span class="txt13_pc volume_data">898,325</span> </div>
               </div>
             </div>
             <div class="clearfix mkt_openclosebx">
@@ -6536,11 +6533,11 @@ $(document).ready(function(e) {
                 <ul class="clearfix op_list">
                   <li>
                     <p>Bid Price (Qty.)
-                    <p class="prev_open bidp">37.84 <span>(536)</span></p>
+                    <p class="prev_open bidp">38.18 <span>(6892)</span></p>
                   </li>
                   <li>
                     <p>Offer Price (Qty.)
-                    <p class="prev_open offerp">37.87 <span>(229)</span></p>
+                    <p class="prev_open offerp">0.00 <span>(0)</span></p>
                   </li>
                 </ul>
                               </div>
@@ -7485,6 +7482,8 @@ function trackTradeButton(){
 									<p class="lhs_content" id="footerContent_0">
 																					<a href="https://www.moneycontrol.com/news/business/markets/stock-market-live-sensex-nifty-50-share-price-gift-nifty-latest-updates-05-02-2025-liveblog-12930803.html" onclick="commonGAevent('Footer|Sensex Today|Trending Topics|https://www.moneycontrol.com/news/business/markets/stock-market-live-sensex-nifty-50-share-price-gift-nifty-latest-updates-05-02-2025-liveblog-12930803.html')" title="Sensex Today" >Sensex Today
 																							</a> 
+																																<a href="https://www.moneycontrol.com/news/india/delhi-exit-poll-2025-live-updates-exit-polls-results-delhi-assembly-elections-liveblog-12931299.html" onclick="commonGAevent('Footer|Delhi Exit Poll 2025|Trending Topics|https://www.moneycontrol.com/news/india/delhi-exit-poll-2025-live-updates-exit-polls-results-delhi-assembly-elections-liveblog-12931299.html')" title="Delhi Exit Poll 2025" >Delhi Exit Poll 2025
+																							</a> 
 																																<a href="https://www.moneycontrol.com/news/india/delhi-assembly-election-2025-live-update-delhi-polls-voting-percentage-key-candidates-aap-bjp-congress-liveblog-12930789.html" onclick="commonGAevent('Footer|Delhi Elections Live|Trending Topics|https://www.moneycontrol.com/news/india/delhi-assembly-election-2025-live-update-delhi-polls-voting-percentage-key-candidates-aap-bjp-congress-liveblog-12930789.html')" title="Delhi Elections Live" >Delhi Elections Live
 																							</a> 
 																																<a href="https://www.moneycontrol.com/news/india/pm-modi-prayagraj-visit-maha-kumbh-parliament-session-breaking-news-february-5-liveblog-12930816.html" onclick="commonGAevent('Footer|Breaking News Live|Trending Topics|https://www.moneycontrol.com/news/india/pm-modi-prayagraj-visit-maha-kumbh-parliament-session-breaking-news-february-5-liveblog-12930816.html')" title="Breaking News Live" >Breaking News Live
@@ -7492,8 +7491,6 @@ function trackTradeButton(){
 																																<a href="https://www.moneycontrol.com/news/business/markets/itc-hotels-shares-excluded-from-30-pack-sensex-other-bse-indices-today-12930898.html" onclick="commonGAevent('Footer|ITC Hotels|Trending Topics|https://www.moneycontrol.com/news/business/markets/itc-hotels-shares-excluded-from-30-pack-sensex-other-bse-indices-today-12930898.html')" title="ITC Hotels" >ITC Hotels
 																							</a> 
 																																<a href="https://www.moneycontrol.com/news/business/earnings/asian-paints-q3-show-fails-to-impress-brokerages-stress-in-urban-demand-to-continue-for-few-quarters-12930824.html" onclick="commonGAevent('Footer|Asian Paints Q3 Preview|Trending Topics|https://www.moneycontrol.com/news/business/earnings/asian-paints-q3-show-fails-to-impress-brokerages-stress-in-urban-demand-to-continue-for-few-quarters-12930824.html')" title="Asian Paints Q3 Preview" >Asian Paints Q3 Preview
-																							</a> 
-																																<a href="https://www.moneycontrol.com/news/business/mumbai-set-to-get-newly-designed-trains-time-between-locals-to-be-reduced-says-ashwini-vaishnaw-12929697.html" onclick="commonGAevent('Footer|Ashwini Vaishnaw|Trending Topics|https://www.moneycontrol.com/news/business/mumbai-set-to-get-newly-designed-trains-time-between-locals-to-be-reduced-says-ashwini-vaishnaw-12929697.html')" title="Ashwini Vaishnaw" >Ashwini Vaishnaw
 																							</a> 
 																																<a href="https://www.moneycontrol.com/news/india/pm-narendra-modi-set-to-take-holy-dip-at-prayagraj-s-triveni-sangam-on-february-5-check-full-maha-kumbh-schedule-12929755.html" onclick="commonGAevent('Footer|PM Modi Prayagraj Visit|Trending Topics|https://www.moneycontrol.com/news/india/pm-narendra-modi-set-to-take-holy-dip-at-prayagraj-s-triveni-sangam-on-february-5-check-full-maha-kumbh-schedule-12929755.html')" title="PM Modi Prayagraj Visit" >PM Modi Prayagraj Visit
 																							</a> 
@@ -7573,7 +7570,7 @@ function trackTradeButton(){
 									<p class="lhs_content" id="footerContent_3">
 																					<a href="https://www.moneycontrol.com/personal-finance/" onclick="commonGAevent('Footer|Home|Personal Finance|https://www.moneycontrol.com/personal-finance/')" title="Home" >Home
 																							</a> 
-																																<a href="https://www.moneycontrolpay.com/?sso=" onclick="commonGAevent('Footer|Loans up to 15 Lakhs|Personal Finance|https://www.moneycontrolpay.com/?sso=')" title="Loans up to 15 Lakhs" >Loans up to 15 Lakhs
+																																<a href="https://www.moneycontrolpay.com/?sso=" onclick="commonGAevent('Footer|Loans up to 50 Lakhs|Personal Finance|https://www.moneycontrolpay.com/?sso=')" title="Loans up to 50 Lakhs" >Loans up to 50 Lakhs
 																							</a> 
 																																<a href="https://www.moneycontrol.com/credit-cards" onclick="commonGAevent('Footer|Credit Cards Lifetime Free|Personal Finance|https://www.moneycontrol.com/credit-cards')" title="Credit Cards Lifetime Free" >Credit Cards Lifetime Free
 																							</a> 
@@ -7733,7 +7730,7 @@ function trackTradeButton(){
 </footer>
 	<script>
 		var platform = "Desktop";
-		var data_from_db = [{"headline":"Trending Topics","new":"0","unrank":"0","subMenu":[{"title":"Sensex Today","href":"https:\/\/www.moneycontrol.com\/news\/business\/markets\/stock-market-live-sensex-nifty-50-share-price-gift-nifty-latest-updates-05-02-2025-liveblog-12930803.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Delhi Elections Live","href":"https:\/\/www.moneycontrol.com\/news\/india\/delhi-assembly-election-2025-live-update-delhi-polls-voting-percentage-key-candidates-aap-bjp-congress-liveblog-12930789.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Breaking News Live","href":"https:\/\/www.moneycontrol.com\/news\/india\/pm-modi-prayagraj-visit-maha-kumbh-parliament-session-breaking-news-february-5-liveblog-12930816.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"ITC Hotels","href":"https:\/\/www.moneycontrol.com\/news\/business\/markets\/itc-hotels-shares-excluded-from-30-pack-sensex-other-bse-indices-today-12930898.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Asian Paints Q3 Preview","href":"https:\/\/www.moneycontrol.com\/news\/business\/earnings\/asian-paints-q3-show-fails-to-impress-brokerages-stress-in-urban-demand-to-continue-for-few-quarters-12930824.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Ashwini Vaishnaw","href":"https:\/\/www.moneycontrol.com\/news\/business\/mumbai-set-to-get-newly-designed-trains-time-between-locals-to-be-reduced-says-ashwini-vaishnaw-12929697.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"PM Modi Prayagraj Visit","href":"https:\/\/www.moneycontrol.com\/news\/india\/pm-narendra-modi-set-to-take-holy-dip-at-prayagraj-s-triveni-sangam-on-february-5-check-full-maha-kumbh-schedule-12929755.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"TS TET Result 2025","href":"https:\/\/www.moneycontrol.com\/education\/ts-tet-result-2025-likely-soon-tgtet2024-aptonline-in-check-expected-result-date-here-article-12930879.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"RBI MPC","href":"https:\/\/www.moneycontrol.com\/banking\/mc-poll-rbi-mpc-likely-to-cut-repo-rate-on-feb-7-says-economists-article-12928058.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Income tax calculator","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/income-tax-calculator","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"News","new":"0","unrank":"0","subMenu":[{"title":"Business","href":"https:\/\/www.moneycontrol.com\/news\/business\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Budget 2025","href":"https:\/\/www.moneycontrol.com\/budget\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Markets","href":"https:\/\/www.moneycontrol.com\/news\/business\/markets\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Stocks","href":"https:\/\/www.moneycontrol.com\/news\/business\/stocks\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"India News","href":"https:\/\/www.moneycontrol.com\/news\/india\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Economy","href":"https:\/\/www.moneycontrol.com\/news\/business\/economy\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Mutual Funds","href":"https:\/\/www.moneycontrol.com\/news\/business\/mutual-funds\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Personal Finance","href":"https:\/\/www.moneycontrol.com\/news\/business\/personal-finance\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"IPO News","href":"https:\/\/www.moneycontrol.com\/news\/business\/ipo\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Startups","href":"https:\/\/www.moneycontrol.com\/news\/business\/startup\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Markets","new":"0","unrank":"0","subMenu":[{"title":"Home","href":"https:\/\/www.moneycontrol.com\/stocksmarketsindia\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Currencies","href":"https:\/\/www.moneycontrol.com\/markets\/currencies\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Commodities","href":"https:\/\/www.moneycontrol.com\/commodity\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Pre-Market","href":"https:\/\/www.moneycontrol.com\/markets\/premarket\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"IPO","href":"https:\/\/www.moneycontrol.com\/ipo\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Global Market","href":"https:\/\/www.moneycontrol.com\/markets\/global-indices\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Personal Finance","new":"0","unrank":"0","subMenu":[{"title":"Home","href":"https:\/\/www.moneycontrol.com\/personal-finance\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Loans up to 15 Lakhs","href":"https:\/\/www.moneycontrolpay.com\/?sso=","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Credit Cards Lifetime Free","href":"https:\/\/www.moneycontrol.com\/credit-cards","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Finance Tracker","href":"https:\/\/www.moneycontrol.com\/account-aggregator","unrank":"0","web":"1","wap":"1","amp":"1","new":"1"},{"title":"Fixed Deposits","href":"https:\/\/www.moneycontrol.com\/fixed-deposit","unrank":"0","web":"1","wap":"1","amp":"1","new":"1"},{"title":"Fixed Income","href":"https:\/\/www.moneycontrol.com\/fixed-deposit\/fd-interest-rates\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Mutual Funds","new":"0","unrank":"0","subMenu":[{"title":"Home","href":"https:\/\/www.moneycontrol.com\/mutualfundindia\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"MC 30","href":"https:\/\/www.moneycontrol.com\/mutual-fund\/mc-30","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Top Ranked Funds","href":"https:\/\/www.moneycontrol.com\/mutual-funds\/best-funds\/equity.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"ETFs","href":"https:\/\/www.moneycontrol.com\/mf\/etf\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Mutual Fund Screener","href":"https:\/\/www.moneycontrol.com\/mutual-funds\/find-fund\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Tools","new":"0","unrank":"0","subMenu":[{"title":"Income Tax Calculator","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/income-tax-calculator","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"EMI Calculator","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/emi-calculator.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Retirement Planning","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/retirement-planning-calculator.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Gratuity Calculator","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/gratuity-calculator.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Community","new":"0","unrank":"0","subMenu":[{"title":"Stock Markets","href":"https:\/\/mmb.moneycontrol.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Network 18 Sites","new":"0","unrank":"0","subMenu":[{"title":"News18","href":"https:\/\/www.news18.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Firstpost","href":"https:\/\/www.firstpost.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"CNBC TV18","href":"https:\/\/www.cnbctv18.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"News18 Hindi","href":"https:\/\/hindi.news18.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Cricketnext","href":"https:\/\/www.news18.com\/cricket\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Overdrive","href":"https:\/\/www.overdrive.in\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Topper Learning","href":"https:\/\/www.topperlearning.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Quick Links","new":"0","unrank":"0","subMenu":[{"title":"About Us","href":"https:\/\/www.moneycontrol.com\/cdata\/aboutus.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Contact Us","href":"https:\/\/www.moneycontrol.com\/cdata\/contact.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Advisory Alert","href":"https:\/\/www.moneycontrol.com\/cdata\/advisory-alert.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Advertise with Us","href":"https:\/\/www.moneycontrol.com\/advertise-on-moneycontrol.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Disclaimer","href":"https:\/\/www.moneycontrol.com\/cdata\/disclaim.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Privacy Policy","href":"https:\/\/www.moneycontrol.com\/cdata\/privacypolicy.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Cookie Policy","href":"https:\/\/www.moneycontrol.com\/cdata\/gdpr_cookiepolicy.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Terms & Conditions","href":"https:\/\/www.moneycontrol.com\/cdata\/termsofuse.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Financial Terms (Glossary)","href":"https:\/\/www.moneycontrol.com\/glossary\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Sitemap","href":"https:\/\/www.moneycontrol.com\/sitemap.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Investors","href":"https:\/\/www.moneycontrol.com\/investors\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]}];
+		var data_from_db = [{"headline":"Trending Topics","new":"0","unrank":"0","subMenu":[{"title":"Sensex Today","href":"https:\/\/www.moneycontrol.com\/news\/business\/markets\/stock-market-live-sensex-nifty-50-share-price-gift-nifty-latest-updates-05-02-2025-liveblog-12930803.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Delhi Exit Poll 2025","href":"https:\/\/www.moneycontrol.com\/news\/india\/delhi-exit-poll-2025-live-updates-exit-polls-results-delhi-assembly-elections-liveblog-12931299.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Delhi Elections Live","href":"https:\/\/www.moneycontrol.com\/news\/india\/delhi-assembly-election-2025-live-update-delhi-polls-voting-percentage-key-candidates-aap-bjp-congress-liveblog-12930789.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Breaking News Live","href":"https:\/\/www.moneycontrol.com\/news\/india\/pm-modi-prayagraj-visit-maha-kumbh-parliament-session-breaking-news-february-5-liveblog-12930816.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"ITC Hotels","href":"https:\/\/www.moneycontrol.com\/news\/business\/markets\/itc-hotels-shares-excluded-from-30-pack-sensex-other-bse-indices-today-12930898.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Asian Paints Q3 Preview","href":"https:\/\/www.moneycontrol.com\/news\/business\/earnings\/asian-paints-q3-show-fails-to-impress-brokerages-stress-in-urban-demand-to-continue-for-few-quarters-12930824.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"PM Modi Prayagraj Visit","href":"https:\/\/www.moneycontrol.com\/news\/india\/pm-narendra-modi-set-to-take-holy-dip-at-prayagraj-s-triveni-sangam-on-february-5-check-full-maha-kumbh-schedule-12929755.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"TS TET Result 2025","href":"https:\/\/www.moneycontrol.com\/education\/ts-tet-result-2025-likely-soon-tgtet2024-aptonline-in-check-expected-result-date-here-article-12930879.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"RBI MPC","href":"https:\/\/www.moneycontrol.com\/banking\/mc-poll-rbi-mpc-likely-to-cut-repo-rate-on-feb-7-says-economists-article-12928058.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Income tax calculator","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/income-tax-calculator","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"News","new":"0","unrank":"0","subMenu":[{"title":"Business","href":"https:\/\/www.moneycontrol.com\/news\/business\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Budget 2025","href":"https:\/\/www.moneycontrol.com\/budget\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Markets","href":"https:\/\/www.moneycontrol.com\/news\/business\/markets\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Stocks","href":"https:\/\/www.moneycontrol.com\/news\/business\/stocks\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"India News","href":"https:\/\/www.moneycontrol.com\/news\/india\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Economy","href":"https:\/\/www.moneycontrol.com\/news\/business\/economy\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Mutual Funds","href":"https:\/\/www.moneycontrol.com\/news\/business\/mutual-funds\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Personal Finance","href":"https:\/\/www.moneycontrol.com\/news\/business\/personal-finance\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"IPO News","href":"https:\/\/www.moneycontrol.com\/news\/business\/ipo\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Startups","href":"https:\/\/www.moneycontrol.com\/news\/business\/startup\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Markets","new":"0","unrank":"0","subMenu":[{"title":"Home","href":"https:\/\/www.moneycontrol.com\/stocksmarketsindia\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Currencies","href":"https:\/\/www.moneycontrol.com\/markets\/currencies\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Commodities","href":"https:\/\/www.moneycontrol.com\/commodity\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Pre-Market","href":"https:\/\/www.moneycontrol.com\/markets\/premarket\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"IPO","href":"https:\/\/www.moneycontrol.com\/ipo\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Global Market","href":"https:\/\/www.moneycontrol.com\/markets\/global-indices\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Personal Finance","new":"0","unrank":"0","subMenu":[{"title":"Home","href":"https:\/\/www.moneycontrol.com\/personal-finance\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Loans up to 50 Lakhs","href":"https:\/\/www.moneycontrolpay.com\/?sso=","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Credit Cards Lifetime Free","href":"https:\/\/www.moneycontrol.com\/credit-cards","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Finance Tracker","href":"https:\/\/www.moneycontrol.com\/account-aggregator","unrank":"0","web":"1","wap":"1","amp":"1","new":"1"},{"title":"Fixed Deposits","href":"https:\/\/www.moneycontrol.com\/fixed-deposit","unrank":"0","web":"1","wap":"1","amp":"1","new":"1"},{"title":"Fixed Income","href":"https:\/\/www.moneycontrol.com\/fixed-deposit\/fd-interest-rates\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Mutual Funds","new":"0","unrank":"0","subMenu":[{"title":"Home","href":"https:\/\/www.moneycontrol.com\/mutualfundindia\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"MC 30","href":"https:\/\/www.moneycontrol.com\/mutual-fund\/mc-30","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Top Ranked Funds","href":"https:\/\/www.moneycontrol.com\/mutual-funds\/best-funds\/equity.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"ETFs","href":"https:\/\/www.moneycontrol.com\/mf\/etf\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Mutual Fund Screener","href":"https:\/\/www.moneycontrol.com\/mutual-funds\/find-fund\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Tools","new":"0","unrank":"0","subMenu":[{"title":"Income Tax Calculator","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/income-tax-calculator","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"EMI Calculator","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/emi-calculator.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Retirement Planning","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/retirement-planning-calculator.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Gratuity Calculator","href":"https:\/\/www.moneycontrol.com\/personal-finance\/tools\/gratuity-calculator.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Community","new":"0","unrank":"0","subMenu":[{"title":"Stock Markets","href":"https:\/\/mmb.moneycontrol.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Network 18 Sites","new":"0","unrank":"0","subMenu":[{"title":"News18","href":"https:\/\/www.news18.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Firstpost","href":"https:\/\/www.firstpost.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"CNBC TV18","href":"https:\/\/www.cnbctv18.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"News18 Hindi","href":"https:\/\/hindi.news18.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Cricketnext","href":"https:\/\/www.news18.com\/cricket\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Overdrive","href":"https:\/\/www.overdrive.in\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Topper Learning","href":"https:\/\/www.topperlearning.com\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]},{"headline":"Quick Links","new":"0","unrank":"0","subMenu":[{"title":"About Us","href":"https:\/\/www.moneycontrol.com\/cdata\/aboutus.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Contact Us","href":"https:\/\/www.moneycontrol.com\/cdata\/contact.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Advisory Alert","href":"https:\/\/www.moneycontrol.com\/cdata\/advisory-alert.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Advertise with Us","href":"https:\/\/www.moneycontrol.com\/advertise-on-moneycontrol.html","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Disclaimer","href":"https:\/\/www.moneycontrol.com\/cdata\/disclaim.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Privacy Policy","href":"https:\/\/www.moneycontrol.com\/cdata\/privacypolicy.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Cookie Policy","href":"https:\/\/www.moneycontrol.com\/cdata\/gdpr_cookiepolicy.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Terms & Conditions","href":"https:\/\/www.moneycontrol.com\/cdata\/termsofuse.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Financial Terms (Glossary)","href":"https:\/\/www.moneycontrol.com\/glossary\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Sitemap","href":"https:\/\/www.moneycontrol.com\/sitemap.php","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"},{"title":"Investors","href":"https:\/\/www.moneycontrol.com\/investors\/","unrank":"0","web":"1","wap":"1","amp":"1","new":"0"}]}];
 	</script>
 		
 		<script>
@@ -8245,7 +8242,7 @@ function trackTradeButton(){
 </script>
 <!-- Mobile Verification Popup End --><!-- End < - Moneycontrol Common Footer -->
 
-<span id="last_generated" style="display:none">2025-02-05 10:36:48</span>
+<span id="last_generated" style="display:none">2025-02-05 20:34:07</span>
 <script type='text/javascript'>
 	var is_dfp_ads_visible = $.trim( $( '.is_dfp_ads_visible' ).val() ); 
 	var mcpro = readCookieRevamp( 'mcpro' );
