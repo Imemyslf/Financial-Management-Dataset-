@@ -108,7 +108,7 @@ def combine_excel_to_companies():
 
     # Iterate through sectors
     for sector_name in os.listdir(companies_root_path):        
-        if sector_name == "Hospital & Healthcare Services":
+        if sector_name == "Construction - Residential & Commercial Complexes":
             sector_path = os.path.join(companies_root_path, sector_name)
 
             if not os.path.isdir(sector_path):
@@ -141,7 +141,7 @@ def combine_excel_to_companies():
 if __name__ == "__main__":
     current_dir = os.getcwd()
     site = "MoneyControl"
-    sector = "Hospital & Healthcare Services"
+    sector = "Construction - Residential & Commercial Complexes"
     data_dir = f"{current_dir}/Financial_Data/{site}/data"
     companies_dir = f"{current_dir}/Financial_Data/{site}/Companies/{sector}"
 

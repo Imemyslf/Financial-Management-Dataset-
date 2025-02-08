@@ -6,7 +6,7 @@ from sklearn.impute import SimpleImputer
 
 current_dir = os.getcwd()
 site = "MoneyControl"
-sector = "IT Services & Consulting"
+sector = "Construction - Residential & Commercial Complexes"
 
 # Define reverse function
 def reverse_columns_in_groups(df, start_index, group_size=5):
@@ -301,10 +301,10 @@ def debug():
 
     # File path construction
     site = "MoneyControl"
-    sector = "IT Services & Consulting"
-    company_name = "3i Infotech Ltd"
-    file_name = "Quarterly-resul_combined.xlsx"
-    file_name_2 = "zovbayek_aditya.xlsx"
+    sector = "Hospital & Healthcare Services"
+    # company_name = "3i Infotech Ltd"
+    # file_name = "Quarterly-resul_combined.xlsx"
+    # file_name_2 = "zovbayek_aditya.xlsx"
 
     input_path_relative = os.path.join(current_dir, "Financial_Data", site, "Companies", sector, company_name, "Excel",file_name)
     print("Input file: ", input_path_relative)
