@@ -1,0 +1,30 @@
+{
+    "Balance-sheet": [],
+    "Cash-flow": [],
+    "Profit-loss": [],
+    "Quarterly-resul": [],
+    "Ratios": [],
+    "Year": [
+        "Net Sales/Income from operations",
+        "Total Income From Operations",
+        "Purchase of Traded Goods",
+        "Increase/Decrease in Stocks",
+        "Employees Cost",
+        "Depreciation",
+        "Other Expenses",
+        "P/L Before Other Inc. , Int., Excpt. Items & Tax",
+        "Other Income",
+        "P/L Before Int., Excpt. Items & Tax",
+        "P/L Before Exceptional Items & Tax",
+        "P/L Before Tax",
+        "Tax",
+        "P/L After Tax from Ordinary Activities",
+        "Net Profit/(Loss) For the Period",
+        "Equity Share Capital",
+        "Reserves Excluding Revaluation Reserves",
+        "Basic EPS",
+        "Diluted EPS",
+        "Basic EPS.",
+        "Diluted EPS."
+    ]
+}
