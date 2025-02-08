@@ -6,7 +6,7 @@ from sklearn.impute import SimpleImputer
 
 current_dir = os.getcwd()
 site = "MoneyControl"
-sector = "Construction - Residential & Commercial Complexes"
+sector = "Transport Infrastructure"
 
 # Define reverse function
 def reverse_columns_in_groups(df, start_index, group_size=5):
