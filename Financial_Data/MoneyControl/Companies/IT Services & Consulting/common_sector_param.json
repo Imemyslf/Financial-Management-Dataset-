@@ -1,0 +1,56 @@
+{
+    "Balance-sheet": [
+        "Cash And Cash Equivalents",
+        "Equity Share Capital",
+        "Total Capital And Liabilities",
+        "Total Current Assets",
+        "Total Non-Current Assets",
+        "Total Assets",
+        "Total Share Capital",
+        "Total Current Liabilities",
+        "Reserves and Surplus",
+        "Total Shareholders Funds",
+        "Total Reserves and Surplus"
+    ],
+    "Cash-flow": [],
+    "Profit-loss": [
+        "Total Expenses",
+        "Profit/Loss After Tax And Before ExtraOrdinary Items",
+        "Other Expenses",
+        "Diluted EPS (Rs.)",
+        "Revenue From Operations [Gross]",
+        "Employee Benefit Expenses",
+        "Profit/Loss Before Exceptional, ExtraOrdinary Items And Tax",
+        "Profit/Loss Before Tax",
+        "Revenue From Operations [Net]",
+        "Basic EPS (Rs.)",
+        "Profit/Loss For The Period",
+        "Profit/Loss From Continuing Operations",
+        "Total Operating Revenues",
+        "Total Revenue"
+    ],
+    "Quarterly-resul": [
+        "Equity Share Capital",
+        "Other Expenses",
+        "P/L After Tax from Ordinary Activities",
+        "Net Profit/(Loss) For the Period",
+        "P/L Before Int., Excpt. Items & Tax",
+        "P/L Before Other Inc. , Int., Excpt. Items & Tax",
+        "P/L Before Tax",
+        "P/L Before Exceptional Items & Tax"
+    ],
+    "Ratios": [],
+    "Year": [
+        "Equity Share Capital",
+        "Other Expenses",
+        "P/L After Tax from Ordinary Activities",
+        "Net Profit/(Loss) For the Period",
+        "P/L Before Int., Excpt. Items & Tax",
+        "P/L Before Other Inc. , Int., Excpt. Items & Tax",
+        "Reserves Excluding Revaluation Reserves",
+        "P/L Before Tax",
+        "P/L Before Exceptional Items & Tax",
+        "Net Sales/Income from operations",
+        "Total Income From Operations"
+    ]
+}
