@@ -30,7 +30,7 @@ category = {
         "Net Sales/Income from operations", "Total Income From Operations", "Employees Cost",
         "depreciat", "Other Expenses", "P/L Before Other Inc. , Int., Excpt. Items & Tax",
         "Other Income", "P/L Before Int., Excpt. Items & Tax", "Interest", "P/L Before Exceptional Items & Tax",
-        "P/L Before Tax", "Tax", "P/L After Tax from Ordinary Activities", "Net Profit/(Loss) For the Period",
+        "Exceptional Items","P/L Before Tax", "Tax", "P/L After Tax from Ordinary Activities", "Net Profit/(Loss) For the Period",
         "Equity Share Capital", "Basic EPS", "Diluted EPS", "Basic EPS.", "Diluted EPS."
     ],
     "Ratio": [
@@ -51,7 +51,7 @@ file_category_mapping = {
 }
 
 # Base directory
-base_dir = r"C:\Users\sharm\OneDrive\Desktop\Kishan\Contractzy\WebScrapping\Tutorial\Financial_Data\MoneyControl\Companies\IT Services & Consulting"
+base_dir = r"C:\Users\rayya\OneDrive\Desktop\Programs\Financial-Management-Dataset-\Financial_Data\MoneyControl\Companies\IT Services & Consulting"
 
 # Function to extract year from column names
 def extract_year(column_name):
@@ -60,81 +60,80 @@ def extract_year(column_name):
 
 # Iterate through each company inside "IT Services & Consulting"
 for company in os.listdir(base_dir):
-    if company == "3i Infotech Ltd":
-        company_path = os.path.join(base_dir, company)
+    company_path = os.path.join(base_dir, company)
 
-        # Check if the company directory exists and has an "Excel" folder
-        excel_folder = os.path.join(company_path, "Excel")
-        pruned_folder = os.path.join(company_path, "Pruned_Excel")
-        final_parameters_folder = os.path.join(pruned_folder, "Final_Parameters")
+    # Check if the company directory exists and has an "Excel" folder
+    excel_folder = os.path.join(company_path, "Excel")
+    pruned_folder = os.path.join(company_path, "Pruned_Excel")
+    final_parameters_folder = os.path.join(pruned_folder, "Final_Parameters")
 
-        if not os.path.exists(excel_folder):
-            print(f"Skipping {company} (No 'Excel' folder found)")
+    if not os.path.exists(excel_folder):
+        print(f"Skipping {company} (No 'Excel' folder found)")
+        continue
+
+    # Ensure "Final_Parameters" folder exists
+    os.makedirs(final_parameters_folder, exist_ok=True)
+
+    # Dictionary to store cleaned data for multiple sheets
+    cleaned_data = {}
+
+    # Process each Excel file
+    for filename, cat_key in file_category_mapping.items():
+        file_path = os.path.join(excel_folder, filename)
+
+        if not os.path.exists(file_path):
+            print(f"Skipping {filename} for {company} (File not found)")
             continue
 
-        # Ensure "Final_Parameters" folder exists
-        os.makedirs(final_parameters_folder, exist_ok=True)
+        # Read Excel file
+        df = pd.read_excel(file_path)
+        df_parameters = df.iloc[:, 0].astype(str).tolist()
 
-        # Dictionary to store cleaned data for multiple sheets
-        cleaned_data = {}
+        # Identify parameters not in category
+        not_common_parameters = [item for item in df_parameters if item not in category[cat_key]]
 
-        # Process each Excel file
-        for filename, cat_key in file_category_mapping.items():
-            file_path = os.path.join(excel_folder, filename)
+        # Drop non-matching rows
+        df = df[~df.iloc[:, 0].isin(not_common_parameters)]
+        df.replace("12 mths", np.nan, inplace=True)
+        df.dropna(inplace=True)
 
-            if not os.path.exists(file_path):
-                print(f"Skipping {filename} for {company} (File not found)")
-                continue
+        # Convert numeric columns to proper format
+        df.iloc[:, 1:] = df.iloc[:, 1:].replace(",", "", regex=True)
+        df.iloc[:, 1:] = df.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
 
-            # Read Excel file
-            df = pd.read_excel(file_path)
-            df_parameters = df.iloc[:, 0].astype(str).tolist()
+        # Sort columns by year
+        column_start = df.columns[0]
+        sorted_columns = sorted(df.columns[1:], key=extract_year)
+        df = df[[column_start] + sorted_columns]
 
-            # Identify parameters not in category
-            not_common_parameters = [item for item in df_parameters if item not in category[cat_key]]
+        # Reset index and transpose for proper format
+        df = df.T.reset_index()
 
-            # Drop non-matching rows
-            df = df[~df.iloc[:, 0].isin(not_common_parameters)]
-            df.replace("12 mths", np.nan, inplace=True)
-            df.dropna(inplace=True)
+        # Define correct headers
+        correct_headers = [column_start] + [
+            item if item.lower() == "depreciat" else item.capitalize()
+            for item in category[cat_key]
+        ]
 
-            # Convert numeric columns to proper format
-            df.iloc[:, 1:] = df.iloc[:, 1:].replace(",", "", regex=True)
-            df.iloc[:, 1:] = df.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
+        df.columns = correct_headers
 
-            # Sort columns by year
-            column_start = df.columns[0]
-            sorted_columns = sorted(df.columns[1:], key=extract_year)
-            df = df[[column_start] + sorted_columns]
-
-            # Reset index and transpose for proper format
-            df = df.T.reset_index()
-
-            # Define correct headers
-            correct_headers = [column_start] + [
-                item if item.lower() == "depreciat" else item.capitalize()
-                for item in category[cat_key]
-            ]
-
-            df.columns = correct_headers
-
-            print(df.columns,"\n")
-            print(list(df.iloc[0]),"\n")
-            if list(df.iloc[0]) == list(df.columns):
-                df = df[1:].reset_index(drop=True)
+        print(df.columns,"\n")
+        print(list(df.iloc[0]),"\n")
+        if list(df.iloc[0]) == list(df.columns):
+            df = df[1:].reset_index(drop=True)
 
 
-            # Store in dictionary
-            cleaned_data[cat_key] = df
+        # Store in dictionary
+        cleaned_data[cat_key] = df
 
-        # Define output file path
-        output_file = os.path.join(final_parameters_folder, f"{company}_Cleaned_Data.xlsx")
+    # Define output file path
+    output_file = os.path.join(final_parameters_folder, f"{company}_Cleaned_Data.xlsx")
 
-        # Save all cleaned data to a single Excel file with multiple sheets
-        with pd.ExcelWriter(output_file, engine='xlsxwriter') as writer:
-            for sheet_name, df in cleaned_data.items():
-                df.to_excel(writer, sheet_name=sheet_name, index=False)
+    # Save all cleaned data to a single Excel file with multiple sheets
+    with pd.ExcelWriter(output_file, engine='xlsxwriter') as writer:
+        for sheet_name, df in cleaned_data.items():
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
 
-        print(f"Processing complete. Cleaned data saved to {output_file}")
+    print(f"Processing complete. Cleaned data saved to {output_file}")
 
 print("All companies processed successfully! 🚀")
