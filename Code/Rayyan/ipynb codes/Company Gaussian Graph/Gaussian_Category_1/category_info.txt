@@ -1,0 +1,7 @@
+Category: Gaussian_Category_1
+Classification based on:
+- Peak Height (Max Intensity in Image)
+- Width (Number of Pixels with >50% Peak Intensity)
+Feature Values for this Category:
+- Peak Height: 255
+- Width: 515742
