@@ -1,0 +1,2301 @@
+{
+  "Total_Companies_Processed": 77,
+  "Total_Companies_With_Zeros": 67,
+  "Total_Companies_With_High_Zeros": 51,
+  "Companies": {
+    "3i Infotech Ltd": {
+      "Headers": [
+        "Cash Flow of 3i Infotech(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of 3i Infotech(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Adroit Infotech Ltd": {
+      "Headers": [
+        "Cash Flow of Adroit Infotech(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Adroit Infotech(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 8,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Affle India Ltd": {
+      "Headers": [
+        "Cash Flow of Affle India(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 10,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Affle India(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 8,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "AION-TECH SOLUTIONS Ltd": {
+      "Headers": [
+        "Cash Flow of AION-TECH SOLUTIONS(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of AION-TECH SOLUTIONS(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Allied Digital Services Ltd": {
+      "Headers": [
+        "Cash Flow of Allied Digital Services(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Allied Digital Services(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Alphalogic Techsys Ltd": {
+      "Headers": [
+        "Cash Flow of Alphalogic Techsys(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 5,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Alphalogic Techsys(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 5,
+        "Net inc/dec in cash and cash equivalents": 4,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "ASM Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of ASM Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of ASM Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 11,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Atishay Ltd": {
+      "Headers": [
+        "Cash Flow of Atishay(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 15,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Atishay(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 15,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Avance Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Avance Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 15,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Avance Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 6,
+        "Foreign exchange gains / losses": 15,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Bartronics India Ltd": {
+      "Headers": [
+        "Cash Flow of Bartronics India(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Bartronics India(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 19,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Birlasoft Ltd": {
+      "Headers": [
+        "Cash Flow of Birlasoft(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Birlasoft(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 6,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Cambridge Technology Enterprises Ltd": {
+      "Headers": [
+        "Cash Flow of Cambridge Technology Enterprises(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Cambridge Technology Enterprises(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "CG-Vak Software and Exports Ltd": {
+      "Headers": [
+        "Cash Flow of CG-Vak Software and Exports(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of CG-Vak Software and Exports(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "COFORGE LIMITED Ltd": {
+      "Headers": [
+        "Cash Flow of COFORGE LIMITED(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of COFORGE LIMITED(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Cranes Software International Ltd": {
+      "Headers": [
+        "Cash Flow of Cranes Software International(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Cranes Software International(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 18,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Cressanda Solution Ltd": {
+      "Headers": [
+        "Cash Flow of Cressanda Solution(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Cressanda Solution(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 9,
+        "Net cash used from financing activities": 8,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Cybertech Systems and Software Ltd": {
+      "Headers": [
+        "Cash Flow of Cybertech Systems and Software(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Cybertech Systems and Software(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Cyient Ltd": {
+      "Headers": [
+        "Cash Flow of Cyient(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Cyient(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Danlaw Technologies India Ltd": {
+      "Headers": [
+        "Cash Flow of Danlaw Technologies India(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Danlaw Technologies India(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 8,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Datamatics Global Services Ltd": {
+      "Headers": [
+        "Cash Flow of Datamatics Global Services(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Datamatics Global Services(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 13,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Dev Information Technology Ltd": {
+      "Headers": [
+        "Cash Flow of Dev Information Technology(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 10,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Dev Information Technology(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 10,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Dynacons Systems and Solutions Ltd": {
+      "Headers": [
+        "Cash Flow of Dynacons Systems and Solutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Dynacons Systems and Solutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Elnet Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Elnet Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Elnet Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Equippp Social Impact Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Equippp Social Impact Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Equippp Social Impact Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 16,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Expleo Solutions Ltd": {
+      "Headers": [
+        "Cash Flow of Expleo Solutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Expleo Solutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 8,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "FCS Software Solutions Ltd": {
+      "Headers": [
+        "Cash Flow of FCS Software Solutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of FCS Software Solutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Genesys International Corporation Ltd": {
+      "Headers": [
+        "Cash Flow of Genesys International Corporation(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Genesys International Corporation(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Happiest Minds Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Happiest Minds Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 5,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Happiest Minds Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "HCL Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of HCL Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of HCL Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Indian Infotech and Software Ltd": {
+      "Headers": [
+        "Cash Flow of Indian Infotech and Software(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Indian Infotech and Software(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 6,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Infosys Ltd": {
+      "Headers": [
+        "Cash Flow of Infosys(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Infosys(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Inspirisys Solutions Ltd": {
+      "Headers": [
+        "Cash Flow of Inspirisys Solutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Inspirisys Solutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 19,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Intellect Design Arena Ltd": {
+      "Headers": [
+        "Cash Flow of Intellect Design Arena(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 10,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Intellect Design Arena(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "IZMO Ltd": {
+      "Headers": [
+        "Cash Flow of IZMO(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of IZMO(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Jeevan Scientific Technology Ltd": {
+      "Headers": [
+        "Cash Flow of Jeevan Scientific Technology(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 15,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Jeevan Scientific Technology(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 15,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Kati Patang Lifestyle Ltd": {
+      "Headers": [
+        "Cash Flow of Kati Patang Lifestyle(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Kati Patang Lifestyle(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Kellton Tech Solutions Ltd": {
+      "Headers": [
+        "Cash Flow of Kellton Tech Solutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Kellton Tech Solutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Kernex Microsystems (India) Ltd": {
+      "Headers": [
+        "Cash Flow of Kernex Microsystems (India)(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Kernex Microsystems (India)(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "KPIT Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of KPIT Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 5,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of KPIT Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Latent View Analytics Ltd": {
+      "Headers": [
+        "Cash Flow of Latent View Analytics(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 9,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Latent View Analytics(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 9,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "LTIMindtree Ltd": {
+      "Headers": [
+        "Cash Flow of LTIMindtree(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 10,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of LTIMindtree(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Mastek Ltd": {
+      "Headers": [
+        "Cash Flow of Mastek(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Mastek(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 15,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Megasoft Ltd": {
+      "Headers": [
+        "Cash Flow of Megasoft(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Megasoft(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "MphasiS Ltd": {
+      "Headers": [
+        "Cash Flow of MphasiS(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of MphasiS(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 18,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Nettlinx Ltd": {
+      "Headers": [
+        "Cash Flow of Nettlinx(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Nettlinx(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Onward Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Onward Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Onward Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Oracle Financial Services Software Ltd": {
+      "Headers": [
+        "Cash Flow of Oracle Financial Services Software(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Oracle Financial Services Software(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Palred Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Palred Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Palred Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Persistent Systems Ltd": {
+      "Headers": [
+        "Cash Flow of Persistent Systems(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Persistent Systems(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 6,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Protean eGov Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Protean eGov Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 5,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Protean eGov Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 5,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Quick Heal Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Quick Heal Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 14,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Quick Heal Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 13,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "R Systems International Ltd": {
+      "Headers": [
+        "Cash Flow of R Systems International(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of R Systems International(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 7,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Route Mobile Ltd": {
+      "Headers": [
+        "Cash Flow of Route Mobile(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 9,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Route Mobile(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 6,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "RPSG VENTURES Ltd": {
+      "Headers": [
+        "Cash Flow of RPSG VENTURES(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 5,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of RPSG VENTURES(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 2,
+        "Foreign exchange gains / losses": 5,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Sasken Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Sasken Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Sasken Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 15,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Saven Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Saven Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Saven Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 11,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "SBSJHVHSV Ltd": {
+      "Headers": [
+        "Cash Flow of SBSJHVHSV(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of SBSJHVHSV(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Securekloud Technologies Ltd": {
+      "Error": "Balance Sheet sheet not found"
+    },
+    "Shradha AI Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Shradha AI Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 5,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Shradha AI Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 3,
+        "Foreign exchange gains / losses": 5,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Sigma Solve Ltd": {
+      "Headers": [
+        "Cash Flow of Sigma Solve(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 4,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Sigma Solve(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 4,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Sofcom Systems Ltd": {
+      "Headers": [
+        "Cash Flow of Sofcom Systems(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 14,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Sofcom Systems(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 7,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 14,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Softsol India Ltd": {
+      "Headers": [
+        "Cash Flow of Softsol India(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Softsol India(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 9,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Sonata Software Ltd": {
+      "Headers": [
+        "Cash Flow of Sonata Software(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Sonata Software(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 8,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Starcom Information Technology Ltd": {
+      "Headers": [
+        "Cash Flow of Starcom Information Technology(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 19,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Starcom Information Technology(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 19,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Tata Consultancy Services Ltd": {
+      "Headers": [
+        "Cash Flow of Tata Consultancy Services(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Tata Consultancy Services(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 0,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Tech Mahindra Ltd": {
+      "Headers": [
+        "Cash Flow of Tech Mahindra(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Tech Mahindra(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 12,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Tera Software Ltd": {
+      "Headers": [
+        "Cash Flow of Tera Software(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Tera Software(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Titan Intech Ltd": {
+      "Headers": [
+        "Cash Flow of Titan Intech(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 15,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Titan Intech(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 7,
+        "Net cash used from financing activities": 10,
+        "Foreign exchange gains / losses": 15,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Trigyn Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Trigyn Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Trigyn Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Unicommerce Esolutions Ltd": {
+      "Headers": [
+        "Cash Flow of Unicommerce Esolutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 5,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Unicommerce Esolutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 4,
+        "Foreign exchange gains / losses": 5,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "USG Tech Solutions Ltd": {
+      "Headers": [
+        "Cash Flow of USG Tech Solutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of USG Tech Solutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "VEDAVAAG Systems Ltd": {
+      "Headers": [
+        "Cash Flow of VEDAVAAG Systems(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 19,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of VEDAVAAG Systems(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 19,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "WEP Solutions Ltd": {
+      "Headers": [
+        "Cash Flow of WEP Solutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of WEP Solutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Wipro Ltd": {
+      "Headers": [
+        "Cash Flow of Wipro(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Wipro(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 6,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Xchanging Solutions Ltd": {
+      "Headers": [
+        "Cash Flow of Xchanging Solutions(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Xchanging Solutions(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Xtglobal Infotech Ltd": {
+      "Headers": [
+        "Cash Flow of Xtglobal Infotech(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Xtglobal Infotech(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 7,
+        "Net cash used from financing activities": 10,
+        "Foreign exchange gains / losses": 20,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    },
+    "Zensar Technologies Ltd": {
+      "Headers": [
+        "Cash Flow of Zensar Technologies(in Rs. Cr.)",
+        "Month",
+        "Net profit/loss before extraordinary items and tax",
+        "Net cashflow from operating activities",
+        "Net cash used in investing activities",
+        "Net cash used from financing activities",
+        "Foreign exchange gains / losses",
+        "Net inc/dec in cash and cash equivalents",
+        "Cash and cash equivalents begin of year",
+        "Cash and cash equivalents end of year"
+      ],
+      "Header_Length": 10,
+      "Row_Count": 20,
+      "Zero_Values_Per_Column": {
+        "Cash Flow of Zensar Technologies(in Rs. Cr.)": 0,
+        "Month": 0,
+        "Net profit/loss before extraordinary items and tax": 0,
+        "Net cashflow from operating activities": 0,
+        "Net cash used in investing activities": 0,
+        "Net cash used from financing activities": 0,
+        "Foreign exchange gains / losses": 15,
+        "Net inc/dec in cash and cash equivalents": 0,
+        "Cash and cash equivalents begin of year": 0,
+        "Cash and cash equivalents end of year": 0
+      }
+    }
+  },
+  "Headers_With_More_Than_One_Zero": {
+    "Foreign exchange gains / losses": {
+      "count": 67,
+      "companies": [
+        "3i Infotech Ltd",
+        "Adroit Infotech Ltd",
+        "Affle India Ltd",
+        "AION-TECH SOLUTIONS Ltd",
+        "Allied Digital Services Ltd",
+        "Alphalogic Techsys Ltd",
+        "ASM Technologies Ltd",
+        "Atishay Ltd",
+        "Avance Technologies Ltd",
+        "Bartronics India Ltd",
+        "Birlasoft Ltd",
+        "Cambridge Technology Enterprises Ltd",
+        "CG-Vak Software and Exports Ltd",
+        "COFORGE LIMITED Ltd",
+        "Cranes Software International Ltd",
+        "Cressanda Solution Ltd",
+        "Cybertech Systems and Software Ltd",
+        "Danlaw Technologies India Ltd",
+        "Datamatics Global Services Ltd",
+        "Dev Information Technology Ltd",
+        "Dynacons Systems and Solutions Ltd",
+        "Elnet Technologies Ltd",
+        "Equippp Social Impact Technologies Ltd",
+        "Expleo Solutions Ltd",
+        "FCS Software Solutions Ltd",
+        "Genesys International Corporation Ltd",
+        "Indian Infotech and Software Ltd",
+        "Inspirisys Solutions Ltd",
+        "IZMO Ltd",
+        "Jeevan Scientific Technology Ltd",
+        "Kati Patang Lifestyle Ltd",
+        "Kellton Tech Solutions Ltd",
+        "Kernex Microsystems (India) Ltd",
+        "Latent View Analytics Ltd",
+        "Mastek Ltd",
+        "Megasoft Ltd",
+        "MphasiS Ltd",
+        "Nettlinx Ltd",
+        "Onward Technologies Ltd",
+        "Palred Technologies Ltd",
+        "Persistent Systems Ltd",
+        "Protean eGov Technologies Ltd",
+        "Quick Heal Technologies Ltd",
+        "R Systems International Ltd",
+        "Route Mobile Ltd",
+        "RPSG VENTURES Ltd",
+        "Sasken Technologies Ltd",
+        "Saven Technologies Ltd",
+        "SBSJHVHSV Ltd",
+        "Shradha AI Technologies Ltd",
+        "Sigma Solve Ltd",
+        "Sofcom Systems Ltd",
+        "Softsol India Ltd",
+        "Sonata Software Ltd",
+        "Starcom Information Technology Ltd",
+        "Tech Mahindra Ltd",
+        "Tera Software Ltd",
+        "Titan Intech Ltd",
+        "Trigyn Technologies Ltd",
+        "Unicommerce Esolutions Ltd",
+        "USG Tech Solutions Ltd",
+        "VEDAVAAG Systems Ltd",
+        "WEP Solutions Ltd",
+        "Wipro Ltd",
+        "Xchanging Solutions Ltd",
+        "Xtglobal Infotech Ltd",
+        "Zensar Technologies Ltd"
+      ]
+    },
+    "Net cash used from financing activities": {
+      "count": 10,
+      "companies": [
+        "Adroit Infotech Ltd",
+        "Avance Technologies Ltd",
+        "Cressanda Solution Ltd",
+        "Danlaw Technologies India Ltd",
+        "RPSG VENTURES Ltd",
+        "Shradha AI Technologies Ltd",
+        "Softsol India Ltd",
+        "Titan Intech Ltd",
+        "Unicommerce Esolutions Ltd",
+        "Xtglobal Infotech Ltd"
+      ]
+    },
+    "Net inc/dec in cash and cash equivalents": {
+      "count": 1,
+      "companies": [
+        "Alphalogic Techsys Ltd"
+      ]
+    },
+    "Net cash used in investing activities": {
+      "count": 5,
+      "companies": [
+        "Cressanda Solution Ltd",
+        "Indian Infotech and Software Ltd",
+        "Sofcom Systems Ltd",
+        "Titan Intech Ltd",
+        "Xtglobal Infotech Ltd"
+      ]
+    }
+  },
+  "Headers_With_Zero_Count_Exceeding_80_Percent": {
+    "Foreign exchange gains / losses": {
+      "count": 51,
+      "companies": [
+        "3i Infotech Ltd",
+        "Adroit Infotech Ltd",
+        "AION-TECH SOLUTIONS Ltd",
+        "Allied Digital Services Ltd",
+        "Alphalogic Techsys Ltd",
+        "Atishay Ltd",
+        "Avance Technologies Ltd",
+        "Bartronics India Ltd",
+        "Cambridge Technology Enterprises Ltd",
+        "CG-Vak Software and Exports Ltd",
+        "COFORGE LIMITED Ltd",
+        "Cranes Software International Ltd",
+        "Cressanda Solution Ltd",
+        "Cybertech Systems and Software Ltd",
+        "Danlaw Technologies India Ltd",
+        "Dev Information Technology Ltd",
+        "Dynacons Systems and Solutions Ltd",
+        "Elnet Technologies Ltd",
+        "FCS Software Solutions Ltd",
+        "Genesys International Corporation Ltd",
+        "Indian Infotech and Software Ltd",
+        "Inspirisys Solutions Ltd",
+        "IZMO Ltd",
+        "Jeevan Scientific Technology Ltd",
+        "Kati Patang Lifestyle Ltd",
+        "Kellton Tech Solutions Ltd",
+        "Kernex Microsystems (India) Ltd",
+        "Latent View Analytics Ltd",
+        "Megasoft Ltd",
+        "MphasiS Ltd",
+        "Nettlinx Ltd",
+        "Onward Technologies Ltd",
+        "Palred Technologies Ltd",
+        "Protean eGov Technologies Ltd",
+        "Quick Heal Technologies Ltd",
+        "RPSG VENTURES Ltd",
+        "SBSJHVHSV Ltd",
+        "Shradha AI Technologies Ltd",
+        "Sigma Solve Ltd",
+        "Sofcom Systems Ltd",
+        "Softsol India Ltd",
+        "Starcom Information Technology Ltd",
+        "Tera Software Ltd",
+        "Titan Intech Ltd",
+        "Trigyn Technologies Ltd",
+        "Unicommerce Esolutions Ltd",
+        "USG Tech Solutions Ltd",
+        "VEDAVAAG Systems Ltd",
+        "WEP Solutions Ltd",
+        "Xchanging Solutions Ltd",
+        "Xtglobal Infotech Ltd"
+      ]
+    }
+  }
+}

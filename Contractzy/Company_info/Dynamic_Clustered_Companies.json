@@ -1,0 +1,77 @@
+
+{
+    "metadata":{
+        "comment":"Companies Grouped by Earnings Scale in Cr.(Digit Count)"
+    },
+    "1-Digit Cluster": [
+        "Adroit Infotech Ltd",
+        "AION-TECH SOLUTIONS Ltd",
+        "Allied Digital Services Ltd",
+        "ASM Technologies Ltd",
+        "Avance Technologies Ltd",
+        "Cambridge Technology Enterprises Ltd",
+        "CG-Vak Software and Exports Ltd",
+        "Cranes Software International Ltd",
+        "Cressanda Solution Ltd",
+        "Cybertech Systems and Software Ltd",
+        "Danlaw Technologies India Ltd",
+        "Datamatics Global Services Ltd",
+        "Dynacons Systems and Solutions Ltd",
+        "Elnet Technologies Ltd",
+        "Equippp Social Impact Technologies Ltd",
+        "Expleo Solutions Ltd",
+        "FCS Software Solutions Ltd",
+        "Genesys International Corporation Ltd",
+        "Indian Infotech and Software Ltd",
+        "Inspirisys Solutions Ltd",
+        "IZMO Ltd",
+        "Jeevan Scientific Technology Ltd",
+        "Kati Patang Lifestyle Ltd",
+        "Kellton Tech Solutions Ltd",
+        "Kernex Microsystems (India) Ltd",
+        "Mastek Ltd",
+        "Megasoft Ltd",
+        "Nettlinx Ltd",
+        "Onward Technologies Ltd",
+        "Palred Technologies Ltd",
+        "Saven Technologies Ltd",
+        "SBSJHVHSV Ltd",
+        "Securekloud Technologies Ltd",
+        "Sofcom Systems Ltd",
+        "Softsol India Ltd",
+        "Starcom Information Technology Ltd",
+        "Tera Software Ltd",
+        "Titan Intech Ltd",
+        "Trigyn Technologies Ltd",
+        "USG Tech Solutions Ltd",
+        "VEDAVAAG Systems Ltd",
+        "WEP Solutions Ltd",
+        "Xchanging Solutions Ltd",
+        "Xtglobal Infotech Ltd"
+    ],
+    "2-Digit Cluster": [
+        "3i Infotech Ltd",
+        "Bartronics India Ltd",
+        "Birlasoft Ltd",
+        "COFORGE LIMITED Ltd",
+        "Cyient Ltd",
+        "Persistent Systems Ltd",
+        "R Systems International Ltd",
+        "Sasken Technologies Ltd",
+        "Sonata Software Ltd",
+        "Zensar Technologies Ltd"
+    ],
+    
+    "3-Digit Cluster": [
+        "MphasiS Ltd",
+        "Oracle Financial Services Software Ltd",
+        "Tech Mahindra Ltd"
+    ],
+    "4-Digit Cluster": [
+        "HCL Technologies Ltd",
+        "Infosys Ltd",
+        "Tata Consultancy Services Ltd",
+        "Wipro Ltd"
+    ]
+}
+
