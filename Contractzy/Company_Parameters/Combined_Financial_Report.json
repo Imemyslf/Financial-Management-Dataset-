@@ -1,4 +1,21 @@
 {
+  "Metadata": {
+    "Total_Companies_Processed": "The total number of companies whose financial data has been processed.",
+    "Total_Companies_With_Zeros": "Number of companies that have at least one financial column with zero values.",
+    "Total_Companies_With_High_Zeros": "Number of companies where a significant portion of their financial data contains zeros.",
+    
+    "Note": "If you want to see 'Total_Companies_With_Zeros' and 'Total_Companies_With_High_Zeros', scroll to the end of the JSON.",
+    "Companies": 
+    {
+      "Info":"A dictionary containing financial data for each company, structured with their name as the key.",
+      "Metadata": {
+        "Headers": "List of financial parameters included in the balance sheet.",
+        "Header_Length": "Number of columns in the financial dataset.",
+        "Row_Count": "Number of time periods (e.g., months/quarters/years) for which data is available.",
+        "Zero_Values_Per_Column": "A dictionary showing how many times each column contains zero values."
+      }
+    }
+  },
   "Balance_Sheet_Headers": {
     "Total_Companies_Processed": 77,
     "Total_Companies_With_Zeros": 5,
