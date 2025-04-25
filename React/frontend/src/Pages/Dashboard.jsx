@@ -3,15 +3,18 @@ import Heatmap from "../Components/Dashboard/Heatmap";
 import Sankey from "../Components/Dashboard/Sankey";
 import StatusBar from "../Components/Dashboard/StatusBar";
 import UserBar from "../Components/Dashboard/UserBar";
+import "../style/Dashboard/dashboard.css";
 
-export default Dashboard = () => {
+const Dashboard = () => {
   return (
     <>
       <UserBar />
-      <CompanyBar companyName="ANITISOCIAL Pvt Ltd. " />
+      <CompanyBar companyName="ANITISOCIAL Pvt Ltd." />
       <StatusBar />
       <Heatmap />
       <Sankey />
     </>
   );
 };
+
+export default Dashboard;
