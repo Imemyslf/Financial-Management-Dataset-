@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.metrics import mean_absolute_error, mean_squared_error
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
@@ -11,9 +11,6 @@ def load_data(df):
     
     # Dynamically use the first column as the date column
     date_column = df.columns[0]
-    
-    # Debug: Log first few values
-    print(f"Sample values in first column ('{date_column}'): {df[date_column].head().tolist()}")
     
     # Define required columns
     required_columns = {
@@ -61,11 +58,6 @@ def load_data(df):
 # Function to run the SARIMA model
 def run_sarima_model(df):
     # Feature engineering
-    df["trend"] = np.arange(len(df))
-    for lag in [1, 2, 3]:
-        df[f"lag_{lag}"] = df["y"].shift(lag)
-    df["rolling_mean"] = df["y"].rolling(window=4, min_periods=1).mean()
-    df["rolling_std"] = df["y"].rolling(window=4, min_periods=1).std()
     df["revenue_expenditure"] = df["revenue"] * df["total_expenditure"]
     
     # Handle missing values
