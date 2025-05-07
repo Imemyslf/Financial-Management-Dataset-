@@ -14,6 +14,7 @@ print("Pandas version:", pd.__version__)
 
 # Load and prepare data
 file_path = "C:/Users/Aditya/Desktop/FyPro/Companies/Updated/Infosys_Sorted_Quarterly_Data.xlsx"
+#C:/Users/rayya/OneDrive/Desktop/Programs/Financial-Management-Dataset-/Code/Aditya/Updated/Infosys_Sorted_Quarterly_Data.xlsx
 df = pd.read_excel(file_path, sheet_name="Sheet1")
 
 # Rename columns
