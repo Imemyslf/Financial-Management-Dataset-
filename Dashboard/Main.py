@@ -674,6 +674,9 @@ def main():
     st.title("ARK Financial Dashboards")
     st.write("Upload an Excel file to perform financial forecasting, analyze KPIs, and visualize financial metric changes.")
     
+    # Display logo at the top of the sidebar
+    st.sidebar.image(r"C:\Users\Aditya\Desktop\FyPro\Companies\Dashboard\Logo.svg", width=150)
+    
     # Single file uploader
     uploaded_file = st.file_uploader("Upload Excel File (.xlsx)", type=["xlsx"], key="shared_file_uploader")
     
