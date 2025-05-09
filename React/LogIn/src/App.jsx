@@ -59,20 +59,6 @@ function App() {
         height="40"
         onClick={handleGoogleLogin}
       />
-      <img
-        className="twitter"
-        src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg"
-        alt="Twitter"
-        width="40"
-        height="40"
-      />
-      <img
-        className="facebook"
-        src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
-        alt="Facebook"
-        width="40"
-        height="40"
-      />
     </div>
   );
 
