@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  }
+  
+  .main-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px;
+  min-height: 100vh;
+  align-items: center;
+  }
+  
+  .login-container,
+  .signin-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+  
+  .login-semiContainer,
+  .signin-semiContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  }
+  
+  .login, .signin {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  }
+  
+  .username input,
+  .password input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+  }
+  
+  .username input:focus,
+  .password input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 4px rgba(74, 144, 226, 0.4);
+  }
+  
+  .login-btn button,
+  .signin-btn button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  }
+  
+  .login-btn button:hover,
+  .signin-btn button:hover {
+  background-color: #357ac8;
+  }
+  
+  .otherMethods {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  }
+  
+  .google,
+  .twitter,
+  .facebook {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  }
+  
+  .google:hover,
+  .twitter:hover,
+  .facebook:hover {
+  background-color: #dcdcdc;
+  cursor: pointer;
+  }
