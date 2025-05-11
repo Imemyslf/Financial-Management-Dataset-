@@ -645,7 +645,7 @@ def app2(uploaded_file):
         st.plotly_chart(fig, use_container_width=True)
         
         # Generate and display insights
-        st.subheader("Dynamic Insights and Suggestions")
+        st.subheader("Insights and Suggestions")
         use_llm = st.toggle("Use LLM for Insights", value=False, key="use_llm_toggle")
         
         if use_llm:
