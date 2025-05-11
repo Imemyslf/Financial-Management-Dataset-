@@ -25,6 +25,14 @@ function App() {
       });
 
       setMessage(res.data.message);
+
+      if (
+        res.data.message === "Login successful" ||
+        res.data.message === "User registered successfully"
+      ) {
+        // Successful login/signup, now redirect to Streamlit dashboard
+        window.location.href = "http://localhost:8501"; // Redirect to the Streamlit app
+      }
     } catch (err) {
       setMessage(err.response?.data?.error || "Something went wrong");
     }
@@ -90,7 +98,9 @@ function App() {
               <button onClick={handleSubmit}>Login</button>
               <p onClick={toggleForm}>Don't have an account? Sign up</p>
               {message && <p className="response-message">{message}</p>}
-              {displayName && <p className="welcome-message">Welcome, {displayName}</p>}
+              {displayName && (
+                <p className="welcome-message">Welcome, {displayName}</p>
+              )}
               <SocialLogos />
             </div>
           </div>
@@ -117,7 +127,9 @@ function App() {
               <button onClick={handleSubmit}>Sign Up</button>
               <p onClick={toggleForm}>Already have an account? Login</p>
               {message && <p className="response-message">{message}</p>}
-              {displayName && <p className="welcome-message">Welcome, {displayName}</p>}
+              {displayName && (
+                <p className="welcome-message">Welcome, {displayName}</p>
+              )}
               <SocialLogos />
             </div>
           </div>
