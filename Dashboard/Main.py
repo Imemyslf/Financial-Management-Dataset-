@@ -7,18 +7,25 @@ from datetime import datetime
 import io
 import base64
 import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 from HybridF import load_data as load_data_hybrid, run_hybrid_model
 from SarimaF import load_data as load_data_sarima, run_sarima_model
 from Heatmap import run_heatmap_dashboard
 from SankeyF import run_sankey_diagram
 
+# Load environment variables from .env file
+load_dotenv()
+
 # Streamlit app configuration
 st.set_page_config(page_title="ARK Financial Dashboards", layout="wide")
 
 # Configure Gemini API
 try:
-    genai.configure(api_key="AIzaSyAZpmw8Qwx457X3M9N09EP9FSaBoOhvK-g")
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY not found in .env file.")
+    genai.configure(api_key=api_key)
     gemini_model = genai.GenerativeModel('gemini-2.0-flash')
 except Exception as e:
     st.warning(f"Failed to configure Gemini API: {str(e)}. LLM insights will not be available.")
