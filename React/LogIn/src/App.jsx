@@ -8,6 +8,7 @@ function App() {
   const [password, setPassword] = useState("");
   const [isLogin, setIsLogin] = useState(true);
   const [message, setMessage] = useState("");
+  const [displayName, setDisplayName] = useState("");
 
   const toggleForm = () => {
     setIsLogin((prev) => !prev);
@@ -36,13 +37,16 @@ function App() {
     try {
       const result = await signInWithPopup(auth, provider);
       const token = await result.user.getIdToken();
+      const displayName = result.user.displayName;
 
-      // Send token to backend
       const res = await axios.post("http://localhost:5000/api/auth/google", {
         idToken: token,
+        displayName, // 👈 sending display name to backend
       });
 
-      setMessage(res.data.message);
+      setDisplayName(res.data.name || displayName);
+      setMessage(`Welcome, ${res.data.name || displayName}!`);
+      localStorage.setItem("userName", res.data.name || displayName); // optional storage
     } catch (err) {
       console.error(err);
       setMessage("Google login failed");
@@ -86,6 +90,7 @@ function App() {
               <button onClick={handleSubmit}>Login</button>
               <p onClick={toggleForm}>Don't have an account? Sign up</p>
               {message && <p className="response-message">{message}</p>}
+              {displayName && <p className="welcome-message">Welcome, {displayName}</p>}
               <SocialLogos />
             </div>
           </div>
@@ -112,6 +117,7 @@ function App() {
               <button onClick={handleSubmit}>Sign Up</button>
               <p onClick={toggleForm}>Already have an account? Login</p>
               {message && <p className="response-message">{message}</p>}
+              {displayName && <p className="welcome-message">Welcome, {displayName}</p>}
               <SocialLogos />
             </div>
           </div>

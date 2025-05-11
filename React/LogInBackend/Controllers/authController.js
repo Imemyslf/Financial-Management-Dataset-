@@ -53,30 +53,41 @@ const signup = async (req, res) => {
 
 const googleAuth = async (req, res) => {
   try {
-    const { idToken } = req.body;
+    const { idToken, displayName } = req.body;
+
     const decodedToken = await admin.auth().verifyIdToken(idToken);
-    const { uid, email, name } = decodedToken;
+    const { email } = decodedToken;
 
     const db = getDb();
-    // Check if the user already exists with the same email and Google authentication method
-    const existingUser = await db.collection("User").findOne({ username: email, authMethod: "google" });
+
+    const existingUser = await db.collection("User").findOne({
+      username: email,
+      authMethod: "google",
+    });
 
     if (existingUser) {
-      // User is logging in
-      res.status(200).json({ message: "Logged in successfully" });
+      return res.status(200).json({
+        message: "Logged in successfully",
+        name: existingUser.displayName || displayName,
+      });
     } else {
-      // User is signing up
       await db.collection("User").insertOne({
         username: email,
-        password: null,  // Password can remain null since it's Google auth
+        password: null,
         authMethod: "google",
+        displayName: displayName || email.split("@")[0],
       });
-      res.status(200).json({ message: "User signed up successfully" });
+
+      return res.status(200).json({
+        message: "User signed up successfully",
+        name: displayName || email.split("@")[0],
+      });
     }
   } catch (err) {
     console.error("Google auth error:", err);
-    res.status(401).json({ error: "Google auth failed" });
+    return res.status(401).json({ error: "Google auth failed" });
   }
 };
+
 
 export { login, signup, googleAuth };
