@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { auth, provider, signInWithPopup } from "./firebase";
 import "./App.css";
+import financezyLogo from "../public/Images/contractzy-logo-blue.png";
 
 function App() {
   const [username, setUsername] = useState("");
@@ -31,7 +32,7 @@ function App() {
         res.data.message === "User registered successfully"
       ) {
         // Successful login/signup, now redirect to Streamlit dashboard
-        window.location.href = "http://localhost:8501"; // Redirect to the Streamlit app
+        window.location.href = "http://localhost:8501";
       }
     } catch (err) {
       setMessage(err.response?.data?.error || "Something went wrong");
@@ -49,12 +50,12 @@ function App() {
 
       const res = await axios.post("http://localhost:5000/api/auth/google", {
         idToken: token,
-        displayName, // 👈 sending display name to backend
+        displayName,
       });
 
       setDisplayName(res.data.name || displayName);
       setMessage(`Welcome, ${res.data.name || displayName}!`);
-      localStorage.setItem("userName", res.data.name || displayName); // optional storage
+      localStorage.setItem("userName", res.data.name || displayName);
     } catch (err) {
       console.error(err);
       setMessage("Google login failed");
@@ -75,67 +76,78 @@ function App() {
   );
 
   return (
-    <div className="main-container">
-      {isLogin ? (
-        <div className="login-container">
-          <div className="login-semiContainer">
-            <h2>Login</h2>
-            <div className="login">
-              <input
-                type="text"
-                name="username"
-                placeholder="Username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-              />
-              <input
-                type="password"
-                name="password"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-              <button onClick={handleSubmit}>Login</button>
-              <p onClick={toggleForm}>Don't have an account? Sign up</p>
-              {message && <p className="response-message">{message}</p>}
-              {displayName && (
-                <p className="welcome-message">Welcome, {displayName}</p>
-              )}
-              <SocialLogos />
+    <>
+      <div className="main-div" >
+        {/* Financzy Logo */}
+        <div >
+          <img
+            src={financezyLogo}
+            alt="Financzy Logo"
+          />
+        </div>
+      </div>
+      <div className="main-container">
+        {isLogin ? (
+          <div className="login-container">
+            <div className="login-semiContainer">
+              <h2>Login</h2>
+              <div className="login">
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                <button onClick={handleSubmit}>Login</button>
+                <p onClick={toggleForm}>Don't have an account? Sign up</p>
+                {message && <p className="response-message">{message}</p>}
+                {displayName && (
+                  <p className="welcome-message">Welcome, {displayName}</p>
+                )}
+                <SocialLogos />
+              </div>
             </div>
           </div>
-        </div>
-      ) : (
-        <div className="signin-container">
-          <div className="signin-semiContainer">
-            <h2>Sign Up</h2>
-            <div className="signin">
-              <input
-                type="text"
-                name="username"
-                placeholder="Username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-              />
-              <input
-                type="password"
-                name="password"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-              <button onClick={handleSubmit}>Sign Up</button>
-              <p onClick={toggleForm}>Already have an account? Login</p>
-              {message && <p className="response-message">{message}</p>}
-              {displayName && (
-                <p className="welcome-message">Welcome, {displayName}</p>
-              )}
-              <SocialLogos />
+        ) : (
+          <div className="signin-container">
+            <div className="signin-semiContainer">
+              <h2>Sign Up</h2>
+              <div className="signin">
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                <button onClick={handleSubmit}>Sign Up</button>
+                <p onClick={toggleForm}>Already have an account? Login</p>
+                {message && <p className="response-message">{message}</p>}
+                {displayName && (
+                  <p className="welcome-message">Welcome, {displayName}</p>
+                )}
+                <SocialLogos />
+              </div>
             </div>
           </div>
-        </div>
-      )}
-    </div>
+        )}
+      </div>
+    </>
   );
 }
 

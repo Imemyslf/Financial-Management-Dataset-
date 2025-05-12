@@ -28,8 +28,8 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 1rem;
+  align-items: flex-start; /* Lift content to the top */
+  padding: 4rem 1rem 1rem 1rem; /* Add top padding */
 }
 
 /* Login and Sign-up containers */
@@ -44,7 +44,7 @@ body {
   box-shadow: var(--card-shadow);
   border: 1px solid var(--border-color);
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
@@ -161,4 +161,12 @@ body {
   .login-semiContainer, .signin-semiContainer {
     padding: 1.5rem;
   }
+}
+
+.main-div img {
+  max-width: 15%;
+  max-height: 200px; /* Adjust as needed */
+  object-fit: contain;
+  display: block;
+  padding: 20px;
 }
